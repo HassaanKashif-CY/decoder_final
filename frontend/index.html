@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>Sahl Compliance Decoder</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="app-shell">
+
+    <main class="main-area">
+
+        <!-- TOP HEADER -->
+
+        <header class="topbar">
+
+            <div class="brand">
+                <img
+                    src="assets/sahl-logo.png"
+                    alt="Sahl"
+                    class="brand-logo"
+                >
+
+                <div class="brand-divider"></div>
+
+                <div class="brand-product">
+                    Compliance Decoder
+                </div>
+            </div>
+
+            <div class="top-status">
+                <span class="status-dot"></span>
+                <span>Workspace</span>
+            </div>
+
+        </header>
+
+
+        <!-- =====================================================
+             UPLOAD VIEW
+             ===================================================== -->
+
+        <section
+            id="uploadView"
+            class="view"
+        >
+
+            <div class="page-container">
+
+                <div class="page-head">
+
+                    <div>
+
+                        <div class="eyebrow">
+                            SAHL COMPLIANCE
+                        </div>
+
+                        <h1>
+                            Compliance Decoder
+                        </h1>
+
+                        <p>
+                            Upload a framework, standard, regulation or
+                            compliance document and convert its actual
+                            requirements into a structured compliance
+                            workspace.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="upload-layout">
+
+
+                    <!-- UPLOAD CARD -->
+
+                    <div class="upload-card">
+
+                        <div class="submission-fields">
+
+                            <div class="field-input">
+
+                                <label for="companyInput">
+                                    Company name
+                                </label>
+
+                                <input
+                                    id="companyInput"
+                                    type="text"
+                                    placeholder="Your company"
+                                >
+
+                            </div>
+
+
+                            <div class="field-input">
+
+                                <label for="emailInput">
+                                    Business email
+                                </label>
+
+                                <input
+                                    id="emailInput"
+                                    type="email"
+                                    placeholder="you@company.com"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <div
+                            id="dropZone"
+                            class="drop-zone"
+                        >
+
+                            <div class="upload-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <h2>
+                                Import compliance document
+                            </h2>
+
+                            <p>
+                                Drop a PDF here or
+                                <label
+                                    for="fileInput"
+                                    class="browse-label"
+                                >
+                                    browse files
+                                </label>
+                            </p>
+
+                            <span class="upload-hint">
+                                PDF files only · maximum 100 MB
+                            </span>
+
+                            <input
+                                id="fileInput"
+                                type="file"
+                                accept=".pdf,application/pdf"
+                                hidden
+                            >
+
+                        </div>
+
+
+                        <div
+                            id="selectedFile"
+                            class="selected-file hidden"
+                        ></div>
+
+
+                        <button
+                            id="decodeButton"
+                            class="primary-button"
+                            disabled
+                        >
+                            Decode compliance
+                            <span class="button-arrow">→</span>
+                        </button>
+
+                    </div>
+
+
+                    <!-- INFORMATION CARD -->
+
+                    <div class="info-card">
+
+                        <div class="info-title">
+                            What Sahl will build
+                        </div>
+
+
+                        <div class="info-row">
+
+                            <span>01</span>
+
+                            <div>
+
+                                <strong>
+                                    Document structure
+                                </strong>
+
+                                <p>
+                                    Chapters, domains, sections and
+                                    control hierarchy detected from
+                                    the document itself.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="info-row">
+
+                            <span>02</span>
+
+                            <div>
+
+                                <strong>
+                                    Actual requirements
+                                </strong>
+
+                                <p>
+                                    Source wording, references and
+                                    requirement context.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="info-row">
+
+                            <span>03</span>
+
+                            <div>
+
+                                <strong>
+                                    Implementation actions
+                                </strong>
+
+                                <p>
+                                    To-dos, policies, documents and
+                                    evidence recommendations.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="info-row">
+
+                            <span>04</span>
+
+                            <div>
+
+                                <strong>
+                                    Sahl-ready files
+                                </strong>
+
+                                <p>
+                                    JSON and CSV outputs generated
+                                    after decoding.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="privacy-note">
+
+                    <span class="privacy-icon">i</span>
+
+                    <span>
+                        Your uploaded document is processed to generate
+                        the compliance breakdown. Keep this page open
+                        while decoding is in progress.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PROCESSING VIEW
+             ===================================================== -->
+
+        <section
+            id="processingView"
+            class="view hidden"
+        >
+
+            <div class="processing-wrap">
+
+                <div class="processing-card">
+
+                    <div class="processing-top-line"></div>
+
+
+                    <div class="processing-icon">
+
+                        <div class="processing-ring"></div>
+
+                        <div class="processing-core">
+                            <img src="assets/sahl-logo.png" alt="Sahl" class="processing-logo">
+                        </div>
+
+                    </div>
+
+
+                    <div class="eyebrow">
+                        SAHL COMPLIANCE DECODER
+                    </div>
+
+
+                    <h1>
+                        Decoding your document
+                    </h1>
+
+
+                    <p
+                        id="processingText"
+                        class="processing-description"
+                    >
+                        Reading the document and identifying its
+                        compliance structure.
+                    </p>
+
+
+                    <div class="progress-section">
+
+                        <div class="progress-heading">
+
+                            <span id="processingStage">
+                                Preparing document
+                            </span>
+
+                            <strong id="progressPercent">
+                                8%
+                            </strong>
+
+                        </div>
+
+
+                        <div class="progress-track">
+
+                            <div
+                                id="progressBar"
+                                class="progress-bar"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="processing-steps">
+
+                        <div
+                            id="step1"
+                            class="processing-step active"
+                        >
+
+                            <span class="step-marker">
+                                01
+                            </span>
+
+                            <div>
+                                <strong>
+                                    Reading PDF
+                                </strong>
+
+                                <small>
+                                    Extracting document content
+                                </small>
+                            </div>
+
+                        </div>
+
+
+                        <div
+                            id="step2"
+                            class="processing-step"
+                        >
+
+                            <span class="step-marker">
+                                02
+                            </span>
+
+                            <div>
+                                <strong>
+                                    Understanding structure
+                                </strong>
+
+                                <small>
+                                    Detecting sections and hierarchy
+                                </small>
+                            </div>
+
+                        </div>
+
+
+                        <div
+                            id="step3"
+                            class="processing-step"
+                        >
+
+                            <span class="step-marker">
+                                03
+                            </span>
+
+                            <div>
+                                <strong>
+                                    Identifying requirements
+                                </strong>
+
+                                <small>
+                                    Finding actionable compliance units
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                        <div
+                            id="step4"
+                            class="processing-step"
+                        >
+
+                            <span class="step-marker">
+                                04
+                            </span>
+
+                            <div>
+                                <strong>
+                                    Building implementation guidance
+                                </strong>
+
+                                <small>
+                                    Preparing policies, documents and evidence
+                                </small>
+                            </div>
+
+                        </div>
+
+
+                        <div
+                            id="step5"
+                            class="processing-step"
+                        >
+
+                            <span class="step-marker">
+                                05
+                            </span>
+
+                            <div>
+                                <strong>
+                                    Preparing Sahl-ready output
+                                </strong>
+
+                                <small>
+                                    Generating JSON and CSV files
+                                </small>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="processing-notice">
+
+                        <strong>
+                            Please keep this page open
+                        </strong>
+
+                        <p>
+                            Most small and standard PDFs take around
+                            3–5 minutes to process. Larger documents may
+                            take longer. Arabic or heavily formatted PDFs
+                            can require additional processing time.
+                            Please allow the decoder to finish before
+                            closing this page.
+                        </p>
+
+                    </div>
+
+
+                    <div class="processing-file">
+
+                        <span class="file-label">
+                            DOCUMENT
+                        </span>
+
+                        <span
+                            id="processingFile"
+                            class="file-name"
+                        >
+                            Document
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             RESULTS VIEW
+             ===================================================== -->
+
+        <section
+            id="resultsView"
+            class="view hidden"
+        >
+
+            <div id="resultsRoot"></div>
+
+        </section>
+
+    </main>
+
+</div>
+
+
+<div
+    id="toast"
+    class="toast"
+></div>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

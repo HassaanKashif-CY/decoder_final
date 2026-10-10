@@ -1,0 +1,1593 @@
+{
+  "metadata": {
+    "document_id": "Executive_20Regulations_20for_20SERAs_20Tasks_20under_20Electricity_20Law_600efa712c17",
+    "filename": "Executive%20Regulations%20for%20SERAs%20Tasks%20under%20Electricity%20Law.pdf",
+    "page_count": 39,
+    "requirement_count": 29,
+    "document_title": "Executive%20Regulations%20for%20SERAs%20Tasks%20under%20Electricity%20Law",
+    "document_type": "Compliance Document",
+    "framework_name": "Executive%20Regulations%20for%20SERAs%20Tasks%20under%20Electricity%20Law",
+    "version": "",
+    "jurisdiction": "",
+    "requirement_unit_name": "",
+    "hierarchy_description": "",
+    "hierarchy_levels": [],
+    "generated_by": "Sahl Compliance Decoder",
+    "ai_model": "gpt-5.6-luna"
+  },
+  "structure": [],
+  "requirements": [
+    {
+      "source_reference": "المادة )2( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "3. ﯾﺠـﺐ أن ﺗﮑﻮن اﻟﻘﺮارات اﻟﺼـــــﺎدرة ﻣﻦ اﻟﻤﺠﻠﺲ أو اﻟﻤﺤـﺎﻓﻆ أو اﻟﻠﺠﻨـﺔ أو أي ﻣﻮﻇﻒ ﻣﻔﻮض ﻓي اﻟﻬﯿﺌـﺔ\nﻣﮑﺘﻮﺑﺔ وﻣﺴﺒﺒﺔ.",
+      "source_summary": "Decisions issued by the Council, Governor, committee, or an authorized employee of the Authority must be in writing and provide reasons.",
+      "page_start": 8,
+      "page_end": 8,
+      "source_block_ids": [
+        "page_8_block_12",
+        "page_8_block_13"
+      ],
+      "todo": {
+        "name": "Implement documented and reasoned decision issuance",
+        "description": "Establish a decision workflow that records decisions issued by authorized bodies or personnel in writing together with their reasons before formal issuance."
+      },
+      "policies": [
+        {
+          "name": "Authority Decision-Making Policy",
+          "description": "Define authorized decision-makers and the requirement to document the decision and its reasons."
+        },
+        {
+          "name": "Delegation of Authority Policy",
+          "description": "Set out delegated powers and approval boundaries for employees authorized to issue decisions."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Decision Register",
+          "description": "Maintain a register of decisions, including the issuing authority, date, subject, decision text, and reasons."
+        },
+        {
+          "name": "Decision Template",
+          "description": "Use a controlled template containing fields for the decision, justification, approvals, and issuance details."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Issued Decision Records",
+          "description": "Sample written decisions showing the issuing authority and documented reasons."
+        },
+        {
+          "name": "Approval and Delegation Records",
+          "description": "Approved delegations or authorization records demonstrating that the decision-maker was empowered to issue the decision."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )3( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "1. ﯾﺠﻮز ﻟﻠﻬﯿﺌﺔ أن ﺗﻄﻠﺐ ﻣﻦ أي ﻣﺮﺧﺺ ﻟﻪ ﺗﺰوﯾﺪﻫﺎ ﺑأي ﻣﻌﻠﻮﻣﺎت أو ﺑﯿﺎﻧﺎت ﺗﺮى ﺿـﺮورة اﻟﺤﺼـﻮل ﻋﻠﯿﻬﺎ،\nوﯾﺠـﺐ ﻋﻠﻰ اﻟﻤﺮﺧﺺ ﻟـﻪ اﻻﻟﺘﺰام ﺑﺘﻘـﺪﯾﻢ اﻟﻤﻌﻠﻮﻣـﺎت واﻟﺒﯿـﺎﻧـﺎت اﻟﻤﻄﻠﻮﺑـﺔ ﺧﻼل اﻟﻤـﺪة اﻟﺘي ﺗﺤـﺪدﻫـﺎ\nيﻓ ﺎـﻫﺎـﻘﻠﺘﺗ يﺘﻟا تﺎـﻧﺎـﯿﺒﻟاو تﺎـﻣﻮﻠﻌﻤﻟا ماﺪـﺨﺘــــﺳا ﺔـﺌﯿﻬﻠﻟ زﻮﺠﯾو ،ﺎـﻫدﺪـﺤﺗ يﺘﻟا ﺔـﯿﻟﻶﻟ ﺎ ًـﻘﻓوو ﺔـﺌﯿﻬﻟا\nﺳﺒﯿﻞ اﻟﻘﯿﺎم ﺑﻤﻬﺎﻣﻬﺎ.",
+      "source_summary": "The Authority may request information or data from any licensee when it considers the information necessary for carrying out its functions. The licensee must provide the requested information or data within the period and through the mechanism specified by the Authority, and the Authority may use the information received to perform its functions.",
+      "page_start": 9,
+      "page_end": 9,
+      "source_block_ids": [
+        "page_9_block_10",
+        "page_9_block_11",
+        "page_9_block_12",
+        "page_9_block_13"
+      ],
+      "todo": {
+        "name": "Manage and fulfill Authority information requests",
+        "description": "Create a controlled process to receive, assign, validate, approve, and submit requested information or data to the Authority within the specified period and through the specified mechanism."
+      },
+      "policies": [
+        {
+          "name": "Regulatory Information Request Policy",
+          "description": "Define responsibilities and controls for responding to information and data requests from the Authority."
+        },
+        {
+          "name": "Data Submission and Quality Policy",
+          "description": "Set requirements for validating the accuracy, completeness, and authorized submission of regulatory information."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Regulatory Request Log",
+          "description": "Record each Authority request, required information, submission mechanism, due date, owner, and status."
+        },
+        {
+          "name": "Regulatory Data Submission Procedure",
+          "description": "Describe the workflow for gathering, reviewing, approving, and submitting requested information."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Authority Request and Submission Records",
+          "description": "Copies of requests and corresponding submissions showing the requested information, submission method, and dates."
+        },
+        {
+          "name": "Review and Approval Records",
+          "description": "Evidence that submitted data was reviewed and approved before transmission."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )3( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "2. إذا ﺗﻌـﺬر ﻋﻠﻰ اﻟﻤﺮﺧﺺ ﻟـﻪ ﺗﻘـﺪﯾﻢ اﻟﻤﻌﻠﻮﻣـﺎت أو اﻟﺒﯿـﺎﻧـﺎت ﺧﻼل اﻟﻤـﺪة اﻟﻤﺤـﺪدة ﻣﻦ ﻗﺒـﻞ اﻟﻬﯿﺌـﺔ أو ﺗﻌـﺬر\nلﻼﺧ ﺔـﺌﯿﻬﻠﻟ مﺪـﻘﯾ نأ ﻪـﻟ ﺺﺧﺮﻤﻟا ﻰﻠﻋ ﺐـﺠﯿﻓ ،ﺔـﺌﯿﻬﻟا ﻞـﺒﻗ ﻦﻣ ةدﺪـﺤﻤﻟا ﺔـﯿﻟﻶﻟ ﺎ ًـﻘﻓو ﺎـﻬﻤﯾﺪـﻘﺗ ﻪـﯿﻠﻋ\nﻣﺪة ﺗﺤﺪدﻫﺎ ردًا ﯾﻮﺿــــﺢ ﻣﺒﺮرات ذﻟﻚ، وأن ﯾﻀــــﻤﻦ ﻓي رده اﻟﻤﻌﻠﻮﻣﺎت واﻟﺒﯿﺎﻧﺎت اﻟﺘي ﯾﻤﮑﻦ أن ﺗﻠﺒي\nﻣﺘﻄﻠﺒﺎت اﻟﻬﯿﺌﺔ، وﯾﺠﻮز ﻟﻠﻬﯿﺌﺔ ﻓي ﻫﺬه اﻟﺤﺎﻟﺔ اﺗﺨﺎذ أي ﻣﻤﺎ ﯾﻠي:\nأ. ﻗﺒﻮل اﻟﻤﻌﻠﻮﻣـﺎت واﻟﺒﯿـﺎﻧـﺎت اﻟﻤﻀــــﻤﻨـﺔ ﻓي اﻟﺮد، ﻣﻊ ﺣﻖ اﻟﻬﯿﺌـﺔ ﻓي إﻟﺰام اﻟﻤﺮﺧﺺ ﻟـﻪ ﺑﺘﻘـﺪﯾﻢ\nاﻟﻤﻌﻠﻮﻣﺎت واﻟﺒﯿﺎﻧﺎت اﻟﺘي ﻃﻠﺒﺘﻬﺎ اﻟﻬﯿﺌﺔ ﺧﻼل ﻣﺪة إﺿﺎﻓﯿﺔ أﺧﺮى ﺗﺤﺪدﻫﺎ.\nب. رﻓﺾ اﻟﻤﺒﺮرات اﻟﺘي ﻗـﺪﻣﻬـﺎ اﻟﻤﺮﺧﺺ ﻟـﻪ، وإﻟﺰاﻣـﻪ ﺑﺘﻘـﺪﯾﻢ اﻟﻤﻌﻠﻮﻣـﺎت واﻟﺒﯿـﺎﻧـﺎت اﻟﺘي ﻃﻠﺒﺘﻬـﺎ\nاﻟﻬﯿﺌﺔ ﺧﻼل اﻟﻤﺪة اﻟﻤﺤﺪدة ﻣﻦ ﻗﺒﻠﻬﺎ أو ﺧﻼل ﻣﺪة إﺿﺎﻓﯿﺔ أﺧﺮى ﺗﺤﺪدﻫﺎ.",
+      "source_summary": "If a licensee cannot provide the requested information or data within the specified period or through the required mechanism, it must submit a response within the period set by the Authority explaining the reasons and including information or data that may meet the Authority's requirements. The Authority may accept the response and set an additional period for the requested information, or reject the reasons and require submission within the original or an additional period.",
+      "page_start": 9,
+      "page_end": 9,
+      "source_block_ids": [
+        "page_9_block_14",
+        "page_9_block_15",
+        "page_9_block_16",
+        "page_9_block_17",
+        "page_9_block_18",
+        "page_9_block_19",
+        "page_9_block_20",
+        "page_9_block_21"
+      ],
+      "todo": {
+        "name": "Handle inability to meet regulatory data requests",
+        "description": "Implement an escalation process that submits a reasoned response and available alternative information to the Authority when a request cannot be fulfilled as specified, and tracks any resulting deadline or further requirement."
+      },
+      "policies": [
+        {
+          "name": "Regulatory Deadline Exception Policy",
+          "description": "Define how inability to meet an Authority data request is identified, escalated, justified, and communicated."
+        },
+        {
+          "name": "Regulatory Communications Policy",
+          "description": "Set approval and recordkeeping controls for formal responses to the Authority."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Request Exception Response Template",
+          "description": "Provide a controlled format for explaining the impediment, identifying available information, and requesting or recording further instructions."
+        },
+        {
+          "name": "Regulatory Request Escalation Log",
+          "description": "Track missed or at-risk deadlines, reasons, communications, Authority decisions, and revised due dates."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Reasoned Exception Responses",
+          "description": "Copies of responses explaining why the requested information could not be provided as specified and identifying available information."
+        },
+        {
+          "name": "Authority Follow-up and Deadline Records",
+          "description": "Correspondence or notices showing whether the response was accepted, rejected, or followed by an additional deadline."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )5( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "1. ﯾﺠﻮز ﻷي ﺷــــﺨﺺ ﯾﻌﺘﺰم اﻟﻘﯿﺎم ﺑأﻋﻤﺎل ﺗﺤﻀــــﯿﺮﯾﺔ – ﺑﻤﺎ ﻓي ذﻟﻚ إﻋﺪاد اﻟﺨﻄﻂ واﻟﻘﯿﺎم ﺑﺎﻟﺪراﺳــــﺎت –\nﻟﻠﺸـﺮوع ﻓي أي ﻧﺸـﺎط ﮐﻬﺮﺑﺎﺋي ﯾﺘﻄﻠﺐ رﺧﺼـﺔ أو إﻋﻔﺎء، اﻟﺘﻘﺪم ﻟﻠﻬﯿﺌﺔ ﺑﻄﻠﺐ ﻟﻠﺤﺼـﻮل ﻋﻠﻰ ﺗﺼـﺮﯾﺢ ﻗﺒﻞ\nاﻟﺒﺪء ﺑﺘﻠﻚ اﻷﻋﻤﺎل اﻟﺘﺤﻀﯿﺮﯾﺔ ﻣﻦ ﺧﻼل ﺗﻌﺒﺌﺔ اﻟﻨﻤﻮذج اﻟﻤﻌﺘﻤﺪ ﻣﻦ اﻟﻬﯿﺌﺔ.",
+      "source_summary": "A person intending to perform preparatory work, including preparing plans or conducting studies, for an electricity activity requiring a licence or exemption may apply to the Authority for a permit before starting that preparatory work, using the form approved by the Authority.",
+      "page_start": 11,
+      "page_end": 11,
+      "source_block_ids": [
+        "page_11_block_11",
+        "page_11_block_12",
+        "page_11_block_13"
+      ],
+      "todo": {
+        "name": "Obtain preparatory-work permits before starting covered work",
+        "description": "Identify preparatory activities associated with electricity activities requiring a licence or exemption, and submit the Authority-approved permit application before commencing those activities."
+      },
+      "policies": [
+        {
+          "name": "Electricity Regulatory Approval Policy",
+          "description": "Require regulatory review and confirmation of any permit or approval needed before covered preparatory work begins."
+        },
+        {
+          "name": "Project Regulatory Gate Policy",
+          "description": "Define a project gate preventing commencement of covered preparatory work until the applicable permit process is completed."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Preparatory Work Permit Register",
+          "description": "Record applicable projects, preparatory activities, applications, permit status, and start authorization."
+        },
+        {
+          "name": "Permit Application Package",
+          "description": "Maintain the completed Authority-approved form and its supporting attachments."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Submitted Permit Applications",
+          "description": "Copies of applications submitted using the Authority-approved form before preparatory work began."
+        },
+        {
+          "name": "Permit Approval Records and Project Dates",
+          "description": "Issued permits or application decisions compared with documented preparatory-work commencement dates."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )5( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "3. ﯾﺠﺐ ﻋﻠﻰ ﺣﺎﻣﻞ اﻟﺘﺼﺮﯾﺢ اﻻﻟﺘﺰام ﺑﺎﻟﺸﺮوط اﻟﺘي ﺗﻀﻌﻬﺎ اﻟﻬﯿﺌﺔ، واﻟﺘي ﻗﺪ ﺗﺘﻀﻤﻦ ﻣﺎ ﯾﻠي:\nأ. ﺗﺰوﯾﺪ اﻟﻬﯿﺌﺔ ﺑﺎﻟﻤﻌﻠﻮﻣﺎت ﻋﻦ إﻧﺠﺎز اﻷﻋﻤﺎل اﻟﺘﺤﻀـﯿﺮﯾﺔ واﻟﺘﻘﺪم ﻓﯿﻬﺎ، ﺣﺴـﺐ اﻵﻟﯿﺔ اﻟﺘي ﺗﺤﺪدﻫﺎ\nاﻟﻬﯿﺌﺔ.\nب. إﺧﻄﺎر اﻟﻬﯿﺌﺔ ﺑأي ﺗﻐﯿﯿﺮات ﻓي اﻟﻘﺪرة )اﻟﺴــــﻌﺔ( اﻟﻤﻘﺘﺮﺣﺔ ﻟﻨﺸــــﺎط اﻟﮑﻬﺮﺑﺎء ﻣﻮﺿــــﻮع اﻟﺘﺼــــﺮﯾﺢ،\nواﻟﺤﺼﻮل ﻣﻨﻬﺎ ﻋﻠﻰ ﺗﺼﺮﯾﺢ ﻣﻌﺪل ﺑﺤﺴﺐ اﻟﺘﻐﯿﯿﺮات ﻋﻨﺪﻣﺎ ﺗﺮى اﻟﻬﯿﺌﺔ ﺿﺮورة ﻟﺬﻟﻚ.",
+      "source_summary": "A permit holder must comply with the conditions established by the Authority. Those conditions may include providing the Authority with information about completion and progress of preparatory work according to the Authority's mechanism, and notifying the Authority of changes to the proposed capacity of the permitted electricity activity and obtaining an amended permit when the Authority considers it necessary.",
+      "page_start": 11,
+      "page_end": 11,
+      "source_block_ids": [
+        "page_11_block_16",
+        "page_11_block_17",
+        "page_11_block_18",
+        "page_11_block_19",
+        "page_11_block_20"
+      ],
+      "todo": {
+        "name": "Monitor permit conditions and report project changes",
+        "description": "Track preparatory-work progress and proposed capacity against permit conditions, submit required progress information, and notify the Authority of capacity changes and obtain an amended permit when required."
+      },
+      "policies": [
+        {
+          "name": "Permit Compliance Policy",
+          "description": "Require responsible personnel to monitor and comply with conditions attached to preparatory-work permits."
+        },
+        {
+          "name": "Project Change Control Policy",
+          "description": "Require regulatory assessment and notification of changes to the proposed capacity of a permitted electricity activity."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Permit Conditions Compliance Register",
+          "description": "List each permit condition, assigned owner, required submission, status, and completion record."
+        },
+        {
+          "name": "Capacity Change Register",
+          "description": "Record proposed capacity changes, notifications to the Authority, and any amended permits."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Preparatory-Work Progress Submissions",
+          "description": "Information submitted to the Authority through the specified mechanism about completion and progress."
+        },
+        {
+          "name": "Capacity Change Notifications and Amended Permits",
+          "description": "Records of reported capacity changes and any amended permits obtained from the Authority."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )5( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "4. ﻻ ﯾﺠﻮز ﻟﺤﺎﻣﻞ اﻟﺘﺼـﺮﯾﺢ ﻣﻤﺎرﺳـﺔ ﻧﺸـﺎط اﻟﮑﻬﺮﺑﺎء ﻣﻮﺿـﻮع اﻟﺘﺼـﺮﯾﺢ إﻻ ﺑﻌﺪ اﻟﺤﺼـﻮل ﻋﻠﻰ اﻟﺮﺧﺼـﺔ أو\nاﻹﻋﻔﺎء اﻟﻼزﻣﯿﻦ.",
+      "source_summary": "A permit holder may not conduct the electricity activity covered by the permit until obtaining the required licence or exemption.",
+      "page_start": 11,
+      "page_end": 11,
+      "source_block_ids": [
+        "page_11_block_22",
+        "page_11_block_23"
+      ],
+      "todo": {
+        "name": "Block operational activity until licensing is complete",
+        "description": "Implement a regulatory approval gate that prevents commencement of the permitted electricity activity until the required licence or exemption is obtained and verified."
+      },
+      "policies": [
+        {
+          "name": "Licensing and Exemption Policy",
+          "description": "Require verification of the applicable licence or exemption before an electricity activity begins."
+        },
+        {
+          "name": "Operational Readiness Approval Policy",
+          "description": "Define approval controls for confirming that regulatory prerequisites have been met before operation."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Licence and Exemption Register",
+          "description": "Record required approvals, application status, issue dates, scope, and expiry details."
+        },
+        {
+          "name": "Pre-Commencement Checklist",
+          "description": "Document verification that the required licence or exemption is in place before activity commencement."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Licence or Exemption Certificates",
+          "description": "Current approvals covering the relevant electricity activity."
+        },
+        {
+          "name": "Commencement Authorization Records",
+          "description": "Approved checklists or management records showing that activity started only after the required approval was verified."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )8( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "ﯾﺠﺐ ﻋﻠﻰ اﻟﻤﺮﺧﺺ ﻟﻪ اﻟﺬي ﯾﻨﻮي ﺗﻘﺪﯾﻢ ﻃﻠﺐ ﻟﺘﺠﺪﯾﺪ رﺧﺼـــﺘﻪ أن ﯾﺴـــﺘﮑﻤﻞ ﻣﺘﻄﻠﺒﺎت ﺗﺠﺪﯾﺪﻫﺎ ﻗﺒﻞ\n) 90 ( ﺗﺴﻌﯿﻦ ﯾﻮﻣﺎً ﻣﻦ ﺗﺎرﯾﺦ اﻧﺘﻬﺎء ﻣﺪة رﺧﺼﺘﻪ.",
+      "source_summary": "A licensee intending to renew its licence must complete the renewal requirements at least 90 days before the licence expires.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_40",
+        "page_13_block_41"
+      ],
+      "todo": {
+        "name": "Complete licence renewal requirements 90 days before expiry",
+        "description": "Track licence expiry dates and initiate the renewal workflow early enough to complete all renewal requirements at least 90 days before expiration."
+      },
+      "policies": [
+        {
+          "name": "Licence Renewal Policy",
+          "description": "Define ownership, monitoring, escalation, and approval requirements for timely licence renewals."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Licence Expiry and Renewal Register",
+          "description": "Record each licence expiry date, renewal milestones, responsible owner, and completion status."
+        },
+        {
+          "name": "Renewal Submission Checklist",
+          "description": "List the applicable renewal requirements and track their completion."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Licence Register and Renewal Alerts",
+          "description": "Records showing expiry dates and documented monitoring of the 90-day renewal milestone."
+        },
+        {
+          "name": "Completed Renewal Package",
+          "description": "Submitted renewal application and supporting records demonstrating completion before the required point."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )7( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "1. ﯾﺠـﺐ ﻋﻠﻰ ﮐـﻞ ﻣﻘـﺪم ﻃﻠـﺐ رﺧﺼـــــﺔ ﺗﻌﺒﺌـﺔ ﻧﻤﻮذج ﻃﻠـﺐ اﻟﺮﺧﺼـــــﺔ اﻟﻤﻌﺘﻤـﺪ ﻣﻦ اﻟﻬﯿﺌـﺔ وإرﻓـﺎق ﻣﻠﺤﻘـﺎﺗـﻪ\nاﻟﻤﻄﻠﻮﺑﺔ ﻣﻌﻪ، وﻓﻖ ﻧﻤﻮذج اﻟﻄﻠﺐ اﻟﺬي ﺗﻌﺘﻤﺪه اﻟﻬﯿﺌﺔ، واﻟﻘﻮاﻋﺪ واﻹﺟﺮاءات اﻟﺘي ﺗﺼـﺪرﻫﺎ، ﻋﻠﻰ أن\nﯾﺘﻀﻤﻦ اﻟﻄﻠﺐ ﻣﺎ ﯾﻠي:",
+      "source_summary": "A person applying for an electricity licence must complete the licence application form approved by the Authority and attach the required supporting materials, in accordance with the Authority-approved application form and issued rules and procedures.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_6",
+        "page_13_block_7",
+        "page_13_block_8"
+      ],
+      "todo": {
+        "name": "Submit complete licence applications using the approved form",
+        "description": "Prepare and review each licence application against the Authority-approved form and applicable rules and procedures, ensuring all required attachments are included before submission."
+      },
+      "policies": [
+        {
+          "name": "Licence Application Policy",
+          "description": "Define review, approval, and submission controls for licence applications and supporting materials."
+        },
+        {
+          "name": "Regulatory Submission Quality Policy",
+          "description": "Require completeness and accuracy checks before regulatory applications are submitted."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Licence Application Checklist",
+          "description": "Track the required fields and attachments for each application against the current Authority requirements."
+        },
+        {
+          "name": "Licence Application File",
+          "description": "Maintain the completed approved form, attachments, submission record, and related correspondence."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Submitted Licence Application",
+          "description": "Completed Authority-approved application form and its submitted attachments."
+        },
+        {
+          "name": "Pre-Submission Review Records",
+          "description": "Signed or system-generated completeness and approval checks performed before submission."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )9( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "1. ﯾﺠﻮز ﻟﻠﻤﺮﺧﺺ ﻟـﻪ ﺗﻘـﺪﯾﻢ ﻃﻠـﺐ ﻟﺘﻌـﺪﯾـﻞ رﺧﺼــــﺘـﻪ أو إﻧﻬـﺎﺋﻬـﺎ، وﯾﺠـﺐ ﻋﻠﻰ اﻟﻬﯿﺌـﺔ - ﺧﻼل ﺛﻼﺛﯿﻦ )30 ( ﯾﻮم\nﻋﻤﻞ ﻣﻦ ﺗﺎرﯾﺦ اﮐﺘﻤﺎل اﻟﻄﻠﺐ - أن ﺗﺼﺪر ﻗﺮارﻫﺎ ﺑﺸأﻧﻪ.",
+      "source_summary": "A licensee may apply to amend or terminate its licence. The Authority must issue its decision within 30 business days from the date the application is complete.",
+      "page_start": 14,
+      "page_end": 14,
+      "source_block_ids": [
+        "page_14_block_6",
+        "page_14_block_7"
+      ],
+      "todo": {
+        "name": "Track complete licence amendment and termination applications",
+        "description": "Submit amendment or termination requests with completeness confirmation, record the completion date, and monitor the Authority's decision against the 30-business-day period."
+      },
+      "policies": [
+        {
+          "name": "Licence Change Management Policy",
+          "description": "Define controls for preparing, approving, submitting, and tracking licence amendment or termination requests."
+        },
+        {
+          "name": "Regulatory Deadline Monitoring Policy",
+          "description": "Require monitoring and escalation of Authority decision timelines after an application is complete."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Licence Change Request Register",
+          "description": "Record request type, submission details, completeness date, responsible owner, and decision status."
+        },
+        {
+          "name": "Application Completeness Checklist",
+          "description": "Document the information and materials used to establish that an amendment or termination request is complete."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Amendment or Termination Application",
+          "description": "Submitted request and supporting materials with evidence of the submission and completeness date."
+        },
+        {
+          "name": "Authority Decision and Timeline Log",
+          "description": "Authority decision records and tracking showing the elapsed business days from completion to decision."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )10( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "4. إذا رﻏﺐ اﻟﻤﺮﺧﺺ ﻟﻪ ﻓي اﻟﺘﻨﺎزل ﻋﻦ رﺧﺼﺘﻪ أو ﻧﻘﻞ ﻣﻠﮑﯿﺔ اﻷﺻﻮل اﻟﻤﺮﺧﺺ ﻟﻬﺎ، ﺳﻮاء ﻋﻦ ﻃﺮﯾﻖ اﻟﺒﯿﻊ\nأو اﻟﺮﻫﻦ أو أي ﻃﺮﯾﻖ آﺧﺮ، ﻓﯿﺠـﺐ ﻋﻠﯿـﻪ إﺷــــﻌـﺎر اﻟﻬﯿﺌـﺔ ﺑـﺬﻟـﻚ وﺗﺰوﯾـﺪﻫـﺎ ﺑـأي ﻣﻌﻠﻮﻣـﺎت أو ﺑﯿـﺎﻧـﺎت ﺗﻄﻠﺒﻬـﺎ،\nوﻻ ﯾﺠﻮز ﻟﻪ إﺟﺮاء أي ﺗﺼـﺮف ﻣﻦ اﻟﺘﺼـﺮﻓﺎت اﻟﻤﺸـﺎر ﻟﻬﺎ إﻻ ﺑﻌﺪ اﻟﺤﺼـﻮل ﻋﻠﻰ ﻣﻮاﻓﻘﺔ اﻟﻬﯿﺌﺔ اﻟﺨﻄﯿﺔ،\nوﻻ ﯾﻌﺘﺒﺮ أي ﺗﺼــــﺮف ﯾﺘﺨـﺬه اﻟﻤﺮﺧﺺ ﻟـﻪ ﺑﻬـﺬا اﻟﺸـــــأن ﻣﻨﻌﻘـﺪاً أو ﻧـﺎﻓـﺬاً ﺑـﺪون اﻟﺤﺼــــﻮل ﻋﻠﻰ ﺗﻠـﻚ\nاﻟﻤﻮاﻓﻘﺔ. وﯾﺠﻮز ﻟﻠﻬﯿﺌﺔ اﻟﻘﯿﺎم ﺑأي ﻣﻤﺎ ﯾﻠي:\nأ. اﻟﻤﻮاﻓﻘﺔ ﻋﻠﻰ اﻟﺘﺼـــﺮف اﻟﻤﻘﺘﺮح ﻣﻊ إﻟﺰام اﻟﻤﺮﺧﺺ ﻟﻪ ﺑﺎﻟﺸـــﺮوط اﻟﺘي ﺗﺮى أﻧﻬﺎ ﻣﻨﺎﺳـــﺒﺔ، ﺑﻤﺎ ﻓي\nذﻟﻚ ﺗﻌﺪﯾﻞ اﻟﺮﺧﺼﺔ اﻟﻤﻌﻨﯿﺔ.\nب. أن ﺗﻄﻠﺐ ﻣﻦ اﻟﻤﺮﺧﺺ ﻟﻪ دﻓﻊ اﻟﻤﻘﺎﺑﻞ اﻟﻤﺎﻟي اﻟﺬي ﯾﺤﺪده اﻟﻤﺠﻠﺲ ﻟﺪراﺳﺔ اﻟﻄﻠﺐ واﻟﺒﺖ ﻓﯿﻪ.\nج. رﻓﺾ اﻟﻤﻮاﻓﻘﺔ ﻋﻠﻰ اﻟﻄﻠﺐ واﻟﺘﺼﺮف اﻟﻤﻌﻨي ﺑﻪ.",
+      "source_summary": "A licensee wishing to relinquish its licence or transfer ownership of licensed assets, including by sale, pledge, or another means, must notify the Authority and provide requested information or data. It may not complete the transaction without the Authority's written approval, and the transaction is not considered concluded or effective without that approval. The Authority may approve with conditions, require the Council-set financial consideration for reviewing and deciding the application, or reject the request and transaction.",
+      "page_start": 15,
+      "page_end": 15,
+      "source_block_ids": [
+        "page_15_block_10",
+        "page_15_block_11",
+        "page_15_block_12",
+        "page_15_block_13",
+        "page_15_block_14",
+        "page_15_block_15",
+        "page_15_block_16",
+        "page_15_block_17",
+        "page_15_block_18"
+      ],
+      "todo": {
+        "name": "Obtain written approval before licence relinquishment or asset transfer",
+        "description": "Route any proposed relinquishment or licensed-asset transaction to the Authority, provide requested information, track any required financial consideration, and prevent completion until written approval is received."
+      },
+      "policies": [
+        {
+          "name": "Licensed Asset Transfer Policy",
+          "description": "Require regulatory notification, information submission, approval, and transaction controls for licence relinquishment or licensed-asset transfers."
+        },
+        {
+          "name": "Regulatory Transaction Approval Policy",
+          "description": "Prohibit completion or effectiveness of covered transactions until the Authority's written approval and applicable conditions are recorded."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Licensed Asset Transaction Register",
+          "description": "Record proposed transactions, notifications, requested information, fees or financial consideration, approval conditions, and status."
+        },
+        {
+          "name": "Transaction Approval Checklist",
+          "description": "Verify notification, information submission, financial requirements, written approval, and satisfaction of approval conditions before completion."
+        },
+        {
+          "name": "Transfer Agreement Review File",
+          "description": "Maintain the proposed transaction documents and evidence of regulatory review before execution or effectiveness."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Authority Notification and Information Submissions",
+          "description": "Copies of notices and requested information provided to the Authority concerning the proposed transaction."
+        },
+        {
+          "name": "Written Approval or Rejection",
+          "description": "The Authority's written decision, including any conditions or reasons relevant to the transaction."
+        },
+        {
+          "name": "Completion Control Records",
+          "description": "Transaction closing or asset-register records showing that completion occurred only after written approval, where approval was granted."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )11( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "3. ﯾﺠﻮز ﻟﻠﻬﯿﺌﺔ إﻋﻔﺎء ﺑﻌﺾ اﻷﻧﺸــﻄﺔ ﻣﻦ اﻟﺘﻘﺪم ﺑﻄﻠﺐ اﻟﺤﺼــﻮل ﻋﻠﻰ رﺧﺼــﺔ ﺣﺴــﺐ ﻣﺎ ﺗﺤﺪده اﻟﻘﻮاﻋﺪ\nواﻹﺟﺮاءات اﻟﺘي ﺗﺼﺪرﻫﺎ.",
+      "source_summary": "يجوز للهيئة إعفاء بعض الأنشطة من تقديم طلب الحصول على ترخيص وفقاً للقواعد والإجراءات التي تصدرها.",
+      "page_start": 15,
+      "page_end": 15,
+      "source_block_ids": [
+        "page_15_block_35",
+        "page_15_block_36"
+      ],
+      "todo": {
+        "name": "تقييم الأنشطة ذات الصلة بالترخيص",
+        "description": "حصر الأنشطة التي تمارسها المنشأة والتحقق من انطباق متطلبات الترخيص أو أي إعفاء صادر وفق القواعد والإجراءات المعتمدة."
+      },
+      "policies": [
+        {
+          "name": "سياسة التراخيص والإعفاءات التنظيمية",
+          "description": "تحدد مسؤوليات المنشأة وآلية تقييم الأنشطة والتحقق من متطلبات الترخيص أو الإعفاءات المعتمدة."
+        }
+      ],
+      "documents": [
+        {
+          "name": "سجل التراخيص والإعفاءات",
+          "description": "سجل يوضح الأنشطة، وحالة الترخيص أو الإعفاء، وأساس القرار، وتواريخ المراجعة."
+        },
+        {
+          "name": "إجراء تقييم المتطلبات التنظيمية",
+          "description": "إجراء يشرح كيفية فحص النشاط مقابل القواعد والإجراءات الصادرة عن الهيئة."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "مصفوفة تقييم الأنشطة",
+          "description": "تحليل موثق يربط كل نشاط بمتطلبات الترخيص أو بالإعفاء المنطبق."
+        },
+        {
+          "name": "نسخ القواعد والإجراءات والقرارات ذات الصلة",
+          "description": "المراجع التنظيمية المستخدمة لإثبات أساس التقييم."
+        },
+        {
+          "name": "سجلات التراخيص أو الإعفاءات",
+          "description": "التراخيص السارية أو المراسلات والقرارات التي تثبت الإعفاء عند انطباقه."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )12( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "1. ﯾﺘﻮﻟﻰ اﻟﻤﺠﻠﺲ ﺗﺤﺪﯾﺪ أﺳـــﺲ اﻟﻤﻘﺎﺑﻞ اﻟﻤﺎﻟي اﻟﺬي ﯾُﺪﻓﻊ ﻟﻠﻬﯿﺌﺔ وﺷـــﺮوﻃﻪ وﻃﺮﯾﻘﺔ ﺣﺴـــﺎﺑﻪ، وﺗﮑﻮن\nأﻧﻮاع اﻟﻤﻘﺎﺑﻞ اﻟﻤﺎﻟي وﻓﻖ ﻣﺎ ﯾﻠي:\nأ. اﻟﻤﻘﺎﺑﻞ اﻟﻤﺎﻟي ﻟﺪراﺳـــﺔ اﻟﻄﻠﺐ: دﻓﻌﺔ ﻏﯿﺮ ﻣﺴـــﺘﺮدة ﺗﺪﻓﻊ ﻣﺮة واﺣﺪة ﻋﻨﺪ ﺗﻘﺪﯾﻢ اﻟﻄﻠﺐ، ﻣﻘﺎﺑﻞ\nﻗﯿﺎم اﻟﻬﯿﺌﺔ ﺑﺪراﺳــــﺔ ﻃﻠﺐ إﺻــــﺪار اﻟﺘﺼــــﺮﯾﺢ أو ﺗﺠﺪﯾﺪه، أو دراﺳــــﺔ ﻃﻠﺐ إﺻــــﺪار اﻟﺮﺧﺼــــﺔ أو\nﺗﺠﺪﯾﺪﻫﺎ أو ﺗﻌﺪﯾﻠﻬﺎ.\nب. اﻟﻤﻘﺎﺑﻞ اﻟﻤﺎﻟي اﻟﺴـﻨﻮي ﻟﻠﺘﺼـﺮﯾﺢ: ﻣﺒﻠﻎ ﻣﺎﻟي ﯾﺪﻓﻌﻪ اﻟﻤﺼـﺮح ﻟﻪ ﺑﺸـﮑﻞ ﺳـﻨﻮي ﺧﻼل ﺛﻼﺛﯿﻦ )30 (\nﯾﻮﻣﺎً ﻣﻦ ﺗﺎرﯾﺦ اﺳﺘﺤﻘﺎﻗﻪ وﻓﻖ ﻣﺎ ﻫﻮ ﻣﺒﯿﻦ ﻓي اﻟﻘﻮاﻋﺪ واﻹﺟﺮاءات.\nج. اﻟﻤﻘﺎﺑﻞ اﻟﻤﺎﻟي اﻟﺴـﻨﻮي ﻟﻠﺮﺧﺼـﺔ: ﻣﺒﻠﻎ ﻣﺎﻟي ﯾﺪﻓﻌﻪ اﻟﻤﺮﺧﺺ ﻟﻪ ﺑﺸـﮑﻞ ﺳـﻨﻮي ﺧﻼل ﺛﻼﺛﯿﻦ )30 (\nﯾﻮﻣﺎً ﻣﻦ ﺗﺎرﯾﺦ اﺳﺘﺤﻘﺎﻗﻪ وﻓﻖ ﻣﺎ ﻫﻮ ﻣﺒﯿﻦ ﻓي اﻟﻘﻮاﻋﺪ واﻹﺟﺮاءات.\nد. اﻟﻤﻘﺎﺑﻞ اﻟﻤﺎﻟي ﻋﻦ أي ﺧﺪﻣﺎت إﺿـــﺎﻓﯿﺔ: ﻣﺒﻠﻎ ﻣﺎﻟي ﻋﻦ اﻟﺨﺪﻣﺎت اﻷﺧﺮى اﻟﺘي ﺗﻘﺪﻣﻬﺎ اﻟﻬﯿﺌﺔ وﻓﻖ\nﻣﺎ ﻫﻮ ﻣﺒﯿﻦ ﻓي اﻟﻘﻮاﻋﺪ واﻹﺟﺮاءات، ﯾُﺪﻓﻊ ﺧﻼل اﻟﻤﺪة اﻟﺘي ﺗﺤﺪدﻫﺎ اﻟﻬﯿﺌﺔ.",
+      "source_summary": "يحدد المجلس أسس المقابل المالي وشروطه وطريقة حسابه، وتشمل المقابل المالي لدراسة طلبات التصاريح أو التراخيص، والمقابل السنوي للتصاريح والتراخيص، ومقابلاً عن الخدمات الإضافية، مع سداد المقابل السنوي للتصريح أو الترخيص خلال ثلاثين يوماً من تاريخ الاستحقاق وفق القواعد والإجراءات.",
+      "page_start": 16,
+      "page_end": 16,
+      "source_block_ids": [
+        "page_16_block_7",
+        "page_16_block_8",
+        "page_16_block_9",
+        "page_16_block_10",
+        "page_16_block_11",
+        "page_16_block_12",
+        "page_16_block_13",
+        "page_16_block_14",
+        "page_16_block_15",
+        "page_16_block_16",
+        "page_16_block_17"
+      ],
+      "todo": {
+        "name": "إدارة الالتزامات المالية التنظيمية",
+        "description": "إنشاء عملية لحصر الرسوم التنظيمية المستحقة والتحقق من مبالغها وتواريخ استحقاقها وسدادها ضمن المدد المحددة."
+      },
+      "policies": [
+        {
+          "name": "سياسة إدارة الرسوم والالتزامات التنظيمية",
+          "description": "تحدد مسؤوليات متابعة المقابلات المالية التنظيمية واعتماد السداد وحفظ مستنداته."
+        }
+      ],
+      "documents": [
+        {
+          "name": "سجل المقابلات المالية التنظيمية",
+          "description": "سجل لرسوم دراسة الطلبات والمقابلات السنوية ورسوم الخدمات الإضافية ومواعيد استحقاقها."
+        },
+        {
+          "name": "إجراء سداد الرسوم التنظيمية",
+          "description": "إجراء للتحقق من المطالبات وتنفيذ السداد وتوثيق أي تواصل بشأن المبالغ أو المواعيد."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "إشعارات أو مطالبات السداد",
+          "description": "المطالبات أو الإشعارات التي تبين نوع المقابل وقيمته وتاريخ استحقاقه."
+        },
+        {
+          "name": "إيصالات وتحويلات السداد",
+          "description": "إثباتات دفع المقابلات المالية، بما في ذلك السداد السنوي."
+        },
+        {
+          "name": "سجل متابعة المواعيد",
+          "description": "سجل يوضح متابعة تواريخ الاستحقاق والالتزام بمهلة الثلاثين يوماً حيث تنطبق."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )13( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "2. ﯾﺠــﺐ ﻋﻠﻰ اﻟﻤﺮﺧﺺ ﻟــﻪ ﺑــﺎﻟﻨﻘــﻞ واﻟﻤﺮﺧﺺ ﻟــﻪ ﺑــﺎﻟﺘﻮزﯾﻊ ﺗﻘــﺪﯾﻢ ﻋﺮض ﻣﮑﺘﻮب ﻟﺘﻮﻓﯿﺮ اﻟﺘﻮﺻــــﯿــﻞ أو\nﻻﺳــﺘﺨﺪام ﻣﻨﻈﻮﻣﺔ اﻟﻨﻘﻞ أو ﻣﻨﻈﻮﻣﺔ اﻟﺘﻮزﯾﻊ – ﺑﺤﺴــﺐ اﻟﺤﺎل – إذا ﻃﻠﺐ ﻣﻨﻪ ذﻟﻚ ﻣﺮﺧﺺ ﻟﻪ وذﻟﻚ\nﺧﻼل اﻟﻤﺪة اﻟﺘي ﺗﺮى اﻟﻬﯿﺌﺔ ﻣﻨﺎﺳﺒﺘﻬﺎ.",
+      "source_summary": "يلتزم المرخص له بالنقل أو التوزيع، عند طلب مرخص له آخر، بتقديم عرض مكتوب لتوفير التوصيل أو لاستخدام منظومة النقل أو التوزيع، بحسب الحالة، خلال المدة التي تراها الهيئة مناسبة.",
+      "page_start": 17,
+      "page_end": 17,
+      "source_block_ids": [
+        "page_17_block_10",
+        "page_17_block_11",
+        "page_17_block_12"
+      ],
+      "todo": {
+        "name": "معالجة طلبات العروض المكتوبة",
+        "description": "تطبيق مسار موثق لاستلام طلبات المرخص لهم وإعداد وإرسال العرض المكتوب المناسب خلال المدة التي تحددها الهيئة."
+      },
+      "policies": [
+        {
+          "name": "سياسة الاستجابة لطلبات التوصيل واستخدام المنظومة",
+          "description": "تحدد آلية استقبال الطلبات وإعداد العروض المكتوبة واعتمادها ومتابعة المدد التنظيمية."
+        }
+      ],
+      "documents": [
+        {
+          "name": "إجراء إعداد العروض المكتوبة",
+          "description": "إجراء يوضح تقييم الطلب وإعداد عرض توفير التوصيل أو استخدام منظومة النقل أو التوزيع."
+        },
+        {
+          "name": "سجل طلبات المرخص لهم",
+          "description": "سجل للطلبات الواردة وتواريخها وحالتها والمواعيد والإجراءات المتخذة."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "طلبات المرخص لهم",
+          "description": "الطلبات التي توضح طلب توفير التوصيل أو استخدام المنظومة."
+        },
+        {
+          "name": "نسخ العروض المكتوبة",
+          "description": "العروض المرسلة متضمنة تاريخ الإصدار والجهة المستلمة."
+        },
+        {
+          "name": "سجل المراسلات والتسليم",
+          "description": "مراسلات تثبت استلام الطلب وإرسال العرض ومتابعة المدة المحددة."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )13( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "1. ﯾﺠـﺐ ﻋﻠﻰ اﻟﻤﺮﺧﺺ ﻟـﻪ إﺗـﺎﺣـﺔ ﺣﻖ اﻟﺘﻮﺻــــﯿـﻞ ب/ أو اﺳــــﺘﺨـﺪام ﻣﻨﻈﻮﻣـﺔ اﻟﻨﻘـﻞ أو ﻣﻨﻈﻮﻣـﺔ اﻟﺘﻮزﯾﻊ ﻷي\nﻣﺴﺘﻬﻠﻚ ﯾﻄﻠﺐ ذﻟﻚ وﻓﻘﺎً ﻟﻠﻘﻮاﻋﺪ واﻹﺟﺮاءات اﻟﻤﻌﺘﻤﺪة ﻣﻦ اﻟﻬﯿﺌﺔ.",
+      "source_summary": "يجب على المرخص له إتاحة حق التوصيل أو استخدام منظومة النقل أو التوزيع لأي مستهلك يطلب ذلك، وفقاً للقواعد والإجراءات المعتمدة من الهيئة.",
+      "page_start": 17,
+      "page_end": 17,
+      "source_block_ids": [
+        "page_17_block_8",
+        "page_17_block_9"
+      ],
+      "todo": {
+        "name": "تنفيذ طلبات التوصيل واستخدام المنظومة",
+        "description": "إنشاء مسار لاستقبال طلبات المستهلكين وتقييمها ومعالجتها وفق القواعد والإجراءات المعتمدة دون حجب الحق المنصوص عليه."
+      },
+      "policies": [
+        {
+          "name": "سياسة إتاحة التوصيل واستخدام المنظومة",
+          "description": "تنظم استقبال طلبات المستهلكين وتقييمها واتخاذ القرار والتواصل معهم وفق المتطلبات المعتمدة."
+        }
+      ],
+      "documents": [
+        {
+          "name": "إجراء معالجة طلبات التوصيل",
+          "description": "إجراء يحدد خطوات تقديم الطلب وفحصه والرد عليه وتنفيذ التوصيل أو إتاحة الاستخدام عند استيفاء المتطلبات."
+        },
+        {
+          "name": "سجل طلبات المستهلكين",
+          "description": "سجل لحالة كل طلب وتاريخ استلامه ونتيجة معالجته وأسباب أي قرار موثق."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "طلبات التوصيل أو الاستخدام",
+          "description": "الطلبات المقدمة من المستهلكين والمعلومات الداعمة لها."
+        },
+        {
+          "name": "قرارات المعالجة والمراسلات",
+          "description": "الردود والإشعارات التي تثبت تقييم الطلب وإجراء المعالجة."
+        },
+        {
+          "name": "سجلات تنفيذ التوصيل أو إتاحة الاستخدام",
+          "description": "أوامر العمل أو سجلات الربط التي تثبت تنفيذ الطلبات المقبولة."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )16( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "1. ﻻ ﯾﺠﻮز ﻟﻠﻤﺮﺧﺺ ﻟﻬﻢ ﺑــﺎﻟﻨﻘــﻞ أو اﻟﻤﺮﺧﺺ ﻟﻬﻢ ﺑــﺎﻟﺘﻮزﯾﻊ اﻟﺘﻤﯿﯿﺰ ﺑﯿﻦ اﻟﻤﻮﺻــــﻠﯿﻦ ﻋﻠﻰ ﺷــــﺒﮑــﺎﺗﻬﻢ\nوﻣﺴﺘﺨﺪﻣي ﺧﺪﻣﺎﺗﻬﻢ أو ﺑﯿﻦ ﻓﺌﺎت اﻟﻤﻮﺻﻠﯿﻦ واﻟﻤﺴﺘﺨﺪﻣﯿﻦ ﻓي أﺣﮑﺎم وﺷﺮوط اﻟﺨﺪﻣﺎت وﻓﻖ ﻣﺎ\nﺗﻘﺮره اﻟﻬﯿﺌﺔ ﻣﻦ وﻗﺖ ﻵﺧﺮ، ﺑﺎﺳﺘﺜﻨﺎء ﻣﺎ ﯾﻠي:\nأ. اﻟﺘﻔﺎوت اﻟﺬي ﻗﺪ ﺗﻌﺘﻤﺪه اﻟﻬﯿﺌﺔ ﻓي اﻷﺣﮑﺎم واﻟﺸــــﺮوط، وﯾﮑﻮن ﻣﺴــــﺘﻨﺪاً ﻋﻠﻰ أﺳــــﺲ ﻣﻮﺿــــﻮﻋﯿﺔ\nﮐـﺎﻻﺧﺘﻼف ﻓي ﻃﺒﯿﻌـﺔ اﻟﺨـﺪﻣـﺎت أو ﻧﻮﻋﻬـﺎ أو ﻇﺮوف اﻹﻣـﺪاد، ﺑﻤـﺎ ﻓي ذﻟـﻚ اﺧﺘﻼف اﻟﺘﮑـﺎﻟﯿﻒ أو ﻋﺠﺰ ﻓي\nاﻟﻤﺮاﻓﻖ أو اﻟﻤﺼﺎدر اﻟﻤﺘﺎﺣﺔ.\nب. اﻟﺘﻔﺎوت اﻟﻤﺴﻤﻮح ﺑﻪ ﺑﻤﻮﺟﺐ ﻧﺺ ﺻﺮﯾﺢ.",
+      "source_summary": "يحظر على المرخص له بالنقل أو التوزيع التمييز بين الموصلين أو مستخدمي الخدمات أو بين فئاتهم في أحكام وشروط الخدمات، إلا في حالات التفاوت التي تعتمدها الهيئة على أسس موضوعية أو التي يسمح بها نص صريح.",
+      "page_start": 19,
+      "page_end": 19,
+      "source_block_ids": [
+        "page_19_block_16",
+        "page_19_block_17",
+        "page_19_block_18",
+        "page_19_block_19",
+        "page_19_block_20",
+        "page_19_block_21",
+        "page_19_block_22"
+      ],
+      "todo": {
+        "name": "مراجعة المساواة في شروط الخدمات",
+        "description": "مراجعة أحكام وشروط الخدمات والفئات المعاملة للتحقق من عدم وجود تمييز غير مبرر وتوثيق أي تفاوت على أساس موضوعي أو نص صريح."
+      },
+      "policies": [
+        {
+          "name": "سياسة عدم التمييز في الخدمات الكهربائية",
+          "description": "تحدد مبادئ تطبيق شروط الخدمات بصورة متسقة وضوابط اعتماد أي تفاوت مسموح به."
+        }
+      ],
+      "documents": [
+        {
+          "name": "مصفوفة مقارنة شروط الخدمات",
+          "description": "مقارنة موثقة للأحكام والشروط المطبقة على الموصلين ومستخدمي الخدمات وفئاتهم."
+        },
+        {
+          "name": "سجل الاستثناءات والتفاوتات المعتمدة",
+          "description": "سجل يوضح مبررات أي تفاوت ومرجعه إلى اعتماد الهيئة أو نص صريح."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "أحكام وشروط الخدمات المعتمدة",
+          "description": "النسخ السارية من الشروط والتعريفات أو النماذج المستخدمة مع الفئات المختلفة."
+        },
+        {
+          "name": "تحليل المقارنة وعدم التمييز",
+          "description": "مراجعة موثقة تبين اتساق المعاملة أو الأساس الموضوعي للفروق."
+        },
+        {
+          "name": "اعتمادات الهيئة أو المراجع النظامية",
+          "description": "المستندات التي تثبت مشروعية أي تفاوت في الشروط أو المعاملة."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )17( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "1. ﯾﺠـﺐ ﻋﻠﻰ ﮐـﻞ ﻣﺮﺧﺺ ﻟـﻪ ﺑـﺎﻟﻨﻘـﻞ أو ﻣﺮﺧﺺ ﻟـﻪ ﺑـﺎﻟﺘﻮزﯾﻊ أو ﻣﺮﺧﺺ ﻟـﻪ ﺑـﺎﻟﺒﯿﻊ ﺑـﺎﻟﺘﺠﺰﺋـﺔ أو ﺗﺒﺮﯾـﺪ اﻟﻤﻨـﺎﻃﻖ\nاﻻﻟﺘﺰام ﺑﻤﺎ ﯾﻠي:\nأ. أن ﯾﻮﻓﺮ ﻓي ﺟﻤﯿﻊ ﻣﻘﺮاﺗـﻪ وﻣﮑـﺎﺗﺒـﻪ إﻣﮑـﺎﻧﯿـﺔ اﻻﻃﻼع ﻋﻠﻰ اﻟﺘﻌﺮﯾﻔـﺔ اﻟﻤﻌﺘﻤـﺪة واﻷﮐﻮاد واﻟﻤﻌـﺎﯾﯿﺮ\nواﻷدﻟﺔ اﻟﻤﺤﺪﺛﺔ ذات اﻟﻌﻼﻗﺔ اﻟﻤﻌﺘﻤﺪة وإﺟﺮاءات ﻣﻌﺎﻟﺠﺔ اﻟﺸﮑﺎوى، ﺑﺪون ﻣﻘﺎﺑﻞ ﻣﺎﻟي.\nب. ﺗﺰوﯾﺪ أي ﻣﺴﺘﻬﻠﻚ ﺑﻨﺴﺨﺔ ﻣﻦ اﻟﺘﻌﺮﯾﻔﺔ اﻟﻤﻌﺘﻤﺪة ﻋﻨﺪ اﻟﻄﻠﺐ ﺑﺪون ﻣﻘﺎﺑﻞ.\nج. أن ﯾﺒﯿﻦ ﻓي ﻣﻮﻗﻌﻪ اﻹﻟﮑﺘﺮوﻧي، وﺑﺸﮑﻞ واﺿﺢ وداﺋﻢ، اﻟﻤﻌﻠﻮﻣﺎت اﻟﺘﺎﻟﯿﺔ:\nأ. اﻟﻤﻌﻠﻮﻣﺎت اﻟﻼزﻣﺔ ﻟﻤﻘﺪﻣي ﻃﻠﺒﺎت اﻟﺘﻮﺻـﯿﻞ أو اﺳـﺘﺨﺪام اﻟﻤﻨﻈﻮﻣﺔ، ﺑﻤﺎ ﻓي ذﻟﻚ ﻧﺴـﺨﺔ\nﻣﻦ اﻟﺘﻌﺮﯾﻔﺔ اﻟﻤﻌﺘﻤﺪة.\nب. ﻧﺴﺦ ﻣﻦ أي ﮐﻮد أو ﻣﻌﺎﯾﯿﺮ أو أدﻟﺔ أو ﻣﻮاﺻﻔﺎت ﻣﻌﺘﻤﺪة ﺗﻨﻄﺒﻖ ﻋﻠﻰ اﻟﻤﺮﺧﺺ ﻟﻪ.\nج. ﻧﺴﺨﺔ ﻣﻦ وﺛﯿﻘﺔ إﺟﺮاءات ﻣﻌﺎﻟﺠﺔ اﻟﺸﮑﺎوى.\nد. ﻧﻤﺎذج ﻟﻄﻠﺒﺎت اﻟﺘﻮﺻـﯿﻞ أو اﻻﺳـﺘﺨﺪام ﻣﻊ إرﺷـﺎدات ﻟﮑﯿﻔﯿﺔ ﺗﻌﺒﺌﺘﻬﺎ )ﺑﺎﻟﻨﺴـﺒﺔ ﻟﻠﻤﺮﺧﺺ ﻟﻪ\nﺑﺎﻟﻨﻘﻞ أو اﻟﻤﺮﺧﺺ ﻟﻪ ﺑﺎﻟﺘﻮزﯾﻊ(.\nه. ﻧﺴﺨﺔ ﻣﻦ رﺧﺼﺘﻪ وﻓﻖ آﺧﺮ ﺗﻌﺪﯾﻞ.\nو. ﻋﻨﻮان اﻟﻤﻮﻗﻊ اﻹﻟﮑﺘﺮوﻧي اﻟﺮﺳــــﻤي ﻟﻠﻬﯿﺌــﺔ، وﻋﻨﻮان ﺑﺮﯾــﺪﻫــﺎ اﻹﻟﮑﺘﺮوﻧي، وﻋﻨﻮان ﺑﺮﯾــﺪﻫــﺎ\nاﻟﺮﺳـﻤي )اﻟﻌﻨﻮان اﻟﻮﻃﻨي(، ﻣﻊ اﻟﻨﺺ ﺑﻮﺿـﻮح أن اﻟﻤﺮﺧﺺ ﻟﻪ ﯾﺨﻀـﻊ ﻹﺷـﺮاف ورﻗﺎﺑﺔ اﻟﻬﯿﺌﺔ\nاﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء 18\nﺑﻤﻮﺟـﺐ اﻟﻨﻈـﺎم واﻟﻼﺋﺤـﺔ اﻟﺘﻨﻔﯿـﺬﯾـﺔ وأﻧـﻪ ﯾﻤﮑﻦ ﻟﻠﻤﺴــــﺘﻬﻠﮑﯿﻦ واﻟﻤﺮﺧﺺ ﻟﻬﻢ واﻷﺷــــﺨـﺎص\nاﻵﺧﺮﯾﻦ اﻟﺘﻮاﺻﻞ ﻣﻊ اﻟﻬﯿﺌﺔ ﺑﺸأن اﻟﻤﺴﺎﺋﻞ اﻟﺨﺎﺿﻌﺔ ﻟﺘﻨﻈﯿﻤﻬﺎ وإﺷﺮاﻓﻬﺎ.\nز. أي ﻣﻌﻠﻮﻣﺎت أﺧﺮى ﺗﻄﻠﺐ اﻟﻬﯿﺌﺔ إﺿﺎﻓﺘﻬﺎ ﻓي اﻟﻤﻮﻗﻊ اﻻﻟﮑﺘﺮوﻧي.",
+      "source_summary": "يلتزم المرخص لهم المعنيون بإتاحة التعريفة المعتمدة والأكواد والمعايير والأدلة وإجراءات معالجة الشكاوى في مقراتهم ومكاتبهم دون مقابل، وتوفير نسخة من التعريفة عند الطلب، ونشر معلومات ونسخ محددة على مواقعهم الإلكترونية بشكل واضح ودائم، بما في ذلك نماذج الطلبات وإرشاداتها للمرخص له بالنقل أو التوزيع، ونسخة الترخيص وبيانات التواصل مع الهيئة وأي معلومات تطلب الهيئة إضافتها.",
+      "page_start": 19,
+      "page_end": 20,
+      "source_block_ids": [
+        "page_19_block_26",
+        "page_19_block_27",
+        "page_19_block_28",
+        "page_19_block_29",
+        "page_19_block_30",
+        "page_19_block_31",
+        "page_19_block_32",
+        "page_19_block_33",
+        "page_19_block_34",
+        "page_19_block_35",
+        "page_19_block_36",
+        "page_19_block_37",
+        "page_19_block_38",
+        "page_19_block_39",
+        "page_19_block_40",
+        "page_19_block_4",
+        "page_20_block_5",
+        "page_20_block_6",
+        "page_20_block_7"
+      ],
+      "todo": {
+        "name": "نشر وتحديث المعلومات التنظيمية",
+        "description": "إنشاء قائمة تحقق لإتاحة المستندات والمعلومات المطلوبة في المقرات والموقع الإلكتروني، مع ضبط النسخ والتحديثات والاستجابة لطلبات الحصول عليها."
+      },
+      "policies": [
+        {
+          "name": "سياسة الإفصاح عن المعلومات التنظيمية",
+          "description": "تحدد متطلبات نشر التعريفة والأكواد والمعايير والأدلة وإجراءات الشكاوى والوثائق التنظيمية ذات الصلة."
+        },
+        {
+          "name": "سياسة إدارة المحتوى المنشور",
+          "description": "تنظم اعتماد المحتوى المنشور ومراجعته وتحديثه والمحافظة على ظهوره الواضح والدائم."
+        }
+      ],
+      "documents": [
+        {
+          "name": "قائمة تحقق متطلبات النشر",
+          "description": "قائمة بالمعلومات والوثائق المطلوب إتاحتها في المقرات والموقع الإلكتروني."
+        },
+        {
+          "name": "سجل إصدارات المحتوى التنظيمي",
+          "description": "سجل للنسخ المنشورة وتواريخ التحديث والمراجعة والمسؤول عن اعتمادها."
+        },
+        {
+          "name": "إجراء تزويد المستهلكين بالوثائق",
+          "description": "إجراء لتقديم نسخة التعريفة أو المعلومات المطلوبة عند الطلب وتوثيق الاستجابة."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "لقطات أو أرشيف الموقع الإلكتروني",
+          "description": "أدلة مؤرخة على نشر التعريفة والأكواد والمعايير والأدلة والنماذج والترخيص وبيانات التواصل."
+        },
+        {
+          "name": "نسخ المستندات المتاحة في المقرات",
+          "description": "قوائم أو سجلات تثبت إتاحة الوثائق التنظيمية للمراجعة دون مقابل."
+        },
+        {
+          "name": "سجلات طلبات المستهلكين والاستجابة",
+          "description": "طلبات الحصول على التعريفة أو غيرها وإثبات تزويد مقدمي الطلبات بها."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )19( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "ﺗﺼــــــﺪر اﻟﻬﯿﺌـﺔ اﻟﻘﻮاﻋـﺪ واﻹﺟﺮاءات واﻟﺘﻌﻠﯿﻤـﺎت اﻟﺘي ﯾﻠﺰم ﻋﻠﻰ اﻟﻤﺮﺧﺺ ﻟـﻪ اﺗﺒـﺎﻋﻬـﺎ ﻋﻨـﺪ إﯾﻘـﺎف أو إﻧﻬـﺎء\nاﻟﺨﺪﻣﺎت اﻟﮑﻬﺮﺑﺎﺋﯿﺔ، ﺑﻤﺎ ﻓي ذﻟﻚ ﺗﺤﺪﯾﺪ اﻟﺤﺎﻻت اﻟﺘي ﻻ ﯾﺠﻮز ﻓﯿﻬﺎ إﯾﻘﺎف ﺧﺪﻣﺔ اﻟﮑﻬﺮﺑﺎء ﻋﻦ اﻟﻤﺴـــﺘﻬﻠﻚ\nواﻷﺳﺎﻟﯿﺐ اﻟﺒﺪﯾﻠﺔ ﻟﻤﻌﺎﻟﺠﺔ ﻫﺬه اﻟﺤﺎﻻت، وﯾﺠﺐ ﻋﻠﻰ اﻟﻤﺮﺧﺺ ﻟﻪ اﻻﻟﺘﺰام ﺑﻬﺎ.",
+      "source_summary": "تصدر الهيئة القواعد والإجراءات والتعليمات التي يجب على المرخص له اتباعها عند إيقاف أو إنهاء الخدمات الكهربائية، بما في ذلك الحالات التي لا يجوز فيها الإيقاف والبدائل لمعالجة هذه الحالات، ويلتزم المرخص له بها.",
+      "page_start": 20,
+      "page_end": 20,
+      "source_block_ids": [
+        "page_20_block_37",
+        "page_20_block_38",
+        "page_20_block_39"
+      ],
+      "todo": {
+        "name": "تطبيق ضوابط إيقاف وإنهاء الخدمات",
+        "description": "اعتماد إجراء تشغيلي يطبق أحدث قواعد وتعليمات الهيئة على قرارات إيقاف أو إنهاء الخدمة ويفحص البدائل والحالات المحظورة قبل التنفيذ."
+      },
+      "policies": [
+        {
+          "name": "سياسة إيقاف وإنهاء الخدمات الكهربائية",
+          "description": "تحدد ضوابط اتخاذ قرارات الإيقاف أو الإنهاء، والتحقق من الحالات المستثناة، واستخدام البدائل المناسبة."
+        }
+      ],
+      "documents": [
+        {
+          "name": "إجراء إيقاف أو إنهاء الخدمة",
+          "description": "إجراء يوضح الموافقات والفحوصات والإشعارات والبدائل المطلوبة وفق تعليمات الهيئة."
+        },
+        {
+          "name": "سجل قرارات الإيقاف والبدائل",
+          "description": "سجل للقرارات وأسبابها وفحوصات الاستثناء والبدائل والإشعارات ذات الصلة."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "قواعد وتعليمات الهيئة السارية",
+          "description": "النسخ المعتمدة المستخدمة لتحديد الحالات والبدائل والإجراءات."
+        },
+        {
+          "name": "ملفات حالات إيقاف أو إنهاء الخدمة",
+          "description": "سجلات تبين سبب القرار ونتيجة فحص الحالات المحظورة والموافقات والإشعارات."
+        },
+        {
+          "name": "أدلة تطبيق البدائل",
+          "description": "مستندات تثبت معالجة الحالات بالبدائل عندما يتطلب الأمر ذلك."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )20( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "2. ﯾﺠﺐ أن ﯾﻘﻮم اﻟﻤﺮﺧﺺ ﻟﻪ ﻗﺒﻞ دﺧﻮﻟﻪ إﻟﻰ ﻋﻘﺎر اﻟﻐﯿﺮ ﺑإﺷــﻌﺎر ﺷــﺎﻏﻞ اﻟﻌﻘﺎر ﺑﺬﻟﻚ ﻗﺒﻞ ﯾﻮﻣي )2( ﻋﻤﻞ\nﻋﻠﻰ اﻷﻗـﻞ، وﯾﺠـﺐ أن ﯾﮑﻮن اﻟﻮﻗـﺖ اﻟﻤﻘﺘﺮح ﻟـﺪﺧﻮل اﻟﻌﻘـﺎر ﻣﻌﻘﻮﻻً، وﯾﺠﻮز دﺧﻮل اﻟﻌﻘـﺎر ﻗﺒـﻞ ﻣﻀــــي\nﻣﺪة اﻹﺷﻌﺎر إذا ﻗﺒﻞ ﺷﺎﻏﻞ اﻟﻌﻘﺎر ﺧﻄﯿﺎً ﺑﺪﺧﻮل اﻟﻤﺮﺧﺺ ﻟﻪ ﻟﻠﻌﻘﺎر ﻗﺒﻞ ﻣﻀي ﻣﺪة اﻹﺷﻌﺎر.",
+      "source_summary": "قبل دخول عقار الغير، يجب على المرخص له إشعار شاغل العقار قبل يومي عمل على الأقل بوقت دخول معقول، ويجوز الدخول قبل انتهاء مدة الإشعار إذا قبل شاغل العقار ذلك خطياً.",
+      "page_start": 21,
+      "page_end": 21,
+      "source_block_ids": [
+        "page_21_block_11",
+        "page_21_block_12",
+        "page_21_block_13"
+      ],
+      "todo": {
+        "name": "ضبط إشعارات دخول عقارات الغير",
+        "description": "تطبيق إجراء يرسل إشعار الدخول قبل يومي عمل على الأقل، ويتحقق من معقولية الوقت ويحصل على قبول خطي عند الدخول المبكر."
+      },
+      "policies": [
+        {
+          "name": "سياسة الدخول إلى عقارات الغير",
+          "description": "تحدد متطلبات الإشعار المسبق وتنسيق أوقات الدخول وحالات القبول الخطي للدخول المبكر."
+        }
+      ],
+      "documents": [
+        {
+          "name": "إجراء إشعار الدخول",
+          "description": "إجراء يحدد بيانات الإشعار ووسيلة إرساله واحتساب مدة اليومين وتوثيق الموافقة."
+        },
+        {
+          "name": "سجل دخول العقارات",
+          "description": "سجل للزيارات المخططة والإشعارات وأوقات الدخول وأي قبول خطي للدخول المبكر."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "إشعارات الدخول",
+          "description": "نسخ الإشعارات المرسلة إلى شاغلي العقارات وتواريخ ووسائل إرسالها."
+        },
+        {
+          "name": "إثباتات الاستلام",
+          "description": "سجلات أو تأكيدات تثبت وصول الإشعار قبل الموعد المطلوب."
+        },
+        {
+          "name": "الموافقات الخطية على الدخول المبكر",
+          "description": "موافقات شاغلي العقارات عند الدخول قبل انتهاء مدة الإشعار."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )21( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "1. ﯾﺠـﺐ ﻋﻠﻰ اﻟﻤﺮﺧﺺ ﻟـﻪ – ﻋﻨـﺪ ﻗﯿـﺎﻣـﻪ ﺑـأﻋﻤـﺎﻟـﻪ – أن ﯾﺤﻤي اﻟﻤﻮاﻗﻊ ذات اﻷﻫﻤﯿـﺔ اﻟﺒﯿﺌﯿـﺔ أو اﻟﺘـﺎرﯾﺨﯿـﺔ\nاﻟﻤﺤﺪدة ﺑﻤﻮﺟﺐ اﻷﻧﻈﻤﺔ أو اﻟﻠﻮاﺋﺢ أو ﻗﺮارات اﻟﺠﻬﺎت اﻟﺤﮑﻮﻣﯿﺔ اﻟﻤﻌﻨﯿﺔ.",
+      "source_summary": "يجب على المرخص له أثناء أعماله حماية المواقع ذات الأهمية البيئية أو التاريخية المحددة بموجب الأنظمة أو اللوائح أو قرارات الجهات الحكومية المعنية.",
+      "page_start": 21,
+      "page_end": 21,
+      "source_block_ids": [
+        "page_21_block_21",
+        "page_21_block_22"
+      ],
+      "todo": {
+        "name": "حماية المواقع البيئية والتاريخية أثناء الأعمال",
+        "description": "فحص مواقع الأعمال مقابل المواقع البيئية أو التاريخية المحددة، وإدراج ضوابط الحماية اللازمة قبل التنفيذ وأثناءه."
+      },
+      "policies": [
+        {
+          "name": "سياسة حماية المواقع البيئية والتاريخية",
+          "description": "تحدد متطلبات تحديد المواقع المحمية وتقييم مخاطر الأعمال وتطبيق ضوابط الحماية."
+        }
+      ],
+      "documents": [
+        {
+          "name": "إجراء فحص المواقع قبل التنفيذ",
+          "description": "إجراء للتحقق من وجود مواقع ذات أهمية بيئية أو تاريخية وتحديد القيود والضوابط قبل بدء العمل."
+        },
+        {
+          "name": "سجل المواقع والضوابط الوقائية",
+          "description": "سجل للمواقع المحددة وضوابط الحماية والمسؤوليات والملاحظات الميدانية."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "خرائط وفحوصات المواقع",
+          "description": "خرائط أو نتائج تحقق تبين فحص مسارات ومواقع الأعمال مقابل المواقع المحددة."
+        },
+        {
+          "name": "تقييمات الأثر وخطط الحماية",
+          "description": "تقييمات وخطط أو تعليمات عمل توضح إجراءات حماية المواقع المعنية."
+        },
+        {
+          "name": "سجلات التفتيش الميداني",
+          "description": "تقارير متابعة تثبت تطبيق ضوابط الحماية أثناء تنفيذ الأعمال."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )22( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "ﯾﺠﺐ ﻋﻠﻰ اﻟﺸﺨﺺ اﻟﺬي ﯾﻤﻠﻚ أو ﯾﻄﻮر ﻣﺨﻄﻄﺎً أن ﯾﻨﺴﻖ ﻣﻊ اﻟﻤﺮﺧﺺ ﻟﻪ ﺑﺎﻟﻨﻘﻞ أو اﻟﻤﺮﺧﺺ ﻟﻪ ﺑﺎﻟﺘﻮزﯾﻊ ـــــــــــــــــ\nﺑﺤﺴﺐ اﻟﺤﺎل ــــــــــــــــــــــــ ﻟﻐﺮض ﺗﺨﺼﯿﺺ ﻣﻮاﻗﻊ ﻟﻤﺤﻄﺎت اﻟﻨﻘﻞ واﻟﺘﻮزﯾﻊ اﻟﺮﺋﯿﺴﺔ واﻟﻔﺮﻋﯿﺔ، وﺗﺤﺪﯾﺪ ﻣﺘﻄﻠﺒﺎت\nﺗﻮﺻــــﯿـﻞ اﻟﮑﻬﺮﺑـﺎء وذﻟـﻚ ﻗﺒـﻞ اﻋﺘﻤـﺎد اﻟﺠﻬـﺎت اﻟﻤﺴــــﺆوﻟـﺔ ﻋﻦ اﻋﺘﻤـﺎد اﻟﻤﺨﻄﻂ وإﺻــــــﺪار رﺧﺺ اﻟﺒﻨـﺎء ﻓي\nاﻟﻤﺨﻄﻄﺎت اﻟﺠﺪﯾﺪة أو اﻟﻤﺮاد ﺗﻌﺪﯾﻞ ﺗﺨﻄﯿﻄﻬﺎ أو ﺗﻌﺪﯾﻞ أﻧﻈﻤﺔ اﻟﺒﻨﺎء ﻓﯿﻬﺎ.",
+      "source_summary": "يجب على مالك أو مطور المخطط التنسيق مع المرخص له بالنقل أو التوزيع، بحسب الحالة، لتخصيص مواقع لمحطات النقل والتوزيع الرئيسية والفرعية وتحديد متطلبات توصيل الكهرباء قبل اعتماد المخطط وإصدار تراخيص البناء في المخططات الجديدة أو المخططات المراد تعديلها.",
+      "page_start": 21,
+      "page_end": 21,
+      "source_block_ids": [
+        "page_21_block_28",
+        "page_21_block_29",
+        "page_21_block_30",
+        "page_21_block_31"
+      ],
+      "todo": {
+        "name": "تنسيق متطلبات الكهرباء قبل اعتماد المخطط",
+        "description": "إدراج مراجعة وتنسيق رسمي مع المرخص له بالنقل أو التوزيع لتخصيص مواقع المحطات وتحديد متطلبات التوصيل قبل اعتماد المخطط أو إصدار تراخيص البناء."
+      },
+      "policies": [
+        {
+          "name": "سياسة التنسيق الكهربائي للتخطيط العمراني",
+          "description": "تحدد مسؤوليات مالك أو مطور المخطط ونقاط التنسيق مع المرخص له قبل الاعتماد أو إصدار تراخيص البناء."
+        }
+      ],
+      "documents": [
+        {
+          "name": "إجراء مراجعة المخططات والتنسيق",
+          "description": "إجراء يوضح تقديم المخطط ومراجعة مواقع المحطات ومتطلبات التوصيل وتوثيق الملاحظات والاعتمادات."
+        },
+        {
+          "name": "سجل تنسيق المخططات",
+          "description": "سجل للمخططات الجديدة أو المعدلة وحالات التواصل والردود والموافقات والمتطلبات المحددة."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "مراسلات التنسيق الرسمية",
+          "description": "خطابات أو محاضر اجتماعات تثبت التنسيق مع المرخص له بالنقل أو التوزيع."
+        },
+        {
+          "name": "مخططات معتمدة ومواقع المحطات",
+          "description": "نسخ المخططات التي تبين تخصيص مواقع محطات النقل أو التوزيع الرئيسية والفرعية."
+        },
+        {
+          "name": "متطلبات التوصيل والموافقات",
+          "description": "الوثائق التي تحدد متطلبات توصيل الكهرباء وتثبت إتمام التنسيق قبل اعتماد المخطط أو إصدار الترخيص."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )24( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "2. ﯾﻠﺘﺰم اﻟﻤﺮﺧﺺ ﻟﻪ ﺑﻨﺸﺎط اﻟﺘﻮزﯾﻊ ﺑﺎﻟﻘﯿﺎم ﺑﺎﻟﺘﻔﯿﺶ اﻟﺪوري ـــــــــــــــــــــــــ وﻓﻖ ﺑﺮﻧﺎﻣﺞ ﯾﻀﻌﻪ اﻟﻤﺮﺧﺺ ﻟﻪ\nوﺗﻌﺘﻤﺪه اﻟﻬﯿﺌﺔ ـــــــــــــــ ﻋﻠﻰ اﻟﻤﺼﺎدر اﻻﺣﺘﯿﺎﻃﯿﺔ ﻟﻠﻄﺎﻗﺔ اﻟﮑﻬﺮﺑﺎﺋﯿﺔ، ﻋﻠﻰ أن ﯾﺸﻤﻞ ﻫﺬا اﻟﺒﺮﻧﺎﻣﺞ دون\nﺣﺼﺮ ﻣﺎ ﯾﻠي:\nأ. اﻟﺘأﮐﺪ ﻣﻦ وﺟﻮد ﻣﻮﻟﺪ اﺣﺘﯿﺎﻃي، وأن ﻫﺬا اﻟﻤﻮﻟﺪ ﯾﻌﻤﻞ ﺑﺸﮑﻞ ﺳﻠﯿﻢ.\nب. اﻟﺘـأﮐـﺪ ﻣﻦ ﺗﻮﻓﺮ ﮐﻤﯿـﺎت اﻟﻮﻗﻮد اﻟﻼزﻣـﺔ ﻟﺘﺸــــﻐﯿـﻞ اﻟﻤﻮﻟـﺪ اﻻﺣﺘﯿـﺎﻃي وﻓﻖ اﻟﻤﻌـﺎﯾﯿﺮ اﻟﺘي ﺗﻀــــﻌﻬـﺎ\nاﻟﺠﻬﺎت اﻟﻤﻌﻨﯿﺔ.\nج. اﻟﺘأﮐﺪ ﻣﻦ وﺟﻮد ﺑﻄﺎرﯾﺎت ﺑﺤﺠﻢ ﻣﻨﺎﺳﺐ، وأﻧﻬﺎ ﺗﻌﻤﻞ ﺑﺸﮑﻞ ﺳﻠﯿﻢ.\nد. اﻟﺘأﮐﺪ ﻣﻦ وﺟﻮد ﻣﻔﺘﺎح اﻟﺘﺤﻮﯾﻞ اﻟﺘﻠﻘﺎﺋي ﺑﯿﻦ اﻟﻤﻮﻟﺪ اﻻﺣﺘﯿﺎﻃي واﻟﺘﻐﺬﯾﺔ ﻣﻦ اﻟﺸــــﺒﮑﺔ اﻟﻌﺎﻣﺔ،\nوأن ذﻟﻚ اﻟﻤﻔﺘﺎح ﯾﻌﻤﻞ ﺑﺸﮑﻞ ﺳﻠﯿﻢ.\nه. اﻟﺘأﮐﺪ ﻣﻦ وﺟﻮد ﺳﺠﻞ اﻟﺼﯿﺎﻧﺔ اﻟﺪورﯾﺔ ﻋﻨﺪ اﻟﻤﻨﺸأة.\nو. اﻟﺘأﮐﺪ ﻣﻦ ﺗﺤﻘﻖ اﻟﻤﺘﻄﻠﺒﺎت اﻟﺒﯿﺌﯿﺔ ﻓي اﻟﻤﺼﺪر اﻻﺣﺘﯿﺎﻃي، اﻟﺼﺎدرة ﻣﻦ اﻟﺠﻬﺔ اﻟﻤﺨﺘﺼﺔ.",
+      "source_summary": "يلتزم المرخص له بنشاط التوزيع بإجراء تفتيش دوري على المصادر الاحتياطية للطاقة الكهربائية وفق برنامج يضعه المرخص له وتعتمده الهيئة. ويشمل البرنامج، على الأقل، التحقق من وجود المولد الاحتياطي وسلامة تشغيله، وتوافر الوقود اللازم، وسلامة البطاريات ومفتاح التحويل التلقائي، ووجود سجل الصيانة الدورية، واستيفاء المتطلبات البيئية الصادرة عن الجهة المختصة.",
+      "page_start": 22,
+      "page_end": 22,
+      "source_block_ids": [
+        "page_22_block_12",
+        "page_22_block_13",
+        "page_22_block_14",
+        "page_22_block_15",
+        "page_22_block_16",
+        "page_22_block_17",
+        "page_22_block_18",
+        "page_22_block_19",
+        "page_22_block_20",
+        "page_22_block_21",
+        "page_22_block_22"
+      ],
+      "todo": {
+        "name": "إعداد واعتماد وتنفيذ برنامج التفتيش الدوري للمصادر الاحتياطية",
+        "description": "إعداد برنامج تفتيش يغطي المولد والوقود والبطاريات ومفتاح التحويل وسجل الصيانة والمتطلبات البيئية، وتقديمه لاعتماد الهيئة ثم تنفيذ الزيارات وتوثيق نتائجها."
+      },
+      "policies": [
+        {
+          "name": "سياسة تشغيل وصيانة مصادر الطاقة الاحتياطية",
+          "description": "تحدد ضوابط فحص وتشغيل وصيانة المولدات والبطاريات ومفاتيح التحويل ومتابعة أوجه القصور."
+        },
+        {
+          "name": "سياسة الالتزام بالمتطلبات البيئية",
+          "description": "تنظم التحقق من المتطلبات البيئية المطبقة على مصادر الطاقة الاحتياطية ومعالجة حالات عدم الالتزام."
+        }
+      ],
+      "documents": [
+        {
+          "name": "برنامج التفتيش الدوري المعتمد",
+          "description": "خطة التفتيش المعتمدة التي تحدد المواقع والعناصر ونطاق الفحص وآلية المتابعة."
+        },
+        {
+          "name": "قائمة فحص المصادر الاحتياطية",
+          "description": "نموذج لتوثيق وجود المعدات وسلامة تشغيلها والوقود والبطاريات ومفتاح التحويل والمتطلبات البيئية."
+        },
+        {
+          "name": "سجل الصيانة الدورية",
+          "description": "سجل للصيانة والفحوصات والإصلاحات المنفذة على المصادر الاحتياطية."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "اعتماد الهيئة لبرنامج التفتيش",
+          "description": "نسخة من البرنامج المقدم والمعتمد من الهيئة."
+        },
+        {
+          "name": "تقارير التفتيش المنفذة",
+          "description": "تقارير موقعة أو معتمدة توضح نتائج فحص المولد والوقود والبطاريات ومفتاح التحويل."
+        },
+        {
+          "name": "سجلات الصيانة واختبارات التشغيل",
+          "description": "سجلات الصيانة ونتائج اختبار التشغيل وأي إجراءات تصحيحية."
+        },
+        {
+          "name": "سجلات التحقق البيئي",
+          "description": "مستندات أو تقارير تثبت التحقق من المتطلبات البيئية المطبقة."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )28( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "ﯾﺠﻮز ﻷي ﮐﯿﺎﻧﯿﻦ ﻣﺮﺧﺺ ﻟﻬﻤﺎ، أو ﻣﺮﺧﺺ ﻟﻪ وﻣﺴـــﺘﻬﻠﻚ ﮐﺒﯿﺮ، اﻻﺗﻔﺎق ﻋﻠﻰ ﺳـــﻌﺮ )أو أﺳـــﻌﺎر( ﻟﺘﻘﺪﯾﻢ اﻟﺨﺪﻣﺎت\nاﻟﮑﻬﺮﺑﺎﺋﯿﺔ ﺑﺤﺴــﺐ اﻟﻘﻮاﻋﺪ واﻹﺟﺮاءات اﻟﺘي ﺗﺼــﺪرﻫﺎ اﻟﻬﯿﺌﺔ، ﺑﺸــﺮط إﺷــﻌﺎر اﻟﻬﯿﺌﺔ ﻣﺴــﺒﻘﺎً ﺑﻬﺬا اﻻﺗﻔﺎق وﻋﺪم\nإﺑﺪاﺋﻬﺎ أي اﻋﺘﺮاض ﻋﻠﻰ اﻻﺗﻔﺎق ﺧﻼل ﺛﻼﺛﯿﻦ )30 ( ﯾﻮم ﻋﻤﻞ ﻣﻦ ﺗﺎرﯾﺦ اﻹﺷـﻌﺎر، وﻓي ﺣﺎل اﻋﺘﺮاض اﻟﻬﯿﺌﺔ، ﻓﯿﺠﺐ\nﻋﻠﻰ اﻟﻄﺮﻓﯿﻦ ﺗﻌﺪﯾﻞ اﻻﺗﻔﺎق آﺧﺬﯾﻦ اﻻﻋﺘﺮاض ﻓي اﻟﺤﺴﺒﺎن وﻣﻦ ﺛﻢ إﻋﺎدة ﺗﻘﺪﯾﻤﻪ ﻟﻠﻬﯿﺌﺔ.",
+      "source_summary": "يجوز لكيانين مرخص لهما، أو لمرخص له ومستهلك كبير، الاتفاق على سعر أو أسعار لتقديم الخدمات الكهربائية وفق قواعد وإجراءات الهيئة، بشرط إشعار الهيئة مسبقاً بالاتفاق وعدم اعتراضها خلال ثلاثين يوم عمل من تاريخ الإشعار. وإذا اعترضت الهيئة، فعلى الطرفين تعديل الاتفاق بما يراعي الاعتراض وإعادة تقديمه للهيئة.",
+      "page_start": 24,
+      "page_end": 24,
+      "source_block_ids": [
+        "page_24_block_12",
+        "page_24_block_13",
+        "page_24_block_14",
+        "page_24_block_15"
+      ],
+      "todo": {
+        "name": "إدارة إشعارات واتفاقيات أسعار الخدمات الكهربائية",
+        "description": "مراجعة الاتفاق المقترح وفق قواعد الهيئة، وإشعار الهيئة به مسبقاً، ومتابعة مدة الثلاثين يوم عمل وتعديل الاتفاق وإعادة تقديمه عند ورود اعتراض."
+      },
+      "policies": [
+        {
+          "name": "سياسة اعتماد اتفاقيات أسعار الخدمات الكهربائية",
+          "description": "تحدد المسؤوليات والمراجعات المطلوبة قبل إبرام أو إشعار الهيئة بأي اتفاق سعري."
+        },
+        {
+          "name": "سياسة التعامل مع ملاحظات الهيئة",
+          "description": "تنظم متابعة إشعارات الهيئة ومعالجة الاعتراضات وإعادة تقديم الاتفاقيات المعدلة."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ملف الاتفاقية السعرية",
+          "description": "نسخة الاتفاقية ومبرراتها والمراجعات الداخلية المرتبطة بها."
+        },
+        {
+          "name": "سجل إشعارات الهيئة",
+          "description": "سجل لتاريخ الإشعار والاتفاق المرفق وبدء وانتهاء مدة الثلاثين يوم عمل وأي ردود واردة."
+        },
+        {
+          "name": "سجل تعديلات وإعادة تقديم الاتفاقية",
+          "description": "يوثق اعتراض الهيئة والتعديلات التي أجراها الطرفان وإعادة التقديم."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "إشعار الهيئة المسبق",
+          "description": "نسخة الإشعار المرسل إلى الهيئة وإثبات استلامه."
+        },
+        {
+          "name": "الاتفاقية السعرية المقدمة",
+          "description": "نسخة الاتفاقية المرسلة للهيئة والوثائق الداعمة لمراجعتها."
+        },
+        {
+          "name": "مراسلات الهيئة",
+          "description": "المراسلات التي تثبت عدم ورود اعتراض خلال المدة أو توضح الاعتراض الوارد."
+        },
+        {
+          "name": "الاتفاقية المعدلة وإعادة تقديمها",
+          "description": "عند وجود اعتراض، ما يثبت تعديل الاتفاقية وإعادة تقديمها للهيئة."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )27( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "ﻋﻨﺪ اﻋﺘﻤﺎد اﻟﻤﺠﻠﺲ ﻟﻠﺘﻌﺮﯾﻔﺔ اﻟﺘي ﯾﺘﻘﺎﺿــــﺎﻫﺎ اﻟﻤﺮﺧﺺ ﻟﻬﻢ ﻣﻦ اﻟﻤﺴــــﺘﻬﻠﮑﯿﻦ ﺳــــﻮاءً اﻟﻤﻌﺪﻟﺔ أو اﻟﺠﺪﯾﺪة،\nﺗُﺸﻌﺮ اﻟﻬﯿﺌﺔ اﻟﻤﺮﺧﺺ ﻟﻬﻢ اﻟﻤﺘأﺛﺮﯾﻦ ﺑﻬﺬه اﻟﺘﻌﺮﯾﻔﺔ اﻟﻤﻌﺪﻟﺔ أو اﻟﺠﺪﯾﺪة وﯾﺘﻀﻤﻦ اﻹﺷﻌﺎر ﻣﺎ ﯾﻠي:\nأ. اﻟﺨﻄﻮات اﻟﺘي ﯾﻨﺒﻐي اﺗﺨﺎذﻫﺎ ﻟﺘﻄﺒﯿﻖ اﻟﺘﻌﺮﯾﻔﺔ اﻟﻤﻌﺪﻟﺔ أو اﻟﺠﺪﯾﺪة، وإﺷﻌﺎر اﻟﻤﺴﺘﻬﻠﮑﯿﻦ اﻟﻤﺘأﺛﺮﯾﻦ.\nب. ﺗﺎرﯾﺦ ﻧﻔﺎذ اﻟﺘﻌﺮﯾﻔﺎت اﻟﻤﻌﺪﻟﺔ أو اﻟﺠﺪﯾﺪة.",
+      "source_summary": "عند اعتماد المجلس لتعرفة معدلة أو جديدة، تُشعر الهيئة المرخص لهم المتأثرين بها. ويتضمن الإشعار الخطوات المطلوب اتخاذها لتطبيق التعرفة وإشعار المستهلكين المتأثرين، إضافة إلى تاريخ نفاذ التعرفة المعدلة أو الجديدة.",
+      "page_start": 24,
+      "page_end": 24,
+      "source_block_ids": [
+        "page_24_block_6",
+        "page_24_block_7",
+        "page_24_block_8",
+        "page_24_block_9"
+      ],
+      "todo": {
+        "name": "تنفيذ خطة إخطار وتطبيق التعرفة المعتمدة",
+        "description": "تحليل إشعار الهيئة، وتحديد خطوات تطبيق التعرفة وإشعار المستهلكين المتأثرين، وضبط الأنظمة والعمليات للعمل من تاريخ النفاذ المحدد."
+      },
+      "policies": [
+        {
+          "name": "سياسة إدارة تغييرات التعرفة",
+          "description": "تنظم استقبال التعرفات المعدلة أو الجديدة ومراجعتها واعتماد خطة التطبيق والإخطار."
+        },
+        {
+          "name": "سياسة التواصل مع المستهلكين المتأثرين",
+          "description": "تحدد آلية إعداد وإرسال الإشعارات المتعلقة بالتعرفة وتوثيقها."
+        }
+      ],
+      "documents": [
+        {
+          "name": "خطة تطبيق التعرفة",
+          "description": "خطة توضح خطوات التطبيق والمسؤوليات وتاريخ النفاذ والضوابط اللازمة."
+        },
+        {
+          "name": "خطة أو سجل إشعار المستهلكين",
+          "description": "يوثق فئات المستهلكين المتأثرين وقنوات الإشعار وتواريخ الإرسال."
+        },
+        {
+          "name": "سجل تغيير أنظمة الفوترة والتعرفة",
+          "description": "يوثق تهيئة الأنظمة أو الإجراءات لتطبيق التعرفة المعتمدة."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "إشعار الهيئة بالتعرفة",
+          "description": "القرار أو الإشعار الرسمي الذي يحدد التعرفة وتاريخ نفاذها."
+        },
+        {
+          "name": "إثبات إشعار المستهلكين",
+          "description": "نسخ الإشعارات وسجلات الإرسال أو النشر للمستهلكين المتأثرين."
+        },
+        {
+          "name": "اختبارات تطبيق التعرفة",
+          "description": "نتائج اختبار احتساب التعرفة في الأنظمة أو الفواتير قبل تاريخ النفاذ."
+        },
+        {
+          "name": "فواتير أو تقارير بعد التطبيق",
+          "description": "عينات تثبت تطبيق التعرفة من التاريخ المحدد."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )32( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "اﻟﻬﯿﺌﺔ ﻫي اﻟﻤﻨﻈﻢ ﻟﻨﺸـﺎط اﻟﮑﻬﺮﺑﺎء وﺳـﻮق اﻟﮑﻬﺮﺑﺎء، وﺗﻌﻤﻞ اﻟﻬﯿﺌﺔ ﻹﯾﺠﺎد ﺑﯿﺌﺔ اﺳـﺘﺜﻤﺎرﯾﺔ ﻣﺤﻔﺰة ﻓي ﻧﺸـﺎط\nاﻟﮑﻬﺮﺑـﺎء، وﻟﻠﻬﯿﺌـﺔ – ﻣﻊ ﻋـﺪم اﻹﺧﻼل ﺑﻨﻈـﺎم اﻟﻤﻨـﺎﻓﺴــــــﺔ – اﺗﺨـﺎذ اﻟﺘـﺪاﺑﯿﺮ اﻟﻼزﻣـﺔ ﻹﯾﻘـﺎف أي ﺣـﺎﻟـﺔ إﺧﻼل\nﺑﺎﻟﻤﻨﺎﻓﺴﺔ وإزاﻟﺔ آﺛﺎرﻫﺎ. واﻟﻬﯿﺌﺔ ﻫي اﻟﻤﺮﺟﻌﯿﺔ ﻓي ﺗﺤﺪﯾﺪ ﮐﻞ ﻣﻤﺎ ﯾﻠي:\n1. ﺗﻌﺮﯾﻒ ﮐﻞ ﺳـــﻮق ﺿـــﻤﻦ أﻧﺸـــﻄﺔ اﻟﮑﻬﺮﺑﺎء، وﺧﺼـــﺎﺋﺺ ﮐﻞ ﺳـــﻮق ﻣﻦ ﺣﯿﺚ اﻟﺤﺠﻢ واﻟﻤﮑﺎن وﻃﺒﯿﻌﺔ\nاﻟﺴﻠﻊ.\n2. اﻷﺷﺨﺎص اﻟﻤﺸﺎرﮐﯿﻦ ﻓي ﮐﻞ ﺳﻮق، ﺑﻤﺎ ﻓي ذﻟﻚ أﺻﺤﺎب ﻗﻮى اﻟﻌﺮض واﻟﻄﻠﺐ وأﺻﺤﺎب اﻟﻤﺼﻠﺤﺔ.\n3. ﺻـﻮر اﻷﻋﻤﺎل واﻟﺘﺮﺗﯿﺒﺎت واﻻﺗﻔﺎﻗﯿﺎت واﻟﺘﺼـﺮﻓﺎت اﻟﻀـﺎرة ﺑﺎﻟﻤﻨﺎﻓﺴـﺔ – ﺳـﻮاء ﮐﺎﻧﺖ ﻓﺮدﯾﺔ أو ﺑﺎﺗﻔﺎق\nأﮐﺜﺮ ﻣﻦ ﺷــﺨﺺ – ، وﺗﺤﺪﯾﺪ ﻣﺎ ﯾﺴــﺘﺜﻨﻰ ﻣﻦ ﻫﺬه اﻟﺼــﻮر– ﺳــﻮاءً ﺑﻤﺒﺎدرة ﻣﻦ اﻟﻬﯿﺌﺔ أو ﺑﻨﺎءً ﻋﻠﻰ ﻃﻠﺐ\nﻣﻦ اﻟﺸـﺨﺺ اﻟﻤﻌﻨي – وذﻟﻚ ﻷﻏﺮاض ﻣﺒﺮرة وﻣﻌﺘﺒﺮة ﮐﺘﺤﻔﯿﺰ اﻹﺑﺪاع، أو ﺗﺨﻔﯿﺾ اﻷﺳـﻌﺎر، أو ﺗﺤﺴـﯿﻦ\nﻇﺮوف اﻟﻤﻨﺎﻓﺴﺔ، أو ﻧﻈﺮاً ﻟﻄﺒﯿﻌﺔ اﻟﺴﻮق.\n4. ﻣﻌﺎﯾﯿﺮ ﺗﻤﺘﻊ أي ﺷﺨﺺ ﺑﺎﻟﻮﺿﻊ اﻟﻤﻬﯿﻤﻦ ﻓي ﮐﻞ ﺳﻮق ﻣﻦ أﺳﻮاق ﻧﺸﺎﻃﺎت اﻟﮑﻬﺮﺑﺎء، واﻟﻀﻮاﺑﻂ اﻟﺘي\nﻋﻠﯿﻪ اﻻﻟﺘﺰام ﺑﻬﺎ ﻟﻠﺤﺪ ﻣﻦ إﺳـﺎءة اﺳـﺘﺨﺪام اﻟﻮﺿـﻊ اﻟﻤﻬﯿﻤﻦ، وﮐﺬﻟﻚ اﻻﺳـﺘﺜﻨﺎءات اﻟﻤﺒﺮرة ﻓي ﺿـﻮء\nﻫﺬه اﻟﻤﻌﺎﯾﯿﺮ.",
+      "source_summary": "تتولى الهيئة تنظيم نشاط الكهرباء وسوق الكهرباء، ولها اتخاذ التدابير اللازمة لإيقاف حالات الإخلال بالمنافسة وإزالة آثارها. وتحدد الهيئة الأسواق وخصائصها، والمشاركين فيها، وممارسات وترتيبات واتفاقيات وتصرفات الإضرار بالمنافسة والاستثناءات المبررة، ومعايير الوضع المهيمن والضوابط للحد من إساءة استخدامه والاستثناءات ذات الصلة.",
+      "page_start": 25,
+      "page_end": 25,
+      "source_block_ids": [
+        "page_25_block_9",
+        "page_25_block_10",
+        "page_25_block_11",
+        "page_25_block_12",
+        "page_25_block_13",
+        "page_25_block_14",
+        "page_25_block_15",
+        "page_25_block_16",
+        "page_25_block_17",
+        "page_25_block_18",
+        "page_25_block_19",
+        "page_25_block_20",
+        "page_25_block_21"
+      ],
+      "todo": {
+        "name": "تقييم ممارسات السوق والحد من مخاطر الإخلال بالمنافسة",
+        "description": "إنشاء مراجعة موثقة للأنشطة والاتفاقيات والتصرفات ذات الصلة بالسوق، وتقييم مخاطر الممارسات الضارة بالمنافسة أو إساءة استخدام الوضع المهيمن وتصعيدها للمعالجة."
+      },
+      "policies": [
+        {
+          "name": "سياسة المنافسة ومكافحة الممارسات الضارة",
+          "description": "تحدد الضوابط الداخلية لتقييم الاتفاقيات والممارسات التجارية وفق معايير المنافسة المطبقة."
+        },
+        {
+          "name": "سياسة مراجعة الاتفاقيات التجارية",
+          "description": "تفرض مراجعة قانونية وتنظيمية للترتيبات والاتفاقيات التي قد تؤثر في المنافسة أو السوق."
+        }
+      ],
+      "documents": [
+        {
+          "name": "سجل الأسواق والمشاركين ذوي الصلة",
+          "description": "حصر داخلي للأسواق والأنشطة والأطراف ذات الصلة بنشاط المنشأة."
+        },
+        {
+          "name": "سجل تقييم مخاطر المنافسة",
+          "description": "يوثق تقييم الممارسات والاتفاقيات ومخاطر الوضع المهيمن وإجراءات المعالجة."
+        },
+        {
+          "name": "إجراء مراجعة الاتفاقيات والممارسات",
+          "description": "إجراء يوضح نقاط المراجعة والتصعيد والموافقة قبل تنفيذ الترتيبات ذات الصلة."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "تقييمات المنافسة الموثقة",
+          "description": "تحليلات ومراجعات للاتفاقيات أو الممارسات ذات الأثر المحتمل على المنافسة."
+        },
+        {
+          "name": "محاضر وموافقات المراجعة القانونية",
+          "description": "سجلات المراجعة والموافقات والقرارات المتعلقة بالترتيبات التجارية."
+        },
+        {
+          "name": "سجل الإجراءات التصحيحية",
+          "description": "ما يثبت معالجة المخاطر أو إيقاف أو تعديل الممارسة محل الملاحظة."
+        },
+        {
+          "name": "مواد التدريب أو التوعية",
+          "description": "سجلات توعية الموظفين المعنيين بضوابط المنافسة والممارسات المحظورة."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )42( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "1. ﯾﺠـﺐ ﻋﻠﻰ أي ﻣﺮﺧﺺ ﻟـﻪ ﯾﻘﻮم ﺑﺘﻘـﺪﯾﻢ ﺧـﺪﻣـﺎت ﮐﻬﺮﺑـﺎء أن ﯾﻌـﺪ إﺟﺮاءات ﻣﻔﺼــــﻠـﺔ؛ ﻟﻤﻌـﺎﻟﺠـﺔ ﺷــــﮑـﺎوى\nاﻟﻤﺴـﺘﻬﻠﮑﯿﻦ، وﯾﻘﻮم اﻟﻤﺮﺧﺺ ﻟﻪ ﺑﺘﻘﺪﯾﻢ ﻫﺬه اﻹﺟﺮاءات إﻟﻰ اﻟﻬﯿﺌﺔ؛ ﻟﻤﺮاﺟﻌﺘﻬﺎ واﻋﺘﻤﺎدﻫﺎ. وﯾﺠﻮز أن ﯾﻌﺪ\nاﻟﻤﺮﺧﺺ ﻟﻪ إﺟﺮاءات ﻣﻨﻔﺼﻠﺔ ﻟﮑﻞ ﻓﺌﺔ ﻣﻦ ﻓﺌﺎت اﻟﻤﺴﺘﻬﻠﮑﯿﻦ.",
+      "source_summary": "يجب على كل مرخص له يقدم خدمات كهرباء إعداد إجراءات مفصلة لمعالجة شكاوى المستهلكين وتقديمها إلى الهيئة لمراجعتها واعتمادها. ويجوز إعداد إجراءات منفصلة لكل فئة من فئات المستهلكين.",
+      "page_start": 32,
+      "page_end": 32,
+      "source_block_ids": [
+        "page_32_block_11",
+        "page_32_block_12",
+        "page_32_block_13"
+      ],
+      "todo": {
+        "name": "إعداد وتقديم إجراءات معالجة شكاوى المستهلكين",
+        "description": "إعداد إجراءات مفصلة لمعالجة الشكاوى، مع مراعاة اختلاف فئات المستهلكين عند الحاجة، ثم تقديمها إلى الهيئة للمراجعة والاعتماد."
+      },
+      "policies": [
+        {
+          "name": "سياسة شكاوى المستهلكين",
+          "description": "تحدد مبادئ استقبال الشكاوى وتصنيفها ومعالجتها والتواصل بشأنها."
+        },
+        {
+          "name": "سياسة حماية حقوق المستهلك",
+          "description": "تدعم التعامل المتسق والموثق مع شكاوى فئات المستهلكين."
+        }
+      ],
+      "documents": [
+        {
+          "name": "إجراءات معالجة الشكاوى المعتمدة",
+          "description": "الإجراءات التفصيلية المقدمة إلى الهيئة والمعتمدة منها."
+        },
+        {
+          "name": "إجراءات خاصة بفئات المستهلكين",
+          "description": "إجراءات منفصلة عند الحاجة لمعالجة خصائص فئات المستهلكين المختلفة."
+        },
+        {
+          "name": "سجل شكاوى المستهلكين",
+          "description": "سجل للبلاغات والشكاوى وتصنيفها وإجراءات معالجتها ونتائجها."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "نسخة الإجراءات المقدمة والمعتمدة",
+          "description": "الإجراءات المرسلة إلى الهيئة وما يثبت مراجعتها واعتمادها."
+        },
+        {
+          "name": "سجلات الشكاوى",
+          "description": "عينات من سجل الشكاوى توضح الاستلام والتصنيف والمعالجة والإغلاق."
+        },
+        {
+          "name": "مراسلات معالجة الشكاوى",
+          "description": "مراسلات مع المستهلكين تثبت تطبيق الإجراءات."
+        },
+        {
+          "name": "تقارير أداء الشكاوى",
+          "description": "تقارير داخلية عن الشكاوى واتجاهاتها وحالات التصعيد والمعالجة."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )46( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "3. ﯾﺤﻈﺮ ﻋﻠﻰ اﻟﻤﻔﺘﺸـﯿﻦ دﺧﻮل اﻟﻌﻘﺎرات ﻗﺒﻞ إﻋﻄﺎء إﺷـﻌﺎر ﻟﺸـﺎﻏﻠﯿﻬﺎ ﻗﺒﻞ ﯾﻮﻣي )2( ﻋﻤﻞ ﻋﻠﻰ اﻷﻗﻞ، وﯾﺒﯿﻦ\nﻓي اﻹﺷــــﻌـﺎر وﻗـﺖ دﺧﻮل اﻟﻌﻘـﺎر وﻃﺒﯿﻌـﺔ اﻟﻤﺨـﺎﻟﻔـﺔ اﻟﻤﺘﺤﺮى ﻋﻨﻬـﺎ، وﯾﺠـﺐ ﻋﻠﻰ اﻟﻤﻔﺘﺶ ﻗﺒـﻞ اﻟـﺪﺧﻮل إﻟﻰ\nاﻟﻌﻘﺎر أن ﯾﻌﺮّف ﺑﻨﻔﺴـﻪ ﺑإﺑﺮاز ﻧﺴـﺨﺔ ﻣﻦ ﻗﺮار ﺗﻌﯿﯿﻨﻪ ﮐﻤﻔﺘﺶ، وﺑﻄﺎﻗﺘﻪ اﻟﺸـﺨﺼـﯿﺔ أو أي وﺛﯿﻘﺔ رﺳـﻤﯿﺔ\nأﺧﺮى ﺗﻌﺮّف ﺑﻪ.",
+      "source_summary": "يحظر على المفتشين دخول العقارات قبل إشعار شاغليها قبل يومي عمل على الأقل، على أن يتضمن الإشعار وقت الدخول وطبيعة المخالفة المتحرى عنها. وقبل الدخول، يجب على المفتش التعريف بنفسه وإبراز نسخة من قرار تعيينه كمفتش وبطاقته الشخصية أو وثيقة رسمية أخرى تعرف به.",
+      "page_start": 35,
+      "page_end": 35,
+      "source_block_ids": [
+        "page_35_block_23",
+        "page_35_block_24",
+        "page_35_block_25",
+        "page_35_block_26"
+      ],
+      "todo": {
+        "name": "ضبط إشعارات دخول المفتشين والتحقق من هوياتهم",
+        "description": "إدارة إشعار شاغلي العقار قبل يومي عمل على الأقل مع بيان وقت الدخول وطبيعة المخالفة، والتحقق عند الدخول من قرار تعيين المفتش ووثيقته الرسمية."
+      },
+      "policies": [
+        {
+          "name": "سياسة زيارات التفتيش والدخول إلى العقارات",
+          "description": "تحدد ضوابط الإشعار المسبق والتحقق من مستندات المفتش قبل الدخول."
+        },
+        {
+          "name": "سياسة التحقق من هوية المفتشين",
+          "description": "تنظم تسجيل هوية المفتش وقرار تعيينه وتوثيق عملية التعريف عند الزيارة."
+        }
+      ],
+      "documents": [
+        {
+          "name": "نموذج إشعار التفتيش",
+          "description": "نموذج يتضمن وقت الدخول وطبيعة المخالفة وبيانات الإشعار."
+        },
+        {
+          "name": "سجل زيارات التفتيش",
+          "description": "سجل لتواريخ الإشعارات والزيارات والعقار والمفتش والمستندات التي أبرزها."
+        },
+        {
+          "name": "سجل قرارات تعيين المفتشين",
+          "description": "نسخ أو سجل قرارات التعيين المستخدمة للتحقق قبل الدخول."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "إشعارات شاغلي العقارات",
+          "description": "نسخ الإشعارات وإثبات إرسالها قبل يومي العمل المطلوبين على الأقل."
+        },
+        {
+          "name": "سجل دخول المفتشين",
+          "description": "سجلات الزيارة التي توثق وقت الدخول وبيانات المفتش والتحقق من مستنداته."
+        },
+        {
+          "name": "نسخ قرارات التعيين والوثائق الرسمية",
+          "description": "المستندات التي أبرزها المفتش أو نسخها المحفوظة في ملف الزيارة."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )49( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "ﻋﻠﻰ اﻟﻤـﺪﯾﺮ اﻟﻤﺆﻗـﺖ أن ﯾﻠﺘﺰم ﺑـﺎﻟﺘﺮﺗﯿﺒـﺎت اﻹدارﯾـﺔ واﻟﻔﻨﯿـﺔ وﻣـﺎ ﻗـﺪ ﯾُﺠﺮى ﻋﻠﯿﻬـﺎ ﻣﻦ ﺗﻌـﺪﯾﻼت ﻣﻦ وﻗـﺖ إﻟﻰ آﺧﺮ،\nوأن ﯾﺒﺎﺷﺮ ﻋﻤﻠﻪ وﻓﻖ اﻵﺗي:\n1. إدارة وﺗﺸـﻐﯿﻞ أﺻـﻮل وأﻋﻤﺎل اﻟﺸـﺨﺺ اﻟﻤﺘأﺛﺮ ﺑﻤﺎ ﯾﻀـﻤﻦ اﺳـﺘﻤﺮار إﻣﺪاد ﻧﺸـﺎط اﻟﮑﻬﺮﺑﺎء وﺿـﻤﺎن\nﺳﻼﻣﺔ ﻣﻨﻈﻮﻣﺔ اﻟﮑﻬﺮﺑﺎء وأﻣﻨﻬﺎ وﺗﺤﻘﯿﻖ أي أﻫﺪاف أﺧﺮى ﯾﺘﻢ ﺗﺤﺪﯾﺪﻫﺎ ﻓي ﻗﺮار ﺗﻮﻟي اﻹدارة.\n2. ﺗﻨﻔﯿﺬ اﻷﻧﺸـﻄﺔ اﻟﮑﻬﺮﺑﺎﺋﯿﺔ ﻟﺼـﺎﻟﺢ وﻋﻠﻰ ﺣﺴـﺎب اﻟﺸـﺨﺺ اﻟﻤﺘأﺛﺮ، وﯾﺘﺤﻤﻞ اﻟﺸـﺨﺺ اﻟﻤﺘأﺛﺮ اﻟﻨﻔﻘﺎت\nواﻟﻤﺨﺎﻃﺮ.\n3. ﺗﺤﻮﯾـﻞ ﺻـــــﺎﻓي اﻟـﺪﺧـﻞ إﻟﻰ اﻟﺸــــﺨﺺ اﻟﻤﺘـأﺛﺮ، وذﻟـﻚ ﺑﻌـﺪ اﻗﺘﻄـﺎع اﻟﺘﮑـﺎﻟﯿﻒ واﻟﻤﺼــــﺮوﻓـﺎت ﻟﻠﺘﺮﺗﯿﺒـﺎت\nاﻟﻤﻨﻔﺬة وﻓﻘﺎً ﻟﻘﺮار ﺗﻮﻟي اﻹدارة.",
+      "source_summary": "يلتزم المدير المؤقت بالترتيبات الإدارية والفنية وتعديلاتها، ويدير ويشغل أصول وأعمال الشخص المتأثر بما يضمن استمرار إمداد نشاط الكهرباء وسلامة وأمن المنظومة وتحقيق الأهداف المحددة في قرار تولي الإدارة. كما ينفذ الأنشطة الكهربائية لصالح وعلى حساب الشخص المتأثر، الذي يتحمل النفقات والمخاطر، ويحّول صافي الدخل إليه بعد خصم تكاليف ومصروفات الترتيبات المنفذة وفق القرار.",
+      "page_start": 36,
+      "page_end": 36,
+      "source_block_ids": [
+        "page_36_block_32",
+        "page_36_block_33",
+        "page_36_block_34",
+        "page_36_block_35",
+        "page_36_block_36",
+        "page_36_block_37",
+        "page_36_block_38",
+        "page_36_block_39"
+      ],
+      "todo": {
+        "name": "تنفيذ وإدارة ترتيبات الإدارة المؤقتة ومحاسبتها",
+        "description": "تفعيل خطة إدارة مؤقتة مرتبطة بقرار تولي الإدارة، ومتابعة استمرارية النشاط وسلامة المنظومة، وتسجيل التكاليف والإيرادات وتحويل صافي الدخل بعد الخصومات المسموح بها."
+      },
+      "policies": [
+        {
+          "name": "سياسة الإدارة المؤقتة واستمرارية النشاط",
+          "description": "تنظم إدارة الأصول والأعمال أثناء فترة الإدارة المؤقتة والمحافظة على استمرارية إمداد الكهرباء وسلامة المنظومة."
+        },
+        {
+          "name": "سياسة إدارة الأموال والتكاليف أثناء الإدارة المؤقتة",
+          "description": "تحدد فصل وتوثيق النفقات والإيرادات وآلية احتساب وتحويل صافي الدخل."
+        }
+      ],
+      "documents": [
+        {
+          "name": "خطة الإدارة المؤقتة",
+          "description": "خطة تنفيذية مرتبطة بقرار تولي الإدارة وتوضح الأهداف والمسؤوليات والترتيبات الإدارية والفنية."
+        },
+        {
+          "name": "سجل الأصول والعمليات المدارة",
+          "description": "حصر للأصول والأعمال التي يديرها المدير المؤقت والأنشطة المنفذة."
+        },
+        {
+          "name": "سجل التكاليف والإيرادات",
+          "description": "سجل تفصيلي للنفقات والمصروفات والإيرادات المرتبطة بالترتيبات المنفذة."
+        },
+        {
+          "name": "حساب تسوية صافي الدخل",
+          "description": "بيان يوضح الإيرادات والخصومات والتكاليف وصافي الدخل المحول للشخص المتأثر."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "قرار تولي الإدارة والترتيبات المعتمدة",
+          "description": "القرار والوثائق التي تحدد نطاق الإدارة المؤقتة وأهدافها."
+        },
+        {
+          "name": "تقارير التشغيل والاستمرارية",
+          "description": "تقارير تثبت إدارة الأصول واستمرار النشاط ومتابعة سلامة وأمن المنظومة."
+        },
+        {
+          "name": "سجلات مالية مؤيدة",
+          "description": "فواتير ومستندات صرف وسجلات إيرادات مرتبطة بالأنشطة المنفذة."
+        },
+        {
+          "name": "إثبات تحويل صافي الدخل",
+          "description": "بيانات التسوية وإثباتات التحويل إلى الشخص المتأثر بعد خصم التكاليف والمصروفات."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )50( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "2. ﯾﺠـﺐ ﻋﻠﻰ اﻟﺸــــﺨﺺ اﻟـﺬي ﯾﺘﻢ إﺷــــﻌـﺎره أن ﯾﺘﻘﯿـﺪ ﺑﻘﺮارات اﻟﻬﯿﺌـﺔ واﻟﺘﻮﺟﯿﻬـﺎت اﻟﺘي ﯾﺼـــــﺪرﻫـﺎ اﻟﻤـﺪﯾﺮ\nاﻟﻤﺆﻗﺖ ﺧﻼل ﻓﺘﺮة ﺳﺮﯾﺎن ﻗﺮار ﺗﻮﻟي اﻹدارة.",
+      "source_summary": "يجب على الشخص الذي يتم إشعاره التقيد بقرارات الهيئة والتوجيهات التي يصدرها المدير المؤقت خلال فترة سريان قرار تولي الإدارة.",
+      "page_start": 37,
+      "page_end": 37,
+      "source_block_ids": [
+        "page_37_block_12",
+        "page_37_block_13"
+      ],
+      "todo": {
+        "name": "متابعة الالتزام بقرارات الهيئة وتوجيهات المدير المؤقت",
+        "description": "إنشاء سجل للقرارات والتوجيهات السارية خلال فترة تولي الإدارة، وتعيين المسؤولين عن تنفيذها ومتابعة إغلاق الإجراءات المطلوبة."
+      },
+      "policies": [
+        {
+          "name": "سياسة الامتثال لقرارات الهيئة",
+          "description": "تنظم استلام قرارات الهيئة وتقييمها وتوزيعها ومتابعة تنفيذها."
+        },
+        {
+          "name": "سياسة تنفيذ توجيهات المدير المؤقت",
+          "description": "تحدد آلية تسجيل التوجيهات والتكليفات والتحقق من تنفيذها خلال فترة سريان القرار."
+        }
+      ],
+      "documents": [
+        {
+          "name": "سجل القرارات والتوجيهات",
+          "description": "سجل يتضمن القرارات والتوجيهات وتواريخ سريانها والمسؤولين عن تنفيذها."
+        },
+        {
+          "name": "خطة تنفيذ ومتابعة الالتزامات",
+          "description": "خطة تربط كل قرار أو توجيه بإجراء ومسؤول وحالة تنفيذ."
+        },
+        {
+          "name": "تقارير حالة الالتزام",
+          "description": "تقارير دورية أو مرحلية توضح تنفيذ المتطلبات المفتوحة."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "القرارات والتوجيهات المستلمة",
+          "description": "نسخ القرارات الصادرة عن الهيئة وتوجيهات المدير المؤقت."
+        },
+        {
+          "name": "سجل التوزيع والتكليف",
+          "description": "ما يثبت إبلاغ الجهات المعنية وتكليفها بالإجراءات اللازمة."
+        },
+        {
+          "name": "أدلة تنفيذ الإجراءات",
+          "description": "مستندات أو سجلات تثبت تنفيذ القرارات والتوجيهات."
+        },
+        {
+          "name": "تقارير الإغلاق والمتابعة",
+          "description": "تقارير توضح حالة الالتزام ومعالجة أي إجراءات غير مكتملة."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "المادة )56( من اللائحة التنفيذية لنظام الكهرباء فيما يتعلق بمهام الهيئة السعودية لتنظيم الكهرباء",
+      "source_title": "اﻟﻼﺋﺤﺔ اﻟﺘﻨﻔﯿﺬﯾﺔ ﻟﻨﻈﺎم اﻟﮑﻬﺮﺑﺎء ﻓﯿﻤﺎ ﯾﺘﻌﻠﻖ ﺑﻤﻬﻤﺎت اﻟﻬﯿﺌﺔ اﻟﺴﻌﻮدﯾﺔ ﻟﺘﻨﻈﯿﻢ اﻟﮑﻬﺮﺑﺎء",
+      "source_text": "ﺗﻨﺸﺮ ﻫﺬه اﻟﻼﺋﺤﺔ ﻓي اﻟﺠﺮﯾﺪة اﻟﺮﺳﻤﯿﺔ وﯾﻌﻤﻞ ﺑﻬﺎ ﻣﻦ ﺗﺎرﯾﺦ ﻧﻔﺎذ اﻟﻨﻈﺎم.",
+      "source_summary": "تُنشر اللائحة في الجريدة الرسمية، ويُعمل بها من تاريخ نفاذ النظام.",
+      "page_start": 38,
+      "page_end": 38,
+      "source_block_ids": [
+        "page_38_block_27"
+      ],
+      "todo": {
+        "name": "تأكيد تاريخ النفاذ وتحديث سجل الالتزامات",
+        "description": "التحقق من النشر الرسمي وتاريخ نفاذ النظام، وتسجيله في سجل الالتزامات وتحديث إجراءات الامتثال ذات الصلة من ذلك التاريخ."
+      },
+      "policies": [
+        {
+          "name": "سياسة متابعة المتطلبات النظامية",
+          "description": "تنظم رصد النشر الرسمي وتواريخ النفاذ وتقييم أثر المتطلبات النظامية على المنشأة."
+        },
+        {
+          "name": "سياسة إدارة التغييرات التنظيمية",
+          "description": "تحدد آلية تحديث الإجراءات والمسؤوليات عند دخول المتطلبات التنظيمية حيز النفاذ."
+        }
+      ],
+      "documents": [
+        {
+          "name": "سجل المتطلبات النظامية وتواريخ النفاذ",
+          "description": "سجل يوضح اللائحة ومصدر النشر وتاريخ النفاذ وحالة تطبيقها."
+        },
+        {
+          "name": "تقييم أثر النفاذ",
+          "description": "وثيقة تحدد العمليات والإجراءات التي تحتاج إلى تحديث بعد سريان اللائحة."
+        },
+        {
+          "name": "سجل تحديث إجراءات الامتثال",
+          "description": "يوثق التعديلات التي أُدخلت على الإجراءات استناداً إلى تاريخ النفاذ."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "نسخة النشر الرسمي",
+          "description": "نسخة أو مرجع موثق للنشر في الجريدة الرسمية."
+        },
+        {
+          "name": "سجل التحقق من تاريخ النفاذ",
+          "description": "توثيق تاريخ النفاذ ومراجعة المسؤول المختص له."
+        },
+        {
+          "name": "تقييم الأثر وخطة التحديث",
+          "description": "تحليل موثق للإجراءات المتأثرة وخطة إدخال التغييرات."
+        },
+        {
+          "name": "نسخ الإجراءات المحدثة",
+          "description": "الإجراءات والسجلات التي تم تحديثها بعد دخول اللائحة حيز النفاذ."
+        }
+      ],
+      "ai_generated": true
+    }
+  ],
+  "warnings": []
+}

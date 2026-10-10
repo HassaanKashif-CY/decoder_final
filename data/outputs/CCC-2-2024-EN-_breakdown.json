@@ -1,0 +1,4627 @@
+{
+  "metadata": {
+    "title": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+    "document_type": "Cloud cybersecurity controls framework",
+    "description": "A cloud cybersecurity controls document issued under the National Cybersecurity Authority of Saudi Arabia. It defines controls for Cloud Service Providers (CSPs) and Cloud Service Tenants (CSTs), including objectives, requirements, applicability information, terminology, and updates from the previous CCC – 1: 2020 version. The document is classified as Public under the Traffic Light Protocol (TLP: White).",
+    "hierarchy_description": "The document is organized into main domains, subdomains, main controls, and subcontrols. It distinguishes requirements applicable to CSPs and CSTs and uses control identifiers such as 1-1-P-1 and 1-1-T-1. The identified content includes domains covering cybersecurity governance and responsibilities, asset management, identity and access management, network security, mobile device security, data and information protection, cryptography, backup and recovery, vulnerabilities, physical security, web application security, key management, system development security, storage media security, cybersecurity events and incidents, and third-party cybersecurity. The document also includes objectives, a statement of applicability, control-component illustrations, identification notation, and terms and definitions."
+  },
+  "hierarchy": [
+    {
+      "node_id": "node_1",
+      "title": "Cloud Cybersecurity Controls",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 3,
+      "source_description": "Cloud Cybersecurity Controls",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_2",
+      "title": "1 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 4,
+      "page_end": 4,
+      "source_description": "1 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+          "source_reference": {
+            "page_start": 4,
+            "page_end": 4,
+            "section": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+            "source_text": "The following controls will be governed by and implemented in accordance with the laws of the Kingdom of Saudi Arabia and must be subject to the exclusive jurisdiction of the courts of the Kingdom of Saudi Arabia. The Arabic version will be the binding language for all matters relating to the meaning or interpretation of this document."
+          },
+          "todo": {
+            "name": "Align CCC implementation with Saudi legal and language requirements",
+            "description": "Review the implementation, contractual, and compliance arrangements to ensure that CCC controls are governed by the laws of the Kingdom of Saudi Arabia, subject to the exclusive jurisdiction of its courts, and interpreted using the binding Arabic version.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Saudi Arabia Legal and Regulatory Compliance Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Bilingual Compliance Documentation Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'CCC Legal Applicability Assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Arabic CCC Control Interpretation Record', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Legal review confirming Saudi jurisdiction and applicable law', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Approved Arabic version or Arabic interpretation record for CCC implementation', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_3",
+      "title": "2 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "source_description": "2 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_4",
+      "title": "3 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 6,
+      "page_end": 6,
+      "source_description": "3 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_5",
+      "title": "CCC – 1 2020 - CCC – 2 2024 Appendix (D) illustrates the updates on the previous version",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 6,
+      "page_end": 6,
+      "source_description": "CCC – 1 2020 - CCC – 2 2024 Appendix (D) illustrates the updates on the previous version",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_6",
+      "title": "4 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 7,
+      "page_end": 7,
+      "source_description": "4 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_7",
+      "title": "5 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 8,
+      "page_end": 8,
+      "source_description": "5 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_8",
+      "title": "6 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 9,
+      "page_end": 9,
+      "source_description": "6 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+          "source_reference": {
+            "page_start": 9,
+            "page_end": 9,
+            "section": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+            "source_text": "All CSPs and CSTs shall implement all necessary measures to ensure continuous compliance with the CCC as per Article 10(3) of NCA’s mandate and as per the Royal Decree number 57231, dated 10/11/1439 H."
+          },
+          "todo": {
+            "name": "Establish continuous CCC compliance",
+            "description": "Identify the applicable CCC requirements and implement, operate, and monitor the necessary measures to maintain continuous compliance as a CSP or CST.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Cybersecurity Compliance Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Continuous Compliance Monitoring Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'CCC Compliance Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'CCC Applicability and Compliance Register', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'CCC control assessment results', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Continuous compliance monitoring records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Remediation and corrective-action records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_9",
+      "title": "7 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 10,
+      "source_description": "7 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_10",
+          "title": "For CSPs For CSTs",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 10,
+          "page_end": 10,
+          "source_description": "For CSPs For CSTs",
+          "requirements": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_11",
+      "title": "4 Main Domains",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 10,
+      "source_description": "4 Main Domains",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_12",
+      "title": "24 Subdomains",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 10,
+      "source_description": "24 Subdomains",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_13",
+      "title": "37 Main Controls 18 Main Controls",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 10,
+      "source_description": "37 Main Controls 18 Main Controls",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_14",
+      "title": "94 Subcontrols 26 Subcontrols",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 10,
+      "source_description": "94 Subcontrols 26 Subcontrols",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_15",
+      "title": "F IGURE 1: C LOUD C YBERSECURITY C ONTROLS C OMPONENTS",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 10,
+      "source_description": "F IGURE 1: C LOUD C YBERSECURITY C ONTROLS C OMPONENTS",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_16",
+      "title": "8 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 11,
+      "page_end": 11,
+      "source_description": "8 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+          "source_reference": {
+            "page_start": 11,
+            "page_end": 11,
+            "section": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+            "source_text": "The CCC aims to set the minimum requirements for cybersecurity of cloud computing, for both CSPs and CSTs, to contribute to enable the CSPs and the CSTs to provide and use secure cloud computing services and mitigating cyber risks against them. The cybersecurity of cloud computing services, for both CSPs and CSTs, must be able to protect the confidentiality, integrity and availability of the data and information within the cloud environment."
+          },
+          "todo": {
+            "name": "Implement minimum cloud cybersecurity protections",
+            "description": "Assess cloud services against the CCC minimum requirements and implement safeguards that protect the confidentiality, integrity, and availability of cloud data and information.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Information Security Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Confidentiality, Integrity, and Availability Protection Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Cloud Security Requirements Baseline', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Data Protection Assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Cloud security control assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Confidentiality, integrity, and availability risk assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Security testing and monitoring results', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_17",
+      "title": "9 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 12,
+      "page_end": 12,
+      "source_description": "9 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+          "source_reference": {
+            "page_start": 12,
+            "page_end": 12,
+            "section": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+            "source_text": "The cloud cybersecurity controls shall apply to the CSPs and CSTs. These controls represent the minimum cybersecurity requirements for cloud computing. CSPs within the scope of CCC are any CSP which provides cloud computing services to the CSTs within the scope of work. CSTs within the scope of CCC are any government agency in the Kingdom of Saudi Arabia inside or outside the Kingdom, including ministries, authorities, establishments and other entities and their companies and sub-entities, as well as all private sector entities owning, operating or hosting Critical National Infrastructures (CNIs) that currently use or are planning to use any cloud service. Every CSP and CST must comply with all applicable controls."
+          },
+          "todo": {
+            "name": "Determine CCC scope and applicable controls",
+            "description": "Classify the organization as a CSP or CST, determine whether it falls within the stated scope, identify every applicable CCC control, and establish a compliance plan for those controls.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'CCC Scope and Applicability Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Service Provider and Tenant Governance Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'CCC Scope Determination', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'CCC Statement of Applicability', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 12, Section 9 CCC Statement of Applicability'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Applicable Controls Register', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'CSP or CST classification record', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud service inventory and scope assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Approved applicability review', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_18",
+      "title": "CCC Scope of Work",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 12,
+      "page_end": 12,
+      "source_description": "CCC Scope of Work",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_19",
+      "title": "CCC Statement of Applicability",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 12,
+      "page_end": 12,
+      "source_description": "CCC Statement of Applicability",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+          "source_reference": {
+            "page_start": 12,
+            "page_end": 12,
+            "section": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+            "source_text": "The ECC and the CCC have been developed after taking into consideration the cybersecurity needs of CSPs and CSTs, and every CSP and CST must comply with all applicable controls."
+          },
+          "todo": {
+            "name": "Document and implement all applicable ECC and CCC controls",
+            "description": "Perform an applicability assessment covering both ECC and CCC, document the applicable controls, and track implementation and compliance for each applicable control.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'ECC and CCC Applicability Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Control Exception and Risk Acceptance Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'ECC and CCC Applicability Matrix', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Control Implementation Register', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Completed ECC and CCC applicability assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Control implementation evidence', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Approved exceptions and risk acceptances, where applicable', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_20",
+      "title": "10 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 13,
+      "page_end": 13,
+      "source_description": "10 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+          "source_reference": {
+            "page_start": 13,
+            "page_end": 13,
+            "section": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+            "source_text": "All CSPs and CSTs within the scope of these controls must implement whatever necessary to ensure continuous compliance with the CCC according to the levels shown in Table (2) and Table (3) in section “Annex No. (A): Cloud Cybersecurity Controls Levels”. CSTs must ensure continuous compliance with the controls in both ECC and CCC. CSPs – within or outside the scope of the ECC – must ensure continuous compliance with the controls in both ECC and CCC."
+          },
+          "todo": {
+            "name": "Maintain continuous ECC and CCC compliance at the applicable level",
+            "description": "Determine the applicable control level, implement the required CCC measures, and continuously monitor compliance with both ECC and CCC, including for CSPs that are outside ECC scope.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Continuous ECC and CCC Compliance Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Control-Level Governance Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'ECC and CCC Control-Level Compliance Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Continuous Compliance Register', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Applicable CCC level determination', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'ECC and CCC assessment results', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Periodic compliance monitoring reports', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        },
+        {
+          "source_title": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+          "source_reference": {
+            "page_start": 13,
+            "page_end": 13,
+            "section": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+            "source_text": "NCA evaluates entities’ compliance with the CCC through multiple means such as self-assessments by the entities, periodic reports of the compliance tool or on-site audits."
+          },
+          "todo": {
+            "name": "Prepare for NCA compliance evaluations",
+            "description": "Maintain a self-assessment process and organized compliance evidence to support periodic compliance-tool reporting and potential NCA on-site audits.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Compliance Assessment and Audit Readiness Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'CCC Self-Assessment Report', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'NCA Audit Readiness File', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Completed self-assessments', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Periodic compliance-tool reports', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Audit requests and responses', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_21",
+      "title": "11 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "11 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_22",
+      "title": "1- Cybersecurity",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "1- Cybersecurity",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_23",
+      "title": "1-1 Cybersecurity Roles and",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "1-1 Cybersecurity Roles and",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_24",
+      "title": "1-3",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "1-3",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_25",
+      "title": "1-4 Cybersecurity in Human",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "1-4 Cybersecurity in Human",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_26",
+      "title": "1-5 Cybersecurity in Change Management",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "1-5 Cybersecurity in Change Management",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_27",
+      "title": "2- Cybersecurity",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "2- Cybersecurity",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_28",
+      "title": "2-1 Asset Management 2-2 Identity and Access Management",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "2-1 Asset Management 2-2 Identity and Access Management",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_29",
+      "title": "2-3",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "2-3",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_30",
+      "title": "2-4 Networks Security Management",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "2-4 Networks Security Management",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_31",
+      "title": "2-5 Mobile Devices Security 2-6 Data and Information Protection",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "2-5 Mobile Devices Security 2-6 Data and Information Protection",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_32",
+      "title": "2-7 Cryptography 2-8 Backup and Recovery",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "2-7 Cryptography 2-8 Backup and Recovery",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_33",
+      "title": "2-9 Vulnerabilities",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "2-9 Vulnerabilities",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_34",
+      "title": "2-11",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "2-11",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_35",
+      "title": "2-12",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "2-12",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_36",
+      "title": "2-13 Physical Security 2-14 Web Application Security",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "2-13 Physical Security 2-14 Web Application Security",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_37",
+      "title": "2-15 Key Management 2-16 System Development Security",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "2-15 Key Management 2-16 System Development Security",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_38",
+      "title": "2-17 Storage Media Security",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "2-17 Storage Media Security",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_39",
+      "title": "3- Cybersecurity",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "3- Cybersecurity",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_40",
+      "title": "4- Third-Party",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "4- Third-Party",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_41",
+      "title": "F IGURE 2: CCC M AIN D OMAINS AND S UBDOMAINS",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "source_description": "F IGURE 2: CCC M AIN D OMAINS AND S UBDOMAINS",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_42",
+      "title": "12 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 15,
+      "page_end": 15,
+      "source_description": "12 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_43",
+      "title": "F IGURE 3: CCC I DENTIFICATION N OTATION",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 15,
+      "page_end": 15,
+      "source_description": "F IGURE 3: CCC I DENTIFICATION N OTATION",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_44",
+      "title": "CCC",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 15,
+      "page_end": 15,
+      "source_description": "CCC",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_45",
+      "title": "1 3 P/T 1 1",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 15,
+      "page_end": 15,
+      "source_description": "1 3 P/T 1 1",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_46",
+      "title": "13 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 16,
+      "page_end": 16,
+      "source_description": "13 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_47",
+      "title": "14 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 17,
+      "page_end": 17,
+      "source_description": "14 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+          "source_reference": {
+            "page_start": 17,
+            "page_end": 17,
+            "section": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+            "source_text": "The Authorizing Official shall also identify, document, and approve cybersecurity roles and RACI assignment for all stakeholders of the cloud services, including the Authorizing Official's roles and responsibilities. For CSPs, this is control 1-1-P-1-1; for CSTs, this is control 1-1-T-1-1."
+          },
+          "todo": {
+            "name": "Approve cloud cybersecurity roles and RACI assignments",
+            "description": "Identify all cloud-service stakeholders, assign cybersecurity roles and responsibilities using a RACI assignment, document the assignments, and obtain approval from the Authorizing Official.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Cybersecurity Roles and Responsibilities Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'RACI Governance Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Cloud Cybersecurity Roles and RACI Matrix', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 17, Controls 1-1-P-1-1 and 1-1-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Authorizing Official Approval Record', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Approved RACI assignment', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 17, Controls 1-1-P-1-1 and 1-1-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Stakeholder and responsibility records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        },
+        {
+          "source_title": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+          "source_reference": {
+            "page_start": 17,
+            "page_end": 17,
+            "section": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+            "source_text": "The cybersecurity risk management methodology shall include, at minimum, for the CSP: defining acceptable risk levels for the cloud services and clarifying them to the CST if they are related to the CST; considering data and information classification; and developing a cybersecurity risk register for cloud services and monitoring it periodically according to the risks. For the CST, the methodology shall include, at minimum: defining acceptable risk levels for the cloud services; considering data and information classification accredited by the CST; and developing a cybersecurity risk register for cloud services and monitoring it periodically according to the risks."
+          },
+          "todo": {
+            "name": "Operate cloud cybersecurity risk management for CSP or CST services",
+            "description": "Update the cybersecurity risk management methodology to define acceptable cloud-service risk levels, incorporate applicable data and information classification, maintain a cloud-service cybersecurity risk register, monitor it periodically, and for CSPs clarify relevant acceptable risk levels to the CST.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Cybersecurity Risk Management Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Data and Information Classification Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Cloud Cybersecurity Risk Management Methodology', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Services Cybersecurity Risk Register', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 17, Controls 1-2-P-1-3 and 1-2-T-1-3'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Acceptable Cloud-Service Risk Levels', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Approved acceptable risk levels', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Data and information classification records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 17, Controls 1-2-P-1-2 and 1-2-T-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Periodically monitored cloud-service risk register', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 17, Controls 1-2-P-1-3 and 1-2-T-1-3'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Evidence that relevant risk levels were clarified to the CST', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 17, Control 1-2-P-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_48",
+      "title": "1-1 Cybersecurity Roles and Responsibilities Objective To ensure that the roles and responsibilities are defined for all parties participating",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 17,
+      "page_end": 17,
+      "source_description": "1-1 Cybersecurity Roles and Responsibilities Objective To ensure that the roles and responsibilities are defined for all parties participating",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 17,
+            "page_end": 17,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The Authorizing Official shall identify, document, and approve cybersecurity roles and RACI assignment for all stakeholders of the cloud services, including the Authorizing Official's roles and responsibilities. The CSP and CST cybersecurity risk management methodology shall define acceptable risk levels, consider data and information classification, and maintain a cybersecurity risk register monitored periodically according to risks."
+          },
+          "todo": {
+            "name": "Establish cloud cybersecurity governance and risk management",
+            "description": "Document and obtain approval for stakeholder cybersecurity roles and RACI assignments. Define acceptable cloud-service risk levels, incorporate data classification, and create and periodically review CSP and CST cloud-service risk registers.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Cybersecurity Roles and Responsibilities Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 1-1-P-1-1 and 1-1-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Cybersecurity Risk Management Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 1-2-P-1 and 1-2-T-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Cloud Cybersecurity RACI Matrix', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 1-1-P-1-1 and 1-1-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Services Cybersecurity Risk Register', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 17, sections 1-2-P-1-3 and 1-2-T-1-3'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Approved cybersecurity roles and RACI assignments', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 17, sections 1-1-P-1-1 and 1-1-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Periodic risk register review records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 17, sections 1-2-P-1-3 and 1-2-T-1-3'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_49",
+      "title": "1-2-T-1-2 Considering data and information classification accredited by CST in",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 17,
+      "page_end": 17,
+      "source_description": "1-2-T-1-2 Considering data and information classification accredited by CST in",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 17,
+            "page_end": 17,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "Considering data and information classification accredited by CST in cybersecurity risk management methodology."
+          },
+          "todo": {
+            "name": "Incorporate CST-approved classification into risk assessments",
+            "description": "Update the CST cloud cybersecurity risk methodology so that the CST-accredited data and information classification is used in risk identification, analysis, and treatment.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'CST Data Classification and Risk Assessment Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 1-2-T-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'CST Data Classification Register', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 1-2-T-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Cybersecurity Risk Assessment Methodology', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 1-2-T-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Risk assessments showing CST-accredited classifications', 'status': 'AI_GENERATED', 'source_reference': 'Recommended evidence for section 1-2-T-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_50",
+      "title": "15 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "source_description": "15 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 18,
+            "page_end": 18,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The CSP shall maintain continuous compliance with laws, regulations, instructions, decisions, regulatory frameworks, controls, and mandates regarding cybersecurity in the Kingdom. The CST shall perform continuous or real-time compliance monitoring of the CSP with relevant cybersecurity legislation and contract clauses."
+          },
+          "todo": {
+            "name": "Implement continuous cloud cybersecurity compliance monitoring",
+            "description": "Maintain a legal and regulatory register, assess CSP compliance continuously, and provide CST real-time or continuous monitoring against applicable legislation and contractual clauses.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Cybersecurity Compliance Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 1-3-P-1-1 and 1-3-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Cloud Cybersecurity Legal and Regulatory Register', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 1-3-P-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'CSP Compliance Monitoring Procedure', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 1-3-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Continuous compliance monitoring reports', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 18, sections 1-3-P-1-1 and 1-3-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Compliance assessments against contract clauses', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 18, section 1-3-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        },
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 18,
+            "page_end": 18,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "Positions of cybersecurity functions in CSP data centers within the Kingdom must be filled with qualified and suitable Saudi nationals. Personnel with access to the Cloud Technology Stack shall be screened or vetted periodically. Cybersecurity policies are a prerequisite to access and must be signed and appropriately approved. Entity assets shall be accounted for and returned upon termination."
+          },
+          "todo": {
+            "name": "Strengthen cloud personnel lifecycle controls",
+            "description": "Verify staffing eligibility, periodically screen personnel with Cloud Technology Stack access, obtain signed policy acknowledgements before access, and complete asset return checks at termination.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Personnel Security Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 1-4-P-1 and 1-4-P-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Personnel Screening and Access Authorization Records', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 1-4-P-1-2 and 1-4-P-1-3'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Termination Asset Return Checklist', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 1-4-P-2-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Personnel vetting records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 18, section 1-4-P-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Signed and approved cybersecurity policy acknowledgements', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 18, section 1-4-P-1-3'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Asset return records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 18, section 1-4-P-2-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_51",
+      "title": "1-4-T-1 In addition to Subcontrols in the ECC control 1-9-3 , the following requirements",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "source_description": "1-4-T-1 In addition to Subcontrols in the ECC control 1-9-3 , the following requirements",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 18,
+            "page_end": 18,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "Screening or vetting candidates of personnel with access to Cloud Service sensitive functions (Key Management, Service Administration, Access Control)."
+          },
+          "todo": {
+            "name": "Vet personnel with sensitive cloud-service access",
+            "description": "Screen and vet CST personnel and candidates who will access key management, service administration, or access control functions before granting access.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Sensitive Cloud Function Personnel Vetting Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 1-4-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Sensitive Function Access Vetting Register', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 1-4-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Completed personnel screening and vetting records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 18, section 1-4-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_52",
+      "title": "16 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 19,
+      "page_end": 19,
+      "source_description": "16 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 19,
+            "page_end": 19,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "Cybersecurity requirements for change management within the CSP shall be identified, documented, approved, applied, and reviewed periodically. They shall include secure implementation of planned production changes and a process for exceptional changes, such as changes during incident restoration."
+          },
+          "todo": {
+            "name": "Implement cybersecurity change management",
+            "description": "Define and approve security requirements in the change process, enforce them for planned and emergency production changes, prioritize cybersecurity observations, and perform periodic reviews.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Change Management Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 1-5-P-1 through 1-5-P-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Production Change Request and Approval Record', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 1-5-P-3-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Emergency Change Procedure', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 19, section 1-5-P-3-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Approved change records with security assessment', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 1-5-P-1 and 1-5-P-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Periodic change management review reports', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 19, section 1-5-P-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_53",
+      "title": "1-5-P-3-1 Processes and procedures to securely implement changes (planned works)",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 19,
+      "page_end": 19,
+      "source_description": "1-5-P-3-1 Processes and procedures to securely implement changes (planned works)",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 19,
+            "page_end": 19,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "Processes and procedures to securely implement changes (planned works) in production systems, with priority given to cybersecurity observations."
+          },
+          "todo": {
+            "name": "Secure planned production changes",
+            "description": "Require security review, testing, approval, implementation, and post-implementation validation for planned production changes, prioritizing identified cybersecurity observations.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Secure Production Change Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 1-5-P-3-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Secure Planned Change Procedure', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 19, section 1-5-P-3-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Approved planned change tickets and implementation records', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 1-5-P-3-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_54",
+      "title": "17 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 20,
+      "page_end": 20,
+      "source_description": "17 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 20,
+            "page_end": 20,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The CSP shall maintain an inventory of all information and technology assets using suitable techniques such as a CMDB or similar capability, identify asset owners, and involve them in the asset management lifecycle. The CST shall maintain an inventory of all cloud services and related information and technology assets."
+          },
+          "todo": {
+            "name": "Create and maintain cloud asset inventories",
+            "description": "Populate and periodically reconcile CSP technical-asset and CST cloud-service inventories, assign owners, and record lifecycle status and ownership actions.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Asset Management Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'CSP CMDB or Technical Asset Inventory', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 20, section 2-1-P-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'CST Cloud Services and Asset Inventory', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 20, section 2-1-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Asset ownership assignments and lifecycle reviews', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 20, section 2-1-P-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_55",
+      "title": "2-1 Asset Management Objective To ensure that the CSP and CST has an accurate and detailed inventory of",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 20,
+      "page_end": 20,
+      "source_description": "2-1 Asset Management Objective To ensure that the CSP and CST has an accurate and detailed inventory of",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 20,
+            "page_end": 20,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The CSP shall maintain an inventory of all information and technology assets using suitable techniques such as a Configuration Management Database (CMDB) or similar capability, and identify asset owners. The CST shall maintain an inventory of all cloud services and related information and technology assets."
+          },
+          "todo": {
+            "name": "Establish accurate cloud asset inventories",
+            "description": "Implement or update the CMDB or equivalent, record all relevant technical assets and cloud services, assign owners, and review inventory completeness.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Asset Inventory and Ownership Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'CMDB Asset Inventory', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 20, section 2-1-P-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Service Inventory', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 20, section 2-1-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Asset owner assignments', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 20, section 2-1-P-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_56",
+      "title": "18 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 21,
+      "page_end": 21,
+      "source_description": "18 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 21,
+            "page_end": 21,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The CSP shall implement controls for generic accounts, secure session management, multi-factor authentication for privileged users, unauthorized-access detection, secure password storage, third-party accounts, administrative-console access, authentication-input masking, CST approval for access, remote-session interruption, MFA services for privileged cloud users, and restricted access to storage systems. The CST shall manage cloud credentials throughout their lifecycle, protect credential information, use secure sessions and MFA, and detect and prevent unauthorized access."
+          },
+          "todo": {
+            "name": "Implement cloud identity and access management controls",
+            "description": "Configure least-privilege access, lifecycle management, MFA, secure sessions, password protection, third-party account controls, administrative-console restrictions, approval workflows, and unauthorized-login detection for CSP and CST environments.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Identity and Access Management Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 2-2-P-1 and 2-2-T-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Privileged Access Management Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 2-2-P-1-3 and 2-2-T-1-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Cloud Account and Credential Lifecycle Procedure', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 21, section 2-2-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'CST Access Approval Records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 21, section 2-2-P-1-9'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'MFA configuration and privileged-access reports', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 20, section 2-2-P-1-3, and page 21, section 2-2-T-1-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Session and failed-login monitoring records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 20, sections 2-2-P-1-2 and 2-2-P-1-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_57",
+      "title": "19 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 22,
+      "page_end": 22,
+      "source_description": "19 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 22,
+            "page_end": 22,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The CSP shall monitor traffic across external and internal networks, isolate and protect the Cloud Technology Stack network, protect against denial-of-service attacks, protect transmitted data using cryptography for management and administrative access, enforce access control between network segments, and isolate the cloud service delivery, cloud management, and CSP enterprise networks. The CST shall protect the connection channel with the CSP."
+          },
+          "todo": {
+            "name": "Secure and monitor cloud networks",
+            "description": "Deploy network monitoring, segmentation, isolation, DDoS protection, cryptographic administrative channels, inter-segment access controls, and secure CST-to-CSP connection channels.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Network Security Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Cloud Network Architecture and Segmentation Diagram', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 2-4-P-1-2 and 2-4-P-1-6'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'CSP Connection Security Procedure', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 23, section 2-4-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Network traffic monitoring and anomaly reports', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 22, section 2-4-P-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'DDoS protection test records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 22, section 2-4-P-1-3'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_58",
+      "title": "20 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 23,
+      "page_end": 23,
+      "source_description": "20 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 23,
+            "page_end": 23,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The CSP shall maintain inventories and centralized security management for mobile and end-user devices, screen-lock devices, and sanitize and securely dispose of devices. The CSP shall restrict use of Cloud Technology Stack data outside production unless strict controls such as masking or scrambling are applied, provide secure data storage processes, securely dispose of CST data at contract termination or expiry, maintain confidentiality, and provide secure export and transfer means."
+          },
+          "todo": {
+            "name": "Protect mobile devices and cloud data",
+            "description": "Inventory and centrally manage endpoint devices, enforce screen locking and secure disposal, control non-production data use, protect storage and confidentiality, and implement secure contract-exit data disposal and transfer processes.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Mobile Device Security Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-5'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Data Protection and Disposal Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-6'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Mobile and End-User Device Inventory', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 23, section 2-5-P-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Data Exit and Disposal Procedure', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 2-6-P-1-3 and 2-6-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Device sanitization and secure disposal certificates', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 23, sections 2-5-P-1-4 and 2-5-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Secure data export and transfer records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 23, section 2-6-P-1-5'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_59",
+      "title": "21 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 24,
+      "page_end": 24,
+      "source_description": "21 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 24,
+            "page_end": 24,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The CST shall maintain an exit strategy for secure disposal of data on termination or expiry of the CSP contract and use secure means to export and transfer data and virtual infrastructure. CSP and CST shall use strong encryption according to the advanced level in NCS-1:2020; the CSP shall securely issue or use trusted certificates, and the CST shall encrypt data transferred to or from the cloud according to applicable requirements."
+          },
+          "todo": {
+            "name": "Implement secure cloud exit and cryptography",
+            "description": "Approve and test an exit strategy, secure data and virtual-infrastructure transfers, implement NCS-1:2020 advanced-level encryption, and manage trusted certificate issuance and use.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Cryptography Policy', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 24, section 2-7'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Exit Strategy Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-6-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Cloud Exit Strategy and Data Transfer Plan', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 24, sections 2-6-T-1-1 and 2-6-T-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Certificate Authority and Certificate Management Procedure', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 24, section 2-7-P-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Encryption configuration aligned to NCS-1:2020', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 24, sections 2-7-P-1-1 and 2-7-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Secure export and transfer test results', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 24, section 2-6-T-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_60",
+      "title": "2-8 Backup and Recovery Management",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 24,
+      "page_end": 24,
+      "source_description": "2-8 Backup and Recovery Management",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 24,
+            "page_end": 24,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "2-8 Backup and Recovery Management"
+          },
+          "todo": {
+            "name": "Review backup and recovery control requirements",
+            "description": "Locate the applicable backup and recovery control text in the complete document and assess implementation; this chunk alone does not state a substantive control.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [],
+          "documents": [],
+          "evidence": []
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_61",
+      "title": "22 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 25,
+      "page_end": 25,
+      "source_description": "22 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 25,
+            "page_end": 25,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The CSP shall secure access, storage, and transfer of CST data backups and Cloud Technology Stack backups and their media against damage, amendment, or unauthorized access. The CSP shall assess and remediate external Cloud Technology Stack vulnerabilities at least monthly and internal components at least every three months, notify CSTs of vulnerabilities that may affect them, and manage notified safeguards. The CST shall assess and remediate cloud-service vulnerabilities at least every three months."
+          },
+          "todo": {
+            "name": "Secure backups and operate vulnerability management",
+            "description": "Protect backup access, storage, media, and transfers; scan and remediate external components monthly and internal components at least quarterly; perform CST cloud-service assessments at least quarterly; and notify affected CSTs.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Backup Protection Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-8-P-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Vulnerability Management Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-9'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Backup Protection and Access Procedure', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 2-8-P-1-1 and 2-8-P-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Vulnerability Remediation Register', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-9'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Backup access and integrity review records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 25, sections 2-8-P-1-1 and 2-8-P-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Monthly and quarterly vulnerability scan and remediation reports', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 25, sections 2-9-P-1-1 and 2-9-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'CST vulnerability notifications', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 25, section 2-9-P-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_62",
+      "title": "23 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 26,
+      "page_end": 26,
+      "source_description": "23 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 26,
+            "page_end": 26,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The scope of CSP penetration tests must cover the Cloud Technology Stack and be conducted at least once every six months. CSPs shall activate and protect Cloud Technology Stack event logs and audit trails, collect login history, protect tenant-level activity logs, use SIEM for continuous monitoring of the full stack, periodically review logs, automatically monitor remote-access sessions, and securely handle user-related log data. CSTs shall activate and collect login and cybersecurity event logs and monitor all activated cloud-service logs."
+          },
+          "todo": {
+            "name": "Implement penetration testing and cloud security monitoring",
+            "description": "Schedule stack-wide penetration tests every six months, centralize and protect required logs, enable continuous SIEM monitoring, review logs periodically, monitor remote sessions, and ensure CST cloud-service logging and monitoring.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Penetration Testing Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-10-P-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Logging and Monitoring Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-11'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Penetration Test Scope and Reports', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 26, section 2-10-P-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Logging and SIEM Configuration Standard', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-11-P-1-5'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Six-monthly Cloud Technology Stack penetration test reports', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 26, section 2-10-P-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'SIEM monitoring and periodic log review records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 26, sections 2-11-P-1-5 and 2-11-P-1-6'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_63",
+      "title": "24 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 27,
+      "page_end": 27,
+      "source_description": "24 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 27,
+            "page_end": 27,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The CSP shall subscribe to authorized and specialized entities and groups for current cybersecurity threat information, train employees and third-party personnel, periodically test incident response, perform root cause analysis, support CST legal proceedings and forensics while protecting chain of custody, report incidents affecting CSTs in real time, support CST incident handling, and monitor incident metrics and compliance. The CSP shall continually monitor site access, prevent unauthorized access to Cloud Technology Stack devices, and dispose of cloud hardware according to legislation and best practices."
+          },
+          "todo": {
+            "name": "Operate incident, threat, and physical security controls",
+            "description": "Establish threat-intelligence subscriptions, role-based training and response exercises, root-cause and forensic procedures, real-time CST notification, incident metrics, continuous site monitoring, device protection, and compliant hardware disposal.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Incident and Threat Management Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-12'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Physical Security Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-13'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Cloud Incident Response and Forensics Procedure', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 27, sections 2-12-P-1-5 through 2-12-P-1-7'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Hardware Disposal Procedure', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 27, section 2-13-P-1-3'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Incident response exercise records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 27, section 2-12-P-1-3'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Incident root-cause analyses and CST notifications', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 27, sections 2-12-P-1-4 and 2-12-P-1-6'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Physical access monitoring records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 27, section 2-13-P-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_64",
+      "title": "25 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 28,
+      "page_end": 28,
+      "source_description": "25 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 28,
+            "page_end": 28,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The CSP shall protect information involved in application service transactions against risks including incomplete transmission, mis-routing, unauthorized message alteration, and unauthorized disclosure. Key management requirements shall be identified, documented, approved, applied, and periodically reviewed for both CSP and CST; ownership, secure key retrieval or backup in trusted storage external to cloud, and key audit trails shall be addressed."
+          },
+          "todo": {
+            "name": "Secure application transactions and cryptographic key management",
+            "description": "Implement transaction integrity and confidentiality safeguards, approve and periodically review CSP/CST key-management requirements, assign key ownership, maintain external trusted key backups or retrieval, and monitor key audit trails.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Web Application Security Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-14-P-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cryptographic Key Management Policy', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 28, sections 2-15-P-1 through 2-15-T-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Cryptographic Key Inventory and Ownership Register', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 2-15-P-3-1 and 2-15-T-3-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'External Key Backup and Retrieval Procedure', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 28, sections 2-15-P-3-2 and 2-15-T-3-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Key audit trails and monitoring records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 28, section 2-15-P-3-3'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Periodic key-management review records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 28, sections 2-15-P-4 and 2-15-T-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_65",
+      "title": "2-16 System Development Security",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 28,
+      "page_end": 28,
+      "source_description": "2-16 System Development Security",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 28,
+            "page_end": 28,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "2-16 System Development Security"
+          },
+          "todo": {
+            "name": "Review system development security requirements",
+            "description": "Locate the applicable system development security control text in the complete document and assess implementation; this chunk alone does not state a substantive control.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [],
+          "documents": [],
+          "evidence": []
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_66",
+      "title": "26 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 29,
+      "page_end": 29,
+      "source_description": "26 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 29,
+            "page_end": 29,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "CSP system-development cybersecurity requirements shall be identified, documented, approved, applied, and periodically reviewed. They shall address Cloud Technology Stack and relevant system requirements in design and implementation, and protection of development, testing, and integration environments. CSP media controls shall require sanitization before disposal or reuse, secure disposal, confidentiality and integrity of removable-media data, human-readable classification labels, controlled secure storage, and restricted portable-media use."
+          },
+          "todo": {
+            "name": "Secure development and storage media handling",
+            "description": "Embed cloud security requirements in the development lifecycle, protect development and test environments, and enforce media sanitization, disposal, labeling, storage, integrity, and portable-media restrictions.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Secure System Development Policy', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 29, sections 2-16-P-1 through 2-16-P-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Storage Media Security Policy', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 29, sections 2-17-P-1 through 2-17-P-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Secure Development Lifecycle Procedure', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-16'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Removable Media Register and Disposal Record', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 2-17'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Development and test environment protection assessments', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 29, section 2-16-P-3-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Media sanitization and disposal records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 29, sections 2-17-P-3-1 and 2-17-P-3-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Periodic control review records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 29, sections 2-16-P-4 and 2-17-P-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_67",
+      "title": "27 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 30,
+      "page_end": 30,
+      "source_description": "27 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 30,
+            "page_end": 30,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The CSP shall develop and implement secure disaster recovery and business continuity procedures and procedures ensuring resilience and continuity of cybersecurity systems protecting the Cloud Technology Stack. The CST shall develop and implement secure disaster recovery and business continuity procedures related to cloud computing."
+          },
+          "todo": {
+            "name": "Integrate cloud cybersecurity resilience into BCM",
+            "description": "Develop, approve, implement, and test secure CSP and CST disaster-recovery and business-continuity procedures, including continuity of cybersecurity protection systems.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Cybersecurity Resilience Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 3-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Cloud Disaster Recovery and Business Continuity Plan', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 30, sections 3-1-P-1-1 and 3-1-T-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cloud Security Systems Continuity Procedure', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 30, section 3-1-P-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Disaster recovery and business continuity test results', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 3-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Cybersecurity system resilience exercise records', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 30, section 3-1-P-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_68",
+      "title": "28 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 31,
+      "page_end": 31,
+      "source_description": "28 Document classification: Public TLP: White",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 31,
+            "page_end": 31,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "The CSP shall remove software or services provided by third parties that may be considered a cybersecurity threat to national entities when requested by NCA. It shall require security documentation for equipment or services from suppliers and third-party providers, ensure third-party providers comply with relevant laws and regulations, and include third-party risk management and security governance in general cybersecurity risk management and governance."
+          },
+          "todo": {
+            "name": "Govern third-party cloud cybersecurity risk",
+            "description": "Establish supplier due diligence and documentation requirements, assess legal and security compliance, integrate suppliers into risk governance, and maintain a process to remove NCA-identified threatening software or services.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Third-Party Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on section 4-1-P-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Supplier Security and Risk Management Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on sections 4-1-P-1-2 through 4-1-P-1-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Third-Party Security Due Diligence File', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 31, section 4-1-P-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Third-Party Cybersecurity Risk Register', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 31, section 4-1-P-1-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'NCA Removal Request Response Procedure', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 31, section 4-1-P-1-1'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Supplier security documentation', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 31, section 4-1-P-1-2'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Third-party compliance assessments', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 31, section 4-1-P-1-3'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Third-party risk reviews', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 31, section 4-1-P-1-4'}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_69",
+      "title": "29 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 32,
+      "page_end": 32,
+      "source_description": "29 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_70",
+          "title": "Level 4 Level 3 Level 2 Level 1 Subdomains and",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 32,
+          "page_end": 32,
+          "source_description": "Level 4 Level 3 Level 2 Level 1 Subdomains and",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 32,
+                "page_end": 32,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "Cloud cybersecurity controls are divided into four levels: Level 1 applies to top secret data, Level 2 to secret data, Level 3 to confidential data, and Level 4 to public data. The highest classification level should be adopted when an integrated set of data includes different levels."
+              },
+              "todo": {
+                "name": "Assign cloud control levels using data classification",
+                "description": "Classify cloud data using the competent authority's classification and apply the highest applicable level to integrated data sets.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Level Classification Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on Annex A'}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Cloud Data Classification and Control-Level Register', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on Annex A'}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Approved data classification assessments', 'status': 'SOURCE_DERIVED', 'source_reference': 'Page 32, Annex A'}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_71",
+          "title": "Controls",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 32,
+          "page_end": 32,
+          "source_description": "Controls",
+          "requirements": [],
+          "children": []
+        },
+        {
+          "node_id": "node_72",
+          "title": "✔ ✔ ✔ ✔ ECC Controls",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 32,
+          "page_end": 32,
+          "source_description": "✔ ✔ ✔ ✔ ECC Controls",
+          "requirements": [],
+          "children": []
+        },
+        {
+          "node_id": "node_73",
+          "title": "✔ ✔ ✔ ✔ 1-1-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 32,
+          "page_end": 32,
+          "source_description": "✔ ✔ ✔ ✔ 1-1-P-1",
+          "requirements": [],
+          "children": []
+        },
+        {
+          "node_id": "node_74",
+          "title": "✔ ✔ ✔ ✔ 1-2-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 32,
+          "page_end": 32,
+          "source_description": "✔ ✔ ✔ ✔ 1-2-P-1",
+          "requirements": [],
+          "children": []
+        },
+        {
+          "node_id": "node_75",
+          "title": "❖ ✔ ✔ ✔ 1-3-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 32,
+          "page_end": 32,
+          "source_description": "❖ ✔ ✔ ✔ 1-3-P-1",
+          "requirements": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_76",
+      "title": "30 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 33,
+      "page_end": 33,
+      "source_description": "30 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_77",
+          "title": "Level 4 Level 3 Level 2 Level 1 Subdomains and",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "Level 4 Level 3 Level 2 Level 1 Subdomains and",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "The table identifies mandatory and optional CSP controls by cloud cybersecurity level. Footnotes specify exceptions, including optional treatment of subcontrols 2-2-P-1-9, 2-2-P-1-10, 2-3-P-1-4, 2-5-P-1-2, 2-7-P-1-1, and selected 2-12 subcontrols, and that 2-3-P-1-9 is not applicable."
+              },
+              "todo": {
+                "name": "Map CSP controls to applicable cloud levels and exceptions",
+                "description": "Create a control applicability matrix by data classification level, record the stated optional and not-applicable exceptions, and obtain approval for the resulting implementation scope.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability Policy', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on page 33 control-level table'}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'CSP Cloud Control Applicability Matrix', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on page 33 control-level table'}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                },
+                {
+                  "name": "{'name': 'Control Exception Register', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on page 33 footnotes'}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Approved control-level applicability assessment', 'status': 'AI_GENERATED', 'source_reference': 'Recommended based on page 33 control-level table'}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_78",
+          "title": "Controls",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "Controls",
+          "requirements": [],
+          "children": []
+        },
+        {
+          "node_id": "node_79",
+          "title": "❖ ✔ ✔ ✔ 1-4-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "❖ ✔ ✔ ✔ 1-4-P-1",
+          "requirements": [],
+          "children": []
+        },
+        {
+          "node_id": "node_80",
+          "title": "❖ ✔ ✔ ✔ 1-4-P-2",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "❖ ✔ ✔ ✔ 1-4-P-2",
+          "requirements": [],
+          "children": []
+        },
+        {
+          "node_id": "node_81",
+          "title": "✔ ✔ ✔ ✔ 1-5-P",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ ✔ ✔ ✔ 1-5-P",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 1-5-P"
+              },
+              "todo": {
+                "name": "Implement control 1-5-P",
+                "description": "Assess the organization against control 1-5-P and implement the control for all applicable levels.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Control 1-5-P Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control 1-5-P Assessment and Implementation Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_82",
+          "title": "✔ ✔ ✔ ✔ 2-1-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ ✔ ✔ ✔ 2-1-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-1-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-1-P-1",
+                "description": "Assess and implement control 2-1-P-1 across Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Control 2-1-P-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control 2-1-P-1 Assessment Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_83",
+          "title": "✔ 1 ✔ ✔ ✔ 2-2-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ 1 ✔ ✔ ✔ 2-2-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ 1 ✔ ✔ ✔ 2-2-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-2-P-1 and assess its exceptions",
+                "description": "Implement control 2-2-P-1 for the applicable levels and document whether subcontrols 2-2-P-1-9 and 2-2-P-1-10 are treated as optional.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-2-P-1 Applicability Assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-2-P-1 Implementation and Exception Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_84",
+          "title": "✔ 2 ✔ 3 ✔ ✔ 2-3-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ 2 ✔ 3 ✔ ✔ 2-3-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ 2 ✔ 3 ✔ ✔ 2-3-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-3-P-1 and record applicability decisions",
+                "description": "Implement control 2-3-P-1 for the applicable levels and document that subcontrol 2-3-P-1-4 is optional and subcontrol 2-3-P-1-9 is not applicable.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-3-P-1 Applicability Assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-3-P-1 Implementation and Exception Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_85",
+          "title": "✔ ✔ ✔ ✔ 2-4-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ ✔ ✔ ✔ 2-4-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-4-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-4-P-1",
+                "description": "Assess and implement control 2-4-P-1 across Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Control 2-4-P-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control 2-4-P-1 Assessment Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_86",
+          "title": "✔ 4 ✔ ✔ ✔ 2-5-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ 4 ✔ ✔ ✔ 2-5-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ 4 ✔ ✔ ✔ 2-5-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-5-P-1 and assess its exception",
+                "description": "Implement control 2-5-P-1 for the applicable levels and document that subcontrol 2-5-P-1-2 is optional.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-5-P-1 Applicability Assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-5-P-1 Implementation and Exception Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_87",
+          "title": "✔ ✔ ✔ ✔ 2-6-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ ✔ ✔ ✔ 2-6-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-6-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-6-P-1",
+                "description": "Assess and implement control 2-6-P-1 across Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Control 2-6-P-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control 2-6-P-1 Assessment Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_88",
+          "title": "✔ 5 ✔ ✔ ✔ 2-7-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ 5 ✔ ✔ ✔ 2-7-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ 5 ✔ ✔ ✔ 2-7-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-7-P-1 and assess its exception",
+                "description": "Implement control 2-7-P-1 for the applicable levels and document that subcontrol 2-7-P-1-1 is optional.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-7-P-1 Applicability Assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-7-P-1 Implementation and Exception Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_89",
+          "title": "✔ ✔ ✔ ✔ 2-8-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ ✔ ✔ ✔ 2-8-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-8-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-8-P-1",
+                "description": "Assess and implement control 2-8-P-1 across Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Control 2-8-P-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control 2-8-P-1 Assessment Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_90",
+          "title": "✔ ✔ ✔ ✔ 2-9-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ ✔ ✔ ✔ 2-9-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-9-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-9-P-1",
+                "description": "Assess and implement control 2-9-P-1 across Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Control 2-9-P-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control 2-9-P-1 Assessment Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_91",
+          "title": "✔ ✔ ✔ ✔ 2-10-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ ✔ ✔ ✔ 2-10-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-10-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-10-P-1",
+                "description": "Assess and implement control 2-10-P-1 across Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Control 2-10-P-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control 2-10-P-1 Assessment Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_92",
+          "title": "❖ ✔ ✔ ✔ 2-11-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "❖ ✔ ✔ ✔ 2-11-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "❖ ✔ ✔ ✔ 2-11-P-1"
+              },
+              "todo": {
+                "name": "Evaluate control 2-11-P-1",
+                "description": "Determine whether to implement the optional or recommended control 2-11-P-1 and document the decision.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-11-P-1 Applicability Decision', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-11-P-1 Evaluation Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_93",
+          "title": "✔ 6 ✔ ✔ ✔ 2-12-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ 6 ✔ ✔ ✔ 2-12-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ 6 ✔ ✔ ✔ 2-12-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-12-P-1 and assess its exceptions",
+                "description": "Implement control 2-12-P-1 for the applicable levels and document the optional status of subcontrols 2-12-P-1-2, 2-12-P-1-3, and 2-12-P-1-8.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-12-P-1 Applicability Assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-12-P-1 Implementation and Exception Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_94",
+          "title": "✔ ✔ ✔ ✔ 2-13-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ ✔ ✔ ✔ 2-13-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-13-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-13-P-1",
+                "description": "Assess and implement control 2-13-P-1 across Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Control 2-13-P-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control 2-13-P-1 Assessment Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_95",
+          "title": "✔ ✔ ✔ ✔ 2-14-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 33,
+          "page_end": 33,
+          "source_description": "✔ ✔ ✔ ✔ 2-14-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 33,
+                "page_end": 33,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-14-P-1"
+              },
+              "todo": {
+                "name": "Implement control 2-14-P-1",
+                "description": "Assess and implement control 2-14-P-1 across Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Control 2-14-P-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control 2-14-P-1 Assessment Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_96",
+      "title": "1 With exception of subcontrols 2-2-P-1-9 and 2-2-P-1-10 as they are considered as optional",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 33,
+      "page_end": 33,
+      "source_description": "1 With exception of subcontrols 2-2-P-1-9 and 2-2-P-1-10 as they are considered as optional",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 33,
+            "page_end": 33,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "With exception of subcontrols 2-2-P-1-9 and 2-2-P-1-10 as they are considered as optional"
+          },
+          "todo": {
+            "name": "Document optional treatment of subcontrols 2-2-P-1-9 and 2-2-P-1-10",
+            "description": "Record the applicability decision and implementation rationale for subcontrols 2-2-P-1-9 and 2-2-P-1-10.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': '2-2-P-1 Exception Register', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Optional Subcontrol Decision Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_97",
+      "title": "2 With exception of subcontrols 2-3-P-1-4 as it is considered as optional. Also, subcontrol 2-3-P-1-9 as it is not applicable",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 33,
+      "page_end": 33,
+      "source_description": "2 With exception of subcontrols 2-3-P-1-4 as it is considered as optional. Also, subcontrol 2-3-P-1-9 as it is not applicable",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 33,
+            "page_end": 33,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "With exception of subcontrol 2-3-P-1-4 as it is considered as optional. Also, subcontrol 2-3-P-1-9 as it is not applicable"
+          },
+          "todo": {
+            "name": "Document the optional and not-applicable subcontrols",
+            "description": "Record the rationale for treating subcontrol 2-3-P-1-4 as optional and subcontrol 2-3-P-1-9 as not applicable.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': '2-3-P-1 Exception Register', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Applicability Decision and Rationale Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_98",
+      "title": "31 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 34,
+      "page_end": 34,
+      "source_description": "31 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_99",
+          "title": "Level 4 Level 3 Level 2 Level 1 Subdomains and",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 34,
+          "page_end": 34,
+          "source_description": "Level 4 Level 3 Level 2 Level 1 Subdomains and",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 34,
+                "page_end": 34,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ 7 ✔ ✔ ✔ 2-15-P; ✔ ✔ ✔ ✔ 2-16-P; ✔ ✔ ✔ ✔ 2-17-P; ✔ ✔ ✔ ✔ 3-1-P-1; ✔ 8 ✔ ✔ ✔ 4-1-P-1"
+              },
+              "todo": {
+                "name": "Assess and implement controls listed on page 34",
+                "description": "Assess controls 2-15-P, 2-16-P, 2-17-P, 3-1-P-1, and 4-1-P-1 for the applicable levels, documenting the listed optional exceptions.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Page 34 Control Applicability Assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Page 34 Control Assessment Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_100",
+          "title": "Controls",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 34,
+          "page_end": 34,
+          "source_description": "Controls",
+          "requirements": [],
+          "children": []
+        },
+        {
+          "node_id": "node_101",
+          "title": "✔ 7 ✔ ✔ ✔ 2-15-P",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 34,
+          "page_end": 34,
+          "source_description": "✔ 7 ✔ ✔ ✔ 2-15-P",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 34,
+                "page_end": 34,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ 7 ✔ ✔ ✔ 2-15-P"
+              },
+              "todo": {
+                "name": "Implement control 2-15-P and assess its exception",
+                "description": "Implement control 2-15-P for the applicable levels and document that subcontrol 2-15-P-3-1 is optional.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-15-P Applicability Assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-15-P Implementation and Exception Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_102",
+          "title": "✔ ✔ ✔ ✔ 2-16-P",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 34,
+          "page_end": 34,
+          "source_description": "✔ ✔ ✔ ✔ 2-16-P",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 34,
+                "page_end": 34,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-16-P"
+              },
+              "todo": {
+                "name": "Implement control 2-16-P",
+                "description": "Assess and implement control 2-16-P across Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Control 2-16-P Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control 2-16-P Assessment Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_103",
+          "title": "✔ ✔ ✔ ✔ 2-17-P",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 34,
+          "page_end": 34,
+          "source_description": "✔ ✔ ✔ ✔ 2-17-P",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 34,
+                "page_end": 34,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-17-P"
+              },
+              "todo": {
+                "name": "Implement control 2-17-P",
+                "description": "Assess and implement control 2-17-P across Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Control 2-17-P Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control 2-17-P Assessment Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_104",
+          "title": "✔ ✔ ✔ ✔ 3-1-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 34,
+          "page_end": 34,
+          "source_description": "✔ ✔ ✔ ✔ 3-1-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 34,
+                "page_end": 34,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 3-1-P-1"
+              },
+              "todo": {
+                "name": "Implement control 3-1-P-1",
+                "description": "Assess and implement control 3-1-P-1 across Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'Control 3-1-P-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control 3-1-P-1 Assessment Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_105",
+          "title": "✔ 8 ✔ ✔ ✔ 4-1-P-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 34,
+          "page_end": 34,
+          "source_description": "✔ 8 ✔ ✔ ✔ 4-1-P-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 34,
+                "page_end": 34,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ 8 ✔ ✔ ✔ 4-1-P-1"
+              },
+              "todo": {
+                "name": "Implement control 4-1-P-1 and assess its exception",
+                "description": "Implement control 4-1-P-1 for the applicable levels and document that subcontrol 4-1-P-1-1 is optional.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '4-1-P-1 Applicability Assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '4-1-P-1 Implementation and Exception Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_106",
+      "title": "32 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 35,
+      "page_end": 35,
+      "source_description": "32 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_107",
+          "title": "Level 4 Level 3 Level 2 Level 1 Subdomains and",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "Level 4 Level 3 Level 2 Level 1 Subdomains and",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "CST Controls: Table (3) below shows CST’s commitments to cloud cybersecurity controls (section no. 10 \"Cloud Cybersecurity Controls\") by levels. ❖ Optional (Recommended) ✔ Mandatory"
+              },
+              "todo": {
+                "name": "Map CST commitments to control implementation",
+                "description": "Create a control matrix that distinguishes mandatory controls from optional (recommended) controls across Levels 1 through 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Governance Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'CST Control Compliance Matrix', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'Control Status and Commitment Assessments', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_108",
+          "title": "Controls",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "Controls",
+          "requirements": [],
+          "children": []
+        },
+        {
+          "node_id": "node_109",
+          "title": "✔ ✔ ✔ ✔ 1-1-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "✔ ✔ ✔ ✔ 1-1-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 1-1-T-1"
+              },
+              "todo": {
+                "name": "Implement mandatory control 1-1-T-1",
+                "description": "Assess and implement mandatory control 1-1-T-1 for Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '1-1-T-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '1-1-T-1 Compliance Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_110",
+          "title": "✔ ✔ ✔ ✔ 1-2-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "✔ ✔ ✔ ✔ 1-2-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 1-2-T-1"
+              },
+              "todo": {
+                "name": "Implement mandatory control 1-2-T-1",
+                "description": "Assess and implement mandatory control 1-2-T-1 for Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '1-2-T-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '1-2-T-1 Compliance Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_111",
+          "title": "✔ ✔ ✔ ✔ 1-3-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "✔ ✔ ✔ ✔ 1-3-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 1-3-T-1"
+              },
+              "todo": {
+                "name": "Implement mandatory control 1-3-T-1",
+                "description": "Assess and implement mandatory control 1-3-T-1 for Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '1-3-T-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '1-3-T-1 Compliance Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_112",
+          "title": "❖ ✔ ✔ ✔ 1-4-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "❖ ✔ ✔ ✔ 1-4-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "❖ ✔ ✔ ✔ 1-4-T-1"
+              },
+              "todo": {
+                "name": "Evaluate optional control 1-4-T-1",
+                "description": "Evaluate control 1-4-T-1 for adoption as an optional (recommended) control across the applicable levels.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '1-4-T-1 Applicability Decision', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '1-4-T-1 Evaluation Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_113",
+          "title": "✔ ✔ ✔ ✔ 2-1-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "✔ ✔ ✔ ✔ 2-1-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-1-T-1"
+              },
+              "todo": {
+                "name": "Implement mandatory control 2-1-T-1",
+                "description": "Assess and implement mandatory control 2-1-T-1 for Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-1-T-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-1-T-1 Compliance Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_114",
+          "title": "✔ ✔ ✔ ✔ 2-2-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "✔ ✔ ✔ ✔ 2-2-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-2-T-1"
+              },
+              "todo": {
+                "name": "Implement mandatory control 2-2-T-1",
+                "description": "Assess and implement mandatory control 2-2-T-1 for Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-2-T-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-2-T-1 Compliance Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_115",
+          "title": "✔ 9 ✔ ✔ ✔ 2-3-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "✔ 9 ✔ ✔ ✔ 2-3-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ 9 ✔ ✔ ✔ 2-3-T-1; footnote 9: With exception of subcontrol 2-3-T-1-1 as it is not applicable"
+              },
+              "todo": {
+                "name": "Implement control 2-3-T-1 and document the exception",
+                "description": "Implement control 2-3-T-1 for the applicable levels and record subcontrol 2-3-T-1-1 as not applicable.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-3-T-1 Applicability Assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-3-T-1 Compliance and Exception Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_116",
+          "title": "✔ ✔ ✔ ✔ 2-4-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "✔ ✔ ✔ ✔ 2-4-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-4-T-1"
+              },
+              "todo": {
+                "name": "Implement mandatory control 2-4-T-1",
+                "description": "Assess and implement mandatory control 2-4-T-1 for Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-4-T-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-4-T-1 Compliance Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_117",
+          "title": "❖ ✔ ✔ ✔ 2-5-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "❖ ✔ ✔ ✔ 2-5-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "❖ ✔ ✔ ✔ 2-5-T-1"
+              },
+              "todo": {
+                "name": "Evaluate optional control 2-5-T-1",
+                "description": "Evaluate control 2-5-T-1 for adoption as an optional (recommended) control across the applicable levels.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-5-T-1 Applicability Decision', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-5-T-1 Evaluation Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_118",
+          "title": "❖ ✔ ✔ ✔ 2-6-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "❖ ✔ ✔ ✔ 2-6-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "❖ ✔ ✔ ✔ 2-6-T-1"
+              },
+              "todo": {
+                "name": "Evaluate optional control 2-6-T-1",
+                "description": "Evaluate control 2-6-T-1 for adoption as an optional (recommended) control across the applicable levels.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-6-T-1 Applicability Decision', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-6-T-1 Evaluation Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_119",
+          "title": "✔ 10 ✔ ✔ ✔ 2-7-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "✔ 10 ✔ ✔ ✔ 2-7-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ 10 ✔ ✔ ✔ 2-7-T-1; footnote 10: With exception of subcontrol 2-7-T-1-1 as it is considered as optional"
+              },
+              "todo": {
+                "name": "Implement control 2-7-T-1 and assess the optional subcontrol",
+                "description": "Implement control 2-7-T-1 for the applicable levels and document the optional status of subcontrol 2-7-T-1-1.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability and Exception Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-7-T-1 Applicability Assessment', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-7-T-1 Compliance and Exception Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_120",
+          "title": "✔ ✔ ✔ ✔ 2-9-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "✔ ✔ ✔ ✔ 2-9-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-9-T-1"
+              },
+              "todo": {
+                "name": "Implement mandatory control 2-9-T-1",
+                "description": "Assess and implement mandatory control 2-9-T-1 for Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-9-T-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-9-T-1 Compliance Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_121",
+          "title": "❖ ✔ ✔ ✔ 2-11-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 35,
+          "page_end": 35,
+          "source_description": "❖ ✔ ✔ ✔ 2-11-T-1",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 35,
+                "page_end": 35,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "❖ ✔ ✔ ✔ 2-11-T-1"
+              },
+              "todo": {
+                "name": "Evaluate optional control 2-11-T-1",
+                "description": "Evaluate control 2-11-T-1 for adoption as an optional (recommended) control across the applicable levels.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Control Applicability Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': '2-11-T-1 Applicability Decision', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': '2-11-T-1 Evaluation Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_122",
+      "title": "33 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 36,
+      "page_end": 36,
+      "source_description": "33 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_123",
+          "title": "Level 4 Level 3 Level 2 Level 1 Subdomains and",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 36,
+          "page_end": 36,
+          "source_description": "Level 4 Level 3 Level 2 Level 1 Subdomains and",
+          "requirements": [
+            {
+              "source_title": "Cloud Cybersecurity Controls",
+              "source_reference": {
+                "page_start": 36,
+                "page_end": 36,
+                "section": "Cloud Cybersecurity Controls",
+                "source_text": "✔ ✔ ✔ ✔ 2-15-T; ✔ ✔ ✔ ✔ 3-1-T-1"
+              },
+              "todo": {
+                "name": "Implement controls 2-15-T and 3-1-T-1",
+                "description": "Assess and implement controls 2-15-T and 3-1-T-1 for Levels 1, 2, 3, and 4.",
+                "status": "AI_GENERATED"
+              },
+              "policies": [
+                {
+                  "name": "{'name': 'Cloud Cybersecurity Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "documents": [
+                {
+                  "name": "{'name': 'CST Controls 2-15-T and 3-1-T-1 Implementation Plan', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ],
+              "evidence": [
+                {
+                  "name": "{'name': 'CST Controls 2-15-T and 3-1-T-1 Compliance Records', 'status': 'AI_GENERATED', 'source_reference': ''}",
+                  "status": "AI_GENERATED",
+                  "source_reference": ""
+                }
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "node_id": "node_124",
+          "title": "Controls",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 36,
+          "page_end": 36,
+          "source_description": "Controls",
+          "requirements": [],
+          "children": []
+        },
+        {
+          "node_id": "node_125",
+          "title": "✔ ✔ ✔ ✔ 2-15-T",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 36,
+          "page_end": 36,
+          "source_description": "✔ ✔ ✔ ✔ 2-15-T",
+          "requirements": [],
+          "children": []
+        },
+        {
+          "node_id": "node_126",
+          "title": "✔ ✔ ✔ ✔ 3-1-T-1",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 36,
+          "page_end": 36,
+          "source_description": "✔ ✔ ✔ ✔ 3-1-T-1",
+          "requirements": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_127",
+      "title": "34 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 37,
+      "page_end": 37,
+      "source_description": "34 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_128",
+          "title": "Table 4. Terms and Definitions Terminology Definition",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 37,
+          "page_end": 37,
+          "source_description": "Table 4. Terms and Definitions Terminology Definition",
+          "requirements": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_129",
+      "title": "35 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 38,
+      "page_end": 38,
+      "source_description": "35 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_130",
+      "title": "36 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 39,
+      "page_end": 39,
+      "source_description": "36 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_131",
+          "title": "Terminology Definition",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 39,
+          "page_end": 39,
+          "source_description": "Terminology Definition",
+          "requirements": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_132",
+      "title": "37 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 40,
+      "page_end": 40,
+      "source_description": "37 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_133",
+          "title": "Terminology Definition",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 40,
+          "page_end": 40,
+          "source_description": "Terminology Definition",
+          "requirements": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_134",
+      "title": "38 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 41,
+      "page_end": 41,
+      "source_description": "38 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_135",
+          "title": "Terminology Definition",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 41,
+          "page_end": 41,
+          "source_description": "Terminology Definition",
+          "requirements": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_136",
+      "title": "A type of performance measurement tool that assesses the success of an activity or entity towards achievement of specific objectives.",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 41,
+      "page_end": 41,
+      "source_description": "A type of performance measurement tool that assesses the success of an activity or entity towards achievement of specific objectives.",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_137",
+      "title": "39 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 42,
+      "page_end": 42,
+      "source_description": "39 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_138",
+          "title": "Terminology Definition",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 42,
+          "page_end": 42,
+          "source_description": "Terminology Definition",
+          "requirements": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_139",
+      "title": "40 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 43,
+      "page_end": 43,
+      "source_description": "40 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_140",
+          "title": "Terminology Definition",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 43,
+          "page_end": 43,
+          "source_description": "Terminology Definition",
+          "requirements": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_141",
+      "title": "41 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 44,
+      "page_end": 44,
+      "source_description": "41 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": [
+        {
+          "node_id": "node_142",
+          "title": "Terminology Definition",
+          "node_type": "subsection",
+          "level": 2,
+          "page_start": 44,
+          "page_end": 44,
+          "source_description": "Terminology Definition",
+          "requirements": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "node_143",
+      "title": "42 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 45,
+      "page_end": 45,
+      "source_description": "42 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_144",
+      "title": "43 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 46,
+      "page_end": 46,
+      "source_description": "43 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": []
+    },
+    {
+      "node_id": "node_145",
+      "title": "CCC – 2 : 2024 2024",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 46,
+      "page_end": 46,
+      "source_description": "CCC – 2 : 2024 2024",
+      "requirements": [
+        {
+          "source_title": "Cloud Cybersecurity Controls",
+          "source_reference": {
+            "page_start": 46,
+            "page_end": 46,
+            "section": "Cloud Cybersecurity Controls",
+            "source_text": "Controls related to data localization have been transferred from the document to the National Data Management Office (NDMO) at the Saudi Data and Artificial Intelligence Authority as per the mandates, and entities must refer to the National Data Management Office regarding data localization before taking any action in this regard."
+          },
+          "todo": {
+            "name": "Consult the NDMO on data localization",
+            "description": "Establish a process to consult the National Data Management Office regarding applicable data-localization requirements before taking any related action, and retain the consultation outcome.",
+            "status": "AI_GENERATED"
+          },
+          "policies": [
+            {
+              "name": "{'name': 'Data Localization and Residency Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Regulatory and Authority Consultation Policy', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "documents": [
+            {
+              "name": "{'name': 'Data Localization Assessment and Decision Record', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'NDMO Consultation Procedure', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ],
+          "evidence": [
+            {
+              "name": "{'name': 'Documented NDMO consultation or correspondence regarding data localization', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            },
+            {
+              "name": "{'name': 'Approved data-localization assessment and decision record', 'status': 'AI_GENERATED', 'source_reference': ''}",
+              "status": "AI_GENERATED",
+              "source_reference": ""
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "node_id": "node_146",
+      "title": "44 Document classification: Public TLP: White",
+      "node_type": "section",
+      "level": 1,
+      "page_start": 47,
+      "page_end": 47,
+      "source_description": "44 Document classification: Public TLP: White",
+      "requirements": [],
+      "children": []
+    }
+  ]
+}

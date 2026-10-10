@@ -1,0 +1,916 @@
+{
+  "metadata": {
+    "document_id": "Data-Cybersecurity-Controls-_7060f421407c",
+    "filename": "Data-Cybersecurity-Controls-.pdf",
+    "page_count": 28,
+    "requirement_count": 15,
+    "document_title": "Data-Cybersecurity-Controls-",
+    "document_type": "Compliance Document",
+    "framework_name": "Data-Cybersecurity-Controls-",
+    "version": "",
+    "jurisdiction": "",
+    "requirement_unit_name": "",
+    "hierarchy_description": "",
+    "hierarchy_levels": [],
+    "generated_by": "Sahl Compliance Decoder",
+    "ai_model": "gpt-5.6-luna"
+  },
+  "structure": [],
+  "requirements": [
+    {
+      "source_reference": "DCC-1:2022, DCC Statement of Applicability",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "These controls have been developed after taking into consideration the cybersecurity needs of organizations and sectors in the kingdom. Every organization within the scope of these controls must comply with all applicable controls in this document.",
+      "source_summary": "The organization should determine which DCC controls apply to its operations, data, and scope, and maintain an accountable process for implementing all applicable controls.",
+      "page_start": 7,
+      "page_end": 7,
+      "source_block_ids": [
+        "page_7_block_10"
+      ],
+      "todo": {
+        "name": "Determine and implement applicable DCC controls",
+        "description": "Perform and document a DCC applicability assessment, assign control owners, address identified gaps, and maintain an implementation plan covering every applicable control."
+      },
+      "policies": [
+        {
+          "name": "Data Cybersecurity Governance Policy",
+          "description": "Define the organization’s approach to identifying, implementing, monitoring, and maintaining applicable data cybersecurity controls."
+        },
+        {
+          "name": "Control Applicability and Compliance Policy",
+          "description": "Establish criteria and responsibilities for determining control applicability and documenting any approved justification for controls that are not applicable."
+        }
+      ],
+      "documents": [
+        {
+          "name": "DCC Applicability Assessment",
+          "description": "A documented assessment mapping organizational activities, systems, and data to applicable DCC controls."
+        },
+        {
+          "name": "DCC Compliance Implementation Plan",
+          "description": "A plan listing applicable controls, owners, target dates, implementation status, and remediation actions."
+        },
+        {
+          "name": "Control Ownership Register",
+          "description": "A register identifying accountable and responsible owners for each applicable control."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed DCC applicability assessment",
+          "description": "Approved assessment showing the basis for determining which controls apply."
+        },
+        {
+          "name": "Control implementation tracker",
+          "description": "Current tracker showing control status, assigned owners, open gaps, and remediation progress."
+        },
+        {
+          "name": "Management approval or review records",
+          "description": "Meeting minutes, approvals, or attestations demonstrating oversight of the DCC compliance program."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Implementation and Compliance",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "In order tocomply with item 3 of article 10 of NCA’s mandate and as per the Royal Decree number (57231) dated 10/11/1439H, all organizations within the scope of these controls must implement whatever necessary to ensure continuous compliance with the controls, which cannot be achieved without achieving continuous compliance with the Essential Cybersecurity Controls (ECC –1: 2018) where applicable. NCA evaluates organizations’ compliance with the DCC through multiple means such as self-assessments by the organizations, and/or external assessments, in accordance with the mechanisms deemed appropriate by NCA.",
+      "source_summary": "The organization should maintain continuous compliance with applicable DCC requirements, including applicable ECC requirements, and be prepared to support compliance evaluations using the mechanisms specified by NCA.",
+      "page_start": 8,
+      "page_end": 8,
+      "source_block_ids": [
+        "page_8_block_5"
+      ],
+      "todo": {
+        "name": "Establish continuous DCC compliance monitoring",
+        "description": "Implement an ongoing compliance program that tracks applicable DCC and ECC obligations, monitors control performance, manages remediation, and preserves materials needed for self-assessments or external assessments."
+      },
+      "policies": [
+        {
+          "name": "Continuous Compliance Monitoring Policy",
+          "description": "Define recurring compliance monitoring, control testing, issue escalation, remediation tracking, and reporting responsibilities."
+        },
+        {
+          "name": "Cybersecurity Assessment Policy",
+          "description": "Set requirements for preparing, conducting, approving, and retaining self-assessments and third-party assessments."
+        }
+      ],
+      "documents": [
+        {
+          "name": "DCC/ECC Compliance Calendar",
+          "description": "A calendar of recurring control reviews, assessments, evidence collection, reporting, and remediation activities."
+        },
+        {
+          "name": "Compliance Issue and Remediation Register",
+          "description": "A register of findings, risk ratings, responsible owners, corrective actions, due dates, and closure approvals."
+        },
+        {
+          "name": "Assessment Readiness Plan",
+          "description": "A plan identifying assessment scope, evidence owners, repositories, testing activities, and response procedures."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed self-assessment results",
+          "description": "Approved self-assessment records showing control evaluation results and identified gaps."
+        },
+        {
+          "name": "External assessment reports",
+          "description": "Assessment reports, management responses, and remediation plans where an external assessment has been performed."
+        },
+        {
+          "name": "Periodic compliance dashboards",
+          "description": "Management reports showing control status, overdue actions, recurring monitoring results, and compliance trends."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Control 1-1-1",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "1-1-1With reference to ECC control 1-8-1, the cybersecurity function in the organization must review the implementation of the Data Cybersecurity Controls periodically as specified for each data classification level.At least annually",
+      "source_summary": "The cybersecurity function should periodically review implementation of the DCC controls according to the review interval associated with each data classification level, including an annual minimum interval where applicable.",
+      "page_start": 11,
+      "page_end": 11,
+      "source_block_ids": [
+        "page_11_block_5"
+      ],
+      "todo": {
+        "name": "Conduct periodic DCC implementation reviews",
+        "description": "Create a review schedule based on data classification, assess implementation of relevant DCC controls, record results and deficiencies, and obtain cybersecurity function sign-off."
+      },
+      "policies": [
+        {
+          "name": "DCC Control Review Policy",
+          "description": "Define review frequency by data classification, review scope, responsibilities, testing methods, issue escalation, and approval requirements."
+        }
+      ],
+      "documents": [
+        {
+          "name": "DCC Review Schedule",
+          "description": "A schedule linking data classification levels and covered controls to required review dates and responsible reviewers."
+        },
+        {
+          "name": "DCC Control Review Checklist",
+          "description": "A checklist for evaluating implementation, operating effectiveness, exceptions, and remediation status."
+        },
+        {
+          "name": "Control Review Findings Register",
+          "description": "A record of review findings, risk assessments, corrective actions, owners, and closure evidence."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed periodic review reports",
+          "description": "Signed reports showing the controls reviewed, classification scope, review date, results, and identified gaps."
+        },
+        {
+          "name": "Review meeting records",
+          "description": "Cybersecurity function meeting minutes or approvals confirming review completion and follow-up actions."
+        },
+        {
+          "name": "Remediation closure evidence",
+          "description": "Records demonstrating that deficiencies identified during reviews were corrected or formally tracked."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Subcontrol 1-2-1-1",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "1-2-1-1Screening andvetting candidates injobsrelated to data handling.",
+      "source_summary": "The organization should apply screening and vetting to candidates for jobs involving data handling, with the process aligned to the sensitivity of the role and information handled.",
+      "page_start": 11,
+      "page_end": 11,
+      "source_block_ids": [
+        "page_11_block_5"
+      ],
+      "todo": {
+        "name": "Screen candidates for data-handling roles",
+        "description": "Identify roles involving data handling, define appropriate screening and vetting steps, complete them before access or appointment as applicable, and retain completion records."
+      },
+      "policies": [
+        {
+          "name": "Personnel Screening and Vetting Policy",
+          "description": "Define screening requirements, approval responsibilities, confidentiality safeguards, exceptions, and record-retention practices for data-handling roles."
+        },
+        {
+          "name": "Data-Handling Role Access Policy",
+          "description": "Require confirmation of role screening status before granting access to data or data-handling systems."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Data-Handling Role Register",
+          "description": "An inventory of positions that involve handling or access to organizational data."
+        },
+        {
+          "name": "Candidate Screening Procedure",
+          "description": "A procedure describing screening steps, decision criteria, approvals, and escalation of adverse results."
+        },
+        {
+          "name": "Personnel Screening Record",
+          "description": "A controlled record showing screening status, completion date, reviewer, and any approved restrictions."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed screening records",
+          "description": "Personnel or recruitment records demonstrating that candidates for applicable roles were screened and vetted."
+        },
+        {
+          "name": "Role classification records",
+          "description": "Approved job descriptions or role assessments identifying positions that involve data handling."
+        },
+        {
+          "name": "Access approval dependencies",
+          "description": "Workflow records showing that screening status was checked before relevant access was approved."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Subcontrol 2-1-1-1",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "2-1-1-1Strict restriction toallow only the minimum number of personnel accessing, viewingand sharingdata based on lists of privileges limited to Saudi-national employees unless exempted bythe Authorizing Official(the head of the organization or his/her delegate) and those lists are approved by the Authorizing Official.",
+      "source_summary": "Access to view, share, and handle data should be limited to the minimum necessary personnel through approved privilege lists, with the specified national-employee condition and authorization process managed by the Authorizing Official.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_4"
+      ],
+      "todo": {
+        "name": "Restrict and approve data access privileges",
+        "description": "Identify the minimum personnel requiring access, maintain privilege lists reflecting the applicable national-employee condition, document authorized exemptions, and obtain Authorizing Official approval before granting or retaining access."
+      },
+      "policies": [
+        {
+          "name": "Data Access Control Policy",
+          "description": "Define least-privilege access, approved personnel eligibility, exemption handling, authorization, provisioning, review, and removal requirements."
+        },
+        {
+          "name": "Authorizing Official Delegation Policy",
+          "description": "Define the Authorizing Official’s approval authority and any documented delegation for data access decisions."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Approved Data Privilege List",
+          "description": "A controlled list of personnel authorized to view, share, or handle specified data, including access scope and approval status."
+        },
+        {
+          "name": "Data Access Request and Approval Form",
+          "description": "A form capturing business justification, required privileges, personnel eligibility, exemption details where applicable, and Authorizing Official approval."
+        },
+        {
+          "name": "Data Access Matrix",
+          "description": "A mapping of data sets and systems to approved roles and individual privileges."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved privilege lists",
+          "description": "Current, version-controlled lists showing the minimum authorized personnel and required approvals."
+        },
+        {
+          "name": "Access request records",
+          "description": "Completed requests demonstrating documented justification and Authorizing Official approval."
+        },
+        {
+          "name": "System access reports",
+          "description": "System-generated reports comparing actual data access with approved privilege lists."
+        },
+        {
+          "name": "Approved exemption records",
+          "description": "Documented Authorizing Official approvals for applicable exceptions."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Subcontrol 2-1-1-2",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "2-1-1-2Prohibiting the sharing of approved lists of privileges with unauthorized persons.",
+      "source_summary": "Approved data-access privilege lists should be protected from disclosure to unauthorized persons through controlled handling and distribution.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_4"
+      ],
+      "todo": {
+        "name": "Protect approved privilege lists",
+        "description": "Classify and store privilege lists in a restricted repository, limit access to authorized personnel, control copying and distribution, and investigate any suspected unauthorized disclosure."
+      },
+      "policies": [
+        {
+          "name": "Access List Protection Policy",
+          "description": "Define handling, storage, distribution, confidentiality, and disposal requirements for approved privilege lists."
+        },
+        {
+          "name": "Sensitive Information Handling Policy",
+          "description": "Establish safeguards for documents containing access information and procedures for reporting suspected unauthorized sharing."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Privilege List Distribution Register",
+          "description": "A record of authorized recipients, distribution dates, approved channels, and acknowledgements."
+        },
+        {
+          "name": "Restricted Repository Access Register",
+          "description": "A register of users authorized to access the repository containing privilege lists."
+        },
+        {
+          "name": "Privilege List Handling Procedure",
+          "description": "A procedure covering creation, approval, storage, transmission, version control, and secure disposal."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Repository access logs",
+          "description": "Logs showing access to privilege lists by authorized users."
+        },
+        {
+          "name": "Distribution and acknowledgement records",
+          "description": "Records confirming controlled distribution and recipient acknowledgement of handling obligations."
+        },
+        {
+          "name": "Document permissions and configuration evidence",
+          "description": "Screenshots or configuration exports demonstrating restricted access and controlled sharing settings."
+        },
+        {
+          "name": "Incident records where applicable",
+          "description": "Investigation and response records for suspected unauthorized disclosure."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Control 2-1-2",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "2-1-2Managing identities and access rights to view data using Privileged Access Management systems.",
+      "source_summary": "Privileged Access Management should be used to manage identities and access rights for viewing data, including privileged identities and their associated permissions.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_4"
+      ],
+      "todo": {
+        "name": "Manage data access through PAM",
+        "description": "Identify privileged identities and data-viewing access paths, onboard them to an approved PAM solution, enforce controlled access workflows, and monitor privileged activity."
+      },
+      "policies": [
+        {
+          "name": "Privileged Access Management Policy",
+          "description": "Define privileged account ownership, approval, credential protection, session control, monitoring, emergency access, and periodic review."
+        },
+        {
+          "name": "Identity and Access Management Policy",
+          "description": "Establish identity lifecycle, authentication, authorization, and access removal requirements for data environments."
+        }
+      ],
+      "documents": [
+        {
+          "name": "PAM Architecture and Scope Document",
+          "description": "A document identifying systems, privileged accounts, data environments, and access paths covered by PAM."
+        },
+        {
+          "name": "Privileged Account Inventory",
+          "description": "An inventory of privileged identities, owners, associated systems, privilege levels, and status."
+        },
+        {
+          "name": "PAM Operating Procedure",
+          "description": "Procedures for requesting, approving, provisioning, using, monitoring, and revoking privileged access."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "PAM configuration exports",
+          "description": "Configuration evidence showing enrolled systems, accounts, approval workflows, and access controls."
+        },
+        {
+          "name": "Privileged session logs",
+          "description": "Records of privileged access sessions, including identity, time, target system, and activity where captured."
+        },
+        {
+          "name": "Privileged access approval records",
+          "description": "Approved requests demonstrating that access was authorized before use."
+        },
+        {
+          "name": "PAM access review reports",
+          "description": "Reports showing periodic reconciliation of PAM identities and permissions with approved access."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Control 2-1-3",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "2-1-3In addition to ECC subcontrol 2-2-3-5,the approved lists of privilegesand privileges used to handle data must be reviewedas specified for each data classification level.At least annuallyAt least every 3 months",
+      "source_summary": "Approved privilege lists and privileges used to handle data should be reviewed at the interval associated with each data classification level, including annual or more frequent review intervals where applicable.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_4"
+      ],
+      "todo": {
+        "name": "Review data privileges on the required schedule",
+        "description": "Map each data environment to its classification, schedule reviews at the applicable interval, reconcile approved lists and actual privileges, remove unnecessary access, and document approvals and exceptions."
+      },
+      "policies": [
+        {
+          "name": "Data Privilege Review Policy",
+          "description": "Define review frequency by data classification, reviewer responsibilities, reconciliation methods, access-removal timelines, and approval requirements."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Privilege Review Calendar",
+          "description": "A calendar showing required annual or more frequent reviews based on data classification."
+        },
+        {
+          "name": "Access Reconciliation Checklist",
+          "description": "A checklist for comparing approved privilege lists, PAM records, application permissions, and current personnel status."
+        },
+        {
+          "name": "Privilege Review and Exception Register",
+          "description": "A record of review outcomes, retained access justifications, removals, exceptions, owners, and approvals."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed privilege review attestations",
+          "description": "Signed reviews confirming that approved lists and actual data-handling privileges were examined."
+        },
+        {
+          "name": "Access reconciliation reports",
+          "description": "Reports identifying matches, excessive privileges, inactive users, and corrective actions."
+        },
+        {
+          "name": "Access removal records",
+          "description": "Tickets or system logs demonstrating removal or modification of unnecessary privileges."
+        },
+        {
+          "name": "Review schedule compliance report",
+          "description": "A report showing completion of reviews within the intervals applicable to each classification level."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Subcontrol 2-2-1-1",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "2-2-1-1Applying security patches and updates from the time of announcement onsystems used to handle data as specified for each data classification level.At least everymonthImmediately",
+      "source_summary": "Systems used to handle data should receive security patches and updates within the timing applicable to the relevant data classification level, including immediate handling where specified.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_4"
+      ],
+      "todo": {
+        "name": "Apply security patches to data-handling systems",
+        "description": "Maintain an inventory of systems handling data, monitor patch announcements, assess applicability and risk, deploy patches within the classification-based time limits, and document approved exceptions or compensating actions."
+      },
+      "policies": [
+        {
+          "name": "Vulnerability and Patch Management Policy",
+          "description": "Define patch identification, risk assessment, testing, deployment, emergency handling, verification, exception approval, and reporting requirements."
+        },
+        {
+          "name": "Change Management Policy",
+          "description": "Require controlled authorization, testing, implementation, and rollback planning for security updates."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Data-Handling System Inventory",
+          "description": "An inventory identifying systems that handle data, their classifications, owners, technologies, and patching responsibilities."
+        },
+        {
+          "name": "Patch Management Procedure",
+          "description": "A procedure for receiving announcements, assessing updates, prioritizing deployment, validating installation, and handling failures."
+        },
+        {
+          "name": "Patch Exception Register",
+          "description": "A record of deferred patches, reasons, risk acceptance, compensating controls, owners, and target dates."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Patch deployment reports",
+          "description": "System or endpoint management reports showing patch versions, deployment dates, and affected assets."
+        },
+        {
+          "name": "Patch announcement and assessment records",
+          "description": "Records showing when relevant patches were identified and how applicability and urgency were assessed."
+        },
+        {
+          "name": "Vulnerability scan results",
+          "description": "Scan reports demonstrating remediation of relevant missing patches."
+        },
+        {
+          "name": "Approved exception records",
+          "description": "Authorizations and compensating-control evidence for patches not deployed within the applicable timeframe."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Subcontrol 3-1-1-1",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "3-1-1-1Screening orvetting third-party employees who have access to the data.",
+      "source_summary": "Third-party employees who have access to organizational data should undergo screening or vetting appropriate to their data-access role before or as a condition of access.",
+      "page_start": 18,
+      "page_end": 18,
+      "source_block_ids": [
+        "page_18_block_4"
+      ],
+      "todo": {
+        "name": "Vet third-party personnel with data access",
+        "description": "Identify third-party personnel requiring data access, define screening or vetting prerequisites in contractual and onboarding workflows, verify completion, and prevent or remove access when requirements are not met."
+      },
+      "policies": [
+        {
+          "name": "Third-Party Personnel Security Policy",
+          "description": "Define screening, vetting, approval, monitoring, and access-removal requirements for external personnel with data access."
+        },
+        {
+          "name": "Third-Party Risk Management Policy",
+          "description": "Require security due diligence and contractual controls for suppliers and service providers handling organizational data."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Third-Party Data Access Register",
+          "description": "A register of external personnel with data access, sponsoring supplier, role, systems, data scope, and access status."
+        },
+        {
+          "name": "Third-Party Security Requirements",
+          "description": "Contractual or onboarding requirements covering screening, confidentiality, access restrictions, and notification obligations."
+        },
+        {
+          "name": "Third-Party Vetting Verification Form",
+          "description": "A controlled form recording vetting status, verification source, completion date, reviewer, and any restrictions."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Third-party screening or vetting records",
+          "description": "Records demonstrating completed screening or vetting for external personnel with data access."
+        },
+        {
+          "name": "Supplier due-diligence files",
+          "description": "Approved assessments and supporting documentation for suppliers whose personnel access data."
+        },
+        {
+          "name": "Contractual security clauses",
+          "description": "Executed agreements containing applicable personnel screening, confidentiality, and data-access obligations."
+        },
+        {
+          "name": "Third-party access approval and removal records",
+          "description": "Workflow or ticket records showing access was granted only after verification and removed when no longer justified."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Subcontrol 3-1-1-2",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "3-1-1-2Requiring contractual commitment by third-partiesto securely dispose the organization’s data at the end of the contract or in case of contract termination, including providing evidences of such disposal to the organization.",
+      "source_summary": "Third-party contracts must address secure disposal of the organization’s data when the contract ends or is terminated, with disposal evidence provided to the organization.",
+      "page_start": 18,
+      "page_end": 18,
+      "source_block_ids": [
+        "page_18_block_4"
+      ],
+      "todo": {
+        "name": "Implement third-party data disposal obligations",
+        "description": "Update third-party agreements and offboarding processes to require secure disposal of organizational data at contract completion or termination, define acceptable evidence, and assign responsibility for collecting and reviewing that evidence."
+      },
+      "policies": [
+        {
+          "name": "Third-Party Data Management Policy",
+          "description": "Define requirements for third-party data handling, return, retention, and secure disposal at the end of a contractual relationship."
+        },
+        {
+          "name": "Third-Party Offboarding Policy",
+          "description": "Establish steps for confirming data return or disposal, revoking access, and closing third-party services when contracts end or are terminated."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Third-Party Contract Security Addendum",
+          "description": "Contract language specifying secure data disposal obligations, timing, scope, evidence requirements, and any applicable exceptions."
+        },
+        {
+          "name": "Third-Party Data Disposal Procedure",
+          "description": "Procedure for identifying data held by a third party, initiating disposal, obtaining evidence, and recording completion."
+        },
+        {
+          "name": "Third-Party Data Inventory",
+          "description": "Inventory identifying organizational data shared with or held by each third party to support complete disposal verification."
+        },
+        {
+          "name": "Data Disposal Certificate Template",
+          "description": "Standard form for third parties to confirm what data was disposed of, when, how, and by whom."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Executed contracts and security addenda",
+          "description": "Agreements containing the required third-party data disposal commitment."
+        },
+        {
+          "name": "Completed disposal certificates or equivalent confirmations",
+          "description": "Third-party evidence showing that organizational data was securely disposed of after contract completion or termination."
+        },
+        {
+          "name": "Contract termination and offboarding records",
+          "description": "Records showing that data disposal was initiated, reviewed, and closed as part of third-party offboarding."
+        },
+        {
+          "name": "Data inventory reconciliation",
+          "description": "Records demonstrating that identified data held by the third party was addressed during disposal verification."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Subcontrol 3-1-1-3",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "3-1-1-3Documentingall data sharing operations within third-parties, including data sharing justification.",
+      "source_summary": "Data-sharing activities involving third parties must be documented, including the justification for each sharing activity.",
+      "page_start": 18,
+      "page_end": 18,
+      "source_block_ids": [
+        "page_18_block_4"
+      ],
+      "todo": {
+        "name": "Establish a third-party data-sharing record",
+        "description": "Create and maintain a centralized register of data-sharing operations with third parties, recording the data involved, recipient, purpose, scope, timing, and business or operational justification."
+      },
+      "policies": [
+        {
+          "name": "Third-Party Data Sharing Policy",
+          "description": "Define how data-sharing activities with third parties are requested, justified, approved, documented, reviewed, and closed."
+        },
+        {
+          "name": "Data Governance Policy",
+          "description": "Set ownership and accountability for maintaining records of data-sharing operations and their stated justifications."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Third-Party Data-Sharing Register",
+          "description": "Central register recording each data-sharing operation, the third party involved, data scope, purpose, justification, owner, and relevant dates."
+        },
+        {
+          "name": "Data-Sharing Request and Approval Form",
+          "description": "Form used to capture the proposed sharing activity and its justification before or at the time of authorization."
+        },
+        {
+          "name": "Third-Party Data Flow Inventory",
+          "description": "Inventory showing data flows between the organization and third parties, linked to the corresponding sharing records."
+        },
+        {
+          "name": "Data-Sharing Review Procedure",
+          "description": "Procedure for creating, updating, periodically reviewing, and closing data-sharing records."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed data-sharing register entries",
+          "description": "Current records showing third-party sharing operations and the justification for each activity."
+        },
+        {
+          "name": "Approved data-sharing requests",
+          "description": "Requests or approvals that document why the data was shared and who authorized the activity."
+        },
+        {
+          "name": "Data flow diagrams or inventories",
+          "description": "Artifacts corroborating the third-party data exchanges recorded in the register."
+        },
+        {
+          "name": "Periodic register review records",
+          "description": "Evidence that data-sharing records are reviewed and kept current."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Subcontrol 3-1-1-4",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "3-1-1-4When transferring data outside the kingdom, the capability of the hosting organization abroad to safeguard data must be verified, approval ofthe Authorizing Officialmust be obtained and complyingwith related laws and regulations.",
+      "source_summary": "Before transferring data outside the kingdom, the organization must verify the overseas host’s ability to safeguard the data, obtain Authorizing Official approval, and comply with applicable laws and regulations.",
+      "page_start": 18,
+      "page_end": 18,
+      "source_block_ids": [
+        "page_18_block_4"
+      ],
+      "todo": {
+        "name": "Control transfers of data outside the kingdom",
+        "description": "Implement a pre-transfer assessment and approval workflow that evaluates the overseas hosting organization’s safeguards, records applicable legal and regulatory considerations, obtains Authorizing Official approval, and prevents transfer until requirements are satisfied."
+      },
+      "policies": [
+        {
+          "name": "Cross-Border Data Transfer Policy",
+          "description": "Define conditions, assessment criteria, approval steps, and compliance checks for transferring data to hosting organizations outside the kingdom."
+        },
+        {
+          "name": "Third-Party Security Assessment Policy",
+          "description": "Require evaluation of an overseas hosting organization’s capability to safeguard organizational data before transfer."
+        },
+        {
+          "name": "Data Transfer Authorization Policy",
+          "description": "Establish the Authority and process for obtaining and recording Authorizing Official approval."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cross-Border Data Transfer Assessment",
+          "description": "Assessment documenting the overseas host, data involved, safeguards reviewed, findings, and compliance considerations."
+        },
+        {
+          "name": "Authorizing Official Approval Record",
+          "description": "Formal approval record tied to the specific proposed transfer and its supporting assessment."
+        },
+        {
+          "name": "Cross-Border Data Transfer Register",
+          "description": "Register of approved transfers, destinations, hosting organizations, data scope, approval status, and review dates."
+        },
+        {
+          "name": "Legal and Regulatory Compliance Checklist",
+          "description": "Checklist for recording the applicable laws and regulations considered for each proposed transfer."
+        },
+        {
+          "name": "Overseas Hosting Organization Due-Diligence Questionnaire",
+          "description": "Questionnaire and supporting review materials used to assess the host’s capability to safeguard data."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed overseas host security assessments",
+          "description": "Assessments showing that the hosting organization’s safeguards were evaluated before transfer."
+        },
+        {
+          "name": "Authorizing Official approvals",
+          "description": "Documented approvals for the relevant transfers, linked to the assessment and transfer scope."
+        },
+        {
+          "name": "Cross-border transfer register",
+          "description": "Current register demonstrating that transfers are tracked and their authorization status is known."
+        },
+        {
+          "name": "Legal and regulatory review records",
+          "description": "Completed checklists or legal reviews showing consideration of applicable laws and regulations."
+        },
+        {
+          "name": "Contractual and technical safeguard records",
+          "description": "Relevant agreements and technical control documentation supporting the overseas host’s ability to safeguard the transferred data."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Subcontrol 3-1-1-5",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "3-1-1-5Requiring third-parties to notify the organization immediately in case of cybersecurity incident that may affect data that has been shared or created.",
+      "source_summary": "Third parties must notify the organization immediately when a cybersecurity incident may affect data that was shared with them or created by them.",
+      "page_start": 18,
+      "page_end": 18,
+      "source_block_ids": [
+        "page_18_block_4"
+      ],
+      "todo": {
+        "name": "Implement immediate third-party incident notification",
+        "description": "Add an immediate notification obligation to third-party arrangements, define the notification channels and required incident information, and establish an internal process to receive, escalate, assess, and respond to notifications affecting shared or third-party-created data."
+      },
+      "policies": [
+        {
+          "name": "Third-Party Cybersecurity Incident Management Policy",
+          "description": "Define third-party notification expectations, internal escalation, incident ownership, and coordination when shared or third-party-created data may be affected."
+        },
+        {
+          "name": "Incident Notification and Escalation Policy",
+          "description": "Specify approved notification channels, responsible contacts, escalation paths, and handling requirements for urgent third-party incident reports."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Third-Party Incident Notification Clause",
+          "description": "Contractual provision requiring immediate notification of cybersecurity incidents that may affect relevant organizational data."
+        },
+        {
+          "name": "Third-Party Incident Response Procedure",
+          "description": "Procedure for receiving, validating, escalating, documenting, and responding to incident notifications from third parties."
+        },
+        {
+          "name": "Third-Party Contact and Escalation Register",
+          "description": "Maintained list of third-party incident contacts, alternates, organizational owners, and escalation routes."
+        },
+        {
+          "name": "Third-Party Incident Log",
+          "description": "Record of notifications received, affected data, actions taken, communications, and closure status."
+        },
+        {
+          "name": "Third-Party Incident Notification Form",
+          "description": "Standard form for capturing the initial incident details and subsequent updates from a third party."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Executed third-party agreements",
+          "description": "Contracts containing the immediate incident notification obligation and relevant contact details."
+        },
+        {
+          "name": "Incident notification records",
+          "description": "Examples of third-party notifications and the organization’s documented response and escalation."
+        },
+        {
+          "name": "Third-party contact testing records",
+          "description": "Records of contact validation or exercises demonstrating that notification channels can be used."
+        },
+        {
+          "name": "Incident logs and communications",
+          "description": "Ticketing, case-management, or communication records showing tracking of affected shared or created data."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1:2022, Subcontrol 3-1-1-6",
+      "source_title": "Data Cybersecurity Controls",
+      "source_text": "3-1-1-6Reclassifying data to the least level to achieve the objective before sharing it with third-parties using data masking or data scrambling techniques.",
+      "source_summary": "Before sharing data with third parties, the data must be reclassified to the least level needed for the objective, using masking or scrambling techniques.",
+      "page_start": 18,
+      "page_end": 18,
+      "source_block_ids": [
+        "page_18_block_4"
+      ],
+      "todo": {
+        "name": "Minimize and protect data before third-party sharing",
+        "description": "Add a pre-sharing review that determines the minimum classification level needed for the intended objective and applies approved masking or scrambling techniques before release, with the result documented and verified."
+      },
+      "policies": [
+        {
+          "name": "Third-Party Data Minimization Policy",
+          "description": "Require the organization to limit data shared with third parties to the least classification level needed for the stated objective."
+        },
+        {
+          "name": "Data Masking and Scrambling Policy",
+          "description": "Define approved techniques, responsibilities, validation steps, and exceptions for masking or scrambling data before third-party sharing."
+        },
+        {
+          "name": "Data Classification Policy",
+          "description": "Define classification and reclassification responsibilities for data prepared for external sharing."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Third-Party Data-Sharing Assessment",
+          "description": "Assessment documenting the sharing objective, data required, minimum classification level, and protection techniques applied."
+        },
+        {
+          "name": "Data Masking and Scrambling Procedure",
+          "description": "Procedure for selecting, applying, validating, and recording masking or scrambling before data is shared."
+        },
+        {
+          "name": "Data Transformation and Release Record",
+          "description": "Record identifying the source data, transformed dataset, technique used, reviewer, approval, and release date."
+        },
+        {
+          "name": "Approved Masking and Scrambling Standards",
+          "description": "Technical standards describing approved methods and validation criteria for protecting data before release."
+        },
+        {
+          "name": "Third-Party Data-Sharing Register",
+          "description": "Register linking each sharing operation to its minimization, reclassification, and transformation records."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Pre-sharing assessment records",
+          "description": "Completed reviews showing that the minimum necessary classification level was determined for the sharing objective."
+        },
+        {
+          "name": "Masked or scrambled sample datasets",
+          "description": "Representative outputs demonstrating that protection techniques were applied before third-party release."
+        },
+        {
+          "name": "Transformation and quality-validation logs",
+          "description": "Technical or operational records showing the data transformation performed and its verification."
+        },
+        {
+          "name": "Approved data release records",
+          "description": "Authorizations or release records linking the protected dataset to the intended third-party sharing activity."
+        },
+        {
+          "name": "Data classification review records",
+          "description": "Records showing the data was reviewed and reclassified before sharing where applicable."
+        }
+      ],
+      "ai_generated": true
+    }
+  ],
+  "warnings": []
+}

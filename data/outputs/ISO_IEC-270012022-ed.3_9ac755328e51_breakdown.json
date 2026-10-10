@@ -1,0 +1,1788 @@
+{
+  "metadata": {
+    "document_id": "ISO_IEC-270012022-ed.3_9ac755328e51",
+    "filename": "ISO_IEC-270012022-ed.3.pdf",
+    "page_count": 26,
+    "requirement_count": 31,
+    "document_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+    "document_type": "International Standard",
+    "framework_name": "ISO/IEC 27001",
+    "version": "Third edition, 2022-10 (ISO/IEC 27001:2022)",
+    "jurisdiction": "International",
+    "requirement_unit_name": "Clauses, subclauses, and Annex A controls",
+    "hierarchy_description": "The standard is organized into numbered Clauses 1–10, with actionable management-system requirements primarily in Clauses 4–10. Annex A is normative and contains numbered information security controls grouped into Organizational, People, Physical, and Technological controls.",
+    "hierarchy_levels": [
+      "Clause",
+      "Subclause",
+      "Annex A control domain",
+      "Annex A control"
+    ],
+    "generated_by": "Sahl Compliance Decoder",
+    "ai_model": "gpt-5.6-luna"
+  },
+  "structure": [],
+  "requirements": [
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 4.1",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "4.1 ​Understanding the organization and its context\nThe organization shall determine external and internal issues that are relevant to its purpose and that affect its ability to achieve the intended outcome(s) of its information security management system.",
+      "source_summary": "The organization must determine the external and internal issues relevant to its purpose and affecting its ability to achieve the intended outcomes of its information security management system.",
+      "page_start": 7,
+      "page_end": 7,
+      "source_block_ids": [
+        "page_7_block_13",
+        "page_7_block_14"
+      ],
+      "todo": {
+        "name": "Assess internal and external ISMS context",
+        "description": "Identify, document, and review the internal and external issues that could affect the intended outcomes of the information security management system."
+      },
+      "policies": [
+        {
+          "name": "Information Security Management System Policy",
+          "description": "Define the organization’s commitment to maintaining an ISMS that reflects relevant organizational context."
+        },
+        {
+          "name": "Strategic Risk Management Policy",
+          "description": "Establish how material internal and external issues affecting organizational and information security objectives are identified and considered."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ISMS Context Register",
+          "description": "Record relevant internal and external issues, their significance to the ISMS, and links to affected objectives or processes."
+        },
+        {
+          "name": "Organizational Context Review Record",
+          "description": "Document management or governance reviews of changes in the organization’s context."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed ISMS Context Register",
+          "description": "A current register showing identified internal and external issues relevant to the ISMS."
+        },
+        {
+          "name": "Management or Governance Meeting Records",
+          "description": "Minutes or review materials demonstrating that organizational context issues were considered."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 4.2",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "4.2 ​Understanding the needs and expectations of interested parties\nThe organization shall determine:\na) interested parties that are relevant to the information security management system;\nb) the relevant requirements of these interested parties;\nc) which of these requirements will be addressed through the information security management system.",
+      "source_summary": "The organization must identify interested parties relevant to the ISMS, determine their relevant requirements, and decide which of those requirements will be addressed through the ISMS.",
+      "page_start": 7,
+      "page_end": 7,
+      "source_block_ids": [
+        "page_7_block_16",
+        "page_7_block_17",
+        "page_7_block_18",
+        "page_7_block_19",
+        "page_7_block_20"
+      ],
+      "todo": {
+        "name": "Identify interested parties and ISMS requirements",
+        "description": "Create and maintain an assessment of relevant interested parties, their information-security-related requirements, and which requirements are addressed by the ISMS."
+      },
+      "policies": [
+        {
+          "name": "Interested Parties and Requirements Policy",
+          "description": "Define how relevant interested parties and their information security requirements are identified, assessed, and maintained."
+        },
+        {
+          "name": "Compliance Management Policy",
+          "description": "Establish how applicable legal, regulatory, contractual, and other requirements are identified and incorporated into the ISMS."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Interested Parties Register",
+          "description": "List relevant interested parties, their relevant requirements, and the organization’s decision on ISMS applicability."
+        },
+        {
+          "name": "Legal, Regulatory, and Contractual Requirements Register",
+          "description": "Track information-security-related requirements arising from authorities, customers, suppliers, and other relevant parties."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved Interested Parties Register",
+          "description": "A current register showing relevant parties, requirements, and ISMS treatment decisions."
+        },
+        {
+          "name": "Contract and Regulatory Review Records",
+          "description": "Evidence that customer, supplier, legal, regulatory, and other relevant requirements were reviewed."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 5.1",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "5.1 ​Leadership and commitment\nTop management shall demonstrate leadership and commitment with respect to the information security management system by:\na) ensuring the information security policy and the information security objectives are established\nand are compatible with the strategic direction of the organization;\nb) ensuring the integration of the information security management system requirements into the\norganization’s processes;\nc) ensuring that the resources needed for the information security management system are available;\nd) communicating the importance of effective information security management and of conforming\nto the information security management system requirements;\ne) ensuring that the information security management system achieves its intended outcome(s);\nf) directing and supporting persons to contribute to the effectiveness of the information security management system;\ng) promoting continual improvement; and\nh) supporting other relevant management roles to demonstrate their leadership as it applies to their\nareas of responsibility.",
+      "source_summary": "Top management must demonstrate leadership and commitment by establishing compatible information security policy and objectives, integrating ISMS requirements into organizational processes, providing resources, communicating the importance of information security, supporting effectiveness and continual improvement, and enabling relevant management roles to exercise leadership.",
+      "page_start": 8,
+      "page_end": 8,
+      "source_block_ids": [
+        "page_8_block_12",
+        "page_8_block_13",
+        "page_8_block_14",
+        "page_8_block_15",
+        "page_8_block_16",
+        "page_8_block_17",
+        "page_8_block_18",
+        "page_8_block_19",
+        "page_8_block_20",
+        "page_8_block_21",
+        "page_8_block_22",
+        "page_8_block_23",
+        "page_8_block_24",
+        "page_8_block_25"
+      ],
+      "todo": {
+        "name": "Establish and demonstrate executive ISMS leadership",
+        "description": "Assign executive ownership and implement governance activities that align information security objectives with strategy, provide resources, integrate ISMS requirements into processes, communicate expectations, and monitor intended outcomes and improvement."
+      },
+      "policies": [
+        {
+          "name": "Information Security Management System Policy",
+          "description": "Set top management’s commitment, strategic direction, resource support, and expectations for the ISMS."
+        },
+        {
+          "name": "Corporate Governance Policy",
+          "description": "Define management oversight and accountability for integrating information security into organizational governance and processes."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ISMS Governance Charter",
+          "description": "Define executive sponsorship, governance forums, decision rights, reporting, and management responsibilities for the ISMS."
+        },
+        {
+          "name": "Information Security Objectives and Improvement Plan",
+          "description": "Document objectives, supporting initiatives, required resources, performance monitoring, and improvement actions."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Management Review and Steering Committee Minutes",
+          "description": "Records showing executive decisions, oversight, resource discussions, performance review, and improvement direction."
+        },
+        {
+          "name": "Approved Information Security Objectives and Resource Allocations",
+          "description": "Evidence that objectives are aligned with organizational direction and that required resources were made available."
+        },
+        {
+          "name": "Information Security Communications",
+          "description": "Internal communications or leadership briefings demonstrating the importance of information security and conformity with ISMS requirements."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 4.3",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "4.3 ​Determining the scope of the information security management system\nThe organization shall determine the boundaries and applicability of the information security management system to establish its scope.\nWhen determining this scope, the organization shall consider:\na) the external and internal issues referred to in 4.1 ;\nb) the requirements referred to in 4.2 ;\nc) interfaces and dependencies between activities performed by the organization, and those that are performed by other organizations.\nThe scope shall be available as documented information.",
+      "source_summary": "The organization must determine and document the boundaries and applicability of the ISMS. The scope must consider relevant internal and external issues, interested-party requirements, and interfaces and dependencies with activities performed by the organization and other organizations.",
+      "page_start": 8,
+      "page_end": 8,
+      "source_block_ids": [
+        "page_8_block_2",
+        "page_8_block_3",
+        "page_8_block_4",
+        "page_8_block_5",
+        "page_8_block_6",
+        "page_8_block_7",
+        "page_8_block_8"
+      ],
+      "todo": {
+        "name": "Define and document the ISMS scope",
+        "description": "Assess organizational context, interested-party requirements, and internal and external interfaces, then approve and publish a documented ISMS scope statement."
+      },
+      "policies": [
+        {
+          "name": "Information Security Management System Policy",
+          "description": "Establish principles for defining, approving, maintaining, and communicating the ISMS scope."
+        },
+        {
+          "name": "Third-Party and Supplier Security Policy",
+          "description": "Address interfaces and dependencies with other organizations that may affect the defined ISMS boundaries."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ISMS Scope Statement",
+          "description": "Document the organizational, physical, technological, service, and process boundaries and applicability of the ISMS."
+        },
+        {
+          "name": "ISMS Boundary and Dependency Map",
+          "description": "Show interfaces and dependencies between in-scope activities and activities performed by internal or external organizations."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved ISMS Scope Statement",
+          "description": "The current documented scope, including its boundaries and applicability."
+        },
+        {
+          "name": "Scope Review or Approval Records",
+          "description": "Evidence that context, interested-party requirements, and organizational interfaces were considered when defining the scope."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 4.4",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "4.4 ​Information security management system\nThe organization shall establish, implement, maintain and continually improve an information security management system, including the processes needed and their interactions, in accordance with the requirements of this document.",
+      "source_summary": "The organization must establish, implement, maintain, and continually improve an ISMS, including the processes needed and their interactions, in accordance with the requirements of the document.",
+      "page_start": 8,
+      "page_end": 8,
+      "source_block_ids": [
+        "page_8_block_9",
+        "page_8_block_10"
+      ],
+      "todo": {
+        "name": "Implement and maintain integrated ISMS processes",
+        "description": "Establish the ISMS process framework, define process interactions and ownership, operate the processes, and use performance and improvement activities to maintain and enhance the system."
+      },
+      "policies": [
+        {
+          "name": "Information Security Management System Policy",
+          "description": "Define the organization’s commitment to operating and continually improving the ISMS."
+        },
+        {
+          "name": "Documented Information Management Policy",
+          "description": "Set controls for maintaining the documented information needed to operate and demonstrate the ISMS."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ISMS Process Architecture",
+          "description": "Describe the ISMS processes, owners, inputs, outputs, interactions, and governance arrangements."
+        },
+        {
+          "name": "ISMS Implementation and Improvement Plan",
+          "description": "Track implementation activities, process performance actions, corrective actions, and continual improvement initiatives."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "ISMS Process Documentation",
+          "description": "Current process descriptions, interaction maps, assigned ownership, and operating records."
+        },
+        {
+          "name": "Internal Audit and Improvement Records",
+          "description": "Audit results, corrective actions, performance reviews, and improvement actions demonstrating that the ISMS is maintained and improved."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 5.2",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "5.2 ​Policy\nTop management shall establish an information security policy that:\na) is appropriate to the purpose of the organization;\nb) includes information security objectives (see 6.2 ) or provides the framework for setting information\nsecurity objectives;\nc) includes a commitment to satisfy applicable requirements related to information security;\nd) includes a commitment to continual improvement of the information security management system.\nThe information security policy shall:\ne) be available as documented information;\nf) be communicated within the organization;\ng) be available to interested parties, as appropriate.",
+      "source_summary": "Top management must establish an information security policy appropriate to the organization’s purpose. The policy must include or provide a framework for information security objectives, commitments to satisfy applicable information security requirements and continually improve the ISMS, and must be documented, communicated internally, and made available to interested parties as appropriate.",
+      "page_start": 9,
+      "page_end": 9,
+      "source_block_ids": [
+        "page_9_block_1",
+        "page_9_block_2",
+        "page_9_block_3",
+        "page_9_block_4",
+        "page_9_block_5",
+        "page_9_block_6",
+        "page_9_block_7",
+        "page_9_block_8",
+        "page_9_block_9",
+        "page_9_block_10",
+        "page_9_block_11"
+      ],
+      "todo": {
+        "name": "Approve, communicate, and maintain the information security policy",
+        "description": "Develop and obtain top-management approval for an information security policy that reflects organizational purpose, objectives, applicable requirements, and continual improvement, then communicate and appropriately publish it."
+      },
+      "policies": [
+        {
+          "name": "Information Security Policy",
+          "description": "Serve as the documented top-level policy containing the required information security commitments and objective framework."
+        },
+        {
+          "name": "Policy Governance and Communication Policy",
+          "description": "Define approval, review, communication, publication, and maintenance practices for organizational policies."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Approved Information Security Policy",
+          "description": "The controlled policy containing the organization’s information security commitments and framework for objectives."
+        },
+        {
+          "name": "Policy Communication and Acknowledgement Record",
+          "description": "Record how the policy was communicated within the organization and, where appropriate, made available to interested parties."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Top-Management-Approved Policy",
+          "description": "The current controlled information security policy showing approval and version status."
+        },
+        {
+          "name": "Internal Communication Records",
+          "description": "Distribution records, training materials, intranet publication records, or acknowledgements demonstrating internal communication."
+        },
+        {
+          "name": "External Policy Publication Record",
+          "description": "Evidence that the policy was made available to relevant interested parties where appropriate."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 5.3",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "5.3 ​Organizational roles, responsibilities and authorities\nTop management shall ensure that the responsibilities and authorities for roles relevant to information security are assigned and communicated within the organization.\nTop management shall assign the responsibility and authority for:\na) ensuring that the information security management system conforms to the requirements of this\ndocument;\nb) reporting on the performance of the information security management system to top management.",
+      "source_summary": "Top management must ensure that information-security-related responsibilities and authorities are assigned and communicated. Responsibility and authority must be assigned for ensuring ISMS conformity and reporting ISMS performance to top management.",
+      "page_start": 9,
+      "page_end": 9,
+      "source_block_ids": [
+        "page_9_block_12",
+        "page_9_block_13",
+        "page_9_block_14",
+        "page_9_block_15",
+        "page_9_block_16",
+        "page_9_block_17"
+      ],
+      "todo": {
+        "name": "Assign and communicate ISMS responsibilities and authorities",
+        "description": "Define accountable information security roles, assign responsibility for ISMS conformity and performance reporting, and communicate these assignments to affected personnel."
+      },
+      "policies": [
+        {
+          "name": "Information Security Roles and Responsibilities Policy",
+          "description": "Establish expectations for assigning, documenting, and communicating information security responsibilities and authorities."
+        },
+        {
+          "name": "Organizational Governance Policy",
+          "description": "Define accountability, reporting lines, and decision rights relevant to ISMS governance."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ISMS Responsibility Assignment Matrix",
+          "description": "Map ISMS requirements and activities to accountable, responsible, consulted, and informed roles."
+        },
+        {
+          "name": "Information Security Organization Chart or Role Descriptions",
+          "description": "Document relevant authorities, responsibilities, reporting relationships, and required ISMS reporting duties."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved Responsibility Assignment Matrix",
+          "description": "A current matrix showing ownership for ISMS conformity and performance reporting."
+        },
+        {
+          "name": "Role Descriptions and Appointment Records",
+          "description": "Evidence that relevant information security roles and authorities were formally assigned."
+        },
+        {
+          "name": "ISMS Performance Reports to Top Management",
+          "description": "Reports demonstrating that assigned responsibility for reporting ISMS performance is being exercised."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 6.1.1",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "6.1.1 ​General\nWhen planning for the information security management system, the organization shall consider the issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to:\na) ensure the information security management system can achieve its intended outcome(s);\nb) prevent, or reduce, undesired effects;\nc) achieve continual improvement.\nThe organization shall plan:\nd) actions to address these risks and opportunities; and\ne) how to\n1) integrate and implement the actions into its information security management system\nprocesses; and\n2) evaluate the effectiveness of these actions.",
+      "source_summary": "When planning the ISMS, the organization must consider the issues and interested-party requirements identified under Clauses 4.1 and 4.2, determine risks and opportunities that could affect ISMS outcomes or continual improvement, plan actions to address them, integrate those actions into ISMS processes, and evaluate their effectiveness.",
+      "page_start": 9,
+      "page_end": 9,
+      "source_block_ids": [
+        "page_9_block_21",
+        "page_9_block_22",
+        "page_9_block_23",
+        "page_9_block_24",
+        "page_9_block_25",
+        "page_9_block_26",
+        "page_9_block_27",
+        "page_9_block_28",
+        "page_9_block_29",
+        "page_9_block_30",
+        "page_9_block_31"
+      ],
+      "todo": {
+        "name": "Plan actions for ISMS risks and opportunities",
+        "description": "Use the documented context and interested-party requirements to identify risks and opportunities, assign actions, integrate them into relevant ISMS processes, and define how action effectiveness will be evaluated."
+      },
+      "policies": [
+        {
+          "name": "ISMS Risk and Opportunity Management Policy",
+          "description": "Define the method for identifying, assessing, treating, monitoring, and evaluating risks and opportunities affecting ISMS outcomes."
+        },
+        {
+          "name": "Continual Improvement Policy",
+          "description": "Establish how improvement opportunities and actions are planned, implemented, and evaluated."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ISMS Risk and Opportunity Register",
+          "description": "Record identified risks and opportunities, planned responses, owners, process integration points, and effectiveness measures."
+        },
+        {
+          "name": "ISMS Action Plan",
+          "description": "Track actions, responsibilities, resources, target outcomes, status, and evaluation results."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Risk and Opportunity Assessment Records",
+          "description": "Completed assessments linked to organizational context and interested-party requirements."
+        },
+        {
+          "name": "Action Tracking and Effectiveness Review Records",
+          "description": "Evidence that planned actions were implemented and their effectiveness was evaluated."
+        },
+        {
+          "name": "Updated ISMS Process Records",
+          "description": "Process changes or operating records showing that actions were integrated into the ISMS."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 6.1.2",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "6.1.2 ​Information security risk assessment\nThe organization shall define and apply an information security risk assessment process that:\na) establishes and maintains information security risk criteria that include:\n1) the risk acceptance criteria; and\n2) criteria for performing information security risk assessments;\nb) ensures that repeated information security risk assessments produce consistent, valid and\ncomparable results;\nc) identifies the information security risks:\n1) apply the information security risk assessment process to identify risks associated with\nthe loss of confidentiality, integrity and availability for information within the scope of the information security management system; and\n2) identify the risk owners;\nd) analyses the information security risks:\n1) assess the potential consequences that would result if the risks identified in 6.1.2 c) 1) were to\nmaterialize;\n2) assess the realistic likelihood of the occurrence of the risks identified in 6.1.2 c) 1); and\n3) determine the levels of risk;\ne) evaluates the information security risks:\n1) compare the results of risk analysis with the risk criteria established in 6.1.2 a); and\n2) prioritize the analysed risks for risk treatment.\nThe organization shall retain documented information about the information security risk assessment process.",
+      "source_summary": "The organization must define and apply a documented information security risk assessment process. The process must establish risk criteria and acceptance criteria, produce consistent and comparable results, identify risks to confidentiality, integrity, and availability and their owners, analyze consequences and likelihood, determine risk levels, prioritize risks for treatment, and retain documented information about the process.",
+      "page_start": 10,
+      "page_end": 10,
+      "source_block_ids": [
+        "page_10_block_1",
+        "page_10_block_2",
+        "page_10_block_3",
+        "page_10_block_4",
+        "page_10_block_5",
+        "page_10_block_6",
+        "page_10_block_7",
+        "page_10_block_8",
+        "page_10_block_9",
+        "page_10_block_10",
+        "page_10_block_11",
+        "page_10_block_12",
+        "page_10_block_13",
+        "page_10_block_14",
+        "page_10_block_15",
+        "page_10_block_16",
+        "page_10_block_17",
+        "page_10_block_18",
+        "page_10_block_19",
+        "page_10_block_20"
+      ],
+      "todo": {
+        "name": "Establish and operate the information security risk assessment process",
+        "description": "Approve a repeatable risk assessment methodology with defined criteria and acceptance thresholds, assess confidentiality, integrity, and availability risks, assign owners, prioritize results, and retain the process documentation and assessment records."
+      },
+      "policies": [
+        {
+          "name": "Information Security Risk Management Policy",
+          "description": "Define the organization’s approach to risk assessment, risk ownership, acceptance, prioritization, and review."
+        },
+        {
+          "name": "Risk Acceptance Policy",
+          "description": "Set authority and criteria for accepting information security risks."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Information Security Risk Assessment Methodology",
+          "description": "Define assessment criteria, consequence and likelihood scales, risk calculations, comparison rules, and requirements for consistent results."
+        },
+        {
+          "name": "Information Security Risk Register",
+          "description": "Record identified confidentiality, integrity, and availability risks, owners, analysis results, risk levels, and priorities."
+        },
+        {
+          "name": "Risk Assessment Records",
+          "description": "Retain completed assessments and supporting rationale produced using the defined process."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved Risk Assessment Methodology",
+          "description": "Documented evidence of the defined risk criteria, acceptance criteria, and assessment process."
+        },
+        {
+          "name": "Completed Risk Assessments and Risk Register",
+          "description": "Records showing identified risks, risk owners, consequences, likelihood, risk levels, and treatment priorities."
+        },
+        {
+          "name": "Risk Assessment Consistency Review",
+          "description": "Evidence that repeated assessments are applied using the same criteria and produce comparable results."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 6.1.3",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "6.1.3 ​Information security risk treatment\nThe organization shall define and apply an information security risk treatment process to:\na) select appropriate information security risk treatment options, taking account of the risk\nassessment results;\nb) determine all controls that are necessary to implement the information security risk treatment\noption(s) chosen;\nNOTE 1 Organizations can design controls as required, or identify them from any source.\nc) compare the controls determined in 6.1.3 b) above with those in Annex A and verify that no necessary controls have been omitted;\nNOTE 2 Annex A contains a list of possible information security controls. Users of this document are directed to Annex A to ensure that no necessary information security controls are overlooked.\nNOTE 3 The information security controls listed in Annex A are not exhaustive and additional information security controls can be included if needed.\nd) produce a Statement of Applicability that contains:\n— the necessary controls (see 6.1.3 b) and c));\n﻿ \b © ISO/IEC 2022 – All rights reserved \b ﻿ 4\nISO/IEC 27001:2022(E)\n— justification for their inclusion;\n— whether the necessary controls are implemented or not; and\n— the justification for excluding any of the Annex A controls.\ne) formulate an information security risk treatment plan; and\nf) obtain risk owners’ approval of the information security risk treatment plan and acceptance of the residual information security risks.\nThe organization shall retain documented information about the information security risk treatment process.",
+      "source_summary": "The organization must define and apply a risk treatment process that selects treatment options, determines necessary controls, compares them with Annex A to check that no necessary controls were omitted, produces and maintains a Statement of Applicability with required justifications and implementation status, formulates a treatment plan, obtains risk-owner approval of the plan and acceptance of residual risks, and retains documented information about the process.",
+      "page_start": 10,
+      "page_end": 11,
+      "source_block_ids": [
+        "page_10_block_21",
+        "page_10_block_22",
+        "page_10_block_23",
+        "page_10_block_24",
+        "page_10_block_25",
+        "page_10_block_26",
+        "page_10_block_27",
+        "page_10_block_28",
+        "page_10_block_29",
+        "page_10_block_30",
+        "page_10_block_31",
+        "page_10_block_32",
+        "page_10_block_33",
+        "page_11_block_0",
+        "page_11_block_1",
+        "page_11_block_2",
+        "page_11_block_3",
+        "page_11_block_4",
+        "page_11_block_5",
+        "page_11_block_6"
+      ],
+      "todo": {
+        "name": "Select controls and obtain approval for risk treatment",
+        "description": "Use risk assessment results to select treatment options and necessary controls, complete and justify the Statement of Applicability, create the treatment plan, and obtain documented risk-owner approval and residual-risk acceptance."
+      },
+      "policies": [
+        {
+          "name": "Information Security Risk Treatment Policy",
+          "description": "Define how information security risks are treated, controls are selected, and residual risks are approved."
+        },
+        {
+          "name": "Information Security Control Selection Policy",
+          "description": "Establish criteria for selecting necessary controls, considering Annex A and other appropriate control sources."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Statement of Applicability",
+          "description": "Document necessary controls, inclusion justifications, implementation status, and justifications for excluding Annex A controls."
+        },
+        {
+          "name": "Information Security Risk Treatment Plan",
+          "description": "Track selected treatment options, controls, owners, actions, milestones, and implementation status."
+        },
+        {
+          "name": "Residual Risk Acceptance Record",
+          "description": "Document risk-owner approval of the treatment plan and acceptance of residual information security risks."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved Statement of Applicability",
+          "description": "The current Statement of Applicability showing control selection, implementation status, inclusion rationale, and exclusion justifications."
+        },
+        {
+          "name": "Risk Treatment Plan and Implementation Records",
+          "description": "Evidence that selected treatments and controls were planned and implemented or tracked to completion."
+        },
+        {
+          "name": "Risk-Owner Approvals",
+          "description": "Signed or electronically recorded approvals of the treatment plan and acceptance of residual risks."
+        },
+        {
+          "name": "Control Completeness Review",
+          "description": "Evidence that selected controls were compared with Annex A and that necessary controls were not omitted."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 6.3",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "6.3 Planning of changes\nWhen the organization determines the need for changes to the information security management system, the changes shall be carried out in a planned manner.",
+      "source_summary": "When the organization identifies a need to change the information security management system, it must carry out the change in a planned manner.",
+      "page_start": 11,
+      "page_end": 11,
+      "source_block_ids": [
+        "page_11_block_25",
+        "page_11_block_26"
+      ],
+      "todo": {
+        "name": "Plan and govern information security management system changes",
+        "description": "Establish a change-planning process that records the need, scope, impacts, responsibilities, timing, and implementation approach for changes to the information security management system."
+      },
+      "policies": [
+        {
+          "name": "Information Security Management System Change Policy",
+          "description": "Defines how changes to the information security management system are assessed, approved, implemented, and tracked."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ISMS Change Plan and Change Register",
+          "description": "Records proposed and approved ISMS changes, their rationale, impacts, owners, schedule, and completion status."
+        },
+        {
+          "name": "ISMS Change Procedure",
+          "description": "Describes the workflow and responsibilities for planning and implementing ISMS changes."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved ISMS change records",
+          "description": "Sample change requests showing documented planning, assigned responsibility, approval, implementation status, and completion."
+        },
+        {
+          "name": "Change review meeting records",
+          "description": "Minutes or decision records demonstrating consideration and coordination of planned ISMS changes."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 6.2",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "6.2 ​Information security objectives and planning to achieve them\nThe organization shall establish information security objectives at relevant functions and levels.\nThe information security objectives shall:\na) be consistent with the information security policy;\nb) be measurable (if practicable);\nc) take into account applicable information security requirements, and results from risk assessment and risk treatment;\nd) be monitored;\ne) be communicated;\nf) be updated as appropriate;\ng) be available as documented information.\nThe organization shall retain documented information on the information security objectives.\nWhen planning how to achieve its information security objectives, the organization shall determine:\nh) what will be done;\ni) what resources will be required;\nj) who will be responsible;\nk) when it will be completed; and\nl) how the results will be evaluated.",
+      "source_summary": "The organization must establish information security objectives at relevant functions and levels. Objectives must align with the information security policy, be measurable where practicable, reflect applicable requirements and risk assessment and treatment results, be monitored, communicated, updated as appropriate, and retained as documented information. Planning must identify the activities, resources, responsible persons, completion timing, and method for evaluating results.",
+      "page_start": 11,
+      "page_end": 11,
+      "source_block_ids": [
+        "page_11_block_8",
+        "page_11_block_9",
+        "page_11_block_10",
+        "page_11_block_11",
+        "page_11_block_12",
+        "page_11_block_13",
+        "page_11_block_14",
+        "page_11_block_15",
+        "page_11_block_16",
+        "page_11_block_17",
+        "page_11_block_18",
+        "page_11_block_19",
+        "page_11_block_20",
+        "page_11_block_21",
+        "page_11_block_22",
+        "page_11_block_23",
+        "page_11_block_24"
+      ],
+      "todo": {
+        "name": "Establish and track documented information security objectives",
+        "description": "Define objectives for relevant functions and levels, link them to policy and risk results, assign resources and owners, set target dates and evaluation methods, and monitor and communicate progress."
+      },
+      "policies": [
+        {
+          "name": "Information Security Objectives and Metrics Policy",
+          "description": "Sets the governance approach for defining, measuring, monitoring, communicating, and updating information security objectives."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Information Security Objectives Register",
+          "description": "Lists objectives, applicable functions and levels, measures, owners, resources, target dates, status, and evaluation methods."
+        },
+        {
+          "name": "Information Security Improvement Plan",
+          "description": "Details the actions, resources, responsibilities, and timing required to achieve the established objectives."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved information security objectives",
+          "description": "Current documented objectives showing alignment with policy, applicable requirements, and risk assessment or treatment results."
+        },
+        {
+          "name": "Objective monitoring and review records",
+          "description": "Performance dashboards, management reviews, or status reports showing monitoring, communication, evaluation, and updates."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 7.3",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "7.3 ​Awareness\nPersons doing work under the organization’s control shall be aware of:\na) the information security policy;\nb) their contribution to the effectiveness of the information security management system, including\nthe benefits of improved information security performance; and\nc) the implications of not conforming with the information security management system requirements.",
+      "source_summary": "Persons working under the organization’s control must be aware of the information security policy, how they contribute to the effectiveness of the information security management system and improved security performance, and the implications of failing to conform to ISMS requirements.",
+      "page_start": 12,
+      "page_end": 12,
+      "source_block_ids": [
+        "page_12_block_13",
+        "page_12_block_14",
+        "page_12_block_15",
+        "page_12_block_16",
+        "page_12_block_17",
+        "page_12_block_18"
+      ],
+      "todo": {
+        "name": "Deliver and verify ISMS awareness",
+        "description": "Provide role-appropriate awareness activities covering the information security policy, individual contributions, benefits of effective security performance, and consequences of nonconformance."
+      },
+      "policies": [
+        {
+          "name": "Information Security Awareness Policy",
+          "description": "Defines the organization’s approach to communicating ISMS responsibilities, expected security behavior, and nonconformance implications."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Security Awareness Programme",
+          "description": "Describes target audiences, learning content, delivery methods, and planned awareness activities."
+        },
+        {
+          "name": "Awareness Materials and Acknowledgement Record",
+          "description": "Maintains training content, policy acknowledgements, and participation records."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Awareness completion records",
+          "description": "Training or briefing records showing that relevant personnel received information about the policy and their ISMS responsibilities."
+        },
+        {
+          "name": "Knowledge or acknowledgement results",
+          "description": "Completed acknowledgements, assessments, or attestations demonstrating awareness of requirements and nonconformance implications."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 7.4",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "7.4 ​Communication\nThe organization shall determine the need for internal and external communications relevant to the information security management system including:\na) on what to communicate;\nb) when to communicate;\nc) with whom to communicate;\nd) how to communicate.",
+      "source_summary": "The organization must determine its internal and external information security management system communication needs, including what information will be communicated, when it will be communicated, to whom, and by what method.",
+      "page_start": 12,
+      "page_end": 12,
+      "source_block_ids": [
+        "page_12_block_19",
+        "page_12_block_20",
+        "page_12_block_21",
+        "page_12_block_22",
+        "page_12_block_23",
+        "page_12_block_24"
+      ],
+      "todo": {
+        "name": "Define ISMS communication requirements",
+        "description": "Identify relevant internal and external ISMS communications and document their content, timing, audiences, communication methods, and responsible owners."
+      },
+      "policies": [
+        {
+          "name": "Information Security Communications Policy",
+          "description": "Defines governance for planning and delivering internal and external communications relevant to the ISMS."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ISMS Communications Plan",
+          "description": "Maps communication topics to audiences, timing, methods, owners, and any required approvals."
+        },
+        {
+          "name": "Security Incident and Stakeholder Communication Procedure",
+          "description": "Describes communication arrangements for significant security matters where stakeholder notification is relevant."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved ISMS communications plan",
+          "description": "Current plan showing what is communicated, when, to whom, how, and who is responsible."
+        },
+        {
+          "name": "Communication records",
+          "description": "Examples of security policy notices, stakeholder communications, meeting briefings, or other completed ISMS communications."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 7.1",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "7.1 ​Resources\nThe organization shall determine and provide the resources needed for the establishment, implementation, maintenance and continual improvement of the information security management system.",
+      "source_summary": "The organization must determine and provide the resources needed to establish, implement, maintain, and continually improve the information security management system.",
+      "page_start": 12,
+      "page_end": 12,
+      "source_block_ids": [
+        "page_12_block_2",
+        "page_12_block_3"
+      ],
+      "todo": {
+        "name": "Assess and provide ISMS resources",
+        "description": "Determine the people, skills, time, technology, and financial resources needed for the ISMS and include approved resources in operational and improvement planning."
+      },
+      "policies": [
+        {
+          "name": "Information Security Resource Management Policy",
+          "description": "Defines how ISMS resource needs are assessed, approved, allocated, and reviewed."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ISMS Resource Plan",
+          "description": "Documents required and available personnel, competencies, budget, tooling, and other resources for ISMS activities."
+        },
+        {
+          "name": "ISMS Improvement Roadmap",
+          "description": "Links planned security improvements to required resources, owners, and delivery priorities."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved ISMS budget and staffing records",
+          "description": "Budget approvals, resource allocations, or role assignments demonstrating provision of resources."
+        },
+        {
+          "name": "Resource review records",
+          "description": "Management or programme reviews showing that ISMS resource sufficiency was assessed and actions were taken where needed."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 7.5.1",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "7.5 ​Documented information\n7.5.1 ​General\nThe organization’s information security management system shall include:\na) documented information required by this document; and\n﻿ \b © ISO/IEC 2022 – All rights reserved \b ﻿ 6\nISO/IEC 27001:2022(E)\nb) documented information determined by the organization as being necessary for the effectiveness\nof the information security management system.",
+      "source_summary": "The information security management system must include documented information required by ISO/IEC 27001 and any additional documented information the organization determines is necessary for the ISMS to be effective.",
+      "page_start": 12,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_12_block_25",
+        "page_12_block_26",
+        "page_12_block_27",
+        "page_12_block_28",
+        "page_12_block_29",
+        "page_13_block_0",
+        "page_13_block_1",
+        "page_13_block_2"
+      ],
+      "todo": {
+        "name": "Define and maintain the ISMS documented information set",
+        "description": "Identify required and organization-determined ISMS documents and records, assign owners, and maintain them within the organization’s documented information framework."
+      },
+      "policies": [
+        {
+          "name": "ISMS Documented Information Policy",
+          "description": "Defines how the organization determines, maintains, and governs documented information needed for the ISMS."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ISMS Document Register",
+          "description": "Lists required and supporting ISMS documents and records, including owners, status, location, and applicable retention or control arrangements."
+        },
+        {
+          "name": "ISMS Documentation Framework",
+          "description": "Defines the structure and hierarchy used for ISMS policies, procedures, plans, registers, and records."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Current ISMS document register",
+          "description": "Register demonstrating identification of required and effectiveness-supporting documented information."
+        },
+        {
+          "name": "Sample ISMS documents and records",
+          "description": "Selected current policies, procedures, plans, and records showing that the documented information set is established and maintained."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 7.2",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "7.2 ​Competence\nThe organization shall:\na) determine the necessary competence of person(s) doing work under its control that affects its\ninformation security performance;\nb) ensure that these persons are competent on the basis of appropriate education, training, or\nexperience;\nc) where applicable, take actions to acquire the necessary competence, and evaluate the effectiveness of the actions taken; and\nd) retain appropriate documented information as evidence of competence.",
+      "source_summary": "The organization must determine the competence needed for people whose work affects information security performance, ensure they are competent through education, training, or experience, take actions to acquire competence where applicable, evaluate those actions, and retain appropriate evidence of competence.",
+      "page_start": 12,
+      "page_end": 12,
+      "source_block_ids": [
+        "page_12_block_4",
+        "page_12_block_5",
+        "page_12_block_6",
+        "page_12_block_7",
+        "page_12_block_8",
+        "page_12_block_9",
+        "page_12_block_10",
+        "page_12_block_11"
+      ],
+      "todo": {
+        "name": "Assess and maintain information security competence",
+        "description": "Define competence requirements for relevant roles, assess personnel against them, provide and evaluate needed development actions, and retain competence evidence."
+      },
+      "policies": [
+        {
+          "name": "Information Security Competence and Training Policy",
+          "description": "Establishes how security-related competence requirements, training needs, effectiveness evaluation, and records are managed."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Role Competence Matrix",
+          "description": "Maps information security competence requirements to roles and personnel whose work affects security performance."
+        },
+        {
+          "name": "Security Training and Development Plan",
+          "description": "Records identified gaps, required actions, responsible owners, target dates, and effectiveness evaluation methods."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Competence and qualification records",
+          "description": "Job requirements, certifications, experience records, training completions, or assessments demonstrating competence."
+        },
+        {
+          "name": "Training effectiveness evaluations",
+          "description": "Assessment results, manager reviews, practical evaluations, or other records showing whether competence actions were effective."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 7.5.3",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "7.5.3 ​Control of documented information\nDocumented information required by the information security management system and by this document shall be controlled to ensure:\na) it is available and suitable for use, where and when it is needed; and\nb) it is adequately protected (e.g. from loss of confidentiality, improper use, or loss of integrity).\nFor the control of documented information, the organization shall address the following activities, as applicable:\nc) distribution, access, retrieval and use;\nd) storage and preservation, including the preservation of legibility;\ne) control of changes (e.g. version control); and\nf) retention and disposition.\nDocumented information of external origin, determined by the organization to be necessary for the planning and operation of the information security management system, shall be identified as appropriate, and controlled.",
+      "source_summary": "ISMS and ISO/IEC 27001 documented information must be available and suitable when needed and adequately protected. Applicable controls include distribution, access, retrieval and use, storage and preservation, change control, retention and disposition. Necessary external-origin documented information must also be appropriately identified and controlled.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_12",
+        "page_13_block_13",
+        "page_13_block_14",
+        "page_13_block_15",
+        "page_13_block_16",
+        "page_13_block_17",
+        "page_13_block_18",
+        "page_13_block_19",
+        "page_13_block_20",
+        "page_13_block_21"
+      ],
+      "todo": {
+        "name": "Control ISMS documented information throughout its lifecycle",
+        "description": "Implement controls for access, distribution, retrieval, storage, preservation, version changes, retention, disposal, and identification of relevant external-origin information."
+      },
+      "policies": [
+        {
+          "name": "Documented Information Control Policy",
+          "description": "Defines lifecycle, access, protection, versioning, retention, disposal, and external-document control requirements for ISMS information."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Document Control Procedure",
+          "description": "Specifies how ISMS documents and records are approved, accessed, changed, stored, retained, disposed of, and protected."
+        },
+        {
+          "name": "Document Retention and Disposition Schedule",
+          "description": "Defines retention and disposal arrangements for relevant ISMS documented information."
+        },
+        {
+          "name": "External Document Register",
+          "description": "Identifies relevant external-origin documents and records their owners, versions, locations, and control status."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Document management system records",
+          "description": "Access permissions, version histories, approval workflows, retrieval records, and audit logs for ISMS documented information."
+        },
+        {
+          "name": "Retention and disposal records",
+          "description": "Evidence of controlled retention, archival, or disposal of documented information."
+        },
+        {
+          "name": "External document review records",
+          "description": "Register entries or review records showing that relevant external-origin information is identified and controlled."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 8.1",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "8.1 ​Operational planning and control\nThe organization shall plan, implement and control the processes needed to meet requirements, and to implement the actions determined in Clause 6, by:\n— establishing criteria for the processes;\n— implementing control of the processes in accordance with the criteria.\nDocumented information shall be available to the extent necessary to have confidence that the processes have been carried out as planned.\n© ISO/IEC 2022 – All rights reserved ﻿ ﻿\nISO/IEC 27001:2022(E)\nThe organization shall control planned changes and review the consequences of unintended changes, taking action to mitigate any adverse effects, as necessary.\nThe organization shall ensure that externally provided processes, products or services that are relevant to the information security management system are controlled.",
+      "source_summary": "The organization must plan, implement, and control processes needed to meet requirements and carry out Clause 6 actions by establishing process criteria and applying controls consistent with those criteria. Necessary documented information must support confidence that processes occurred as planned. Planned changes must be controlled, unintended changes reviewed and mitigated where necessary, and relevant externally provided processes, products, or services controlled.",
+      "page_start": 13,
+      "page_end": 14,
+      "source_block_ids": [
+        "page_13_block_24",
+        "page_13_block_25",
+        "page_13_block_26",
+        "page_13_block_27",
+        "page_13_block_28",
+        "page_13_block_29",
+        "page_14_block_0",
+        "page_14_block_1",
+        "page_14_block_2"
+      ],
+      "todo": {
+        "name": "Implement operational process and change controls",
+        "description": "Define criteria and controls for ISMS-relevant operations, retain sufficient execution records, manage planned changes, assess unintended changes and mitigation, and oversee relevant external providers."
+      },
+      "policies": [
+        {
+          "name": "ISMS Operational Planning and Control Policy",
+          "description": "Defines requirements for process criteria, operational controls, change handling, and oversight of externally provided ISMS-relevant services."
+        },
+        {
+          "name": "Information Security Change Management Policy",
+          "description": "Governs approval, implementation, review, and mitigation of planned and unintended changes affecting information security operations."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Operational Control Procedures",
+          "description": "Describe criteria, responsibilities, control steps, and records for relevant ISMS operational processes."
+        },
+        {
+          "name": "Change Management Records",
+          "description": "Capture planned changes, approvals, implementation results, unintended-change reviews, and mitigation actions."
+        },
+        {
+          "name": "Third-Party Security Oversight Register",
+          "description": "Tracks relevant external providers, applicable security requirements, monitoring activities, and review status."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Operational execution records",
+          "description": "Logs, checklists, workflow records, or service reports demonstrating that controlled processes were carried out as planned."
+        },
+        {
+          "name": "Change and incident review records",
+          "description": "Evidence of planned change approvals and reviews or mitigations for unintended changes."
+        },
+        {
+          "name": "Supplier control evidence",
+          "description": "Contracts, assessments, service reviews, or monitoring records demonstrating control of relevant externally provided processes, products, or services."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 7.5.2",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "7.5.2 ​Creating and updating\nWhen creating and updating documented information the organization shall ensure appropriate:\na) identification and description (e.g. a title, date, author, or reference number);\nb) format (e.g. language, software version, graphics) and media (e.g. paper, electronic); and\nc) review and approval for suitability and adequacy.",
+      "source_summary": "When creating or updating documented information, the organization must ensure suitable identification and description, appropriate format and media, and review and approval for suitability and adequacy.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_7",
+        "page_13_block_8",
+        "page_13_block_9",
+        "page_13_block_10",
+        "page_13_block_11"
+      ],
+      "todo": {
+        "name": "Standardize creation and approval of ISMS documents",
+        "description": "Use document templates and workflows that capture identification details, format and media requirements, and documented review and approval before release or update."
+      },
+      "policies": [
+        {
+          "name": "ISMS Document Creation and Approval Policy",
+          "description": "Defines minimum metadata, format, media, review, and approval expectations for creating and updating ISMS documented information."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Document Template and Metadata Standard",
+          "description": "Specifies required titles, dates, authors, reference identifiers, formats, media, and document status information."
+        },
+        {
+          "name": "Document Review and Approval Procedure",
+          "description": "Describes how ISMS documents are reviewed for suitability and adequacy and approved before use."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved ISMS document samples",
+          "description": "Documents showing identification and description details, appropriate format or media, revision status, and approval evidence."
+        },
+        {
+          "name": "Document workflow and review records",
+          "description": "Approval histories, review comments, or sign-off records demonstrating suitability and adequacy review."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 9.1",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "9.1 ​Monitoring, measurement, analysis and evaluation\nThe organization shall determine:\na) what needs to be monitored and measured, including information security processes and controls;\nb) the methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure\nvalid results. The methods selected should produce comparable and reproducible results to be considered valid;\nc) when the monitoring and measuring shall be performed;\nd) who shall monitor and measure;\ne) when the results from monitoring and measurement shall be analysed and evaluated;\nf) who shall analyse and evaluate these results.\nDocumented information shall be available as evidence of the results.\nThe organization shall evaluate the information security performance and the effectiveness of the information security management system.",
+      "source_summary": "The organization must define what information security processes and controls will be monitored and measured, the methods used, timing, responsible persons, and when and by whom results will be analysed and evaluated. It must retain documented evidence of the results and evaluate information security performance and ISMS effectiveness.",
+      "page_start": 14,
+      "page_end": 14,
+      "source_block_ids": [
+        "page_14_block_10",
+        "page_14_block_11",
+        "page_14_block_12",
+        "page_14_block_13",
+        "page_14_block_14",
+        "page_14_block_15",
+        "page_14_block_16",
+        "page_14_block_17",
+        "page_14_block_18",
+        "page_14_block_19",
+        "page_14_block_20"
+      ],
+      "todo": {
+        "name": "Establish and operate the information security measurement process",
+        "description": "Define monitored processes and controls, measurement methods, timing, responsibilities, analysis activities, and retained results, then use the results to evaluate information security performance and ISMS effectiveness."
+      },
+      "policies": [
+        {
+          "name": "Information Security Monitoring and Measurement Policy",
+          "description": "Set expectations for selecting, performing, analysing, and evaluating information security measurements."
+        },
+        {
+          "name": "Information Security Performance Management Policy",
+          "description": "Define governance for reviewing security performance and ISMS effectiveness."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Information Security Metrics Register",
+          "description": "List monitored processes and controls, measures, methods, owners, schedules, and evaluation criteria."
+        },
+        {
+          "name": "Monitoring and Measurement Procedure",
+          "description": "Describe how measurements are collected, validated, analysed, evaluated, and reported."
+        },
+        {
+          "name": "Information Security Performance Report",
+          "description": "Record evaluated measurement results and conclusions about security performance and ISMS effectiveness."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed measurement records",
+          "description": "Reports, dashboards, or system-generated records showing monitoring and measurement results."
+        },
+        {
+          "name": "Measurement analysis and evaluation records",
+          "description": "Documented analyses, evaluations, and management reporting based on the results."
+        },
+        {
+          "name": "Metrics ownership and schedule records",
+          "description": "Approved register or workflow showing assigned responsibilities and planned measurement timing."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 9.2.1",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "9.2 ​Internal audit\n9.2.1 General\nThe organization shall conduct internal audits at planned intervals to provide information on whether the information security management system:\na) conforms to\n1) the organization’s own requirements for its information security management system;\n﻿ \b © ISO/IEC 2022 – All rights reserved \b ﻿ 8\nISO/IEC 27001:2022(E)\n2) the requirements of this document;\nb) is effectively implemented and maintained.",
+      "source_summary": "The organization must conduct internal audits at planned intervals to determine whether the ISMS conforms to its own requirements and to ISO/IEC 27001 requirements, and whether it is effectively implemented and maintained.",
+      "page_start": 14,
+      "page_end": 15,
+      "source_block_ids": [
+        "page_14_block_21",
+        "page_14_block_22",
+        "page_14_block_23",
+        "page_14_block_24",
+        "page_14_block_25",
+        "page_14_block_26",
+        "page_15_block_0",
+        "page_15_block_1",
+        "page_15_block_2"
+      ],
+      "todo": {
+        "name": "Conduct planned internal ISMS audits",
+        "description": "Execute internal audits at planned intervals against the organization’s ISMS requirements and ISO/IEC 27001 requirements, assessing implementation and maintenance effectiveness."
+      },
+      "policies": [
+        {
+          "name": "Internal Audit Policy",
+          "description": "Define the organization’s approach to planning and performing objective internal audits of the ISMS."
+        },
+        {
+          "name": "Information Security Management System Policy",
+          "description": "Document the organization’s own ISMS requirements against which internal conformity is assessed."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Internal Audit Programme",
+          "description": "Schedule planned ISMS audits and identify the requirements, processes, or areas to be assessed."
+        },
+        {
+          "name": "Internal Audit Procedure",
+          "description": "Describe audit preparation, execution, evaluation, reporting, and follow-up activities."
+        },
+        {
+          "name": "Internal Audit Reports",
+          "description": "Record audit criteria, findings, conclusions, and assessments of ISMS implementation and maintenance."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed internal audit reports",
+          "description": "Audit records demonstrating assessment against organizational and ISO/IEC 27001 requirements."
+        },
+        {
+          "name": "Audit working papers and checklists",
+          "description": "Evidence of testing whether ISMS processes are implemented and maintained."
+        },
+        {
+          "name": "Internal audit schedule",
+          "description": "Approved schedule showing audits were conducted at planned intervals."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 8.2",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "8.2 ​Information security risk assessment\nThe organization shall perform information security risk assessments at planned intervals or when significant changes are proposed or occur, taking account of the criteria established in 6.1.2 a).\nThe organization shall retain documented information of the results of the information security risk assessments.",
+      "source_summary": "The organization must perform information security risk assessments at planned intervals and when significant changes are proposed or occur, using the criteria established under Clause 6.1.2 a). It must retain documented information on the assessment results.",
+      "page_start": 14,
+      "page_end": 14,
+      "source_block_ids": [
+        "page_14_block_3",
+        "page_14_block_4",
+        "page_14_block_5"
+      ],
+      "todo": {
+        "name": "Perform and record information security risk assessments",
+        "description": "Run risk assessments at defined intervals and when significant changes arise, applying the established risk assessment criteria and retaining the results."
+      },
+      "policies": [
+        {
+          "name": "Information Security Risk Management Policy",
+          "description": "Define the organization’s approach to conducting and documenting information security risk assessments."
+        },
+        {
+          "name": "Change Management Policy",
+          "description": "Require consideration of whether proposed or actual significant changes trigger a risk assessment."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Risk Assessment Methodology",
+          "description": "Define the criteria, method, scales, and evaluation approach used for information security risk assessments."
+        },
+        {
+          "name": "Information Security Risk Register",
+          "description": "Record assessed risks, affected assets or processes, ratings, and assessment status."
+        },
+        {
+          "name": "Risk Assessment Records",
+          "description": "Document individual assessments, including the context, analysis, evaluation, date, and results."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed risk assessments",
+          "description": "Documented assessments showing application of the established criteria and recorded results."
+        },
+        {
+          "name": "Risk assessment schedule",
+          "description": "Records showing assessments are planned and performed at defined intervals."
+        },
+        {
+          "name": "Change-triggered assessment records",
+          "description": "Risk assessments linked to significant proposed or completed changes."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 8.3",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "8.3 ​Information security risk treatment\nThe organization shall implement the information security risk treatment plan.\nThe organization shall retain documented information of the results of the information security risk treatment.",
+      "source_summary": "The organization must implement its information security risk treatment plan and retain documented information about the results of information security risk treatment.",
+      "page_start": 14,
+      "page_end": 14,
+      "source_block_ids": [
+        "page_14_block_6",
+        "page_14_block_7",
+        "page_14_block_8"
+      ],
+      "todo": {
+        "name": "Implement and document the risk treatment plan",
+        "description": "Carry out the approved risk treatment actions, track their status and outcomes, and retain documented results of the treatment activities."
+      },
+      "policies": [
+        {
+          "name": "Information Security Risk Treatment Policy",
+          "description": "Define how assessed information security risks are selected, treated, tracked, and closed."
+        },
+        {
+          "name": "Risk Acceptance Policy",
+          "description": "Establish governance for approving and recording risks that are not otherwise treated."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Information Security Risk Treatment Plan",
+          "description": "Specify treatment actions, owners, priorities, target outcomes, and status for identified risks."
+        },
+        {
+          "name": "Risk Treatment Tracking Register",
+          "description": "Track implementation progress, completion, residual risk, and treatment results."
+        },
+        {
+          "name": "Risk Acceptance Records",
+          "description": "Document approved risk acceptance decisions where applicable to the treatment plan."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed risk treatment actions",
+          "description": "Tickets, project records, configuration changes, or other records demonstrating implementation of planned treatments."
+        },
+        {
+          "name": "Updated risk treatment register",
+          "description": "Evidence of treatment status, owners, completion, and resulting risk position."
+        },
+        {
+          "name": "Risk treatment results and approvals",
+          "description": "Records showing outcomes of treatment activities and relevant acceptance or closure decisions."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 9.3.1",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "9.3 ​Management review\n9.3.1 General\nTop management shall review the organization's information security management system at planned intervals to ensure its continuing suitability, adequacy and effectiveness.",
+      "source_summary": "Top management must review the organization’s ISMS at planned intervals to ensure that it remains suitable, adequate, and effective.",
+      "page_start": 15,
+      "page_end": 15,
+      "source_block_ids": [
+        "page_15_block_12",
+        "page_15_block_13",
+        "page_15_block_14"
+      ],
+      "todo": {
+        "name": "Conduct planned top management ISMS reviews",
+        "description": "Schedule and hold reviews by top management that assess the continuing suitability, adequacy, and effectiveness of the ISMS."
+      },
+      "policies": [
+        {
+          "name": "Management Review Policy",
+          "description": "Define governance for scheduling, conducting, documenting, and following up top management ISMS reviews."
+        },
+        {
+          "name": "Information Security Governance Policy",
+          "description": "Establish top management oversight of the ISMS."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Management Review Schedule",
+          "description": "Record planned intervals and responsible participants for top management ISMS reviews."
+        },
+        {
+          "name": "Management Review Agenda",
+          "description": "Set out the matters to be considered during each ISMS review."
+        },
+        {
+          "name": "Management Review Minutes",
+          "description": "Record attendance, discussion, conclusions, and follow-up from each review."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Management review meeting records",
+          "description": "Minutes or approved records demonstrating that top management reviewed the ISMS."
+        },
+        {
+          "name": "Management review schedule and invitations",
+          "description": "Evidence that reviews were planned and attended by appropriate top management representatives."
+        },
+        {
+          "name": "Review conclusions",
+          "description": "Documented conclusions about the ISMS’s suitability, adequacy, and effectiveness."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 9.3.2",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "9.3.2 Management review inputs\nThe management review shall include consideration of:\na) the status of actions from previous management reviews;\nb) changes in external and internal issues that are relevant to the information security management\nsystem;\nc) changes in needs and expectations of interested parties that are relevant to the information security management system;\nd) feedback on the information security performance, including trends in:\n1) nonconformities and corrective actions;\n2) monitoring and measurement results;\n3) audit results;\n4) fulfilment of information security objectives;\ne) feedback from interested parties;\nf) results of risk assessment and status of risk treatment plan;\ng) opportunities for continual improvement.",
+      "source_summary": "Management reviews must consider previous review actions; relevant internal and external changes; interested-party needs and expectations; information security performance trends, including nonconformities, corrective actions, monitoring, measurement, audits, and objectives; interested-party feedback; risk assessment and risk treatment status; and opportunities for continual improvement.",
+      "page_start": 15,
+      "page_end": 15,
+      "source_block_ids": [
+        "page_15_block_15",
+        "page_15_block_16",
+        "page_15_block_17",
+        "page_15_block_18",
+        "page_15_block_19",
+        "page_15_block_20",
+        "page_15_block_21",
+        "page_15_block_22",
+        "page_15_block_23",
+        "page_15_block_24",
+        "page_15_block_25",
+        "page_15_block_26",
+        "page_15_block_27",
+        "page_15_block_28"
+      ],
+      "todo": {
+        "name": "Prepare complete management review inputs",
+        "description": "Compile and present all specified management review inputs, including prior actions, relevant changes, performance trends, feedback, risk information, and improvement opportunities."
+      },
+      "policies": [
+        {
+          "name": "Management Review Policy",
+          "description": "Require management reviews to address the specified ISMS inputs."
+        },
+        {
+          "name": "Information Security Performance Reporting Policy",
+          "description": "Define how performance trends, objectives, audits, corrective actions, and risk information are consolidated for review."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Management Review Input Pack",
+          "description": "Compile evidence and analysis covering prior actions, changes, interested parties, performance trends, feedback, risks, treatment status, and improvement opportunities."
+        },
+        {
+          "name": "ISMS Performance Dashboard",
+          "description": "Present trends for nonconformities, corrective actions, monitoring and measurement, audits, and information security objectives."
+        },
+        {
+          "name": "Interested Parties and Issues Register",
+          "description": "Track relevant internal and external issues, interested-party needs, expectations, and feedback."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Management review agenda and input pack",
+          "description": "Records showing that all specified input categories were prepared for consideration."
+        },
+        {
+          "name": "Trend and performance reports",
+          "description": "Analysis of nonconformities, corrective actions, monitoring and measurement, audits, and information security objectives."
+        },
+        {
+          "name": "Risk and interested-party updates",
+          "description": "Current risk assessment and treatment information, feedback records, and relevant changes affecting the ISMS."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 9.3.3",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "9.3.3 Management review results\nThe results of the management review shall include decisions related to continual improvement opportunities and any needs for changes to the information security management system.\n© ISO/IEC 2022 – All rights reserved ﻿ ﻿\nISO/IEC 27001:2022(E)\nDocumented information shall be available as evidence of the results of management reviews.",
+      "source_summary": "Management review results must include decisions concerning opportunities for continual improvement and any need to change the ISMS. Documented information must be available as evidence of the management review results.",
+      "page_start": 15,
+      "page_end": 16,
+      "source_block_ids": [
+        "page_15_block_29",
+        "page_15_block_30",
+        "page_15_block_31",
+        "page_16_block_0",
+        "page_16_block_1"
+      ],
+      "todo": {
+        "name": "Record and track management review decisions",
+        "description": "Document management decisions on continual improvement opportunities and required ISMS changes, then assign and track resulting actions."
+      },
+      "policies": [
+        {
+          "name": "Management Review Policy",
+          "description": "Define requirements for recording management review decisions and resulting ISMS changes."
+        },
+        {
+          "name": "Continual Improvement Policy",
+          "description": "Establish how improvement opportunities identified through management review are evaluated and progressed."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Management Review Results Record",
+          "description": "Document decisions, conclusions, improvement opportunities, required ISMS changes, owners, and actions."
+        },
+        {
+          "name": "ISMS Change Action Register",
+          "description": "Track approved changes and follow-up actions arising from management reviews."
+        },
+        {
+          "name": "Continual Improvement Register",
+          "description": "Record and monitor improvement opportunities identified during reviews."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved management review minutes",
+          "description": "Documented evidence of review results, decisions, improvement opportunities, and required ISMS changes."
+        },
+        {
+          "name": "Management action tracker",
+          "description": "Records showing assigned owners, progress, and closure of actions arising from the review."
+        },
+        {
+          "name": "Implemented ISMS change records",
+          "description": "Change requests or updated ISMS documentation demonstrating decisions were acted upon where necessary."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 9.2.2",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "9.2.2 Internal audit programme\nThe organization shall plan, establish, implement and maintain an audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting.\nWhen establishing the internal audit programme(s), the organization shall consider the importance of\nthe processes concerned and the results of previous audits.\nThe organization shall:\na) define the audit criteria and scope for each audit;\nb) select auditors and conduct audits that ensure objectivity and the impartiality of the audit process;\nc) ensure that the results of the audits are reported to relevant management;\nDocumented information shall be available as evidence of the implementation of the audit programme(s) and the audit results.",
+      "source_summary": "The organization must establish, implement, maintain, and plan an internal audit programme covering frequency, methods, responsibilities, planning requirements, and reporting. The programme must consider process importance and previous audit results. Each audit must have defined criteria and scope, use objective and impartial auditors, report results to relevant management, and retain evidence of the programme and results.",
+      "page_start": 15,
+      "page_end": 15,
+      "source_block_ids": [
+        "page_15_block_3",
+        "page_15_block_4",
+        "page_15_block_5",
+        "page_15_block_6",
+        "page_15_block_7",
+        "page_15_block_8",
+        "page_15_block_9",
+        "page_15_block_10",
+        "page_15_block_11"
+      ],
+      "todo": {
+        "name": "Establish and operate an objective ISMS audit programme",
+        "description": "Create and maintain a risk-informed audit programme, define criteria and scope for each audit, assign impartial auditors, conduct audits, report results to relevant management, and retain programme records."
+      },
+      "policies": [
+        {
+          "name": "Internal Audit Policy",
+          "description": "Define requirements for audit programme governance, auditor objectivity, impartiality, reporting, and retained records."
+        },
+        {
+          "name": "Auditor Independence Policy",
+          "description": "Set expectations for selecting auditors who can conduct audits objectively and impartially."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Internal Audit Programme",
+          "description": "Document audit frequency, methods, responsibilities, planning requirements, reporting arrangements, process importance, and previous audit considerations."
+        },
+        {
+          "name": "Audit Plan and Terms of Reference",
+          "description": "Define criteria, scope, objectives, timing, resources, and assigned auditors for each audit."
+        },
+        {
+          "name": "Internal Audit Procedure",
+          "description": "Describe the process for auditor selection, audit execution, reporting, and retention of audit records."
+        },
+        {
+          "name": "Audit Findings and Corrective Action Register",
+          "description": "Track reported results, responsible management responses, and follow-up actions."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved internal audit programme",
+          "description": "Evidence of planned audits, frequency, methods, responsibilities, and reporting arrangements."
+        },
+        {
+          "name": "Audit plans and working papers",
+          "description": "Records showing defined criteria and scope and the work performed by selected auditors."
+        },
+        {
+          "name": "Auditor competence and independence records",
+          "description": "Evidence supporting auditor qualifications, assigned roles, and objectivity or impartiality."
+        },
+        {
+          "name": "Audit reports and management communications",
+          "description": "Records showing audit results were reported to relevant management."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 10.1",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "10.1 ​Continual improvement\nThe organization shall continually improve the suitability, adequacy and effectiveness of the information security management system.",
+      "source_summary": "The organization must continually improve the suitability, adequacy, and effectiveness of its ISMS.",
+      "page_start": 16,
+      "page_end": 16,
+      "source_block_ids": [
+        "page_16_block_3",
+        "page_16_block_4"
+      ],
+      "todo": {
+        "name": "Operate an ISMS continual improvement process",
+        "description": "Identify, prioritize, implement, and review improvements that enhance the ISMS’s suitability, adequacy, or effectiveness."
+      },
+      "policies": [
+        {
+          "name": "Continual Improvement Policy",
+          "description": "Define how ISMS improvement opportunities are identified, prioritized, implemented, and reviewed."
+        },
+        {
+          "name": "Information Security Governance Policy",
+          "description": "Assign governance responsibility for maintaining and improving ISMS performance."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ISMS Continual Improvement Register",
+          "description": "Record improvement opportunities, rationale, owners, actions, status, and outcomes."
+        },
+        {
+          "name": "ISMS Improvement Plan",
+          "description": "Plan prioritized initiatives intended to improve ISMS suitability, adequacy, or effectiveness."
+        },
+        {
+          "name": "Improvement Effectiveness Review Record",
+          "description": "Document evaluation of whether completed improvements achieved their intended results."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Improvement initiative records",
+          "description": "Projects, action items, or change records showing improvements were identified and implemented."
+        },
+        {
+          "name": "Continual improvement register updates",
+          "description": "Evidence of prioritization, ownership, progress, and closure of improvement opportunities."
+        },
+        {
+          "name": "Before-and-after performance evaluations",
+          "description": "Measurement or review records demonstrating the effect of implemented improvements."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Clause 10.2",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "10.2 ​Nonconformity and corrective action\nWhen a nonconformity occurs, the organization shall:\na) react to the nonconformity, and as applicable:\n1) take action to control and correct it;\n2) deal with the consequences;\nb) evaluate the need for action to eliminate the causes of nonconformity, in order that it does not recur\nor occur elsewhere, by:\n1) reviewing the nonconformity;\n2) determining the causes of the nonconformity; and\n3) determining if similar nonconformities exist, or could potentially occur;\nc) implement any action needed;\nd) review the effectiveness of any corrective action taken; and\ne) make changes to the information security management system, if necessary.\nCorrective actions shall be appropriate to the effects of the nonconformities encountered.\nDocumented information shall be available as evidence of:\nf) the nature of the nonconformities and any subsequent actions taken,\ng) the results of any corrective action.",
+      "source_summary": "When a nonconformity occurs, the organization must control and correct it and address consequences as applicable; determine whether action is needed to eliminate causes and prevent recurrence or occurrence elsewhere; review the nonconformity, determine causes and similar potential issues; implement needed action; review corrective action effectiveness; and change the ISMS when necessary. Corrective actions must be appropriate to the effects of the nonconformities. Documented information must record the nonconformities, actions taken, and corrective action results.",
+      "page_start": 16,
+      "page_end": 16,
+      "source_block_ids": [
+        "page_16_block_5",
+        "page_16_block_6",
+        "page_16_block_7",
+        "page_16_block_8",
+        "page_16_block_9",
+        "page_16_block_10",
+        "page_16_block_11",
+        "page_16_block_12",
+        "page_16_block_13",
+        "page_16_block_14",
+        "page_16_block_15",
+        "page_16_block_16",
+        "page_16_block_17",
+        "page_16_block_18",
+        "page_16_block_19",
+        "page_16_block_20",
+        "page_16_block_21"
+      ],
+      "todo": {
+        "name": "Manage nonconformities through effective corrective action",
+        "description": "Record each nonconformity, contain and correct it, assess consequences and root causes, check for similar issues, implement proportionate corrective action, verify effectiveness, and update the ISMS when necessary."
+      },
+      "policies": [
+        {
+          "name": "Nonconformity and Corrective Action Policy",
+          "description": "Define the process for responding to nonconformities, determining causes, implementing corrective actions, and verifying effectiveness."
+        },
+        {
+          "name": "Issue and Root Cause Management Policy",
+          "description": "Establish expectations for investigating issues, identifying systemic causes, and preventing recurrence."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Nonconformity and Corrective Action Procedure",
+          "description": "Describe intake, containment, correction, consequence management, cause analysis, action planning, effectiveness review, and ISMS updates."
+        },
+        {
+          "name": "Nonconformity Register",
+          "description": "Record the nature of nonconformities, immediate actions, causes, related issues, corrective actions, and status."
+        },
+        {
+          "name": "Corrective Action Report",
+          "description": "Document investigation results, proportionate actions, responsibilities, deadlines, and effectiveness conclusions."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Nonconformity records",
+          "description": "Records showing the nature of each nonconformity and actions taken to control, correct, or address consequences."
+        },
+        {
+          "name": "Root cause and recurrence analysis",
+          "description": "Evidence of cause determination and assessment of similar or potentially recurring nonconformities."
+        },
+        {
+          "name": "Corrective action implementation records",
+          "description": "Tickets, approvals, change records, or other evidence that required actions were implemented."
+        },
+        {
+          "name": "Effectiveness review records",
+          "description": "Follow-up evidence demonstrating that corrective actions were reviewed for effectiveness and that necessary ISMS changes were made."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ISO/IEC 27001:2022, Annex A, Table A.1",
+      "source_title": "Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+      "source_text": "Annex A\n(normative)\nInformation security controls reference\nThe information security controls listed in Table A.1 are directly derived from and aligned with those listed in ISO/IEC 27002:2022 [ 1 ] , Clauses 5 to 8, and shall be used in context with 6.1.3 .",
+      "source_summary": "Annex A provides a normative reference list of information security controls in Table A.1. The controls are derived from and aligned with ISO/IEC 27002:2022 Clauses 5 to 8 and are to be used in conjunction with the information security risk treatment process described in 6.1.3.",
+      "page_start": 17,
+      "page_end": 17,
+      "source_block_ids": [
+        "page_17_block_1",
+        "page_17_block_2",
+        "page_17_block_3"
+      ],
+      "todo": {
+        "name": "Integrate Annex A controls with the risk treatment process",
+        "description": "Use the Table A.1 controls when selecting and documenting controls through the organization’s information security risk treatment process under 6.1.3."
+      },
+      "policies": [
+        {
+          "name": "Information Security Risk Management Policy",
+          "description": "Define how information security risks are assessed, treated, and used to inform control selection."
+        },
+        {
+          "name": "Information Security Management System Policy",
+          "description": "Establish governance for operating the ISMS and maintaining alignment between identified risks and applicable information security controls."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Statement of Applicability",
+          "description": "Document which Annex A controls are applicable, their implementation status, and justification for inclusions or exclusions."
+        },
+        {
+          "name": "Risk Treatment Plan",
+          "description": "Record selected controls, treatment actions, ownership, and status for addressing identified information security risks."
+        },
+        {
+          "name": "Control Mapping or Applicability Register",
+          "description": "Maintain a traceable mapping between identified risks, selected Annex A controls, and relevant ISO/IEC 27002 guidance."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved Statement of Applicability",
+          "description": "A current, authorized Statement of Applicability showing consideration of the Table A.1 controls and documented applicability decisions."
+        },
+        {
+          "name": "Risk Assessment and Risk Treatment Records",
+          "description": "Records demonstrating that control selection was performed in connection with the information security risk treatment process."
+        },
+        {
+          "name": "Control Selection Review Records",
+          "description": "Review or approval records showing that the relationship between identified risks and selected Annex A controls was evaluated."
+        }
+      ],
+      "ai_generated": true
+    }
+  ],
+  "warnings": []
+}

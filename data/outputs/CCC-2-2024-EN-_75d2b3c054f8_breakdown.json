@@ -1,0 +1,1148 @@
+{
+  "metadata": {
+    "document_id": "CCC-2-2024-EN-_75d2b3c054f8",
+    "filename": "CCC-2-2024-EN-.pdf",
+    "page_count": 47,
+    "requirement_count": 24,
+    "document_title": "Cloud Cybersecurity Controls (CCC – 2: 2024)",
+    "document_type": "Cloud cybersecurity control framework",
+    "framework_name": "Cloud Cybersecurity Controls (CCC)",
+    "version": "CCC – 2: 2024",
+    "jurisdiction": "Kingdom of Saudi Arabia",
+    "generated_by": "Sahl Compliance Decoder",
+    "ai_model": "gpt-5.6-luna"
+  },
+  "structure": [
+    {
+      "node_id": "1",
+      "title": "Cybersecurity Governance",
+      "level": 1,
+      "node_type": "domain",
+      "numbering": "1"
+    },
+    {
+      "node_id": "1-1",
+      "title": "Cybersecurity Roles and Responsibilities",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "1",
+      "numbering": "1-1"
+    },
+    {
+      "node_id": "1-2",
+      "title": "Cybersecurity Risk Management",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "1",
+      "numbering": "1-2"
+    },
+    {
+      "node_id": "1-3",
+      "title": "Compliance with Cybersecurity Standards, Laws, and Regulations",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "1",
+      "numbering": "1-3"
+    },
+    {
+      "node_id": "1-4",
+      "title": "Cybersecurity in Human Resources",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "1",
+      "numbering": "1-4"
+    },
+    {
+      "node_id": "1-5",
+      "title": "Cybersecurity in Change Management",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "1",
+      "numbering": "1-5"
+    },
+    {
+      "node_id": "2",
+      "title": "Cybersecurity Defense",
+      "level": 1,
+      "node_type": "domain",
+      "numbering": "2"
+    },
+    {
+      "node_id": "2-1",
+      "title": "Asset Management",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-1"
+    },
+    {
+      "node_id": "2-2",
+      "title": "Identity and Access Management",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-2"
+    },
+    {
+      "node_id": "2-3",
+      "title": "Information System and Information Processing Facilities Protection",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-3"
+    },
+    {
+      "node_id": "2-4",
+      "title": "Networks Security Management",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-4"
+    },
+    {
+      "node_id": "2-5",
+      "title": "Mobile Devices Security",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-5"
+    },
+    {
+      "node_id": "2-6",
+      "title": "Data and Information Protection",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-6"
+    },
+    {
+      "node_id": "2-7",
+      "title": "Cryptography",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-7"
+    },
+    {
+      "node_id": "2-8",
+      "title": "Backup and Recovery Management",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-8"
+    },
+    {
+      "node_id": "2-9",
+      "title": "Vulnerabilities Management",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-9"
+    },
+    {
+      "node_id": "2-10",
+      "title": "Penetration Testing",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-10"
+    },
+    {
+      "node_id": "2-11",
+      "title": "Cybersecurity Event Logs and Monitoring Management",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-11"
+    },
+    {
+      "node_id": "2-12",
+      "title": "Cybersecurity Incident and Threat Management",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-12"
+    },
+    {
+      "node_id": "2-13",
+      "title": "Physical Security",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-13"
+    },
+    {
+      "node_id": "2-14",
+      "title": "Web Application Security",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-14"
+    },
+    {
+      "node_id": "2-15",
+      "title": "Key Management",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-15"
+    },
+    {
+      "node_id": "2-16",
+      "title": "System Development Security",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-16"
+    },
+    {
+      "node_id": "2-17",
+      "title": "Storage Media Security",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "2",
+      "numbering": "2-17"
+    },
+    {
+      "node_id": "3",
+      "title": "Cybersecurity Resilience",
+      "level": 1,
+      "node_type": "domain",
+      "numbering": "3"
+    },
+    {
+      "node_id": "3-1",
+      "title": "Cybersecurity Resilience Aspects of Business Continuity Management (BCM)",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "3",
+      "numbering": "3-1"
+    },
+    {
+      "node_id": "4",
+      "title": "Third-Party Cybersecurity",
+      "level": 1,
+      "node_type": "domain",
+      "numbering": "4"
+    },
+    {
+      "node_id": "4-1",
+      "title": "Supply Chain and Third-Party Cybersecurity",
+      "level": 2,
+      "node_type": "subdomain",
+      "parent_id": "4",
+      "numbering": "4-1"
+    },
+    {
+      "node_id": "A",
+      "title": "Cloud Cybersecurity Controls Levels",
+      "level": 1,
+      "node_type": "annex",
+      "numbering": "Annex A"
+    },
+    {
+      "node_id": "B",
+      "title": "Terminologies and Definitions",
+      "level": 1,
+      "node_type": "annex",
+      "numbering": "Annex B"
+    },
+    {
+      "node_id": "C",
+      "title": "List of the Abbreviations",
+      "level": 1,
+      "node_type": "annex",
+      "numbering": "Annex C"
+    },
+    {
+      "node_id": "D",
+      "title": "List of the Updates",
+      "level": 1,
+      "node_type": "annex",
+      "numbering": "Annex D"
+    }
+  ],
+  "requirements": [
+    {
+      "source_reference": "1-1-P-1; 1-1-P-1-1; 1-1-T-1; 1-1-T-1-1",
+      "source_title": "Cybersecurity Roles and Responsibilities",
+      "source_text": "In addition to the ECC control 1-4-1, the Authorizing Official shall also identify, document, and approve: 1-1-P-1-1 Cybersecurity roles and RACI assignment for all stakeholders of the cloud services including the Authorizing Official's roles and responsibilities. In addition to the ECC control 1-4-1, the Authorizing Official shall also identify, document, and approve: 1-1-T-1-1 Cybersecurity roles and RACI assignment for all stakeholders of the cloud services including the Authorizing Official's roles and responsibilities.",
+      "source_summary": "The Authorizing Official must approve documented cybersecurity roles and RACI assignments for all cloud-service stakeholders for both providers and tenants.",
+      "hierarchy_path": [
+        "Cybersecurity Governance",
+        "Cybersecurity Roles and Responsibilities"
+      ],
+      "page_start": 14,
+      "page_end": 14,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Approve cloud cybersecurity RACI assignments",
+        "description": "Document and obtain Authorizing Official approval for provider or tenant roles and responsibilities."
+      },
+      "policies": [
+        {
+          "name": "Cybersecurity Governance Policy",
+          "description": "Define accountability and role-assignment requirements."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cloud Cybersecurity RACI Matrix",
+          "description": "Approved stakeholder responsibilities and accountabilities."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved RACI matrix",
+          "description": "Version-controlled approval record and role assignment."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "1-2-P-1-1; 1-2-P-1-2; 1-2-P-1-3; 1-2-T-1-1; 1-2-T-1-2; 1-2-T-1-3",
+      "source_title": "Cybersecurity Risk Management",
+      "source_text": "Cybersecurity risk management methodology mentioned in the ECC Subdomain 1-5, shall also include for the CSP, as a minimum: 1-2-P-1-1 Defining acceptable risk levels for the cloud services and clarifying them to the CST if they are related to the CST. 1-2-P-1-2 Considering data and information classification in cybersecurity risk management methodology. 1-2-P-1-3 Developing cybersecurity risk register for cloud services and monitoring it periodically according to the risks. Cybersecurity risk management methodology mentioned in the ECC Subdomain 1-5 shall also include for the CST, as a minimum: 1-2-T-1-1 Defining acceptable risk levels for the cloud services. 1-2-T-1-2 Considering data and information classification accredited by CST in cybersecurity risk management methodology. 1-2-T-1-3 Developing cybersecurity risk register for cloud services and monitoring it periodically according to the risks.",
+      "source_summary": "Cloud risk methodologies must define acceptable risk, consider classification, and maintain periodically monitored cloud risk registers.",
+      "hierarchy_path": [
+        "Cybersecurity Governance",
+        "Cybersecurity Risk Management"
+      ],
+      "page_start": 14,
+      "page_end": 14,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Implement cloud risk management",
+        "description": "Set cloud risk appetite, integrate classification, and maintain a monitored cloud risk register."
+      },
+      "policies": [
+        {
+          "name": "Cybersecurity Risk Management Policy",
+          "description": "Define risk assessment, acceptance, treatment, and monitoring."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cloud Cybersecurity Risk Register",
+          "description": "Risks, owners, classifications, treatments, and review dates."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Risk register and review records",
+          "description": "Approved risk methodology, risk decisions, and periodic monitoring results."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "1-3-P-1-1; 1-3-T-1-1",
+      "source_title": "Compliance with Cybersecurity Standards, Laws, and Regulations",
+      "source_text": "In addition to the ECC control 1-7-1, the CSP legislative and regulatory compliance should include as a minimum with the following requirements: 1-3-P-1-1 Continuous compliance with all laws, regulations, instructions, decisions, regulatory frameworks and controls, and mandates regarding cybersecurity in the Kingdom. In addition to the ECC control 1-7-1, the CST legislative and regulatory compliance should include as a minimum with the following requirements: 1-3-T-1-1 Continuous or real-time compliance monitoring of the CSP with relevant cybersecurity legislation and contract clauses.",
+      "source_summary": "Providers must maintain continuous compliance with applicable Saudi cybersecurity requirements; tenants must continuously or in real time monitor provider compliance with applicable law and contract clauses.",
+      "hierarchy_path": [
+        "Cybersecurity Governance",
+        "Compliance with Cybersecurity Standards, Laws, and Regulations"
+      ],
+      "page_start": 15,
+      "page_end": 15,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Establish continuous cloud compliance monitoring",
+        "description": "Track applicable Saudi requirements and monitor CSP compliance against law and contract obligations."
+      },
+      "policies": [
+        {
+          "name": "Regulatory Compliance Policy",
+          "description": "Require legal obligation identification, monitoring, and reporting."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cloud Compliance Register",
+          "description": "Applicable laws, controls, contracts, owners, and status."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Compliance monitoring reports",
+          "description": "Regulatory register, monitoring outputs, and remediation records."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "1-4-P-1-1; 1-4-P-1-2; 1-4-P-1-3; 1-4-P-2-1; 1-4-T-1-1",
+      "source_title": "Cybersecurity in Human Resources",
+      "source_text": "In addition to Subcontrols in the ECC controls 1-9-3 and 1-9-4, the following requirements should be covered prior and during the professional relationship of personnel with the CSP as a minimum: 1-4-P-1-1 Positions of cybersecurity functions in CSP’s data centers within the Kingdom must be filled with qualified and suitable Saudi nationals. 1-4-P-1-2 Screening or vetting candidates of personnel working inside the Kingdom who have access to Cloud Technology Stack, periodically. 1-4-P-1-3 Cybersecurity policies as a prerequisite to access to Cloud Technology Stack, signed and appropriately approved. In addition to Subcontrols in the ECC control 1-9-5, the following requirements should be in place, as a minimum, for the termination/completion of a human resource’s professional relationship with the CSP: 1-4-P-2-1 Assurance that assets owned by the entity (especially those with security exposure) are accounted for and returned upon termination. In addition to Subcontrols in the ECC control 1-9-3, the following requirements should be covered prior the professional relationship of staff with the CST shall cover, at a minimum: 1-4-T-1-1 Screening or vetting candidates of personnel with access to Cloud Service sensitive functions (Key Management, Service Administration, Access Control).",
+      "source_summary": "Personnel with sensitive cloud access must be suitably screened, subject to approved cybersecurity policies, and return organizational assets at termination; provider data-center cybersecurity roles in the Kingdom must be filled by qualified Saudi nationals.",
+      "hierarchy_path": [
+        "Cybersecurity Governance",
+        "Cybersecurity in Human Resources"
+      ],
+      "page_start": 15,
+      "page_end": 15,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Apply cloud personnel security controls",
+        "description": "Screen sensitive-role personnel, require policy acknowledgement before access, verify Saudi-national staffing where applicable, and recover assets at termination."
+      },
+      "policies": [
+        {
+          "name": "Personnel Security Policy",
+          "description": "Define screening, access prerequisites, and termination controls."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Personnel Screening Records",
+          "description": "Screening and vetting results for sensitive cloud roles."
+        },
+        {
+          "name": "Termination Asset Return Checklist",
+          "description": "Evidence of asset recovery and access closure."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Screening approvals and signed policy acknowledgements",
+          "description": "Personnel security records and termination checklists."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "1-5-P-1; 1-5-P-2; 1-5-P-3-1; 1-5-P-3-2; 1-5-P-4",
+      "source_title": "Cybersecurity in Change Management",
+      "source_text": "Cybersecurity requirements for change management within the CSP shall be identified, documented, and approved. Cybersecurity requirements for change management within the CSP shall be applied. Cybersecurity for change management in the CSP shall cover, as a minimum: 1-5-P-3-1 Processes and procedures to securely implement changes (planned works) in production systems, with priority given to cybersecurity observations. 1-5-P-3-2 Process for the implementation of cybersecurity exceptional changes (e.g.: changes during incident restoration). Cybersecurity requirements for change management within the CSP shall be applied and reviewed periodically.",
+      "source_summary": "Providers must document, approve, apply, and periodically review cybersecurity change-management requirements, including planned and emergency changes.",
+      "hierarchy_path": [
+        "Cybersecurity Governance",
+        "Cybersecurity in Change Management"
+      ],
+      "page_start": 16,
+      "page_end": 16,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Implement secure change management",
+        "description": "Approve change-security requirements and operate controlled planned and emergency change processes with periodic review."
+      },
+      "policies": [
+        {
+          "name": "Change Management Policy",
+          "description": "Set approval, testing, emergency-change, and review requirements."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Change Records",
+          "description": "Approved changes, security assessments, implementation, and review results."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Change tickets and periodic review reports",
+          "description": "Sampled approved changes and emergency-change records."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-1-P-1-1; 2-1-P-1-2; 2-1-T-1-1",
+      "source_title": "Asset Management",
+      "source_text": "In addition to controls in the ECC control 2-1, the CSP shall cover the following additional controls for cybersecurity requirements for cybersecurity event logs and monitoring management, as a minimum: 2-1-P-1-1 Inventory of all information and technology assets using suitable techniques such as Configuration Management Database (CMDB) or similar capability containing an inventory of all technical assets. 2-1-P-1-2 Identifying assets owners and involving them in the asset management lifecycle. In addition to controls in the ECC control 2-1, the CST shall cover the following additional controls for cybersecurity requirements for cybersecurity event logs and monitoring management, as a minimum: 2-1-T-1-1 Inventory of all cloud services and information and technology assets related to the cloud services.",
+      "source_summary": "Providers must maintain a complete technical asset inventory with owners; tenants must inventory cloud services and related assets.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Asset Management"
+      ],
+      "page_start": 17,
+      "page_end": 17,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Maintain cloud asset inventories",
+        "description": "Create and periodically reconcile provider technical-asset or tenant cloud-service inventories with accountable owners."
+      },
+      "policies": [
+        {
+          "name": "Asset Management Policy",
+          "description": "Define inventory, ownership, lifecycle, and reconciliation requirements."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cloud Asset Inventory",
+          "description": "CMDB or equivalent inventory of cloud services and technical assets."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "CMDB export and ownership records",
+          "description": "Current inventory, reconciliation results, and owner attestations."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-2-P-1-1 through 2-2-P-1-12; 2-2-T-1-1 through 2-2-T-1-5",
+      "source_title": "Identity and Access Management",
+      "source_text": "In addition to Subcontrols in the ECC control 2-2-3, the CSP shall cover the following additional Subcontrols for cybersecurity requirements for identity and access management requirements, as a minimum: 2-2-P-1-1 Identity and access management of generic accounts credentials for accountability cannot be assigned for a specific individual. 2-2-P-1-2 Secure session management, including session authenticity, session lockout, and session timeout termination. 2-2-P-1-3 Multi-factor authentication for privileged users, and candidates of personnel with access to Cloud Technology Stack. 2-2-P-1-4 Formal process to detect and prevent unauthorized access (e.g., unsuccessful login attempt threshold). 2-2-P-1-5 Utilizing secure methods and algorithms for saving and processing passwords, such as: Secure Hashing functions. 2-2-P-1-6 Secure management of third-party personnel’s accounts. 2-2-P-1-7 Access control enforced to management systems, administrative consoles. 2-2-P-1-8 Masking of displayed authentication inputs, especially passwords, to prevent shoulder surfing. 2-2-P-1-9 Getting CST’s approval before accessing any CST-related asset by the CSP or CSP’s third parties. 2-2-P-1-10 Capability to immediately interrupt a remote access session and prevent any future access for a user. 2-2-P-1-11 Provision to CSTs of multi-factor authentication services for privileged cloud users. 2-2-P-1-12 Assurance of restricted and controlled access to storage systems and means (such as Storage Area Network (SAN)). In addition to Subcontrols in the ECC control 2-2-3, the CST shall cover the following additional Subcontrols for cybersecurity requirements for identity and access management requirements, as a minimum: 2-2-T-1-1 Identity and access management for all cloud credentials along their full lifecycle. 2-2-T-1-2 Confidentiality of cloud user identification, cloud credential and cloud access rights information, including the requirement on users to keep them private (for employed, third party and CST personnel). 2-2-T-1-3 Secure session management, including session authenticity, session lockout, and session timeout termination on the cloud. 2-2-T-1-4 Multi-factor authentication for privileged cloud users. 2-2-T-1-5 Formal process to detect and prevent unauthorized access to cloud (such as a threshold of unsuccessful login attempts).",
+      "source_summary": "The control requires lifecycle identity governance, secure sessions, MFA for privileged access, unauthorized-access prevention, secure credential handling, controlled administration, tenant approval, remote-session interruption, and protected storage access.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Identity and Access Management"
+      ],
+      "page_start": 17,
+      "page_end": 18,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Harden cloud identity and access management",
+        "description": "Implement lifecycle account governance, MFA, secure sessions, privileged-access controls, credential protection, and remote-access interruption."
+      },
+      "policies": [
+        {
+          "name": "Identity and Access Management Policy",
+          "description": "Define account lifecycle, privileged access, MFA, sessions, and third-party access."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Access Control Matrix",
+          "description": "Authorized roles, systems, privileges, and approvals."
+        },
+        {
+          "name": "Credential and Session Standards",
+          "description": "Authentication, password, timeout, lockout, and remote-access settings."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "IAM configuration and access reviews",
+          "description": "MFA reports, account lifecycle records, session settings, approvals, and logs."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-3-P-1-1 through 2-3-P-1-10; 2-3-T-1-1",
+      "source_title": "Information System and Information Processing Facilities Protection",
+      "source_text": "In addition to Subcontrols in the ECC control 2-3-3, the CSP shall cover the following additional Subcontrols for cybersecurity requirements for information system and processing facilities protection requirements, as a minimum: 2-3-P-1-1 Ensuring that all configurations are applied in accordance with CSP’s cybersecurity standards. 2-3-P-1-2 Assurance of separation and isolation of data, environments, and information systems across CSTs, to prevent data commingling. 2-3-P-1-3 Adopting cybersecurity principles for technical system configurations adhering to the minimum functionality principle. 2-3-P-1-4 Ability of the Cloud Technology Stacks to securely handle input validation, exceptions and failure. 2-3-P-1-5 Full isolation of security functions and applications from other functions and applications in the Cloud Technology Stack. 2-3-P-1-6 Notification to CSTs with cybersecurity requirements provided by the CSP that are useable by the CST. 2-3-P-1-7 Detection and prevention of unauthorized changes to software programs, and systems. 2-3-P-1-8 Complete isolation and protection of multiple guest environments. 2-3-P-1-9 The community cloud services provided to CSTs (government entities and CNI entities) shall be isolated from any other cloud computing provided to entities outside the scope of work. 2-3-P-1-10 Modern technologies, such as Endpoint Detection and Response (EDR) technologies, to ensure that the information servers and devices of CSP’s information processing systems and devices of are ready for rapid response to incidents. In addition to Subcontrols in the ECC control 2-3-3, the CST shall cover the following additional Subcontrols for cybersecurity requirements for information system and processing facilities protection requirements, as a minimum: 2-3-T-1-1 Verifying that the CSP isolates the community cloud services provided to CSTs (government entities and CNI entities) from any other cloud computing provided to entities outside the scope of work.",
+      "source_summary": "Providers must securely configure and isolate cloud systems, tenants, guests, security functions, and community-cloud services, protect against unauthorized changes, notify tenants of usable security requirements, and support rapid incident response; tenants must verify required community-cloud isolation.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Information System and Information Processing Facilities Protection"
+      ],
+      "page_start": 18,
+      "page_end": 19,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Secure and isolate cloud processing environments",
+        "description": "Enforce secure baselines, tenant and guest isolation, change protection, input and failure handling, and EDR readiness; verify community-cloud segregation."
+      },
+      "policies": [
+        {
+          "name": "System Hardening and Segregation Policy",
+          "description": "Define configuration baselines, least functionality, isolation, and integrity controls."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Secure Configuration Baselines",
+          "description": "Approved configurations and segregation architecture."
+        },
+        {
+          "name": "Tenant Isolation Verification",
+          "description": "Testing and assurance records for tenant and community-cloud separation."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Configuration scans and isolation test results",
+          "description": "Baseline compliance, segmentation tests, change-detection alerts, and EDR reports."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-4-P-1-1 through 2-4-P-1-6; 2-4-T-1-1",
+      "source_title": "Networks Security Management",
+      "source_text": "In addition to Subcontrols in the ECC control 2-5-3, the CSP shall cover the following additional Subcontrols for cybersecurity requirements for networks security management requirements, as a minimum: 2-4-P-1-1 Monitoring of traffic across the external and internal networks to detect anomalies. 2-4-P-1-2 Network isolation and protection of Cloud Technology Stack network from other internal and external networks. 2-4-P-1-3 Protection from denial-of-service attacks (including Distributed Denial of Service (DDoS)). 2-4-P-1-4 Protection of data transmitted through the network; from and to the Cloud Technology Stack network using cryptography primitives; for management and administrative access. 2-4-P-1-5 Access control between different network segments. 2-4-P-1-6 Isolation between cloud service delivery network, cloud management network and CSP enterprise network. In addition to Subcontrols in the ECC control 2-5-3, the CST shall cover the following additional Subcontrols for cybersecurity requirements for networks security management requirements, as a minimum: 2-4-T-1-1 Protecting the connection channel with CSP.",
+      "source_summary": "Providers must monitor, isolate, segment, encrypt, and protect cloud networks against DDoS; tenants must protect their connection channel to the provider.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Networks Security Management"
+      ],
+      "page_start": 19,
+      "page_end": 20,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Secure cloud networks and connections",
+        "description": "Deploy network monitoring, segmentation, isolation, DDoS protection, cryptographic administrative channels, and tenant connection safeguards."
+      },
+      "policies": [
+        {
+          "name": "Network Security Policy",
+          "description": "Define segmentation, encryption, monitoring, and DDoS controls."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cloud Network Architecture",
+          "description": "Network zones, trust boundaries, segmentation, and connection design."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Firewall, IDS, DDoS, and encryption configurations",
+          "description": "Network diagrams, monitoring alerts, and control test results."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-5-P-1-1 through 2-5-P-1-4; 2-5-T-1-1",
+      "source_title": "Mobile Devices Security",
+      "source_text": "In addition to Subcontrols in the ECC control 2-6-3, the CSP shall cover the following additional Subcontrols for cybersecurity requirements for mobile device security, as a minimum: 2-5-P-1-1 Inventory of all end user and mobile devices. 2-5-P-1-2 Centralized mobile device security management. 2-5-P-1-3 Screen looking for end user devices. 2-5-P-1-4 Data sanitation and secure disposal for end-user devices, especially for those with exposure to the Cloud Technology Stack. In addition to Subcontrols in the ECC control 2-6-3, the CST shall cover the following additional Subcontrols for cybersecurity requirements for mobile device security, as a minimum: 2-5-T-1-1 Data sanitation and secure disposal for end-user devices with access to the cloud services.",
+      "source_summary": "Providers must inventory and centrally manage mobile devices, protect screens, and sanitize or securely dispose of exposed devices; tenants must sanitize and securely dispose of devices accessing cloud services.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Mobile Devices Security"
+      ],
+      "page_start": 20,
+      "page_end": 20,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Manage mobile-device security",
+        "description": "Maintain device inventory, central management, screen protection, and secure sanitization and disposal."
+      },
+      "policies": [
+        {
+          "name": "Mobile Device Security Policy",
+          "description": "Set enrollment, configuration, handling, sanitization, and disposal requirements."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Mobile Device Inventory",
+          "description": "Registered end-user and mobile devices with ownership and status."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "MDM reports and disposal certificates",
+          "description": "Management configuration, screen-lock compliance, sanitization, and disposal records."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-6-P-1-1 through 2-6-P-1-5; 2-6-T-1-1; 2-6-T-1-2",
+      "source_title": "Data and Information Protection",
+      "source_text": "In addition to Subcontrols in the ECC control 2-7-3, the CSP shall cover the following additional Subcontrols for cybersecurity requirements for data and information protection requirements, as a minimum: 2-6-P-1-1 Prohibiting the use of Cloud Technology Stack’s data in any environment other than production environment, except after applying strict controls for protecting that data, such as data masking or data scrambling techniques. 2-6-P-1-2 Provision to CSTs of securely data storage processes, procedures, and technologies to comply with related legal and regulatory requirements. 2-6-P-1-3 Disposal of CST’s data should be performed in a secure manner on termination or expiry of the contract with the CSP. 2-6-P-1-4 Commitment to maintain the confidentiality of the CST’s data and information, according to related legal and regulatory requirements. 2-6-P-1-5 Providing CSTs with secure means to export and transfer data and virtual infrastructure. In addition to Subcontrols in the ECC control 2-7-3, the CST shall cover the following additional Subcontrols for cybersecurity requirements for protecting CST’s data and information in cloud computing, as a minimum: 2-6-T-1-1 Exit Strategy to ensure means for secure disposal of data on termination or expiry of the contract with the CSP. 2-6-T-1-2 Using secure means to export and transfer data and virtual infrastructure.",
+      "source_summary": "Cloud data must be protected across environments and the service lifecycle, including secure storage, confidentiality, contract exit disposal, and secure export or transfer of data and virtual infrastructure.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Data and Information Protection"
+      ],
+      "page_start": 20,
+      "page_end": 21,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Implement cloud data lifecycle protection",
+        "description": "Control non-production data, provide compliant storage, define secure exit disposal, preserve confidentiality, and enable secure export."
+      },
+      "policies": [
+        {
+          "name": "Cloud Data Protection Policy",
+          "description": "Define classification, handling, transfer, retention, disposal, and exit requirements."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cloud Exit Strategy",
+          "description": "Secure data return, export, deletion, and service-transition procedures."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Data transfer and deletion records",
+          "description": "Masking approvals, storage controls, export tests, and contractual termination certificates."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-7-P-1-1; 2-7-P-1-2; 2-7-T-1-1; 2-7-T-1-2",
+      "source_title": "Cryptography",
+      "source_text": "In addition to Subcontrols in the ECC control 2-8-3, the CSP shall cover the following additional Subcontrols for cryptography, as a minimum: 2-7-P-1-1 Technical mechanisms and cryptographic primitives for strong encryption, in according to the advanced level in the National Cryptographic Standards (NCS-1:2020). 2-7-P-1-2 Certification authority and issuance capability in a secure manner, or usage of certificates from a trusted certification authority. In addition to subcontrols in the ECC control 2-8-3, the CST shall cover the following additional subcontrols for cryptography, as a minimum: 2-7-T-1-1 Technical mechanisms and cryptographic primitives for strong encryption, in according to the advanced level in the National Cryptographic Standards (NCS-1:2020). 2-7-T-1-2 Encryption of data and information transferred to or transferred out of the cloud according to the relevant law and regulatory requirements.",
+      "source_summary": "Providers and tenants must use strong encryption consistent with the advanced level of NCS-1:2020; providers must securely issue or use trusted certificates, and tenants must encrypt cloud ingress and egress data as legally required.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Cryptography"
+      ],
+      "page_start": 21,
+      "page_end": 21,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Apply approved cloud cryptography",
+        "description": "Use NCS-1:2020 advanced-level cryptographic mechanisms, trusted certificate services, and legally compliant transfer encryption."
+      },
+      "policies": [
+        {
+          "name": "Cryptography Policy",
+          "description": "Define approved algorithms, certificates, use cases, and transfer protections."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cryptographic Standards Register",
+          "description": "Approved algorithms, protocols, certificates, and implementation scope."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Encryption and certificate configuration evidence",
+          "description": "Algorithm inventories, certificate-chain records, and transfer-encryption tests."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-8-P-1-1; 2-8-P-1-2",
+      "source_title": "Backup and Recovery Management",
+      "source_text": "In addition to subcontrols in the ECC control 2-9-3, the CSP shall cover the following additional subcontrols for cybersecurity requirements for backup and recovery management, as a minimum: 2-8-P-1-1 Securing access, storage and transfer of CST’s data backups and its mediums, and protecting it against damage, amendment, or unauthorized access. 2-8-P-1-2 Securing access, storage and transfer of Cloud Technology Stack backups and its mediums, and protecting it against damage, amendment, or unauthorized access.",
+      "source_summary": "Providers must secure access, storage, and transfer of tenant-data backups and Cloud Technology Stack backups and protect both against damage, alteration, and unauthorized access.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Backup and Recovery Management"
+      ],
+      "page_start": 22,
+      "page_end": 22,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Secure cloud backups",
+        "description": "Protect tenant and platform backups through controlled access, secure storage and transfer, integrity safeguards, and recovery testing."
+      },
+      "policies": [
+        {
+          "name": "Backup and Recovery Policy",
+          "description": "Define backup protection, retention, access, transfer, and recovery requirements."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cloud Backup Register",
+          "description": "Backup scope, locations, owners, retention, and protection settings."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Backup job and restore test records",
+          "description": "Encryption, access-control, integrity, and recovery-test evidence."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-9-P-1-1; 2-9-P-1-2; 2-9-T-1-1; 2-9-T-1-2",
+      "source_title": "Vulnerabilities Management",
+      "source_text": "In addition to subcontrols in the ECC control 2-10-3, the CSP shall cover the following additional subcontrols for cybersecurity requirements for vulnerability management requirements, as a minimum: 2-9-P-1-1 Assessing and remediating vulnerabilities on external components of Cloud Technology Stack at least once every month, and at least once every three months for internal components of Cloud Technology Stack. 2-9-P-1-2 Notification to CSTs of identified vulnerabilities that may affecting them, and safeguards in place. In addition to subcontrols in the ECC control 2-10-3, the CST shall cover the following additional subcontrols for cybersecurity requirements for vulnerability management requirements, as a minimum: 2-9-T-1-1 Assessing and remediating vulnerabilities cloud services and at least once every three months. 2-9-T-1-2 Management of CSP-notified vulnerabilities safeguards in place.",
+      "source_summary": "Providers must assess and remediate external stack vulnerabilities monthly and internal stack vulnerabilities at least quarterly, notify affected tenants, and identify safeguards; tenants must assess cloud-service vulnerabilities at least quarterly and manage provider notifications.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Vulnerabilities Management"
+      ],
+      "page_start": 22,
+      "page_end": 22,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Operate cloud vulnerability management",
+        "description": "Run provider monthly or quarterly assessments as applicable, tenant quarterly assessments, remediation, notification, and safeguard tracking."
+      },
+      "policies": [
+        {
+          "name": "Vulnerability Management Policy",
+          "description": "Define scanning frequency, prioritization, remediation, notification, and exception handling."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Vulnerability Register",
+          "description": "Findings, severity, affected assets, owners, remediation, and exceptions."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Vulnerability scan and remediation reports",
+          "description": "Periodic scan outputs, closure evidence, tenant notifications, and safeguard records."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-10-P-1-1",
+      "source_title": "Penetration Testing",
+      "source_text": "In addition to subcontrols in the ECC control 2-11-3, the CSP shall cover the following additional subcontrols for cybersecurity requirements for penetration testing, as a minimum: 2-10-P-1-1 Scope of penetration tests must cover Cloud Technology Stack and must be conducted at least once every six months.",
+      "source_summary": "Providers must conduct penetration tests covering the Cloud Technology Stack at least every six months.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Penetration Testing"
+      ],
+      "page_start": 23,
+      "page_end": 23,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Conduct cloud penetration testing",
+        "description": "Perform authorized penetration testing of the complete Cloud Technology Stack at least semiannually."
+      },
+      "policies": [
+        {
+          "name": "Penetration Testing Policy",
+          "description": "Define scope, authorization, independence, frequency, remediation, and retesting."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Penetration Test Plan and Report",
+          "description": "Approved scope, methodology, findings, remediation, and retest results."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Semiannual penetration-test reports",
+          "description": "Test authorization, reports, findings, and remediation evidence."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-11-P-1-1 through 2-11-P-1-8; 2-11-T-1-1; 2-11-T-1-2",
+      "source_title": "Cybersecurity Event Logs and Monitoring Management",
+      "source_text": "In addition to subcontrols in the ECC control 2-12-3, the CSP shall cover the following additional subcontrols for cybersecurity requirements for cybersecurity event logs and monitoring management, as a minimum: 2-11-P-1-1 Activating and protecting event logs and audit trails of Cloud Technology Stack. 2-11-P-1-2 Activating and collecting login attempts history. 2-11-P-1-3 Activating and protecting all event logs of activities and operations performed by the CSP at the tenant level in order to support forensic analysis. 2-11-P-1-4 Protecting cybersecurity event logs from alteration, disclosure, destruction and unauthorized access and unauthorized release, in accordance with regulatory, or law requirements. 2-11-P-1-5 Continuous cybersecurity events monitoring using SIEM technique covering the full Cloud Technology Stack. 2-11-P-1-6 Reviewing cybersecurity event logs and audit trails periodically, covering CSP events in the Cloud Technology Stack. 2-11-P-1-7 Automated monitoring and logging of remote access sessions event logs. 2-11-P-1-8 Secure handling of user-related data found in the audit trails and the cybersecurity event logs. In addition to subcontrols in the ECC control 2-12-3, the CST shall cover the following additional subcontrols for cybersecurity requirements for cybersecurity event logs and monitoring management, as a minimum: 2-11-T-1-1 Activating and collecting of login event logs, and cybersecurity event logs on assets related to cloud services. 2-11-T-1-2 Monitoring shall include all activated cybersecurity logs on the cloud services of the CST.",
+      "source_summary": "Providers must activate, protect, collect, review, and continuously monitor Cloud Technology Stack and tenant-level logs, including remote access, with SIEM; tenants must activate and monitor all relevant cloud logs.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Cybersecurity Event Logs and Monitoring Management"
+      ],
+      "page_start": 23,
+      "page_end": 23,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Implement cloud logging and SIEM monitoring",
+        "description": "Enable protected event and login logs, tenant-level activity and remote-session logging, SIEM monitoring, periodic review, and secure handling of user data."
+      },
+      "policies": [
+        {
+          "name": "Logging and Monitoring Policy",
+          "description": "Define log sources, protection, retention, review, SIEM monitoring, and privacy handling."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cloud Logging Standard",
+          "description": "Required log sources, fields, retention, access, and monitoring coverage."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "SIEM dashboards and log-review records",
+          "description": "Log-source inventory, alerts, access controls, reviews, and remote-session records."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-12-P-1-1 through 2-12-P-1-8",
+      "source_title": "Cybersecurity Incident and Threat Management",
+      "source_text": "In addition to subcontrols in the ECC control 2-13-3, the CSP shall cover the following additional subcontrols for cybersecurity requirements for cybersecurity incident and threat management, as a minimum: 2-12-P-1-1 Subscribing in authorized and specialized entities and groups to stay up-to-date on Cybersecurity threats, common practices, and key know-how. 2-12-P-1-2 Training for employees and third-party personnel to respond to cybersecurity incidents, in line with their roles and responsibilities. 2-12-P-1-3 Periodically testing the incident response capability. 2-12-P-1-4 Root Cause Analysis of cybersecurity incidents and developing plans to address them. 2-12-P-1-5 Support the CST in cases legal proceedings and forensics, protecting the chain of custody that falls under the management and responsibility of the CSP, in accordance with the related law and regulatory requirements. 2-12-P-1-6 Real-time reporting to the CST of incidents that may affect CST; if the incident is discovered. 2-12-P-1-7 Support for CSTs to handle security incidents according to the agreement between the CSP and CST. 2-12-P-1-8 Measuring and monitoring cybersecurity incident metrics and monitor compliance with contracts and legislative requirements.",
+      "source_summary": "Providers must maintain threat intelligence participation, role-based incident training, tested response capability, root-cause analysis, forensic and legal support, real-time tenant notification, contractual incident support, and incident metrics.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Cybersecurity Incident and Threat Management"
+      ],
+      "page_start": 24,
+      "page_end": 24,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Strengthen cloud incident and threat management",
+        "description": "Establish threat-intelligence subscriptions, train and test responders, perform root-cause analysis, support tenant forensics, notify tenants in real time, and track metrics."
+      },
+      "policies": [
+        {
+          "name": "Cloud Incident Response Policy",
+          "description": "Define detection, escalation, notification, forensics, testing, and post-incident requirements."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cloud Incident Response Plan",
+          "description": "Roles, procedures, tenant support, notification, evidence handling, and recovery."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Incident exercise and incident records",
+          "description": "Training, tests, notifications, root-cause analyses, chain-of-custody records, and metrics."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-13-P-1-1; 2-13-P-1-2; 2-13-P-1-3",
+      "source_title": "Physical Security",
+      "source_text": "In addition to subcontrols in the ECC control 2-14-3, the CSP shall cover the following additional subcontrols for cybersecurity requirements for physical security, as a minimum: 2-13-P-1-1 Continual monitoring of access to CSP’s sites and buildings. 2-13-P-1-2 Preventing unauthorized access to devices in the Cloud Technology Stack. 2-13-P-1-3 Disposal of cloud infrastructure hardware, in particular, storage equipment (external or internal), by adopting relevant legislation and best practices.",
+      "source_summary": "Providers must continuously monitor site and building access, prevent unauthorized physical access to stack devices, and securely dispose of cloud hardware, especially storage equipment.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Physical Security"
+      ],
+      "page_start": 24,
+      "page_end": 24,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Protect cloud facilities and hardware",
+        "description": "Monitor physical access, restrict access to stack devices, and securely dispose of infrastructure and storage hardware."
+      },
+      "policies": [
+        {
+          "name": "Cloud Physical Security Policy",
+          "description": "Define facility access, monitoring, device protection, and hardware disposal requirements."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Data Center Physical Security Procedures",
+          "description": "Access, surveillance, visitor, device, and disposal procedures."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Access logs and disposal certificates",
+          "description": "Facility access monitoring, visitor records, device controls, and destruction or sanitization evidence."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-14-P-1-1",
+      "source_title": "Web Application Security",
+      "source_text": "In addition to subcontrols in the ECC control 2-15-3, the CSP shall cover the following additional subcontrols for cybersecurity requirements for web application security, as a minimum: 2-14-P-1-1 Protecting information involved in application service transactions against possible risks (e.g.: incomplete transmission, mis-routing, unauthorized message alteration, unauthorized disclosure….).",
+      "source_summary": "Providers must protect information in web-application service transactions from incomplete transmission, misrouting, unauthorized alteration, and unauthorized disclosure.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Web Application Security"
+      ],
+      "page_start": 25,
+      "page_end": 25,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Protect web application transactions",
+        "description": "Implement transaction integrity, routing, confidentiality, and completeness controls for external web applications."
+      },
+      "policies": [
+        {
+          "name": "Web Application Security Policy",
+          "description": "Define secure transaction, application, testing, and monitoring requirements."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Web Application Security Standard",
+          "description": "Required controls for transaction handling and protection."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Application security test results",
+          "description": "Secure-development, transaction-integrity, routing, and disclosure-control evidence."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-15-P-1; 2-15-P-2; 2-15-P-3-1; 2-15-P-3-2; 2-15-P-3-3; 2-15-P-4; 2-15-T-1; 2-15-T-2; 2-15-T-3-1; 2-15-T-3-2; 2-15-T-4",
+      "source_title": "Key Management",
+      "source_text": "Cybersecurity requirements for key management process within the CSP shall be identified, documented, and approved. Cybersecurity requirements for key management process within the CSP shall be applied. In addition to the ECC Subcontrol 2-8-3-2, cybersecurity requirements for key management within the CSP shall cover, at minimum, the following: 2-15-P-3-1 Ensure well-defined ownership for cryptographic keys. 2-15-P-3-2 A secure cryptographic key retrieval mechanism in case of cryptographic key lost (such as backup of keys and enforcement of trusted key storage, strictly external to cloud). 2-15-P-3-3 Activating and monitoring of all audit trails of keys. Cybersecurity requirements for key management within the CSP shall be applied and reviewed periodically. Cybersecurity requirements for key management within the CST shall be identified, documented, and approved. Cybersecurity requirements for key management within the CST shall applied. In addition to the ECC Subcontrol 2-8-3-2, cybersecurity requirements for key management within the CST shall cover, at minimum, the following: 2-15-T-3-1 Ensure well-defined ownership for cryptographic keys. 2-15-T-3-2 A secure data retrieval mechanism in case of cryptographic encryption key lost (such as backup of keys and enforcement of trusted key storage, strictly external to cloud). Cybersecurity requirements for key management within the CST shall be applied and reviewed periodically.",
+      "source_summary": "Providers and tenants must document, approve, apply, and periodically review key-management requirements, define key ownership, maintain secure external recovery mechanisms, and monitor provider key audit trails.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Key Management"
+      ],
+      "page_start": 25,
+      "page_end": 25,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Implement cloud key management",
+        "description": "Assign key ownership, approve key-management requirements, protect and externally back up keys, monitor provider key trails, and review controls periodically."
+      },
+      "policies": [
+        {
+          "name": "Cryptographic Key Management Policy",
+          "description": "Define key ownership, lifecycle, storage, backup, recovery, access, and audit requirements."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Key Inventory and Custody Register",
+          "description": "Keys, owners, custodians, locations, lifecycle, and recovery arrangements."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Key-management audit records",
+          "description": "Approved requirements, key inventories, external recovery tests, and audit-trail monitoring."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-16-P-1; 2-16-P-2; 2-16-P-3-1; 2-16-P-3-2; 2-16-P-4",
+      "source_title": "System Development Security",
+      "source_text": "Cybersecurity requirements for system development within the CSP shall be identified, documented, and approved. Cybersecurity requirements for system development within the CSP shall be applied. Cybersecurity requirements for system development within the CSP shall include as a minimum the following controls along the development lifecycle: 2-16-P-3-1 Considering cybersecurity requirements of the Cloud Technology Stack and relevant systems in the design and implementation of the cloud computing services. 2-16-P-3-2 Protecting system development environments, testing environments (including data used in testing environment), and integration platforms. Cybersecurity requirements for system development within the CSP shall be applied and reviewed periodically.",
+      "source_summary": "Providers must approve and apply secure-development requirements throughout the lifecycle, including stack security in design and protection of development, test, integration environments and test data.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "System Development Security"
+      ],
+      "page_start": 26,
+      "page_end": 26,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Operate secure cloud development lifecycle",
+        "description": "Embed stack security in design, protect development and test environments and data, and periodically review secure-development controls."
+      },
+      "policies": [
+        {
+          "name": "Secure Development Policy",
+          "description": "Define security requirements, environment segregation, testing, approval, and review."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Secure Development Lifecycle Standard",
+          "description": "Lifecycle gates, design requirements, environment protections, and test-data controls."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Security requirements and test records",
+          "description": "Design reviews, environment controls, code or application testing, and periodic reviews."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-17-P-1; 2-17-P-2; 2-17-P-3-1 through 2-17-P-3-6; 2-17-P-4",
+      "source_title": "Storage Media Security",
+      "source_text": "Cybersecurity requirements for usage of information and data media within the CSP shall be identified, documented, and approved. Cybersecurity requirements for usage of information and data media within the CSP shall be applied. Cybersecurity requirements for usage of information and data media within the CSP shall cover, at minimum, the following: 2-17-P-3-1 Enforcement of sanitization of media, prior to disposal or reuse. 2-17-P-3-2 Using secure means when disposing of media. 2-17-P-3-3 Provision to maintain confidentiality and integrity of data on removable media. 2-17-P-3-4 Human readable labelling of media, to explain its classification and the sensitivity of the information it contains. 2-17-P-3-5 Controlled and physically secure storage of removable media. 2-17-P-3-6 Restriction and control of usage of portable media inside the Cloud Technology Stack. Cybersecurity requirements for usage of information and data media within the CSP shall be applied and reviewed periodically.",
+      "source_summary": "Providers must approve and apply media-security requirements covering sanitization, disposal, confidentiality, integrity, labeling, secure storage, portable-media restriction, and periodic review.",
+      "hierarchy_path": [
+        "Cybersecurity Defense",
+        "Storage Media Security"
+      ],
+      "page_start": 26,
+      "page_end": 26,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Secure cloud storage media",
+        "description": "Control media lifecycle, sanitize before reuse or disposal, label and securely store removable media, and restrict portable media in the stack."
+      },
+      "policies": [
+        {
+          "name": "Storage Media Security Policy",
+          "description": "Define media authorization, labeling, handling, sanitization, disposal, and review."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Media Register and Disposal Log",
+          "description": "Media classification, custody, storage, sanitization, and disposal records."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Media-control and destruction records",
+          "description": "Physical inspections, labels, access records, sanitization logs, and disposal certificates."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "3-1-P-1-1; 3-1-P-1-2; 3-1-T-1-1",
+      "source_title": "Cybersecurity Resilience Aspects of Business Continuity Management (BCM)",
+      "source_text": "In addition to subcontrols in the ECC control 3-1-3, the CSP shall cover the following additional subcontrols for cybersecurity requirements for cybersecurity resilience aspects of business continuity management, as a minimum: 3-1-P-1-1 Developing and implementing disaster recovery and business continuity procedures in a secure manner. 3-1-P-1-2 Developing and implementing procedures to ensure resilience and continuity of cybersecurity systems dedicated to the protection of Cloud Technology Stack. In addition to subcontrols in the ECC control 3-1-3, the CST shall cover the following additional subcontrols for cybersecurity requirements for cybersecurity resilience aspects of business continuity management, as a minimum: 3-1-T-1-1 Developing and implementing disaster recovery and business continuity procedures related to cloud computing, in a secure manner.",
+      "source_summary": "Providers and tenants must develop and implement secure cloud disaster-recovery and business-continuity procedures; providers must also ensure resilience and continuity of systems protecting the Cloud Technology Stack.",
+      "hierarchy_path": [
+        "Cybersecurity Resilience",
+        "Cybersecurity Resilience Aspects of Business Continuity Management (BCM)"
+      ],
+      "page_start": 27,
+      "page_end": 27,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Implement secure cloud continuity and recovery",
+        "description": "Develop, implement, and test cloud disaster-recovery and business-continuity procedures, including continuity of provider security systems."
+      },
+      "policies": [
+        {
+          "name": "Cybersecurity Resilience Policy",
+          "description": "Define continuity, recovery, resilience, testing, and recovery objectives for cloud services."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cloud Disaster Recovery and Business Continuity Plans",
+          "description": "Secure recovery procedures, dependencies, roles, priorities, and testing."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Recovery exercise records",
+          "description": "Approved plans, test results, recovery metrics, and corrective actions."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "4-1-P-1-1; 4-1-P-1-2; 4-1-P-1-3; 4-1-P-1-4",
+      "source_title": "Supply Chain and Third-Party Cybersecurity",
+      "source_text": "In addition to implementing the ECC controls 4-1-2 and 4-1-3, the CSP shall cover the following additional subcontrols for third-party cybersecurity requirements, as a minimum: 4-1-P-1-1 Ensure that the CSP fulfills NCA's requests to remove software or services, provided by third-party providers that may be considered a cybersecurity threat to national entities, from the marketplace provided to CSTs. 4-1-P-1-2 Requirement to provide security documentation for any equipment or services from suppliers and third-party providers. 4-1-P-1-3 Third-party providers compliant with law and regulatory requirements relevant to their scope. 4-1-P-1-4 Risk management and security governance on third-party providers as part of general cybersecurity risk management and governance.",
+      "source_summary": "Providers must manage third-party cyber risk, obtain supplier security documentation, ensure relevant legal compliance, integrate third parties into governance, and comply with NCA requests to remove threatening offerings from tenant marketplaces.",
+      "hierarchy_path": [
+        "Third-Party Cybersecurity",
+        "Supply Chain and Third-Party Cybersecurity"
+      ],
+      "page_start": 28,
+      "page_end": 28,
+      "source_block_ids": [],
+      "todo": {
+        "name": "Govern third-party cloud risk",
+        "description": "Assess and govern suppliers, obtain security documentation, verify legal compliance, and implement NCA marketplace-removal requests."
+      },
+      "policies": [
+        {
+          "name": "Third-Party Cybersecurity Policy",
+          "description": "Define supplier due diligence, contractual security, monitoring, risk treatment, and exit controls."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Third-Party Risk Register",
+          "description": "Supplier scope, risk assessments, controls, documentation, and review status."
+        },
+        {
+          "name": "Supplier Security Requirements",
+          "description": "Contractual and assurance requirements for equipment and services."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Supplier assessments and contracts",
+          "description": "Due diligence, security documentation, compliance attestations, monitoring records, and NCA response records."
+        }
+      ],
+      "ai_generated": true
+    }
+  ],
+  "warnings": []
+}

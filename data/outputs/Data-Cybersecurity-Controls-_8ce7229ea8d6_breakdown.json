@@ -1,0 +1,1426 @@
+{
+  "metadata": {
+    "document_id": "Data-Cybersecurity-Controls-_8ce7229ea8d6",
+    "filename": "Data-Cybersecurity-Controls-.pdf",
+    "page_count": 28,
+    "requirement_count": 25,
+    "generated_by": "Sahl Compliance Decoder",
+    "ai_model": "gpt-5.6-luna"
+  },
+  "requirements": [
+    {
+      "source_reference": "dated 11",
+      "source_title": "NCA cybersecurity regulatory authority and organizational responsibility",
+      "source_text": "/2/1439H, makes NCA the cybersecurity regulator in the Kingdom and the national reference for anything related to cybersecurity. NCA’s mandate and duties fulfill the strategic and regulatory cybersecurity needs related to the development of cybersecurity national policies, governance mechanisms, frameworks, standards, controls and guidelines. The NCA’s mandate and duties also fulfill the need to continuously monitor the compliance of organizations to support the important role of cybersecurity, which has increased with the rise of security risks in cyberspace more than any time before. NCA’s mandate states that its responsibility for cybersecurity does not absolve any government, private or other organization from its own cybersecurity responsibilities as confirmed by Royal Decree",
+      "source_summary": "The National Cybersecurity Authority (NCA) is the Kingdom’s cybersecurity regulator and national reference for cybersecurity matters. It develops national cybersecurity policies, governance mechanisms, frameworks, standards, controls, and guidelines, monitors organizational compliance, and does not relieve organizations of their own cybersecurity responsibilities.",
+      "page_start": 5,
+      "page_end": 5,
+      "source_block_ids": [
+        "page_5_block_4"
+      ],
+      "todo": {
+        "name": "Establish organizational accountability for NCA cybersecurity requirements",
+        "description": "Define and maintain organizational cybersecurity responsibilities, governance mechanisms, and compliance monitoring processes that align with applicable NCA policies, frameworks, standards, controls, and guidelines."
+      },
+      "policies": [
+        {
+          "name": "Cybersecurity Governance Policy",
+          "description": "Define cybersecurity governance, accountability, oversight, and alignment with applicable NCA requirements."
+        },
+        {
+          "name": "Regulatory Compliance Policy",
+          "description": "Establish processes for identifying, assessing, monitoring, and reporting compliance with applicable cybersecurity requirements."
+        },
+        {
+          "name": "Cybersecurity Roles and Responsibilities Policy",
+          "description": "Assign cybersecurity responsibilities to relevant organizational personnel and ensure accountability is not delegated away by reliance on the NCA."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cybersecurity Governance Framework",
+          "description": "Document the organization’s cybersecurity governance structure, decision rights, committees, and reporting lines."
+        },
+        {
+          "name": "Cybersecurity Responsibility Matrix",
+          "description": "Map cybersecurity responsibilities across business, information technology, security, risk, and management functions."
+        },
+        {
+          "name": "NCA Requirements Applicability Register",
+          "description": "Track applicable NCA policies, frameworks, standards, controls, and guidelines and their organizational implementation status."
+        },
+        {
+          "name": "Cybersecurity Compliance Monitoring Procedure",
+          "description": "Describe how compliance with applicable cybersecurity requirements is periodically assessed, reported, and remediated."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved cybersecurity governance documentation",
+          "description": "Current governance framework, organizational approvals, and assigned cybersecurity roles demonstrating accountability."
+        },
+        {
+          "name": "NCA requirements register and compliance assessments",
+          "description": "Records showing identification of applicable NCA requirements, assessment results, identified gaps, and remediation actions."
+        },
+        {
+          "name": "Cybersecurity compliance reports",
+          "description": "Periodic management or committee reports demonstrating monitoring of organizational compliance with applicable cybersecurity requirements."
+        },
+        {
+          "name": "Training or awareness records",
+          "description": "Evidence that relevant personnel understand their assigned cybersecurity responsibilities and regulatory obligations."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "Vision 2030",
+      "source_title": "Cybersecurity Requirements to Protect National Data and Critical Interests",
+      "source_text": "through decision support and is an economic resource to support competitiveness at the national level, where national organizations collect and process vast amounts of data that may be vulnerable to cyber threats and risks that negatively impact national security, the Kingdom's economy, reputation, external relations, or critical infrastructures, which raises the urgency to put cybersecurity requirements to protect against such threats and risks.The NCA’s mandate as per the Royal Decree",
+      "source_summary": "The source explains that national organizations collect and process large volumes of data that may be exposed to cyber threats and risks affecting national security, the economy, reputation, external relations, or critical infrastructure. It emphasizes the urgency of establishing cybersecurity requirements to protect against such threats and risks and introduces the NCA’s mandate under the Royal Decree.",
+      "page_start": 5,
+      "page_end": 5,
+      "source_block_ids": [
+        "page_5_block_4"
+      ],
+      "todo": {
+        "name": "Establish cybersecurity requirements for nationally significant data and systems",
+        "description": "Identify data, systems, and services whose compromise could affect national security, the Kingdom’s economy, reputation, external relations, or critical infrastructure, and implement cybersecurity requirements and controls proportionate to the associated threats and risks."
+      },
+      "policies": [
+        {
+          "name": "National Data and Critical Infrastructure Protection Policy",
+          "description": "Define requirements for protecting data, systems, and services that could affect national security, the economy, reputation, external relations, or critical infrastructure."
+        },
+        {
+          "name": "Cybersecurity Risk Management Policy",
+          "description": "Require identification, assessment, treatment, and monitoring of cyber threats and risks affecting nationally significant information and services."
+        },
+        {
+          "name": "Information Classification and Handling Policy",
+          "description": "Define how sensitive and nationally significant data is classified, handled, protected, and shared."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cybersecurity Requirements and Control Framework",
+          "description": "Document the cybersecurity requirements and controls applicable to nationally significant data, systems, and services."
+        },
+        {
+          "name": "Cybersecurity Risk Assessment",
+          "description": "Record identified cyber threats, vulnerabilities, potential impacts, and risk ratings for relevant data and systems."
+        },
+        {
+          "name": "Critical Information and Systems Inventory",
+          "description": "Maintain an inventory of data assets, information systems, and services whose compromise could affect national interests or critical infrastructure."
+        },
+        {
+          "name": "Cybersecurity Risk Treatment Plan",
+          "description": "Document planned safeguards, responsible owners, target dates, and residual risks for identified cybersecurity risks."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved cybersecurity requirements",
+          "description": "Approved requirements or control standards addressing protection of nationally significant data and systems."
+        },
+        {
+          "name": "Risk assessment records",
+          "description": "Completed assessments showing analysis of cyber threats and potential impacts on national security, the economy, reputation, external relations, or critical infrastructure."
+        },
+        {
+          "name": "Asset and data inventories",
+          "description": "Current inventories identifying relevant data, systems, services, and critical infrastructure dependencies."
+        },
+        {
+          "name": "Implemented security control records",
+          "description": "Technical and administrative control records demonstrating protection of identified assets, such as access control, monitoring, vulnerability management, and incident response measures."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "(DCC)",
+      "source_title": "Continuous Compliance with the DCC",
+      "source_text": ", objectives, scope of work, compliance and monitoring. All organizations within the scope of these controls must implement all necessary measures to ensure continuous compliance with the DCC as per",
+      "source_summary": "The available text states that organizations within the scope of the DCC must implement all necessary measures to ensure continuous compliance. The requirement is incomplete and does not identify the referenced basis following “as per.”",
+      "page_start": 5,
+      "page_end": 5,
+      "source_block_ids": [
+        "page_5_block_4"
+      ],
+      "todo": {
+        "name": "Implement measures for continuous DCC compliance",
+        "description": "Identify and implement the necessary organizational and operational measures applicable to the organization’s DCC scope, and maintain ongoing compliance monitoring. Do not rely on the incomplete source text to infer the missing reference or additional obligations."
+      },
+      "policies": [
+        {
+          "name": "DCC Compliance Policy",
+          "description": "Define the organization’s approach to implementing and maintaining continuous compliance with applicable DCC controls."
+        },
+        {
+          "name": "Compliance Monitoring Policy",
+          "description": "Establish how compliance with applicable DCC requirements is monitored, reviewed, and addressed over time."
+        }
+      ],
+      "documents": [
+        {
+          "name": "DCC Applicability and Compliance Register",
+          "description": "Record which DCC requirements apply to the organization and track implementation and ongoing compliance status."
+        },
+        {
+          "name": "DCC Compliance Monitoring Procedure",
+          "description": "Document the process for conducting and recording continuous monitoring of applicable DCC compliance measures."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "DCC Compliance Register",
+          "description": "Current register showing applicable DCC requirements, implementation status, owners, and review dates."
+        },
+        {
+          "name": "Compliance Monitoring Records",
+          "description": "Completed monitoring reviews, findings, remediation actions, and follow-up records demonstrating ongoing compliance activities."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "(SDAIA)",
+      "source_title": "Data Classification Levels and Cybersecurity Controls",
+      "source_text": ", data is classified into four levels based on its sensitivity and protection needs, which are: Public, Confidential, Secret, and Top Secret. The Data Cybersecurity Controls consist of the following:",
+      "source_summary": "Data is classified according to sensitivity and protection needs into four levels: Public, Confidential, Secret, and Top Secret. The source indicates that the Data Cybersecurity Controls follow this classification structure, but does not provide the subsequent control details in the supplied text.",
+      "page_start": 6,
+      "page_end": 6,
+      "source_block_ids": [
+        "page_6_block_5"
+      ],
+      "todo": {
+        "name": "Establish and apply the four-level data classification scheme",
+        "description": "Define and implement classification practices for Public, Confidential, Secret, and Top Secret data based on sensitivity and protection needs. Ensure data owners classify data consistently and that handling controls can be applied according to the assigned level."
+      },
+      "policies": [
+        {
+          "name": "Data Classification and Handling Policy",
+          "description": "Define the four data classification levels, classification criteria, ownership responsibilities, labeling expectations, and handling requirements for each level."
+        },
+        {
+          "name": "Data Handling and Protection Standard",
+          "description": "Specify how data at each classification level should be accessed, stored, transmitted, shared, retained, and securely disposed of."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Data Classification Register",
+          "description": "A register recording datasets, their assigned classification level, data owners, and review status."
+        },
+        {
+          "name": "Data Classification Procedure",
+          "description": "Documented steps for classifying, labeling, reviewing, and reclassifying data."
+        },
+        {
+          "name": "Data Handling Matrix",
+          "description": "A reference matrix mapping Public, Confidential, Secret, and Top Secret data to applicable protection and handling practices."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved data classification register",
+          "description": "A current register showing data assets assigned to Public, Confidential, Secret, or Top Secret classifications."
+        },
+        {
+          "name": "Sample classified and labeled data assets",
+          "description": "Examples demonstrating that data has been classified and labeled according to the defined four-level scheme."
+        },
+        {
+          "name": "Classification review records",
+          "description": "Completed classification assessments, approvals, or periodic review records maintained by data owners."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "DCC-1",
+      "source_title": "Purpose and Basis of the Data Cybersecurity Controls",
+      "source_text": ": 2022) after conducting a comprehensive study of multiple national and international cybersecurity standards, frameworks and controls, studying related laws and regulations, reviewingcybersecurity best practices and analyzing cybersecurity risks, threats, previous incidents and attacks at the national level. These controls support organizations to counter the ever-increasing cybersecurity threats and minimize the negative impacts in order to protect the vital interests of the kingdom, national security, critical infrastructures, high priority sectors and governmental services and activities. While developing the Data Cybersecurity Controls, the NCA carefully aligned the controls with the Essential Cybersecurity Controls (",
+      "source_summary": "The text explains that the Data Cybersecurity Controls were developed after reviewing cybersecurity standards, frameworks, controls, laws, regulations, best practices, risks, threats, and prior national incidents. It states that the controls are intended to help organizations address increasing cybersecurity threats and reduce negative impacts affecting the Kingdom’s vital interests, national security, critical infrastructure, high-priority sectors, and governmental services and activities.",
+      "page_start": 6,
+      "page_end": 6,
+      "source_block_ids": [
+        "page_6_block_5"
+      ],
+      "todo": {
+        "name": "Align cybersecurity controls with organizational risks and national priorities",
+        "description": "Review the organization’s cybersecurity risk profile, relevant legal and regulatory requirements, prior incidents, and applicable cybersecurity frameworks, then assess and document how the organization’s controls address identified threats and protect critical services and information."
+      },
+      "policies": [
+        {
+          "name": "Cybersecurity Governance Policy",
+          "description": "Define the organization’s cybersecurity governance approach, control framework, accountability, and alignment with applicable national cybersecurity requirements and organizational priorities."
+        },
+        {
+          "name": "Cybersecurity Risk Management Policy",
+          "description": "Establish a process for identifying, assessing, treating, and monitoring cybersecurity risks, threats, vulnerabilities, and potential impacts on critical services and activities."
+        },
+        {
+          "name": "Cybersecurity Control Framework Policy",
+          "description": "Define how cybersecurity controls are selected, implemented, reviewed, and improved based on applicable standards, regulations, best practices, and organizational risk."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cybersecurity Framework Alignment Assessment",
+          "description": "Document the comparison of existing organizational controls against applicable cybersecurity standards, frameworks, laws, regulations, and relevant national requirements."
+        },
+        {
+          "name": "Cybersecurity Risk Assessment",
+          "description": "Record identified cybersecurity risks, threats, potential impacts, affected assets or services, and the rationale for prioritizing mitigation activities."
+        },
+        {
+          "name": "Cybersecurity Control Implementation Plan",
+          "description": "Document planned and completed activities for implementing or improving controls that address identified risks and support the protection of critical services and information."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Control-to-Requirement Mapping",
+          "description": "A documented mapping showing how organizational cybersecurity controls correspond to applicable standards, frameworks, regulations, and identified risks."
+        },
+        {
+          "name": "Approved Cybersecurity Risk Assessment",
+          "description": "An approved and current risk assessment demonstrating consideration of relevant threats, impacts, critical services, and organizational priorities."
+        },
+        {
+          "name": "Control Review and Improvement Records",
+          "description": "Records of control assessments, management reviews, remediation activities, and improvements made in response to cybersecurity risks, incidents, or changing threats."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "ECC-1",
+      "source_title": "ECC Compliance as a Prerequisite for DCC Compliance",
+      "source_text": ": 2018), which are pre-request for compliance for organizations. Compliance withDCCcannot be achieved without achieving continuous compliance with ECC,where applicableas they are linked to relevant national legislative and regulatory requirements. Thus, based on the regulatory tools issued by the Saudi Data and Artificial Intelligence Authority",
+      "source_summary": "The requirement states that compliance with the DCC cannot be achieved without continuous compliance with the ECC, where applicable, because the controls are linked to relevant national legislative and regulatory requirements. It also refers to regulatory tools issued by the Saudi Data and Artificial Intelligence Authority.",
+      "page_start": 6,
+      "page_end": 6,
+      "source_block_ids": [
+        "page_6_block_5"
+      ],
+      "todo": {
+        "name": "Establish continuous ECC compliance as a prerequisite for DCC compliance",
+        "description": "Determine whether the ECC applies to the organization, assess and maintain ongoing compliance with applicable ECC requirements, and use the results as a prerequisite when evaluating DCC compliance."
+      },
+      "policies": [
+        {
+          "name": "Cybersecurity and Data Compliance Governance Policy",
+          "description": "Define governance for maintaining continuous compliance with applicable ECC and DCC requirements, including accountability, monitoring, review, and escalation."
+        },
+        {
+          "name": "Regulatory Compliance Monitoring Policy",
+          "description": "Establish a process for identifying relevant national legislative and regulatory requirements and monitoring continued compliance with applicable ECC controls."
+        }
+      ],
+      "documents": [
+        {
+          "name": "ECC Applicability Assessment",
+          "description": "Document whether the ECC applies to the organization and identify the applicable requirements and regulatory linkages."
+        },
+        {
+          "name": "ECC Compliance Assessment",
+          "description": "Record the organization's assessment of compliance with applicable ECC requirements, including identified gaps and responsible owners."
+        },
+        {
+          "name": "DCC Compliance Readiness Assessment",
+          "description": "Document how continuous ECC compliance has been considered as a prerequisite for assessing DCC compliance."
+        },
+        {
+          "name": "Regulatory Requirements Register",
+          "description": "Maintain a register of relevant national legislative and regulatory requirements associated with the applicable ECC and DCC controls."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved ECC Applicability Determination",
+          "description": "Management-approved record showing whether ECC requirements apply to the organization."
+        },
+        {
+          "name": "Completed ECC Compliance Assessment",
+          "description": "Current assessment results demonstrating evaluation of applicable ECC requirements."
+        },
+        {
+          "name": "ECC Remediation and Monitoring Records",
+          "description": "Tracked remediation actions, periodic review records, and monitoring results demonstrating continuous compliance activities."
+        },
+        {
+          "name": "DCC Assessment Referencing ECC Compliance",
+          "description": "A DCC compliance assessment or review showing that applicable ECC compliance was verified as a prerequisite."
+        },
+        {
+          "name": "Records of Review of SDAIA Regulatory Tools",
+          "description": "Documented reviews or updates showing that relevant regulatory tools issued by the Saudi Data and Artificial Intelligence Authority were considered."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "(CNIs)",
+      "source_title": "Applicability of Data Cybersecurity Controls to the Organization and Data Types",
+      "source_text": ", which all referred to herein as “The organization”. These controls are also applicable to all forms of physical and digital data, including structured data (such as databases, data tables) and unstructured data (such as documents and records). NCA strongly encourages all other organizations in the Kingdom to leverage these controls to implement best practices to protect data.",
+      "source_summary": "The controls apply to the organization and cover all physical and digital data, including structured data such as databases and data tables and unstructured data such as documents and records. The source also encourages other organizations in the Kingdom to use the controls as data-protection best practices.",
+      "page_start": 7,
+      "page_end": 7,
+      "source_block_ids": [
+        "page_7_block_9"
+      ],
+      "todo": {
+        "name": "Define the organization-wide scope of data cybersecurity controls",
+        "description": "Document the organization’s applicability scope for the controls and identify all physical and digital data assets, including structured and unstructured data, that fall within scope."
+      },
+      "policies": [
+        {
+          "name": "Data Protection and Cybersecurity Scope Policy",
+          "description": "Define the organization-wide application of data cybersecurity controls and require coverage of physical and digital data, including structured and unstructured data."
+        },
+        {
+          "name": "Data Classification and Handling Policy",
+          "description": "Establish how databases, data tables, documents, records, and other data types are identified, classified, and protected."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Data Asset Inventory",
+          "description": "Maintain an inventory of physical and digital data assets, including structured and unstructured data repositories."
+        },
+        {
+          "name": "Control Applicability and Scope Statement",
+          "description": "Record which organizational entities, systems, repositories, and data types are covered by the data cybersecurity controls."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved Control Scope Statement",
+          "description": "An approved record showing that the controls apply across the organization and cover physical, digital, structured, and unstructured data."
+        },
+        {
+          "name": "Data Inventory Extract",
+          "description": "A current inventory or system-generated report demonstrating coverage of databases, data tables, documents, records, and other relevant data assets."
+        },
+        {
+          "name": "Data Classification or Repository Review Records",
+          "description": "Completed reviews showing that different data forms and repositories have been identified and considered within the control scope."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "dated 10",
+      "source_title": "Continuous Compliance with DCC and ECC Requirements",
+      "source_text": "/11/1439H, all organizations within the scope of these controls must implement whatever necessary to ensure continuous compliance with the controls, which cannot be achieved without achieving continuous compliance with the Essential Cybersecurity Controls (ECC –1: 2018) where applicable. NCA evaluates organizations’ compliance with the DCC through multiple means such as self-assessments by the organizations, and/or external assessments, in accordance with the mechanisms deemed appropriate by NCA.",
+      "source_summary": "Organizations within the scope of the controls must take the necessary measures to maintain continuous compliance with the DCC, including applicable Essential Cybersecurity Controls (ECC–1: 2018). The NCA may evaluate compliance through self-assessments, external assessments, or other appropriate mechanisms.",
+      "page_start": 8,
+      "page_end": 8,
+      "source_block_ids": [
+        "page_8_block_5"
+      ],
+      "todo": {
+        "name": "Establish continuous cybersecurity compliance monitoring",
+        "description": "Implement and maintain processes to ensure ongoing compliance with the applicable DCC and ECC–1: 2018 requirements, including readiness for NCA self-assessment or external assessment activities."
+      },
+      "policies": [
+        {
+          "name": "Cybersecurity Compliance Management Policy",
+          "description": "Define responsibilities, monitoring activities, assessment processes, and reporting requirements for maintaining continuous compliance with applicable DCC and ECC controls."
+        },
+        {
+          "name": "Cybersecurity Assessment Policy",
+          "description": "Establish procedures for conducting internal self-assessments and supporting external or NCA-led assessments using approved assessment mechanisms."
+        }
+      ],
+      "documents": [
+        {
+          "name": "DCC and ECC Compliance Matrix",
+          "description": "A mapping of applicable DCC and ECC–1: 2018 controls to responsible owners, implementation status, and supporting evidence."
+        },
+        {
+          "name": "Cybersecurity Compliance Monitoring Procedure",
+          "description": "A procedure describing how compliance is continuously monitored, reviewed, reported, and remediated."
+        },
+        {
+          "name": "Cybersecurity Assessment Plan",
+          "description": "A plan covering scheduled self-assessments, external assessments, responsibilities, scope, timelines, and preparation for NCA evaluation."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed DCC and ECC self-assessments",
+          "description": "Documented assessment results demonstrating review of applicable controls and identified compliance gaps."
+        },
+        {
+          "name": "Control compliance records",
+          "description": "Current compliance matrixes, status reports, remediation plans, and management reviews showing ongoing compliance monitoring."
+        },
+        {
+          "name": "External or NCA assessment records",
+          "description": "Assessment reports, requests for information, submitted evidence, findings, and corrective-action records from external or NCA evaluations."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "(1)",
+      "source_title": "DCC Methodological Structure Fields",
+      "source_text": "below shows the methodological structure of DCCName of the Main DomainReferenceNumber of the Main DomainReferenceNo. of the SubdomainObjective",
+      "source_summary": "This source text presents an incomplete methodological structure containing fields for the DCC name, main domain name and reference number, subdomain reference number, and objective.",
+      "page_start": 10,
+      "page_end": 10,
+      "source_block_ids": [
+        "page_10_block_10"
+      ],
+      "todo": {
+        "name": "Document the DCC methodological structure",
+        "description": "Create or maintain a structured template that records the DCC name, main domain name and reference number, subdomain reference number, and objective fields shown in the source text."
+      },
+      "policies": [
+        {
+          "name": "Control Framework Documentation Policy",
+          "description": "Define how cybersecurity controls and their hierarchical references are documented, maintained, and reviewed."
+        }
+      ],
+      "documents": [
+        {
+          "name": "DCC Methodology Structure Template",
+          "description": "A template containing the source-listed fields for DCC name, main domain name and reference number, subdomain reference number, and objective."
+        },
+        {
+          "name": "Control Framework Register",
+          "description": "A register mapping documented DCC entries to their main-domain and subdomain references."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed DCC Structure Template",
+          "description": "A completed template demonstrating that the listed methodological structure fields have been documented."
+        },
+        {
+          "name": "Reviewed Control Framework Register",
+          "description": "A controlled register showing documented DCC, main-domain, and subdomain reference information."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "1-8-1",
+      "source_title": "Periodic Review of Data Cybersecurity Controls Implementation",
+      "source_text": ", the cybersecurity function in the organization must review the implementation of the Data Cybersecurity Controls periodically as specified for each data classification level.At least annually1-1-2With reference to ECC control",
+      "source_summary": "The organization’s cybersecurity function must periodically review the implementation of the Data Cybersecurity Controls according to the applicable data classification level. The source text specifies a minimum frequency of at least annually and includes a reference to ECC control 1-1-2.",
+      "page_start": 11,
+      "page_end": 11,
+      "source_block_ids": [
+        "page_11_block_5"
+      ],
+      "todo": {
+        "name": "Conduct Annual Data Cybersecurity Controls Review",
+        "description": "Establish and perform a documented review of Data Cybersecurity Controls implementation at least annually, applying the review frequency applicable to each data classification level."
+      },
+      "policies": [
+        {
+          "name": "Data Cybersecurity Controls Review Policy",
+          "description": "Define responsibility for the cybersecurity function to review implementation of the Data Cybersecurity Controls and establish review frequencies based on data classification levels, including a minimum annual review."
+        },
+        {
+          "name": "Data Classification Policy",
+          "description": "Define data classification levels and provide the classification information needed to determine the applicable cybersecurity controls review frequency."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Data Cybersecurity Controls Review Procedure",
+          "description": "Describe the process, responsibilities, scope, frequency, and reporting requirements for reviewing implementation of the controls by data classification level."
+        },
+        {
+          "name": "Annual Controls Review Plan",
+          "description": "Record the planned reviews, applicable data classification levels, responsible reviewers, and scheduled completion dates."
+        },
+        {
+          "name": "Controls Review Report",
+          "description": "Document the results of each periodic review, including the controls assessed, classification level, identified gaps, and follow-up actions."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed Annual Review Reports",
+          "description": "Signed or approved reports demonstrating that the Data Cybersecurity Controls implementation was reviewed at least annually."
+        },
+        {
+          "name": "Review Schedule or Tracking Register",
+          "description": "A tracking record showing review dates, data classification levels, responsible cybersecurity personnel, and completion status."
+        },
+        {
+          "name": "Remediation Records",
+          "description": "Evidence of corrective actions taken for deficiencies identified during the controls implementation reviews."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "1-8-2",
+      "source_title": "Periodic Independent Cybersecurity Review and Audit",
+      "source_text": ", cybersecurity review and audit must be conducted periodically by independent parties outside the organization’s cybersecurity function as specified for each data classification level.At least every 2yearsAt least annually1-2Cybersecurity in Human ResourcesobjectiveTo ensure that cybersecurity risks and requirements related to personnel (employees and contractors) are managed efficiently prior to employment, during employment and after termination/separation as per organizational policies and procedures, and related laws and regulations.ControlsData Classification Level1-2-1In addition to the subcontrols in the ECC control",
+      "source_summary": "The organization must conduct cybersecurity reviews and audits periodically through independent parties outside the organization’s cybersecurity function. The required frequency varies by data classification level; the extracted text indicates intervals of at least every two years and at least annually, but does not clearly identify which classification level corresponds to each interval.",
+      "page_start": 11,
+      "page_end": 11,
+      "source_block_ids": [
+        "page_11_block_5"
+      ],
+      "todo": {
+        "name": "Establish an independent cybersecurity review schedule",
+        "description": "Define data-classification-based review frequencies, appoint reviewers independent of the cybersecurity function, conduct the required reviews and audits, and retain records of scope, findings, and corrective actions."
+      },
+      "policies": [
+        {
+          "name": "Independent Cybersecurity Review and Audit Policy",
+          "description": "Define the independence requirements, responsibilities, scope, approval process, and reporting expectations for periodic cybersecurity reviews and audits."
+        },
+        {
+          "name": "Data Classification and Assurance Schedule",
+          "description": "Specify the review and audit frequency applicable to each data classification level, subject to clarification of the source requirement’s frequency mapping."
+        },
+        {
+          "name": "Audit Findings and Corrective Action Policy",
+          "description": "Require documented findings, assigned remediation owners, due dates, risk-based prioritization, and verification of completed corrective actions."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cybersecurity Review and Audit Schedule",
+          "description": "A schedule linking data classification levels to the required review and audit frequency and identifying planned reviewers."
+        },
+        {
+          "name": "Independent Reviewer Terms of Reference",
+          "description": "A document defining the review scope, objectives, criteria, independence requirements, deliverables, and reporting arrangements."
+        },
+        {
+          "name": "Cybersecurity Review or Audit Report",
+          "description": "A formal report documenting the review scope, procedures, results, identified gaps, and recommendations."
+        },
+        {
+          "name": "Corrective Action Plan",
+          "description": "A tracked plan for addressing findings, including responsible owners, deadlines, status, and closure evidence."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved review and audit schedule",
+          "description": "A current schedule showing periodic reviews based on data classification levels."
+        },
+        {
+          "name": "Independent reviewer appointment records",
+          "description": "Contracts, engagement letters, or approval records demonstrating that reviewers are outside the organization’s cybersecurity function."
+        },
+        {
+          "name": "Completed cybersecurity review or audit reports",
+          "description": "Reports showing that the required reviews were performed at the applicable intervals."
+        },
+        {
+          "name": "Audit findings and remediation records",
+          "description": "Issue logs, corrective action plans, closure approvals, and validation evidence demonstrating follow-up on identified findings."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "1-9-3",
+      "source_title": "Cybersecurity Requirements for Human Resources Before, During, and After Employment",
+      "source_text": ", cybersecurity requirements in human resources prior to employment, during employment and after termination/separation must include at least the following:PublicConfidentialSecretTop Secret1-2-1-1Screening andvetting candidates injobsrelated to data handling.1-2-1-2A signed agreement by personnel pledging to not use social media,communication applicationsor personal cloud storageto create, store or share the",
+      "source_summary": "Requires cybersecurity controls for personnel before employment, during employment, and after termination or separation. The available text specifically identifies screening and vetting candidates for roles related to data handling, and a signed personnel agreement restricting the use of social media, communication applications, or personal cloud storage to create, store, or share the specified information; the source text is incomplete.",
+      "page_start": 11,
+      "page_end": 11,
+      "source_block_ids": [
+        "page_11_block_5"
+      ],
+      "todo": {
+        "name": "Implement personnel cybersecurity controls across the employment lifecycle",
+        "description": "Establish and document pre-employment screening for candidates whose roles involve data handling, and obtain signed personnel agreements covering the restrictions stated in the source before granting access. Review the incomplete source requirement to confirm any additional obligations before finalizing the control."
+      },
+      "policies": [
+        {
+          "name": "Personnel Screening and Vetting Policy",
+          "description": "Define screening and vetting requirements for candidates applying for roles involving data handling, including approval, documentation, and review responsibilities."
+        },
+        {
+          "name": "Personnel Cybersecurity Agreement Policy",
+          "description": "Require personnel to sign agreements addressing the stated restrictions on using social media, communication applications, or personal cloud storage to create, store, or share the information covered by the requirement."
+        },
+        {
+          "name": "Employment Lifecycle Security Policy",
+          "description": "Set cybersecurity responsibilities and control activities for personnel before employment, during employment, and after termination or separation."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Candidate Screening and Vetting Procedure",
+          "description": "Procedure describing how candidates for data-handling roles are screened, vetted, approved, and recorded."
+        },
+        {
+          "name": "Personnel Cybersecurity Agreement",
+          "description": "Signed agreement template reflecting the restrictions explicitly identified in the available source text."
+        },
+        {
+          "name": "Employment Onboarding and Offboarding Checklist",
+          "description": "Checklist for confirming required personnel cybersecurity activities before access is granted and after employment ends or separation occurs."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed Candidate Screening Records",
+          "description": "Documented screening and vetting results for personnel appointed to roles related to data handling."
+        },
+        {
+          "name": "Signed Personnel Agreements",
+          "description": "Signed agreements showing personnel acceptance of the stated restrictions concerning social media, communication applications, and personal cloud storage."
+        },
+        {
+          "name": "Employment Lifecycle Control Records",
+          "description": "Onboarding, employment, termination, or separation records demonstrating that applicable cybersecurity controls were performed."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-2-3",
+      "source_title": "Identity and Access Management Cybersecurity Requirements",
+      "source_text": ", cybersecurity requirements for identity and access management must cover at least the following:PublicConfidentialSecretTop Secret2-1-1-1Strict restriction toallow only the minimum number of personnel accessing, viewingand sharingdata based on lists of privileges limited to Saudi-national employees unless exempted bythe Authorizing Official(the head of the organization or his/her delegate) and those lists are approved by the Authorizing Official.2-1-1-2Prohibiting the sharing of approved lists of privileges with unauthorized persons.2-1-2Managing identities and access rights to view data using Privileged Access Management systems.2-1-3In addition to ECC subcontrol",
+      "source_summary": "This requirement states that identity and access management cybersecurity requirements must address restricting data access, viewing, and sharing to the minimum number of authorized personnel; limiting privileges to Saudi-national employees unless exempted by the Authorizing Official; obtaining Authorizing Official approval for privilege lists; prohibiting unauthorized disclosure of those lists; and managing identities and data-view access rights through Privileged Access Management systems. The source text is incomplete and ends while referring to an additional ECC subcontrol.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_4"
+      ],
+      "todo": {
+        "name": "Implement and govern identity and privileged access management controls",
+        "description": "Establish approved, least-privilege access lists for data, restrict access to the permitted personnel categories unless an Authorizing Official exemption applies, prevent unauthorized sharing of privilege lists, and manage identities and data-viewing rights through a Privileged Access Management system. Record and maintain Authorizing Official approvals and do not infer controls for the incomplete additional subcontrol."
+      },
+      "policies": [
+        {
+          "name": "Identity and Access Management Policy",
+          "description": "Define identity lifecycle management, access authorization, least privilege, access restrictions, and approval responsibilities."
+        },
+        {
+          "name": "Privileged Access Management Policy",
+          "description": "Require privileged identities and access to data-viewing capabilities to be managed, monitored, and controlled through approved Privileged Access Management systems."
+        },
+        {
+          "name": "Access Authorization and Segregation Policy",
+          "description": "Define the process for creating, approving, reviewing, modifying, and revoking privilege lists, including restrictions on sharing those lists and the process for Authorizing Official exemptions."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Data Access Privilege Register",
+          "description": "A controlled register identifying personnel, roles, data access, viewing and sharing privileges, applicable restrictions, and approval status."
+        },
+        {
+          "name": "Authorizing Official Approval and Exemption Records",
+          "description": "Documented approvals for privilege lists and any approved exemptions to the stated personnel restriction."
+        },
+        {
+          "name": "Privileged Access Management Procedure",
+          "description": "Operational procedure for provisioning, controlling, reviewing, monitoring, and revoking identities and data-view access through the Privileged Access Management system."
+        },
+        {
+          "name": "Access Review Procedure",
+          "description": "Procedure for periodic review and removal or adjustment of unnecessary data access and privileges."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved privilege lists",
+          "description": "Current privilege lists showing minimum necessary personnel, applicable access rights, and Authorizing Official approval."
+        },
+        {
+          "name": "PAM configuration and access records",
+          "description": "System configurations, account mappings, session records, or reports demonstrating that identities and data-view access rights are managed through a Privileged Access Management system."
+        },
+        {
+          "name": "Access review records",
+          "description": "Completed periodic access reviews showing validation of business need, least privilege, and removal or modification of inappropriate access."
+        },
+        {
+          "name": "Access-list confidentiality controls",
+          "description": "Access-control settings, handling procedures, or audit logs showing that approved privilege lists are not shared with unauthorized persons."
+        },
+        {
+          "name": "Exemption documentation",
+          "description": "Authorizing Official exemption approvals, where applicable, supporting access by personnel outside the stated restriction."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-2-3-5",
+      "source_title": "Review of Approved Data-Handling Privilege Lists",
+      "source_text": ",the approved lists of privilegesand privileges used to handle data must be reviewedas specified for each data classification level.At least annuallyAt least",
+      "source_summary": "Approved privilege lists and the privileges used to handle data must be reviewed according to the applicable data classification level. The source text indicates a review frequency of at least annually, but is incomplete after that point.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_4"
+      ],
+      "todo": {
+        "name": "Perform Annual Privilege Reviews by Data Classification",
+        "description": "Establish and document reviews of approved privilege lists and data-handling privileges for each data classification level at least annually, using the applicable classification-specific review requirements."
+      },
+      "policies": [
+        {
+          "name": "Access Control and Privilege Management Policy",
+          "description": "Define how privileges are approved, assigned, reviewed, and updated for personnel and systems handling data."
+        },
+        {
+          "name": "Data Classification and Handling Policy",
+          "description": "Define data classification levels and the corresponding privilege review requirements for each level."
+        },
+        {
+          "name": "Periodic Access Review Procedure",
+          "description": "Specify review ownership, scope, frequency, validation steps, approvals, and remediation of inappropriate or outdated privileges."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Approved Privilege List by Data Classification",
+          "description": "A maintained list of approved privileges applicable to each data classification level."
+        },
+        {
+          "name": "Privilege Review Procedure",
+          "description": "Documented process for conducting and recording reviews of approved privilege lists and data-handling privileges."
+        },
+        {
+          "name": "Privilege Review Register",
+          "description": "A record tracking review dates, classification levels, reviewers, findings, approvals, and remediation actions."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed Annual Privilege Review Records",
+          "description": "Dated records showing that approved privilege lists and data-handling privileges were reviewed for the applicable data classification levels."
+        },
+        {
+          "name": "Access Review Approvals",
+          "description": "Evidence of review and approval by designated privilege or data owners."
+        },
+        {
+          "name": "Remediation Records",
+          "description": "Tickets or change records showing removal, modification, or reapproval of privileges identified during the review."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "2-3-3",
+      "source_title": "Security patch and update requirements for information systems and processing facilities",
+      "source_text": ", cybersecurity requirements for Information System and Information Processing Facilities Protection must include at least the following:PublicConfidentialSecretTop Secret2-2-1-1Applying security patches and updates from the time of announcement onsystems used to handle data as specified for each data classification level.At least everymonthImmediately",
+      "source_summary": "Requires cybersecurity protections for information systems and information processing facilities to include applying security patches and updates from the time they are announced, for systems handling data under the specified classification levels. The extracted text appears to include different timing requirements, including at least monthly and immediately, but the exact classification-to-frequency mapping is unclear.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_4"
+      ],
+      "todo": {
+        "name": "Implement and monitor security patching by data classification",
+        "description": "Define and enforce patch and update timelines for systems handling each data classification level, using the frequencies stated in the authoritative control or source table. Record announcements, applicability assessments, deployment dates, exceptions, and overdue patches; do not rely on the unclear extracted mapping without verifying the original source."
+      },
+      "policies": [
+        {
+          "name": "Security Patching and Vulnerability Management Policy",
+          "description": "Establishes how security patches and updates are assessed, prioritized, approved, deployed, and monitored from announcement through completion."
+        },
+        {
+          "name": "Data Classification-Based System Protection Policy",
+          "description": "Defines how patching timelines and protection measures are applied to systems based on the data classification they handle."
+        },
+        {
+          "name": "Patch Exception and Risk Acceptance Procedure",
+          "description": "Controls documented exceptions, compensating measures, approvals, risk assessments, and expiration dates when patches cannot be applied within the required timeframe."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Patch Management Procedure",
+          "description": "Documents the workflow for identifying applicable patches, testing them, deploying them, and verifying successful installation."
+        },
+        {
+          "name": "System and Data Classification Inventory",
+          "description": "Identifies systems, processing facilities, and the data classification levels they handle so the applicable patching timeframe can be determined."
+        },
+        {
+          "name": "Patch Deployment and Compliance Register",
+          "description": "Tracks patch announcements, affected assets, required deadlines, installation status, verification results, and approved exceptions."
+        },
+        {
+          "name": "Patch Exception and Risk Acceptance Record",
+          "description": "Records the justification, risk treatment, compensating controls, approval, and expiry for delayed patch deployment."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Patch management records",
+          "description": "Reports or system exports showing patch announcements, affected assets, deployment dates, and compliance with the applicable classification-based deadlines."
+        },
+        {
+          "name": "Vulnerability and patch scans",
+          "description": "Scan results demonstrating that relevant systems have received required security patches and updates."
+        },
+        {
+          "name": "Change and deployment records",
+          "description": "Approved change tickets, deployment logs, and verification results for security patch installations."
+        },
+        {
+          "name": "Patch compliance monitoring reports",
+          "description": "Periodic reports identifying compliant, overdue, and exception-based systems, including remediation tracking."
+        },
+        {
+          "name": "Approved patch exceptions",
+          "description": "Documented and authorized exceptions with risk assessments, compensating controls, and review or expiry dates."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "every 3",
+      "source_title": "Protection of Information Systems and Information Processing Facilities Against Cyber Risks",
+      "source_text": "months2-2Information System and Information Processing Facilities ProtectionobjectiveTo ensure the protection of information systems and information processing facilities (including workstations and infrastructures) against cyber risks.ControlsData Classification Level2-2-1In addition to the subcontrols in ECC control",
+      "source_summary": "The requirement addresses protecting information systems and information processing facilities, including workstations and infrastructure, against cyber risks. It also indicates that Data Classification Level 2-2-1 includes subcontrols in addition to those referenced in the ECC control, but the provided source text is incomplete.",
+      "page_start": 13,
+      "page_end": 13,
+      "source_block_ids": [
+        "page_13_block_4"
+      ],
+      "todo": {
+        "name": "Implement protections for information systems and processing facilities",
+        "description": "Identify applicable information systems, workstations, and infrastructure, determine their relevant data classification, and implement protection measures against cyber risks, including the applicable ECC control subcontrols."
+      },
+      "policies": [
+        {
+          "name": "Information Systems and Infrastructure Protection Policy",
+          "description": "Define requirements for protecting information systems, workstations, and infrastructure against cyber risks."
+        },
+        {
+          "name": "Data Classification Policy",
+          "description": "Define how information and associated systems are classified and how classification levels affect protection requirements."
+        },
+        {
+          "name": "Cybersecurity Controls Policy",
+          "description": "Establish a process for identifying and implementing applicable cybersecurity controls, including relevant ECC control subcontrols."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Information Systems and Processing Facilities Inventory",
+          "description": "Record the information systems, workstations, infrastructure, and processing facilities within scope."
+        },
+        {
+          "name": "Data Classification Register",
+          "description": "Document the classification level assigned to relevant information and associated systems."
+        },
+        {
+          "name": "Information Systems Protection Procedure",
+          "description": "Describe the operational safeguards and responsibilities used to protect systems and processing facilities against cyber risks."
+        },
+        {
+          "name": "ECC Control Applicability Assessment",
+          "description": "Document which ECC control subcontrols apply to the systems and facilities in scope and how they are addressed."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "System and Infrastructure Inventory Records",
+          "description": "Current records identifying in-scope information systems, workstations, infrastructure, and processing facilities."
+        },
+        {
+          "name": "Data Classification Assessments",
+          "description": "Completed classification records showing how relevant systems or information were assigned their protection level."
+        },
+        {
+          "name": "Implemented Security Configuration Records",
+          "description": "Approved configurations or technical control records demonstrating protection measures applied to systems and infrastructure."
+        },
+        {
+          "name": "ECC Control Assessment and Remediation Records",
+          "description": "Evidence showing review of applicable ECC subcontrols, identified gaps, and completed remediation actions."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "(3)",
+      "source_title": "Cybersecurity Requirements for Consultancy Services Supporting High-Sensitivity National Strategic Projects",
+      "source_text": "; cybersecurity requirements when dealing with consultancy servicesthat works onhigh-sensitivity strategic projects at the national levelmust cover at least the following:",
+      "source_summary": "Requires cybersecurity requirements to be addressed when engaging consultancy services that work on high-sensitivity strategic projects at the national level. The provided source text indicates that the requirements must cover at least the items that follow, but those items are not included in the excerpt.",
+      "page_start": 18,
+      "page_end": 18,
+      "source_block_ids": [
+        "page_18_block_4"
+      ],
+      "todo": {
+        "name": "Define cybersecurity requirements for relevant consultancy engagements",
+        "description": "Establish and document cybersecurity requirements for consultancy services working on high-sensitivity national-level strategic projects, pending identification of the specific requirements referenced by the source."
+      },
+      "policies": [
+        {
+          "name": "Third-Party Cybersecurity Policy",
+          "description": "Define how cybersecurity requirements are established, communicated, assessed, and monitored for consultancy service providers involved in sensitive strategic projects."
+        },
+        {
+          "name": "Sensitive Project Security Policy",
+          "description": "Set security governance expectations for projects classified as high-sensitivity and strategically important at the national level."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Consultancy Services Security Requirements",
+          "description": "A document specifying the cybersecurity requirements applicable to consultancy providers supporting high-sensitivity national strategic projects."
+        },
+        {
+          "name": "Third-Party Security Assessment Procedure",
+          "description": "A procedure for evaluating whether relevant consultancy providers meet the defined cybersecurity requirements."
+        },
+        {
+          "name": "Consultancy Contract Security Addendum",
+          "description": "Contractual terms requiring applicable consultants to comply with the defined cybersecurity requirements."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved Consultancy Security Requirements",
+          "description": "An approved set of cybersecurity requirements assigned to the relevant consultancy engagement."
+        },
+        {
+          "name": "Security Requirements in Consultancy Contract",
+          "description": "A contract, statement of work, or security addendum showing that applicable cybersecurity requirements were communicated to the consultancy provider."
+        },
+        {
+          "name": "Third-Party Security Assessment Records",
+          "description": "Completed assessment or review records demonstrating evaluation of the consultancy provider against the applicable requirements."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "4-1",
+      "source_title": "Third-Party Cybersecurity Requirements for Data Sharing and Transfers",
+      "source_text": ", cybersecurity requirements for third-parties cybersecurity must include at least the following:PublicconfidentialSecretTop Secret3-1-1-1Screening orvetting third-party employees who have access to the data.3-1-1-2Requiring contractual commitment by third-partiesto securely dispose the organization’s data at the end of the contract or in case of contract termination, including providing evidences of such disposal to the organization.3-1-1-3Documentingall data sharing operations within third-parties, including data sharing justification. 3-1-1-4When transferring data outside the kingdom, the capability of the hosting organization abroad to safeguard data must be verified, approval ofthe Authorizing Officialmust be obtained and complyingwith related laws and regulations. 3-1-1-5Requiring third-parties to notify the organization immediately in case of cybersecurity incident that may affect data that has been shared or created.3-1-1-6Reclassifying data to the least level to achieve the objective before sharing it with third-parties using data masking or data scrambling techniques.3-1-2In alignment with relatedlaws and regulations, and in addition to the applicable controls in ECC and controls within DCC domain",
+      "source_summary": "The requirement states that third-party cybersecurity requirements must address screening or vetting personnel with access to data, secure disposal of organizational data at contract end or termination with evidence of disposal, documentation and justification of data sharing, verification and approval for transfers outside the Kingdom in accordance with applicable laws and regulations, immediate notification of relevant cybersecurity incidents, and downgrading data to the least classification level necessary before sharing through masking or scrambling. The source text ends with an incomplete reference to alignment with applicable laws, regulations, ECC controls, and DCC controls.",
+      "page_start": 18,
+      "page_end": 18,
+      "source_block_ids": [
+        "page_18_block_4"
+      ],
+      "todo": {
+        "name": "Implement third-party data protection requirements",
+        "description": "Update third-party cybersecurity and data-sharing arrangements to address personnel vetting, secure data disposal and disposal evidence, documented sharing justifications, overseas transfer verification and approval, incident notification, and data masking or scrambling before sharing. Identify and address the incomplete additional requirement referenced at the end of the source text using the applicable governing material."
+      },
+      "policies": [
+        {
+          "name": "Third-Party Cybersecurity Policy",
+          "description": "Define mandatory cybersecurity and data protection requirements for third parties that access, receive, host, or create organizational data."
+        },
+        {
+          "name": "Third-Party Personnel Screening Policy",
+          "description": "Establish screening or vetting requirements for third-party employees who have access to organizational data."
+        },
+        {
+          "name": "Data Sharing and Transfer Policy",
+          "description": "Define approval, justification, documentation, classification, masking, scrambling, and cross-border transfer requirements for sharing data with third parties."
+        },
+        {
+          "name": "Data Retention and Secure Disposal Policy",
+          "description": "Require third parties to securely dispose of organizational data at contract completion or termination and provide evidence of disposal."
+        },
+        {
+          "name": "Third-Party Cybersecurity Incident Notification Policy",
+          "description": "Require immediate notification of cybersecurity incidents that may affect data shared with or created by the organization."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Third-Party Security Requirements Schedule",
+          "description": "A contractual security schedule containing the required cybersecurity, data handling, incident notification, disposal, and transfer obligations."
+        },
+        {
+          "name": "Third-Party Data Sharing Register",
+          "description": "A register documenting each third-party data-sharing operation, its purpose or justification, data classification, recipient, and applicable approvals."
+        },
+        {
+          "name": "Cross-Border Data Transfer Assessment and Approval Record",
+          "description": "Records verifying the overseas hosting organization’s capability to safeguard data, documenting legal and regulatory compliance, and recording Authorizing Official approval."
+        },
+        {
+          "name": "Third-Party Data Disposal Procedure",
+          "description": "A procedure defining secure disposal methods, timing, responsibilities, and the evidence third parties must provide."
+        },
+        {
+          "name": "Data Masking and Scrambling Procedure",
+          "description": "A procedure for reducing data to the least classification level needed before third-party sharing through masking or scrambling techniques."
+        },
+        {
+          "name": "Third-Party Due Diligence and Personnel Screening Records",
+          "description": "Records demonstrating assessment of third-party security capabilities and screening or vetting of personnel with data access."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Executed Third-Party Contracts",
+          "description": "Contracts or amendments containing requirements for personnel vetting, secure disposal, disposal evidence, incident notification, data sharing, and applicable transfer controls."
+        },
+        {
+          "name": "Personnel Screening or Vetting Records",
+          "description": "Evidence that third-party employees with access to organizational data were screened or vetted."
+        },
+        {
+          "name": "Certificates or Attestations of Data Disposal",
+          "description": "Third-party evidence confirming secure disposal of organizational data after contract completion or termination."
+        },
+        {
+          "name": "Data Sharing Register Entries",
+          "description": "Completed records showing data-sharing operations, business or operational justification, recipients, data classification, and approvals."
+        },
+        {
+          "name": "Cross-Border Transfer Approval and Safeguard Assessment",
+          "description": "Documented verification of the overseas hosting organization’s safeguards, applicable legal and regulatory review, and approval by the Authorizing Official."
+        },
+        {
+          "name": "Incident Notification Records",
+          "description": "Incident reports, notification emails, or ticket records demonstrating immediate third-party notification of relevant cybersecurity incidents."
+        },
+        {
+          "name": "Masked or Scrambled Data Samples and Processing Logs",
+          "description": "Evidence showing that data was reduced to the least necessary classification level using masking or scrambling before being shared."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "(2)",
+      "source_title": "New Subdomains Added to Data Cybersecurity Controls",
+      "source_text": "New subdomainsto which cybersecurity controls have been added for Data Cybersecurity Controls.",
+      "source_summary": "The source identifies new subdomains to which Data Cybersecurity Controls have been added, but it does not specify the names of those subdomains or the individual controls.",
+      "page_start": 20,
+      "page_end": 20,
+      "source_block_ids": [
+        "page_20_block_9"
+      ],
+      "todo": {
+        "name": "Identify and assess the newly added subdomains",
+        "description": "Establish the scope of the new subdomains, map the applicable Data Cybersecurity Controls to each one, and document implementation or remediation actions. Do not assume subdomain names or control details that are not provided in the source."
+      },
+      "policies": [
+        {
+          "name": "Data Cybersecurity Controls Policy",
+          "description": "Define how Data Cybersecurity Controls are identified, assigned, implemented, and maintained across applicable organizational subdomains."
+        },
+        {
+          "name": "Control Scope and Applicability Policy",
+          "description": "Set out the process for determining which cybersecurity controls apply to newly introduced or newly covered subdomains."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Subdomain Control Applicability Register",
+          "description": "Record the newly identified subdomains, the Data Cybersecurity Controls applicable to each, responsible owners, implementation status, and review dates."
+        },
+        {
+          "name": "Data Cybersecurity Control Implementation Plan",
+          "description": "Document planned actions, priorities, owners, and target dates for implementing the applicable controls in the new subdomains."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved Subdomain Inventory",
+          "description": "An authorized inventory identifying the subdomains covered by the new Data Cybersecurity Controls."
+        },
+        {
+          "name": "Control Applicability and Mapping Records",
+          "description": "Records showing how applicable Data Cybersecurity Controls were mapped to each newly covered subdomain."
+        },
+        {
+          "name": "Implementation or Remediation Records",
+          "description": "Completed control assessments, action plans, approvals, or other records demonstrating that the controls were implemented or gaps were tracked."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "Figure 5",
+      "source_title": "Figure 5 – Data Cybersecurity Controls Subdomain Coverage",
+      "source_text": "Subdomains where cybersecurity controls havebeen added for Data Cybersecurity Controls.Subdomains where no additional cybersecurity controls have been added for Data Cybersecurity Controls.New Subdomain have been added for Data Cybersecurity Controls.",
+      "source_summary": "The figure identifies three categories of subdomains for Data Cybersecurity Controls: subdomains where cybersecurity controls have been added, subdomains where no additional cybersecurity controls have been added, and new subdomains added for Data Cybersecurity Controls. The source text does not identify the specific subdomains in each category.",
+      "page_start": 20,
+      "page_end": 20,
+      "source_block_ids": [
+        "page_20_block_9"
+      ],
+      "todo": {
+        "name": "Classify Data Cybersecurity Control subdomains",
+        "description": "Create and maintain an inventory showing which subdomains have added cybersecurity controls, which have no additional controls, and which are newly added. Do not infer specific subdomain assignments that are not provided in the source."
+      },
+      "policies": [
+        {
+          "name": "Data Cybersecurity Controls Governance Policy",
+          "description": "Define how Data Cybersecurity Control subdomains are identified, categorized, reviewed, and updated."
+        },
+        {
+          "name": "Cybersecurity Control Change Management Policy",
+          "description": "Set requirements for documenting the addition of controls and the creation or modification of Data Cybersecurity Control subdomains."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Data Cybersecurity Control Subdomain Inventory",
+          "description": "A current register categorizing each relevant subdomain as having added controls, having no additional controls, or being newly added."
+        },
+        {
+          "name": "Control Applicability Assessment",
+          "description": "A documented assessment explaining the applicability and status of cybersecurity controls for each identified subdomain."
+        },
+        {
+          "name": "Subdomain Change Log",
+          "description": "A record of newly added subdomains and changes to cybersecurity control coverage."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved subdomain inventory",
+          "description": "An approved and dated inventory showing the categorization of Data Cybersecurity Control subdomains."
+        },
+        {
+          "name": "Control applicability records",
+          "description": "Completed assessments or review records supporting the control status assigned to each subdomain."
+        },
+        {
+          "name": "Change-management records",
+          "description": "Tickets, approvals, or meeting records demonstrating additions of cybersecurity controls or new subdomains."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "(9)",
+      "source_title": "Subdomains Covered by Data Cybersecurity Controls",
+      "source_text": "Subdomains, to which cybersecurity controls have been added for Data Cybersecurity Controls.",
+      "source_summary": "This source text is a heading indicating that the document identifies subdomains to which data cybersecurity controls have been added. It does not provide the names of the subdomains or specify any control activities.",
+      "page_start": 20,
+      "page_end": 20,
+      "source_block_ids": [
+        "page_20_block_7"
+      ],
+      "todo": {
+        "name": "Identify the applicable data cybersecurity subdomains",
+        "description": "Review the relevant section of the document and record the subdomains covered by the added data cybersecurity controls. No specific subdomains or implementation actions are stated in the provided source text."
+      },
+      "policies": [],
+      "documents": [
+        {
+          "name": "Data Cybersecurity Subdomain Register",
+          "description": "Maintain a register of the subdomains identified as being covered by the data cybersecurity controls, once those subdomains are available from the relevant source section."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Documented Subdomain Register",
+          "description": "A current record listing the data cybersecurity subdomains covered by the controls."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "(20)",
+      "source_title": "Subdomains Without Additional Data Cybersecurity Controls",
+      "source_text": "Subdomains, to which no additional cybersecurity controls have been added for Data Cybersecurity Controls.",
+      "source_summary": "The source identifies subdomains for which no additional cybersecurity controls have been added beyond the Data Cybersecurity Controls. The text is presented as a description and does not specify particular subdomains or additional actions.",
+      "page_start": 20,
+      "page_end": 20,
+      "source_block_ids": [
+        "page_20_block_8"
+      ],
+      "todo": {
+        "name": "Document subdomains without additional controls",
+        "description": "Identify and maintain a record of the subdomains covered by this classification, confirming that no additional cybersecurity controls have been assigned based on the available source information."
+      },
+      "policies": [
+        {
+          "name": "Data Cybersecurity Controls Scope Policy",
+          "description": "Define how subdomains are classified when no additional cybersecurity controls are applied, including ownership and review responsibilities."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Subdomain Control Applicability Register",
+          "description": "A register identifying subdomains classified as having no additional Data Cybersecurity Controls."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved Subdomain Applicability Register",
+          "description": "A current, reviewed register showing the subdomains to which no additional cybersecurity controls have been added."
+        },
+        {
+          "name": "Control Applicability Review Record",
+          "description": "Evidence that the classification of affected subdomains was reviewed and approved by the responsible owner."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "1-1",
+      "source_title": "Periodical Cybersecurity Review",
+      "source_text": "Periodical Cybersecurity Review and",
+      "source_summary": "The source fragment refers to a periodical cybersecurity review, but it is incomplete and does not specify the required frequency, scope, responsible parties, or review activities.",
+      "page_start": 21,
+      "page_end": 21,
+      "source_block_ids": [
+        "page_21_block_7"
+      ],
+      "todo": {
+        "name": "Establish a Periodical Cybersecurity Review Process",
+        "description": "Define and document a recurring cybersecurity review process, including its scope, frequency, responsibilities, and required outputs; confirm these details against the complete source requirement."
+      },
+      "policies": [
+        {
+          "name": "Cybersecurity Review Policy",
+          "description": "Define the organization’s approach to conducting periodic cybersecurity reviews, while documenting the review frequency and scope once confirmed from the complete requirement."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cybersecurity Review Procedure",
+          "description": "Describe how periodic cybersecurity reviews are scheduled, performed, recorded, and followed up."
+        },
+        {
+          "name": "Cybersecurity Review Schedule",
+          "description": "Record planned and completed cybersecurity review dates and responsible personnel."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Completed Cybersecurity Review Records",
+          "description": "Dated review reports or checklists demonstrating that cybersecurity reviews were performed periodically."
+        },
+        {
+          "name": "Review Schedule or Calendar Entries",
+          "description": "Evidence showing planned or recurring cybersecurity review activities."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "(MDM)",
+      "source_title": "Mobile Device Management, Rights Management Technologies, and Consulting Services Definitions",
+      "source_text": "SystemA technical system used to manage, monitor, and protect mobile devices of employees by applying cybersecurity policies. Rights Management TechnologiesTechnologies used to protect sensitive data from unauthorized disclosure,and to limit processing it as per the privileges assigned tothe authorized users.Consulting ServicesServices provided by a professional advisory team where consultants review and analyze client business data and documents, which may contain sensitive and confidential data, and offer advice, benchmarks, and use their expertise to recommend best practice or help businesses based on their individual requirements. This does not include professional cybersecurity services.Examples:",
+      "source_summary": "The source text describes a technical system for managing, monitoring, and protecting employees’ mobile devices through cybersecurity policies. It also describes technologies for preventing unauthorized disclosure and limiting data processing according to user privileges, and consulting services involving review of potentially sensitive business data and documents, excluding professional cybersecurity services.",
+      "page_start": 22,
+      "page_end": 22,
+      "source_block_ids": [
+        "page_22_block_5"
+      ],
+      "todo": {
+        "name": "Document and distinguish the described technology and service functions",
+        "description": "Record how the mobile-device management system, rights management technologies, and consulting services are defined and used, including the stated exclusion of professional cybersecurity services."
+      },
+      "policies": [
+        {
+          "name": "Mobile Device Management Policy",
+          "description": "Define the organization’s approach to managing, monitoring, and protecting employee mobile devices through cybersecurity policies."
+        },
+        {
+          "name": "Data Rights Management Policy",
+          "description": "Define how technologies are used to protect sensitive data from unauthorized disclosure and restrict processing according to authorized-user privileges."
+        },
+        {
+          "name": "Sensitive Data Handling for Consultants Policy",
+          "description": "Set expectations for consultants who review business data and documents that may contain sensitive or confidential information."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Mobile Device Management Standard",
+          "description": "Document the approved system capabilities and cybersecurity policy settings for employee mobile devices."
+        },
+        {
+          "name": "Rights Management Technology Configuration Record",
+          "description": "Record the technologies and privilege-based restrictions used to protect sensitive data and limit its processing."
+        },
+        {
+          "name": "Consulting Services Scope and Data-Handling Record",
+          "description": "Document the scope of consulting engagements involving potentially sensitive or confidential business data, including the exclusion of professional cybersecurity services."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Mobile Device Management Configuration Records",
+          "description": "System configurations or administrative records showing management, monitoring, protection, and cybersecurity-policy enforcement for employee mobile devices."
+        },
+        {
+          "name": "Rights Management Access and Processing Rules",
+          "description": "Configured permissions, protection settings, or access records demonstrating restrictions based on authorized-user privileges."
+        },
+        {
+          "name": "Consulting Engagement Documentation",
+          "description": "Statements of work, service descriptions, or engagement records showing the review and analysis of client business data and documents and the nature of the advice provided."
+        }
+      ],
+      "ai_generated": true
+    },
+    {
+      "source_reference": "(4)",
+      "source_title": "Data Cybersecurity Controls Mapped to Data Lifecycle Stages",
+      "source_text": "below highlights the relationship between the Data Cybersecurity Control and the stages of data lifecycle.ControlsData lifecycleMain controlSub controlCreateStoreShareUseDispose1-1-1------1-1-2------1-2-11-2-1-11-2-1-21-3-11-3-1-11-3-1-21-3-1-31-3-1-41-3-1-51-3-1-61-3-1-72-1-12-1-1-12-1-1-22-1-2------2-1-3------2-2-12-2-1-12-2-1-22-2-1-32-2-1-42-3-12-3-1-12-3-1-22-4-12-4-1-12-4-1-22-4-1-32-4-1-42-5-12-5-1-12-5-1-22-6-12-6-1-12-6-1-22-6-1-32-6-1-42-6-1-52-7-1------2-7-2------",
+      "source_summary": "The source presents a mapping between Data Cybersecurity Controls, including main and sub-controls, and the data lifecycle stages of Create, Store, Share, Use, and Dispose. The extracted control identifiers and table formatting are partially concatenated, so the specific mapping for each control cannot be reliably determined from the available text.",
+      "page_start": 25,
+      "page_end": 25,
+      "source_block_ids": [
+        "page_25_block_4"
+      ],
+      "todo": {
+        "name": "Document the data lifecycle control mapping",
+        "description": "Maintain a readable control-to-lifecycle mapping that preserves the source relationship between the Create, Store, Share, Use, and Dispose stages and the applicable main and sub-controls. Validate the mapping against the original source layout before relying on it for implementation or assessment."
+      },
+      "policies": [
+        {
+          "name": "Data Lifecycle Management Policy",
+          "description": "Define how data is governed across creation, storage, sharing, use, and disposal, including how applicable cybersecurity controls are identified for each stage."
+        },
+        {
+          "name": "Data Cybersecurity Controls Policy",
+          "description": "Establish the organization’s approach for implementing and monitoring cybersecurity controls across relevant data lifecycle stages."
+        }
+      ],
+      "documents": [
+        {
+          "name": "Data Lifecycle Control Mapping",
+          "description": "A readable matrix mapping applicable main and sub-controls to the Create, Store, Share, Use, and Dispose stages."
+        },
+        {
+          "name": "Data Lifecycle Procedure",
+          "description": "Procedures describing how data lifecycle stages are identified and how the applicable cybersecurity controls are implemented at each stage."
+        }
+      ],
+      "evidence": [
+        {
+          "name": "Approved Data Lifecycle Control Matrix",
+          "description": "An approved and version-controlled matrix showing the relationship between data lifecycle stages and applicable cybersecurity controls."
+        },
+        {
+          "name": "Control Implementation Records",
+          "description": "Records demonstrating that controls mapped to relevant lifecycle stages have been implemented or assessed."
+        },
+        {
+          "name": "Periodic Mapping Review Records",
+          "description": "Evidence of review and validation of the lifecycle-to-control mapping against the authoritative source."
+        }
+      ],
+      "ai_generated": true
+    }
+  ],
+  "warnings": []
+}
