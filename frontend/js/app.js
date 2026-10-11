@@ -1,4 +1,7 @@
-const API_BASE = "http://127.0.0.1:8000";
+// Automatically use local backend for testing, and relative path for Render live deployment
+const API_BASE = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" 
+    ? "http://127.0.0.1:8000" 
+    : "";
 
 const uploadView = document.getElementById("uploadView");
 const processingView = document.getElementById("processingView");
@@ -840,7 +843,7 @@ function renderRequirement(
                 </div>
 
                 <span class="requirement-chevron">
-                   ⌄
+                    ⌄
                 </span>
 
             </button>
