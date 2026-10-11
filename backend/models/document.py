@@ -1,3 +1,4 @@
+
 from typing import List, Optional, Literal
 
 from pydantic import BaseModel, Field
@@ -45,30 +46,19 @@ class TableCell(BaseModel):
 class ExtractedTable(BaseModel):
     table_id: str
     page_number: int
-    bbox: List[float] = Field(
-        default_factory=list
-    )
-    rows: List[List[str]] = Field(
-        default_factory=list
-    )
+    bbox: List[float] = Field(default_factory=list)
+    rows: List[List[str]] = Field(default_factory=list)
 
 
 class PageContent(BaseModel):
     page_number: int
-
     width: float = 0.0
     height: float = 0.0
 
-    blocks: List[TextBlock] = Field(
-        default_factory=list
-    )
-
-    tables: List[ExtractedTable] = Field(
-        default_factory=list
-    )
+    blocks: List[TextBlock] = Field(default_factory=list)
+    tables: List[ExtractedTable] = Field(default_factory=list)
 
     text: str = ""
-
     has_images: bool = False
     has_tables: bool = False
 
@@ -86,40 +76,27 @@ class DocumentMetadata(BaseModel):
 
 class ExtractedDocument(BaseModel):
     metadata: DocumentMetadata
-
-    pages: List[PageContent] = Field(
-        default_factory=list
-    )
+    pages: List[PageContent] = Field(default_factory=list)
 
 
 class CleanedPage(BaseModel):
     page_number: int
-
     width: float = 0.0
     height: float = 0.0
 
-    blocks: List[TextBlock] = Field(
-        default_factory=list
-    )
-
-    tables: List[ExtractedTable] = Field(
-        default_factory=list
-    )
+    blocks: List[TextBlock] = Field(default_factory=list)
+    tables: List[ExtractedTable] = Field(default_factory=list)
 
     text: str = ""
 
 
 class CleanedDocument(BaseModel):
     metadata: DocumentMetadata
-
-    pages: List[CleanedPage] = Field(
-        default_factory=list
-    )
+    pages: List[CleanedPage] = Field(default_factory=list)
 
 
 class StructureNode(BaseModel):
     node_id: str
-
     parent_id: Optional[str] = None
 
     title: str
@@ -130,54 +107,35 @@ class StructureNode(BaseModel):
 
     page_start: int
     page_end: int
-
     block_start: int
     block_end: int
 
     source_text: str = ""
+    source_block_ids: List[str] = Field(default_factory=list)
 
-    source_block_ids: List[str] = Field(
-        default_factory=list
-    )
-
-    children: List["StructureNode"] = Field(
-        default_factory=list
-    )
+    children: List["StructureNode"] = Field(default_factory=list)
 
 
 class DocumentStructure(BaseModel):
     metadata: DocumentMetadata
 
-    nodes: List[StructureNode] = Field(
-        default_factory=list
-    )
-
-    excluded_blocks: List[str] = Field(
-        default_factory=list
-    )
-
-    warnings: List[str] = Field(
-        default_factory=list
-    )
+    nodes: List[StructureNode] = Field(default_factory=list)
+    excluded_blocks: List[str] = Field(default_factory=list)
+    warnings: List[str] = Field(default_factory=list)
 
 
 class SourceSegment(BaseModel):
     segment_id: str
-
     node_id: Optional[str] = None
-
     page_number: int
 
     block_start: int
     block_end: int
 
     title: Optional[str] = None
-
     text: str
 
-    source_block_ids: List[str] = Field(
-        default_factory=list
-    )
+    source_block_ids: List[str] = Field(default_factory=list)
 
 
 class DocumentChunk(BaseModel):
@@ -189,42 +147,34 @@ class DocumentChunk(BaseModel):
     page_start: int
     page_end: int
 
-    source_segments: List[SourceSegment] = Field(
-        default_factory=list
-    )
+    source_segments: List[SourceSegment] = Field(default_factory=list)
 
     text: str
-
     character_count: int
 
 
 class RequirementCandidate(BaseModel):
     candidate_id: str
-
     node_id: Optional[str] = None
 
     source_title: str
-
     source_text: str
 
     page_start: int
     page_end: int
 
-    source_block_ids: List[str] = Field(
-        default_factory=list
-    )
-
+    source_block_ids: List[str] = Field(default_factory=list)
     source_reference: str = ""
 
+    hierarchy_path: List[str] = Field(default_factory=list)
     confidence: float = 0.0
 
 
 class DocumentRequirementSet(BaseModel):
     document_id: str
-
-    requirements: List[
-        RequirementCandidate
-    ] = Field(default_factory=list)
+    requirements: List[RequirementCandidate] = Field(
+        default_factory=list
+    )
 
 
 TextBlock.model_rebuild()
