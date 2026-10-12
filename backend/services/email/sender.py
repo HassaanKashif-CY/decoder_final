@@ -149,7 +149,17 @@ Sahl Compliance Decoder
 
             except smtplib.SMTPRecipientsRefused as exc:
                 raise EmailSenderError(
-                    f"Recipient address rejected: {exc.recipients}"
+                    f"Recipient address rejected by the mail server: {exc.recipients}"
+                ) from exc
+
+            except smtplib.SMTPResponseException as exc:
+                response = exc.smtp_error
+                if isinstance(response, bytes):
+                    response = response.decode("utf-8", errors="replace")
+                raise EmailSenderError(
+                    f"SMTP server rejected the message (code {exc.smtp_code}): "
+                    f"{response}. Verify the sender mailbox, recipient addresses, "
+                    "and provider sending limits."
                 ) from exc
 
             except (
@@ -193,21 +203,37 @@ Sahl Compliance Decoder
         context = ssl.create_default_context()
 
         if port == 465:
-            # Implicit SSL. STARTTLS on this port makes the server hang up.
+            # Port 465 uses implicit TLS; do not issue STARTTLS on this port.
             with smtplib.SMTP_SSL(
-                host, port, timeout=60, context=context
+                host,
+                port,
+                timeout=30,
+                context=context,
             ) as server:
+                server.ehlo()
                 server.login(username, password)
                 server.send_message(message)
             return
 
-        with smtplib.SMTP(host, port, timeout=60) as server:
+        if port != 587:
+            raise EmailSenderError(
+                f"Unsupported SMTP_PORT={port}. Use 587 for STARTTLS "
+                "or 465 for implicit SSL."
+            )
+
+        # Port 587 must use STARTTLS. Never send SMTP credentials over a
+        # connection that did not successfully upgrade to TLS.
+        with smtplib.SMTP(host, port, timeout=30) as server:
             server.ehlo()
 
-            if server.has_extn("starttls"):
-                server.starttls(context=context)
-                server.ehlo()
+            if not server.has_extn("starttls"):
+                raise EmailSenderError(
+                    f"SMTP server {host}:{port} did not advertise STARTTLS. "
+                    "Check SMTP_HOST/SMTP_PORT or use port 465 with SSL."
+                )
 
+            server.starttls(context=context)
+            server.ehlo()
             server.login(username, password)
             server.send_message(message)
 
