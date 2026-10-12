@@ -394,8 +394,10 @@ class RequirementExtractor:
         return """
 You are the source-discovery engine for Sahl Compliance Decoder.
 
-Your job is to inspect a compliance PDF and identify the document's
-REAL actionable compliance requirements.
+Your job is to identify actionable compliance requirements AND profile the regulation accurately.
+In document_profile, provide a concise plain-language regulation_summary, applicability_conditions, and applicable_industries. Only state applicability supported by the source; if unclear, say it is not clearly specified. Preserve the document's own hierarchy in each requirement hierarchy_path, ordered from highest-level chapter/domain to immediate section/subsection.
+
+Identify the document's REAL actionable compliance requirements.
 
 The PDF can be ANY type of document:
 - regulation
@@ -648,9 +650,12 @@ SOURCE DOCUMENT:
                 },
                 "hierarchy_levels": {
                     "type": "array",
-                    "items": {
-                        "type": "string",
-                    },
+                    "items": {"type": "string"},
+                },
+                "regulation_summary": {"type": "string"},
+                "applicability_conditions": {"type": "string"},
+                "applicable_industries": {
+                    "type": "array", "items": {"type": "string"}
                 },
             },
             "required": [
@@ -662,6 +667,9 @@ SOURCE DOCUMENT:
                 "requirement_unit_name",
                 "hierarchy_description",
                 "hierarchy_levels",
+                "regulation_summary",
+                "applicability_conditions",
+                "applicable_industries",
             ],
             "additionalProperties": False,
         }
@@ -778,6 +786,8 @@ SOURCE DOCUMENT:
             "jurisdiction",
             "requirement_unit_name",
             "hierarchy_description",
+            "regulation_summary",
+            "applicability_conditions",
         ]
 
         for field in fields:
@@ -829,10 +839,16 @@ SOURCE DOCUMENT:
                         value.strip()
                     )
 
-        merged["hierarchy_levels"] = (
-            hierarchy_levels
-        )
+        merged["hierarchy_levels"] = hierarchy_levels
 
+        industries = []
+        for profile in profiles:
+            values = profile.get("applicable_industries", [])
+            if isinstance(values, list):
+                for value in values:
+                    if isinstance(value, str) and value.strip() and value.strip() not in industries:
+                        industries.append(value.strip())
+        merged["applicable_industries"] = industries
         return merged
 
     def _materialize_requirements(
@@ -1001,6 +1017,7 @@ SOURCE DOCUMENT:
                         ],
                         source_block_ids=source_block_ids,
                         source_reference=reference,
+                        hierarchy_path=[str(v).strip() for v in raw.get("hierarchy_path", []) if isinstance(v, str) and v.strip()],
                         confidence=self._confidence(
                             raw.get(
                                 "confidence",
