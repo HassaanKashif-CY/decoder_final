@@ -394,10 +394,8 @@ class RequirementExtractor:
         return """
 You are the source-discovery engine for Sahl Compliance Decoder.
 
-Your job is to identify actionable compliance requirements AND profile the regulation accurately.
-In document_profile, provide a concise plain-language regulation_summary, applicability_conditions, and applicable_industries. Only state applicability supported by the source; if unclear, say it is not clearly specified. Preserve the document's own hierarchy in each requirement hierarchy_path, ordered from highest-level chapter/domain to immediate section/subsection.
-
-Identify the document's REAL actionable compliance requirements.
+Your job is to inspect a compliance PDF and identify the document's
+REAL actionable compliance requirements.
 
 The PDF can be ANY type of document:
 - regulation
@@ -540,6 +538,13 @@ will deduplicate exact source spans.
 
 Return a document profile and a list of actionable requirements.
 
+DOCUMENT PROFILE RULES:
+- regulation_summary: write a concise, professional summary of what this document covers, grounded in the source.
+- applicability_conditions: explain the scope/conditions only when stated or clearly supported by the PDF; otherwise say the PDF does not clearly specify them.
+- applicable_industries: list only industries explicitly named or clearly supported by the source. Return [] when the source does not identify industries.
+- Do not invent legal obligations, industries, jurisdictions, versions, or hierarchy levels.
+- Keep every profile field plain text; never return instructions about what the AI is doing.
+
 For every requirement return:
 
 - requirement_id
@@ -659,16 +664,10 @@ SOURCE DOCUMENT:
                 },
             },
             "required": [
-                "document_title",
-                "document_type",
-                "framework_name",
-                "version",
-                "jurisdiction",
-                "requirement_unit_name",
-                "hierarchy_description",
-                "hierarchy_levels",
-                "regulation_summary",
-                "applicability_conditions",
+                "document_title", "document_type", "framework_name",
+                "version", "jurisdiction", "requirement_unit_name",
+                "hierarchy_description", "hierarchy_levels",
+                "regulation_summary", "applicability_conditions",
                 "applicable_industries",
             ],
             "additionalProperties": False,
@@ -840,7 +839,6 @@ SOURCE DOCUMENT:
                     )
 
         merged["hierarchy_levels"] = hierarchy_levels
-
         industries = []
         for profile in profiles:
             values = profile.get("applicable_industries", [])
@@ -1017,7 +1015,6 @@ SOURCE DOCUMENT:
                         ],
                         source_block_ids=source_block_ids,
                         source_reference=reference,
-                        hierarchy_path=[str(v).strip() for v in raw.get("hierarchy_path", []) if isinstance(v, str) and v.strip()],
                         confidence=self._confidence(
                             raw.get(
                                 "confidence",
