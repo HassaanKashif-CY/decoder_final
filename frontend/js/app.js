@@ -1,5 +1,4 @@
-
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "";
 
 const uploadView = document.getElementById("uploadView");
 const processingView = document.getElementById("processingView");
@@ -49,7 +48,6 @@ function showView(view) {
     });
 }
 
-
 function showToast(message, isError = false) {
     toast.textContent = message;
 
@@ -62,7 +60,6 @@ function showToast(message, isError = false) {
         toast.classList.remove("show");
     }, 3500);
 }
-
 
 function formatBytes(bytes) {
     if (!bytes) {
@@ -80,7 +77,6 @@ function formatBytes(bytes) {
     return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
 }
 
-
 function escapeHtml(value) {
     return String(value ?? "")
         .replaceAll("&", "&amp;")
@@ -89,7 +85,6 @@ function escapeHtml(value) {
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#039;");
 }
-
 
 function arrayValue(value) {
     return Array.isArray(value) ? value : [];
@@ -130,7 +125,6 @@ function validateFile(file) {
     return true;
 }
 
-
 function setSelectedFile(file) {
     if (!validateFile(file)) {
         selectedPdf = null;
@@ -162,7 +156,6 @@ function setSelectedFile(file) {
     decodeButton.disabled = false;
 }
 
-
 fileInput.addEventListener(
     "change",
     () => {
@@ -187,14 +180,12 @@ dropZone.addEventListener(
     }
 );
 
-
 dropZone.addEventListener(
     "dragleave",
     () => {
         dropZone.classList.remove("dragover");
     }
 );
-
 
 dropZone.addEventListener(
     "drop",
@@ -254,7 +245,6 @@ const processingStages = [
     }
 ];
 
-
 function updateProcessingStage(progress) {
     const stage =
         processingStages.find(
@@ -290,7 +280,6 @@ function updateProcessingStage(progress) {
     }
 }
 
-
 function setProgress(value) {
     currentProgress = Math.max(
         0,
@@ -308,7 +297,6 @@ function setProgress(value) {
     );
 }
 
-
 function startFakeProgress() {
     processingStartedAt = Date.now();
 
@@ -322,7 +310,6 @@ function startFakeProgress() {
 
     progressTimer = window.setInterval(
         () => {
-
             if (currentProgress >= 92) {
                 return;
             }
@@ -342,12 +329,10 @@ function startFakeProgress() {
             setProgress(
                 currentProgress + increment
             );
-
         },
         900
     );
 }
-
 
 function finishProgress() {
     window.clearInterval(
@@ -439,7 +424,6 @@ decodeButton.addEventListener(
             userEmail
         );
 
-
         processingFile.textContent =
             selectedPdf.name;
 
@@ -449,9 +433,7 @@ decodeButton.addEventListener(
 
         decodeButton.disabled = true;
 
-
         try {
-
             const response =
                 await fetch(
                     `${API_BASE}/api/decode`,
@@ -461,7 +443,6 @@ decodeButton.addEventListener(
                     }
                 );
 
-
             let data = null;
 
             try {
@@ -470,9 +451,7 @@ decodeButton.addEventListener(
                 data = null;
             }
 
-
             if (!response.ok) {
-
                 const errorMessage =
                     data?.detail ||
                     "The compliance document could not be decoded.";
@@ -482,25 +461,22 @@ decodeButton.addEventListener(
                 );
             }
 
-
             latestDecodeResult = data;
 
-            finishProgress();
+            saveScanToLocalHistory(data);
 
+            finishProgress();
 
             await new Promise(
                 resolve =>
                     setTimeout(resolve, 700)
             );
 
-
             renderResults(data);
 
             showView(resultsView);
 
-
         } catch (error) {
-
             window.clearInterval(
                 progressTimer
             );
@@ -515,27 +491,19 @@ decodeButton.addEventListener(
                 true
             );
         }
-
     }
 );
-
-
 /* =========================================================
    RESULTS RENDERING
    ========================================================= */
 
 function renderResults(data) {
+    const results = data?.results || {};
+    const metadata = results?.metadata || {};
 
-    const results =
-        data?.results || {};
-
-    const metadata =
-        results?.metadata || {};
-
-    const requirements =
-        arrayValue(
-            results?.requirements
-        );
+    const requirements = arrayValue(
+        results?.requirements
+    );
 
     const documentName =
         data?.filename ||
@@ -557,15 +525,11 @@ function renderResults(data) {
         metadata?.framework_name ||
         documentName;
 
-
     resultsRoot.innerHTML = `
-
         <div class="results-container">
 
             <div class="results-header">
-
                 <div>
-
                     <div class="results-eyebrow">
                         MY COMPLIANCES / DECODER
                     </div>
@@ -577,13 +541,16 @@ function renderResults(data) {
                     <p class="results-subtitle">
                         ${escapeHtml(documentName)}
                     </p>
-
                 </div>
 
-
                 <div class="results-actions">
-
-                    <button class="secondary-button" type="button" onclick="downloadOutput('pdf')">Original PDF</button>
+                    <button
+                        class="secondary-button"
+                        type="button"
+                        onclick="downloadOutput('pdf')"
+                    >
+                        Original PDF
+                    </button>
 
                     <button
                         class="secondary-button"
@@ -593,7 +560,6 @@ function renderResults(data) {
                         JSON
                     </button>
 
-
                     <button
                         class="secondary-button"
                         type="button"
@@ -602,9 +568,7 @@ function renderResults(data) {
                         CSV
                     </button>
 
-
                     ${renderSendButton(data)}
-
 
                     <button
                         class="secondary-button"
@@ -613,142 +577,118 @@ function renderResults(data) {
                     >
                         Decode another
                     </button>
-
                 </div>
-
             </div>
-
 
             <section class="regulation-overview">
                 <h2>Regulation overview</h2>
-                <p class="overview-summary">${escapeHtml(metadata?.regulation_summary || "A regulation summary was not returned for this document. Review the source PDF for scope and intent.")}</p>
+
+                <p class="overview-summary">
+                    ${escapeHtml(
+                        metadata?.regulation_summary ||
+                        "A regulation summary was not returned for this document. Review the source PDF for scope and intent."
+                    )}
+                </p>
+
                 <div class="overview-details">
-                    ${metadata?.document_type ? `<p><strong>Document type</strong><span>${escapeHtml(metadata.document_type)}</span></p>` : ""}
-                    ${metadata?.framework_name ? `<p><strong>Framework</strong><span>${escapeHtml(metadata.framework_name)}</span></p>` : ""}
-                    ${metadata?.version ? `<p><strong>Version</strong><span>${escapeHtml(metadata.version)}</span></p>` : ""}
-                    ${metadata?.jurisdiction ? `<p><strong>Jurisdiction</strong><span>${escapeHtml(metadata.jurisdiction)}</span></p>` : ""}
-                    ${metadata?.applicability_conditions ? `<p><strong>Applicability</strong><span>${escapeHtml(metadata.applicability_conditions)}</span></p>` : ""}
-                    ${arrayValue(metadata?.applicable_industries).length ? `<p><strong>Industries</strong><span>${arrayValue(metadata.applicable_industries).map(escapeHtml).join(", ")}</span></p>` : ""}
+                    ${
+                        metadata?.document_type
+                        ? `<p><strong>Document type</strong><span>${escapeHtml(metadata.document_type)}</span></p>`
+                        : ""
+                    }
+
+                    ${
+                        metadata?.framework_name
+                        ? `<p><strong>Framework</strong><span>${escapeHtml(metadata.framework_name)}</span></p>`
+                        : ""
+                    }
+
+                    ${
+                        metadata?.version
+                        ? `<p><strong>Version</strong><span>${escapeHtml(metadata.version)}</span></p>`
+                        : ""
+                    }
+
+                    ${
+                        metadata?.jurisdiction
+                        ? `<p><strong>Jurisdiction</strong><span>${escapeHtml(metadata.jurisdiction)}</span></p>`
+                        : ""
+                    }
+
+                    ${
+                        metadata?.applicability_conditions
+                        ? `<p><strong>Applicability</strong><span>${escapeHtml(metadata.applicability_conditions)}</span></p>`
+                        : ""
+                    }
+
+                    ${
+                        arrayValue(metadata?.applicable_industries).length
+                        ? `<p><strong>Industries</strong><span>${arrayValue(metadata.applicable_industries).map(escapeHtml).join(", ")}</span></p>`
+                        : ""
+                    }
                 </div>
             </section>
 
             <div class="summary-grid">
-
                 <div class="summary-card">
-
-                    <div class="summary-label">
-                        Document
-                    </div>
-
-                    <div
-                        class="summary-value"
-                        style="font-size:13px;"
-                    >
+                    <div class="summary-label">Document</div>
+                    <div class="summary-value" style="font-size:13px;">
                         ${escapeHtml(documentName)}
                     </div>
-
                 </div>
 
-
                 <div class="summary-card">
-
-                    <div class="summary-label">
-                        Pages
-                    </div>
-
-                    <div class="summary-value">
-                        ${pageCount}
-                    </div>
-
+                    <div class="summary-label">Pages</div>
+                    <div class="summary-value">${pageCount}</div>
                 </div>
 
-
                 <div class="summary-card">
-
-                    <div class="summary-label">
-                        Requirements
-                    </div>
-
-                    <div class="summary-value">
-                        ${requirementCount}
-                    </div>
-
+                    <div class="summary-label">Requirements</div>
+                    <div class="summary-value">${requirementCount}</div>
                 </div>
 
-
                 <div class="summary-card">
-
-                    <div class="summary-label">
-                        Status
-                    </div>
-
-                    <div
-                        class="summary-value"
-                        style="font-size:14px;color:#159447;"
-                    >
+                    <div class="summary-label">Status</div>
+                    <div class="summary-value" style="font-size:14px;color:#159447;">
                         Decoded
                     </div>
-
                 </div>
-
             </div>
 
-
             <div class="requirements-section">
-
                 <div class="section-heading">
-
                     <div class="section-heading-left">
-
                         <span class="section-badge">
                             Requirements
                         </span>
 
-                        <strong>
-                            Compliance requirements
-                        </strong>
-
+                        <strong>Compliance requirements</strong>
                     </div>
 
-                    <span
-                        style="
-                            color:#958c9e;
-                            font-size:10px;
-                        "
-                    >
+                    <span style="color:#958c9e;font-size:10px;">
                         ${requirementCount} items
                     </span>
-
                 </div>
 
-
-                ${requirements.length
+                ${
+                    requirements.length
                     ? requirements
-                        .map(
-                            (requirement, index) =>
-                                renderRequirement(
-                                    requirement,
-                                    index
-                                )
+                        .map((requirement, index) =>
+                            renderRequirement(requirement, index)
                         )
                         .join("")
                     : renderEmptyRequirements()
                 }
-
             </div>
-
         </div>
     `;
 }
 
 
 function renderSendButton(data) {
-
-    const emailStatus =
-        data?.email_status || "";
+    const emailStatus = data?.email_status || "";
 
     if (emailStatus === "sent") {
-
         return `
             <button
                 class="send-button sent"
@@ -761,7 +701,6 @@ function renderSendButton(data) {
     }
 
     if (emailStatus === "failed") {
-
         return `
             <button
                 class="send-button failed"
@@ -785,11 +724,7 @@ function renderSendButton(data) {
 }
 
 
-function renderRequirement(
-    requirement,
-    index
-) {
-
+function renderRequirement(requirement, index) {
     const reference =
         requirement?.source_reference ||
         `Requirement ${index + 1}`;
@@ -802,49 +737,24 @@ function renderRequirement(
         requirement?.source_text ||
         "Source requirement text unavailable.";
 
-    const summary =
-        requirement?.source_summary ||
-        "";
+    const summary = requirement?.source_summary || "";
+    const todo = requirement?.todo || {};
 
-    const todo =
-        requirement?.todo || {};
+    const policies = arrayValue(requirement?.policies);
+    const documents = arrayValue(requirement?.documents);
+    const evidence = arrayValue(requirement?.evidence);
 
-    const policies =
-        arrayValue(
-            requirement?.policies
-        );
-
-    const documents =
-        arrayValue(
-            requirement?.documents
-        );
-
-    const evidence =
-        arrayValue(
-            requirement?.evidence
-        );
-
-    const pageStart =
-        requirement?.page_start;
-
-    const pageEnd =
-        requirement?.page_end;
-
+    const pageStart = requirement?.page_start;
+    const pageEnd = requirement?.page_end;
 
     return `
-
-        <article
-            class="requirement-card ${index === 0 ? "open" : ""}"
-        >
-
+        <article class="requirement-card ${index === 0 ? "open" : ""}">
             <button
                 type="button"
                 class="requirement-header"
                 onclick="toggleRequirement(this)"
             >
-
                 <div class="requirement-title-wrap">
-
                     <span class="requirement-reference">
                         ${escapeHtml(reference)}
                     </span>
@@ -852,37 +762,27 @@ function renderRequirement(
                     <span class="requirement-title">
                         ${escapeHtml(title)}
                     </span>
-
                 </div>
 
-                <span class="requirement-chevron">
-                   ⌄
-                </span>
-
+                <span class="requirement-chevron">⌄</span>
             </button>
 
-
             <div class="requirement-body">
-
                 <div class="content-label">
                     Source requirement
                 </div>
-
 
                 <div class="source-box">
                     ${escapeHtml(sourceText)}
                 </div>
 
-
                 ${
                     pageStart
                     ? `
                         <div class="source-meta">
-                            Source pages:
-                            ${escapeHtml(pageStart)}
+                            Source pages: ${escapeHtml(pageStart)}
                             ${
-                                pageEnd &&
-                                pageEnd !== pageStart
+                                pageEnd && pageEnd !== pageStart
                                 ? `–${escapeHtml(pageEnd)}`
                                 : ""
                             }
@@ -891,82 +791,51 @@ function renderRequirement(
                     : ""
                 }
 
-
                 ${
                     summary
                     ? `
                         <div class="implementation-box">
-
-                            <h4>
-                                Requirement summary
-                            </h4>
-
-                            <p>
-                                ${escapeHtml(summary)}
-                            </p>
-
+                            <h4>Requirement summary</h4>
+                            <p>${escapeHtml(summary)}</p>
                         </div>
                     `
                     : ""
                 }
 
-
                 <div class="implementation-box">
-
-                    <h4>
-                        Implementation action
-                    </h4>
+                    <h4>Implementation action</h4>
 
                     <p>
-                        ${
-                            escapeHtml(
-                                todo?.name ||
-                                "Implementation action"
-                            )
-                        }
+                        ${escapeHtml(
+                            todo?.name || "Implementation action"
+                        )}
                     </p>
 
                     ${
                         todo?.description
                         ? `
                             <p style="margin-top:5px;">
-                                ${escapeHtml(
-                                    todo.description
-                                )}
+                                ${escapeHtml(todo.description)}
                             </p>
                         `
                         : ""
                     }
-
                 </div>
 
-
                 <div class="recommendation-grid">
+                    ${renderRecommendationCard("Policies", policies)}
 
-                    ${renderRecommendationCard(
-                        "Policies",
-                        policies
-                    )}
+                    ${renderRecommendationCard("Documents", documents)}
 
-                    ${renderRecommendationCard(
-                        "Documents",
-                        documents
-                    )}
+                    ${renderRecommendationCard("Evidence", evidence)}
 
-                    ${renderRecommendationCard(
-                        "Evidence",
-                        evidence
-                    )}
                     ${renderRecommendationCard(
                         "Automation tests",
                         arrayValue(requirement?.automation_tests),
                         "No suitable automation test was identified for this requirement. Manual verification may be needed."
                     )}
-
                 </div>
-
             </div>
-
         </article>
     `;
 }
@@ -977,83 +846,44 @@ function renderRecommendationCard(
     items,
     emptyMessage = "No recommendations were generated for this section."
 ) {
-
     if (!items.length) {
-
         return `
             <div class="recommendation-card">
-
-                <h4>
-                    ${escapeHtml(title)}
-                </h4>
+                <h4>${escapeHtml(title)}</h4>
 
                 <div class="recommendation-item">
-
-                    <strong>
-                        Not available
-                    </strong>
+                    <strong>Not available</strong>
                     <p>${escapeHtml(emptyMessage)}</p>
-
                 </div>
-
             </div>
         `;
     }
 
-
     return `
         <div class="recommendation-card">
+            <h4>${escapeHtml(title)}</h4>
 
-            <h4>
-                ${escapeHtml(title)}
-            </h4>
+            ${items.map(item => `
+                <div class="recommendation-item">
+                    <strong>
+                        ${escapeHtml(item?.name || "")}
+                    </strong>
 
-            ${items
-                .map(
-                    item => `
-                        <div class="recommendation-item">
-
-                            <strong>
-                                ${escapeHtml(
-                                    item?.name ||
-                                    ""
-                                )}
-                            </strong>
-
-                            ${
-                                item?.description
-                                ? `
-                                    <p>
-                                        ${escapeHtml(
-                                            item.description
-                                        )}
-                                    </p>
-                                `
-                                : ""
-                            }
-
-                        </div>
-                    `
-                )
-                .join("")
-            }
-
+                    ${
+                        item?.description
+                        ? `<p>${escapeHtml(item.description)}</p>`
+                        : ""
+                    }
+                </div>
+            `).join("")}
         </div>
     `;
 }
 
 
 function renderEmptyRequirements() {
-
     return `
-        <div
-            style="
-                padding:40px 20px;
-                text-align:center;
-                color:#8e8597;
-                font-size:12px;
-            "
-        >
+        <div style="padding:40px 20px;text-align:center;color:#8e8597;font-size:12px;">
             No requirements were returned by the decoder.
         </div>
     `;
@@ -1065,11 +895,7 @@ function renderEmptyRequirements() {
    ========================================================= */
 
 function toggleRequirement(button) {
-
-    const card =
-        button.closest(
-            ".requirement-card"
-        );
+    const card = button.closest(".requirement-card");
 
     if (!card) {
         return;
@@ -1084,35 +910,25 @@ function toggleRequirement(button) {
    ========================================================= */
 
 function downloadOutput(type) {
-
     if (!latestDecodeResult) {
         return;
     }
 
-    const documentId =
-        latestDecodeResult.document_id;
+    const documentId = latestDecodeResult.document_id;
 
     if (!documentId) {
         showToast(
             "The output file is not available.",
             true
         );
-
         return;
     }
 
     const url =
-        `${API_BASE}/api/download/${type}/${encodeURIComponent(
-            documentId
-        )}`;
+        `${API_BASE}/api/download/${type}/${encodeURIComponent(documentId)}`;
 
-    window.open(
-        url,
-        "_blank"
-    );
+    window.open(url, "_blank");
 }
-
-
 /* =========================================================
    SEND TO SAHL
    ========================================================= */
@@ -1129,67 +945,137 @@ async function handleSendToSahl() {
     }
 
     const button = document.querySelector(".send-button");
+
     if (button) {
         button.disabled = true;
-        button.textContent = "Sending…";
+        button.textContent = "Sending...";
     }
 
     const formData = new FormData();
-    formData.append("company_name", companyInput?.value?.trim() || "");
-    formData.append("user_email", emailInput?.value?.trim() || "");
+
+    formData.append(
+        "company_name",
+        companyInput?.value?.trim() || ""
+    );
+
+    formData.append(
+        "user_email",
+        emailInput?.value?.trim() || ""
+    );
 
     try {
         const response = await fetch(
-            `${API_BASE}/api/send-to-sahl/${encodeURIComponent(latestDecodeResult.document_id)}`,
-            { method: "POST", body: formData }
+            `${API_BASE}/api/send-to-sahl/${encodeURIComponent(
+                latestDecodeResult.document_id
+            )}`,
+            {
+                method: "POST",
+                body: formData
+            }
         );
+
         let data = {};
-        try { data = await response.json(); } catch { /* non-JSON response */ }
+
+        try {
+            data = await response.json();
+        } catch {
+            // Response was not JSON.
+        }
+
         if (!response.ok) {
-            throw new Error(data?.detail || "Email submission failed.");
+            throw new Error(
+                data?.detail || "Email submission failed."
+            );
         }
 
         latestDecodeResult.email_status = "sent";
-        latestDecodeResult.email_recipients = (data.recipients || []).join(", ");
+
+        latestDecodeResult.email_recipients =
+            (data.recipients || []).join(", ");
+
         renderResults(latestDecodeResult);
+
         showToast("Successfully sent the decoded files to Sahl.");
+
     } catch (error) {
         latestDecodeResult.email_status = "failed";
+
         renderResults(latestDecodeResult);
-        showToast(error?.message || "Could not send the files to Sahl. Check SMTP settings and retry.", true);
+
+        showToast(
+            error?.message ||
+            "Could not send the files to Sahl. Check SMTP settings and retry.",
+            true
+        );
     }
 }
 
 
+/* =========================================================
+   LOCAL SCAN HISTORY
+   ========================================================= */
 
 function saveScanToLocalHistory(data) {
     try {
         const key = "sahlComplianceDecoderHistory";
-        const existing = JSON.parse(localStorage.getItem(key) || "[]");
+
+        const existing = JSON.parse(
+            localStorage.getItem(key) || "[]"
+        );
+
         const metadata = data?.results?.metadata || {};
+
         const record = {
-            document_id: data?.document_id || metadata?.document_id || "",
-            filename: data?.filename || metadata?.filename || "Compliance document",
-            framework_name: metadata?.framework_name || metadata?.document_title || "",
-            requirement_count: data?.requirement_count || metadata?.requirement_count || 0,
+            document_id:
+                data?.document_id ||
+                metadata?.document_id ||
+                "",
+
+            filename:
+                data?.filename ||
+                metadata?.filename ||
+                "Compliance document",
+
+            framework_name:
+                metadata?.framework_name ||
+                metadata?.document_title ||
+                "",
+
+            requirement_count:
+                data?.requirement_count ||
+                metadata?.requirement_count ||
+                0,
+
             scanned_at: new Date().toISOString()
         };
+
         if (record.document_id) {
-            const filtered = existing.filter(item => item.document_id !== record.document_id);
+            const filtered = existing.filter(
+                item => item.document_id !== record.document_id
+            );
+
             filtered.unshift(record);
-            localStorage.setItem(key, JSON.stringify(filtered.slice(0, 50)));
+
+            localStorage.setItem(
+                key,
+                JSON.stringify(filtered.slice(0, 50))
+            );
         }
+
     } catch (error) {
-        console.warn("Could not save local scan history.", error);
+        console.warn(
+            "Could not save local scan history.",
+            error
+        );
     }
 }
+
 
 /* =========================================================
    DECODE ANOTHER
    ========================================================= */
 
 function decodeAnother() {
-
     latestDecodeResult = null;
     selectedPdf = null;
 
@@ -1216,6 +1102,3 @@ function decodeAnother() {
    ========================================================= */
 
 showView(uploadView);
-```
-
----
