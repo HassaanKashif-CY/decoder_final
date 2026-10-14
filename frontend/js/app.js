@@ -48,6 +48,7 @@ function showView(view) {
     });
 }
 
+
 function showToast(message, isError = false) {
     toast.textContent = message;
 
@@ -60,6 +61,7 @@ function showToast(message, isError = false) {
         toast.classList.remove("show");
     }, 3500);
 }
+
 
 function formatBytes(bytes) {
     if (!bytes) {
@@ -77,6 +79,7 @@ function formatBytes(bytes) {
     return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
 }
 
+
 function escapeHtml(value) {
     return String(value ?? "")
         .replaceAll("&", "&amp;")
@@ -85,6 +88,7 @@ function escapeHtml(value) {
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#039;");
 }
+
 
 function arrayValue(value) {
     return Array.isArray(value) ? value : [];
@@ -105,11 +109,7 @@ function validateFile(file) {
         file.name.toLowerCase().endsWith(".pdf");
 
     if (!isPdf) {
-        showToast(
-            "Please select a PDF file.",
-            true
-        );
-
+        showToast("Please select a PDF file.", true);
         return false;
     }
 
@@ -118,12 +118,12 @@ function validateFile(file) {
             "The PDF exceeds the 100 MB upload limit.",
             true
         );
-
         return false;
     }
 
     return true;
 }
+
 
 function setSelectedFile(file) {
     if (!validateFile(file)) {
@@ -138,12 +138,10 @@ function setSelectedFile(file) {
     selectedFile.innerHTML = `
         <div class="selected-file-left">
             <div class="file-badge">PDF</div>
-
             <div>
                 <div class="selected-file-name">
                     ${escapeHtml(file.name)}
                 </div>
-
                 <div class="selected-file-size">
                     ${formatBytes(file.size)}
                 </div>
@@ -152,55 +150,44 @@ function setSelectedFile(file) {
     `;
 
     selectedFile.classList.remove("hidden");
-
     decodeButton.disabled = false;
 }
 
-fileInput.addEventListener(
-    "change",
-    () => {
-        const file = fileInput.files?.[0];
 
-        if (file) {
-            setSelectedFile(file);
-        }
+fileInput.addEventListener("change", () => {
+    const file = fileInput.files?.[0];
+
+    if (file) {
+        setSelectedFile(file);
     }
-);
+});
 
 
 /* =========================================================
    DRAG AND DROP
    ========================================================= */
 
-dropZone.addEventListener(
-    "dragover",
-    (event) => {
-        event.preventDefault();
-        dropZone.classList.add("dragover");
+dropZone.addEventListener("dragover", (event) => {
+    event.preventDefault();
+    dropZone.classList.add("dragover");
+});
+
+
+dropZone.addEventListener("dragleave", () => {
+    dropZone.classList.remove("dragover");
+});
+
+
+dropZone.addEventListener("drop", (event) => {
+    event.preventDefault();
+    dropZone.classList.remove("dragover");
+
+    const file = event.dataTransfer.files?.[0];
+
+    if (file) {
+        setSelectedFile(file);
     }
-);
-
-dropZone.addEventListener(
-    "dragleave",
-    () => {
-        dropZone.classList.remove("dragover");
-    }
-);
-
-dropZone.addEventListener(
-    "drop",
-    (event) => {
-        event.preventDefault();
-
-        dropZone.classList.remove("dragover");
-
-        const file = event.dataTransfer.files?.[0];
-
-        if (file) {
-            setSelectedFile(file);
-        }
-    }
-);
+});
 
 
 /* =========================================================
@@ -211,64 +198,52 @@ const processingStages = [
     {
         max: 20,
         title: "Reading PDF",
-        text:
-            "Reading the uploaded document and extracting its content.",
+        text: "Reading the uploaded document and extracting its content.",
         step: 1
     },
     {
         max: 42,
         title: "Understanding document structure",
-        text:
-            "Detecting sections, hierarchy and terminology used by the document.",
+        text: "Detecting sections, hierarchy and terminology used by the document.",
         step: 2
     },
     {
         max: 67,
         title: "Identifying requirements",
-        text:
-            "Finding the actual actionable compliance requirements in the document.",
+        text: "Finding the actual actionable compliance requirements in the document.",
         step: 3
     },
     {
         max: 84,
         title: "Building implementation guidance",
-        text:
-            "Preparing practical actions, policies, documents and evidence recommendations.",
+        text: "Preparing practical actions, policies, documents and evidence recommendations.",
         step: 4
     },
     {
         max: 94,
         title: "Preparing Sahl-ready output",
-        text:
-            "Finalizing the compliance breakdown and preparing JSON and CSV outputs.",
+        text: "Finalizing the compliance breakdown and preparing JSON and CSV outputs.",
         step: 5
     }
 ];
 
+
 function updateProcessingStage(progress) {
     const stage =
-        processingStages.find(
-            item => progress <= item.max
-        ) ||
-        processingStages[
-            processingStages.length - 1
-        ];
+        processingStages.find(item => progress <= item.max) ||
+        processingStages[processingStages.length - 1];
 
     processingStage.textContent = stage.title;
     processingText.textContent = stage.text;
 
     for (let i = 1; i <= 5; i++) {
-        const step =
-            document.getElementById(`step${i}`);
+        const step = document.getElementById(`step${i}`);
 
         if (!step) {
             continue;
         }
 
-        step.classList.remove(
-            "active",
-            "completed"
-        );
+        step.classList.remove("active", "completed");
 
         if (i < stage.step) {
             step.classList.add("completed");
@@ -280,70 +255,52 @@ function updateProcessingStage(progress) {
     }
 }
 
+
 function setProgress(value) {
-    currentProgress = Math.max(
-        0,
-        Math.min(100, value)
-    );
+    currentProgress = Math.max(0, Math.min(100, value));
 
-    progressBar.style.width =
-        `${currentProgress}%`;
+    progressBar.style.width = `${currentProgress}%`;
+    progressPercent.textContent = `${Math.round(currentProgress)}%`;
 
-    progressPercent.textContent =
-        `${Math.round(currentProgress)}%`;
-
-    updateProcessingStage(
-        currentProgress
-    );
+    updateProcessingStage(currentProgress);
 }
+
 
 function startFakeProgress() {
     processingStartedAt = Date.now();
-
     currentProgress = 8;
 
     setProgress(currentProgress);
+    window.clearInterval(progressTimer);
 
-    window.clearInterval(
-        progressTimer
-    );
+    progressTimer = window.setInterval(() => {
+        if (currentProgress >= 92) {
+            return;
+        }
 
-    progressTimer = window.setInterval(
-        () => {
-            if (currentProgress >= 92) {
-                return;
-            }
+        let increment = 0.35;
 
-            let increment = 0.35;
+        if (currentProgress < 25) {
+            increment = 1.0;
+        } else if (currentProgress < 50) {
+            increment = 0.65;
+        } else if (currentProgress < 72) {
+            increment = 0.4;
+        } else {
+            increment = 0.18;
+        }
 
-            if (currentProgress < 25) {
-                increment = 1.0;
-            } else if (currentProgress < 50) {
-                increment = 0.65;
-            } else if (currentProgress < 72) {
-                increment = 0.4;
-            } else {
-                increment = 0.18;
-            }
-
-            setProgress(
-                currentProgress + increment
-            );
-        },
-        900
-    );
+        setProgress(currentProgress + increment);
+    }, 900);
 }
 
-function finishProgress() {
-    window.clearInterval(
-        progressTimer
-    );
 
+function finishProgress() {
+    window.clearInterval(progressTimer);
     setProgress(100);
 
     for (let i = 1; i <= 5; i++) {
-        const step =
-            document.getElementById(`step${i}`);
+        const step = document.getElementById(`step${i}`);
 
         if (step) {
             step.classList.remove("active");
@@ -351,11 +308,8 @@ function finishProgress() {
         }
     }
 
-    processingStage.textContent =
-        "Decoding completed";
-
-    processingText.textContent =
-        "Your compliance workspace is ready.";
+    processingStage.textContent = "Decoding completed";
+    processingText.textContent = "Your compliance workspace is ready.";
 }
 
 
@@ -363,136 +317,86 @@ function finishProgress() {
    START DECODING
    ========================================================= */
 
-decodeButton.addEventListener(
-    "click",
-    async () => {
+decodeButton.addEventListener("click", async () => {
+    if (!selectedPdf) {
+        showToast("Please select a PDF first.", true);
+        return;
+    }
 
-        if (!selectedPdf) {
-            showToast(
-                "Please select a PDF first.",
-                true
-            );
-            return;
-        }
+    const companyName = companyInput.value.trim();
+    const userEmail = emailInput.value.trim();
 
-        const companyName =
-            companyInput.value.trim();
+    if (!companyName) {
+        showToast("Please enter your company name.", true);
+        companyInput.focus();
+        return;
+    }
 
-        const userEmail =
-            emailInput.value.trim();
+    if (!userEmail || !userEmail.includes("@")) {
+        showToast("Please enter a valid business email.", true);
+        emailInput.focus();
+        return;
+    }
 
-        if (!companyName) {
-            showToast(
-                "Please enter your company name.",
-                true
-            );
+    const formData = new FormData();
 
-            companyInput.focus();
+    formData.append("file", selectedPdf);
+    formData.append("company_name", companyName);
+    formData.append("user_email", userEmail);
 
-            return;
-        }
+    processingFile.textContent = selectedPdf.name;
 
-        if (
-            !userEmail ||
-            !userEmail.includes("@")
-        ) {
-            showToast(
-                "Please enter a valid business email.",
-                true
-            );
+    showView(processingView);
+    startFakeProgress();
 
-            emailInput.focus();
+    decodeButton.disabled = true;
 
-            return;
-        }
+    try {
+        const response = await fetch(`${API_BASE}/api/decode`, {
+            method: "POST",
+            body: formData
+        });
 
-        const formData =
-            new FormData();
-
-        formData.append(
-            "file",
-            selectedPdf
-        );
-
-        formData.append(
-            "company_name",
-            companyName
-        );
-
-        formData.append(
-            "user_email",
-            userEmail
-        );
-
-        processingFile.textContent =
-            selectedPdf.name;
-
-        showView(processingView);
-
-        startFakeProgress();
-
-        decodeButton.disabled = true;
+        let data = null;
 
         try {
-            const response =
-                await fetch(
-                    `${API_BASE}/api/decode`,
-                    {
-                        method: "POST",
-                        body: formData
-                    }
-                );
+            data = await response.json();
+        } catch {
+            data = null;
+        }
 
-            let data = null;
-
-            try {
-                data = await response.json();
-            } catch {
-                data = null;
-            }
-
-            if (!response.ok) {
-                const errorMessage =
-                    data?.detail ||
-                    "The compliance document could not be decoded.";
-
-                throw new Error(
-                    errorMessage
-                );
-            }
-
-            latestDecodeResult = data;
-
-            saveScanToLocalHistory(data);
-
-            finishProgress();
-
-            await new Promise(
-                resolve =>
-                    setTimeout(resolve, 700)
-            );
-
-            renderResults(data);
-
-            showView(resultsView);
-
-        } catch (error) {
-            window.clearInterval(
-                progressTimer
-            );
-
-            showView(uploadView);
-
-            decodeButton.disabled = false;
-
-            showToast(
-                error?.message ||
-                "Something went wrong while decoding the PDF.",
-                true
+        if (!response.ok) {
+            throw new Error(
+                data?.detail ||
+                "The compliance document could not be decoded."
             );
         }
+
+        latestDecodeResult = data;
+        saveScanToLocalHistory(data);
+
+        finishProgress();
+
+        await new Promise(resolve => setTimeout(resolve, 700));
+
+        renderResults(data);
+        showView(resultsView);
+
+    } catch (error) {
+        window.clearInterval(progressTimer);
+
+        showView(uploadView);
+        decodeButton.disabled = false;
+
+        showToast(
+            error?.message ||
+            "Something went wrong while decoding the PDF.",
+            true
+        );
     }
-);
+});
+
+
 /* =========================================================
    RESULTS RENDERING
    ========================================================= */
@@ -501,9 +405,7 @@ function renderResults(data) {
     const results = data?.results || {};
     const metadata = results?.metadata || {};
 
-    const requirements = arrayValue(
-        results?.requirements
-    );
+    const requirements = arrayValue(results?.requirements);
 
     const documentName =
         data?.filename ||
@@ -544,37 +446,43 @@ function renderResults(data) {
                 </div>
 
                 <div class="results-actions">
-                    <button
-                        class="secondary-button"
-                        type="button"
-                        onclick="downloadOutput('pdf')"
-                    >
+                    <button class="secondary-button" type="button"
+                        onclick="downloadOutput('pdf')">
                         Original PDF
                     </button>
 
-                    <button
-                        class="secondary-button"
-                        type="button"
-                        onclick="downloadOutput('json')"
-                    >
-                        JSON
+                    <button class="secondary-button" type="button"
+                        onclick="downloadEditedRegulation('json')">
+                        Download regulation
                     </button>
 
-                    <button
-                        class="secondary-button"
-                        type="button"
-                        onclick="downloadOutput('csv')"
-                    >
+                    <button class="secondary-button" type="button"
+                        onclick="downloadEditedRegulation('csv')">
                         CSV
                     </button>
 
-                    ${renderSendButton(data)}
+                    <button class="secondary-button" type="button"
+                        onclick="saveEditedRegulation()">
+                        Save changes
+                    </button>
 
-                    <button
-                        class="secondary-button"
-                        type="button"
-                        onclick="decodeAnother()"
-                    >
+                    <button class="secondary-button" type="button"
+                        onclick="saveAsRegulation()">
+                        Save as…
+                    </button>
+
+                    <button class="secondary-button" type="button"
+                        onclick="removeCurrentDocument()">
+                        Remove document
+                    </button>
+
+                    <button class="send-button" type="button"
+                        onclick="handleSendToSahl()">
+                        Add regulation to Sahl
+                    </button>
+
+                    <button class="secondary-button" type="button"
+                        onclick="decodeAnother()">
                         Decode another
                     </button>
                 </div>
@@ -649,7 +557,8 @@ function renderResults(data) {
 
                 <div class="summary-card">
                     <div class="summary-label">Status</div>
-                    <div class="summary-value" style="font-size:14px;color:#159447;">
+                    <div class="summary-value"
+                        style="font-size:14px;color:#159447;">
                         Decoded
                     </div>
                 </div>
@@ -658,10 +567,7 @@ function renderResults(data) {
             <div class="requirements-section">
                 <div class="section-heading">
                     <div class="section-heading-left">
-                        <span class="section-badge">
-                            Requirements
-                        </span>
-
+                        <span class="section-badge">Requirements</span>
                         <strong>Compliance requirements</strong>
                     </div>
 
@@ -672,11 +578,9 @@ function renderResults(data) {
 
                 ${
                     requirements.length
-                    ? requirements
-                        .map((requirement, index) =>
-                            renderRequirement(requirement, index)
-                        )
-                        .join("")
+                    ? requirements.map((requirement, index) =>
+                        renderRequirement(requirement, index)
+                    ).join("")
                     : renderEmptyRequirements()
                 }
             </div>
@@ -690,11 +594,7 @@ function renderSendButton(data) {
 
     if (emailStatus === "sent") {
         return `
-            <button
-                class="send-button sent"
-                type="button"
-                disabled
-            >
+            <button class="send-button sent" type="button" disabled>
                 ✓ Sent to Sahl
             </button>
         `;
@@ -702,27 +602,25 @@ function renderSendButton(data) {
 
     if (emailStatus === "failed") {
         return `
-            <button
-                class="send-button failed"
-                type="button"
-                onclick="handleSendToSahl()"
-            >
+            <button class="send-button failed" type="button"
+                onclick="handleSendToSahl()">
                 Retry sending to Sahl
             </button>
         `;
     }
 
     return `
-        <button
-            class="send-button"
-            type="button"
-            onclick="handleSendToSahl()"
-        >
+        <button class="send-button" type="button"
+            onclick="handleSendToSahl()">
             Send to Sahl
         </button>
     `;
 }
 
+
+/* =========================================================
+   REQUIREMENT CARDS
+   ========================================================= */
 
 function renderRequirement(requirement, index) {
     const reference =
@@ -748,7 +646,10 @@ function renderRequirement(requirement, index) {
     const pageEnd = requirement?.page_end;
 
     return `
-        <article class="requirement-card ${index === 0 ? "open" : ""}">
+        <article
+            class="requirement-card ${index === 0 ? "open" : ""}"
+            data-requirement-index="${index}"
+        >
             <button
                 type="button"
                 class="requirement-header"
@@ -759,22 +660,26 @@ function renderRequirement(requirement, index) {
                         ${escapeHtml(reference)}
                     </span>
 
-                    <span class="requirement-title">
-                        ${escapeHtml(title)}
-                    </span>
+                    <span
+                        class="requirement-title editable-field"
+                        contenteditable="true"
+                        spellcheck="true"
+                        data-edit-field="source_title"
+                    >${escapeHtml(title)}</span>
                 </div>
 
                 <span class="requirement-chevron">⌄</span>
             </button>
 
             <div class="requirement-body">
-                <div class="content-label">
-                    Source requirement
-                </div>
+                <div class="content-label">Source requirement</div>
 
-                <div class="source-box">
-                    ${escapeHtml(sourceText)}
-                </div>
+                <div
+                    class="source-box editable-field"
+                    contenteditable="true"
+                    spellcheck="true"
+                    data-edit-field="source_text"
+                >${escapeHtml(sourceText)}</div>
 
                 ${
                     pageStart
@@ -796,7 +701,13 @@ function renderRequirement(requirement, index) {
                     ? `
                         <div class="implementation-box">
                             <h4>Requirement summary</h4>
-                            <p>${escapeHtml(summary)}</p>
+
+                            <p
+                                class="editable-field"
+                                contenteditable="true"
+                                spellcheck="true"
+                                data-edit-field="source_summary"
+                            >${escapeHtml(summary)}</p>
                         </div>
                     `
                     : ""
@@ -805,18 +716,23 @@ function renderRequirement(requirement, index) {
                 <div class="implementation-box">
                     <h4>Implementation action</h4>
 
-                    <p>
-                        ${escapeHtml(
-                            todo?.name || "Implementation action"
-                        )}
-                    </p>
+                    <p
+                        class="editable-field"
+                        contenteditable="true"
+                        spellcheck="true"
+                        data-edit-field="todo.name"
+                    >${escapeHtml(todo?.name || "Implementation action")}</p>
 
                     ${
                         todo?.description
                         ? `
-                            <p style="margin-top:5px;">
-                                ${escapeHtml(todo.description)}
-                            </p>
+                            <p
+                                class="editable-field"
+                                contenteditable="true"
+                                spellcheck="true"
+                                data-edit-field="todo.description"
+                                style="margin-top:5px;"
+                            >${escapeHtml(todo.description)}</p>
                         `
                         : ""
                     }
@@ -824,9 +740,7 @@ function renderRequirement(requirement, index) {
 
                 <div class="recommendation-grid">
                     ${renderRecommendationCard("Policies", policies)}
-
                     ${renderRecommendationCard("Documents", documents)}
-
                     ${renderRecommendationCard("Evidence", evidence)}
 
                     ${renderRecommendationCard(
@@ -865,9 +779,7 @@ function renderRecommendationCard(
 
             ${items.map(item => `
                 <div class="recommendation-item">
-                    <strong>
-                        ${escapeHtml(item?.name || "")}
-                    </strong>
+                    <strong>${escapeHtml(item?.name || "")}</strong>
 
                     ${
                         item?.description
@@ -906,21 +818,19 @@ function toggleRequirement(button) {
 
 
 /* =========================================================
-   DOWNLOADS
+   ORIGINAL FILE DOWNLOAD
    ========================================================= */
 
 function downloadOutput(type) {
     if (!latestDecodeResult) {
+        showToast("No decoded document is open.", true);
         return;
     }
 
     const documentId = latestDecodeResult.document_id;
 
     if (!documentId) {
-        showToast(
-            "The output file is not available.",
-            true
-        );
+        showToast("The original output file is not available.", true);
         return;
     }
 
@@ -930,84 +840,301 @@ function downloadOutput(type) {
     window.open(url, "_blank");
 }
 /* =========================================================
-   SEND TO SAHL
+   ADD REGULATION TO SAHL
+   Static prototype: no real platform submission
    ========================================================= */
 
-async function handleSendToSahl() {
-    if (!latestDecodeResult?.document_id) {
-        showToast("No decoded submission is available.", true);
-        return;
-    }
-
-    if (latestDecodeResult.email_status === "sent") {
-        showToast("This decoded document has already been sent to Sahl.");
-        return;
-    }
-
-    const button = document.querySelector(".send-button");
-
-    if (button) {
-        button.disabled = true;
-        button.textContent = "Sending...";
-    }
-
-    const formData = new FormData();
-
-    formData.append(
-        "company_name",
-        companyInput?.value?.trim() || ""
-    );
-
-    formData.append(
-        "user_email",
-        emailInput?.value?.trim() || ""
-    );
-
-    try {
-        const response = await fetch(
-            `${API_BASE}/api/send-to-sahl/${encodeURIComponent(
-                latestDecodeResult.document_id
-            )}`,
-            {
-                method: "POST",
-                body: formData
-            }
+function handleSendToSahl() {
+    if (!latestDecodeResult) {
+        showToast(
+            "Decode a regulation before adding it to Sahl.",
+            true
         );
+        return;
+    }
 
-        let data = {};
+    collectEditedFields();
 
-        try {
-            data = await response.json();
-        } catch {
-            // Response was not JSON.
+    const saved = saveEditedRegulation(false);
+
+    if (!saved) {
+        showToast(
+            "Could not save the regulation in this browser.",
+            true
+        );
+        return;
+    }
+
+    latestDecodeResult.email_status = "demo-added";
+
+    showToast("Regulation added to Sahl successfully.");
+}
+
+
+/* =========================================================
+   COLLECT USER EDITS
+   ========================================================= */
+
+function collectEditedFields() {
+    if (!latestDecodeResult) {
+        return;
+    }
+
+    const requirements = arrayValue(
+        latestDecodeResult?.results?.requirements
+    );
+
+    document.querySelectorAll("[data-requirement-index]").forEach(card => {
+        const index = Number(card.dataset.requirementIndex);
+        const item = requirements[index];
+
+        if (!item) {
+            return;
         }
 
-        if (!response.ok) {
-            throw new Error(
-                data?.detail || "Email submission failed."
+        card.querySelectorAll("[data-edit-field]").forEach(field => {
+            const key = field.dataset.editField;
+            const value = field.innerText.trim();
+
+            if (key === "todo.name") {
+                item.todo = item.todo || {};
+                item.todo.name = value;
+            } else if (key === "todo.description") {
+                item.todo = item.todo || {};
+                item.todo.description = value;
+            } else {
+                item[key] = value;
+            }
+        });
+    });
+}
+
+
+/* =========================================================
+   SAVE CHANGES IN BROWSER
+   ========================================================= */
+
+function saveEditedRegulation(showMessage = true) {
+    if (!latestDecodeResult) {
+        showToast("No regulation is open to save.", true);
+        return false;
+    }
+
+    collectEditedFields();
+
+    const key = "sahlComplianceDecoderSavedRegulations";
+
+    try {
+        const existing = JSON.parse(
+            localStorage.getItem(key) || "[]"
+        );
+
+        const id =
+            latestDecodeResult.document_id ||
+            latestDecodeResult.filename ||
+            `regulation-${Date.now()}`;
+
+        const record = {
+            id,
+            saved_at: new Date().toISOString(),
+            data: latestDecodeResult
+        };
+
+        const next = [
+            record,
+            ...existing.filter(item => item.id !== id)
+        ].slice(0, 20);
+
+        localStorage.setItem(key, JSON.stringify(next));
+
+        saveScanToLocalHistory(latestDecodeResult);
+
+        if (showMessage) {
+            showToast("Changes saved in this browser.");
+        }
+
+        return true;
+
+    } catch (error) {
+        console.error("Could not save regulation:", error);
+
+        if (showMessage) {
+            showToast(
+                "Could not save locally. The browser may be out of storage space.",
+                true
             );
         }
 
-        latestDecodeResult.email_status = "sent";
+        return false;
+    }
+}
 
-        latestDecodeResult.email_recipients =
-            (data.recipients || []).join(", ");
 
-        renderResults(latestDecodeResult);
+/* =========================================================
+   SAVE AS
+   ========================================================= */
 
-        showToast("Successfully sent the decoded files to Sahl.");
+function saveAsRegulation() {
+    if (!latestDecodeResult) {
+        showToast("No regulation is open to save.", true);
+        return;
+    }
 
-    } catch (error) {
-        latestDecodeResult.email_status = "failed";
+    collectEditedFields();
 
-        renderResults(latestDecodeResult);
+    const suggested = (
+        latestDecodeResult.filename || "regulation"
+    ).replace(/\.pdf$/i, "");
 
-        showToast(
-            error?.message ||
-            "Could not send the files to Sahl. Check SMTP settings and retry.",
-            true
+    const name = window.prompt("Save regulation as:", suggested);
+
+    if (name === null) {
+        return;
+    }
+
+    const safeName = name.trim()
+        .replace(/[<>:"/\\|?*]+/g, "-") || "regulation";
+
+    const exportData = JSON.parse(
+        JSON.stringify(latestDecodeResult)
+    );
+
+    exportData.saved_as = safeName;
+    exportData.saved_at = new Date().toISOString();
+
+    downloadBlob(
+        JSON.stringify(exportData, null, 2),
+        `${safeName}.json`,
+        "application/json"
+    );
+
+    showToast(`Saved as ${safeName}.json`);
+}
+
+
+/* =========================================================
+   DOWNLOAD EDITED REGULATION
+   ========================================================= */
+
+function downloadEditedRegulation(type = "json") {
+    if (!latestDecodeResult) {
+        showToast("No regulation is open to download.", true);
+        return;
+    }
+
+    collectEditedFields();
+
+    const requirements = arrayValue(
+        latestDecodeResult?.results?.requirements
+    );
+
+    const baseName = (
+        latestDecodeResult.filename || "regulation"
+    ).replace(/\.pdf$/i, "");
+
+    if (type === "csv") {
+        const rows = [
+            [
+                "Reference",
+                "Title",
+                "Source requirement",
+                "Summary",
+                "Implementation action",
+                "Policies",
+                "Documents",
+                "Evidence"
+            ]
+        ];
+
+        requirements.forEach(item => {
+            rows.push([
+                item.source_reference || "",
+                item.source_title || "",
+                item.source_text || "",
+                item.source_summary || "",
+                item.todo?.name || "",
+                arrayValue(item.policies)
+                    .map(value => value.name || "")
+                    .join("; "),
+                arrayValue(item.documents)
+                    .map(value => value.name || "")
+                    .join("; "),
+                arrayValue(item.evidence)
+                    .map(value => value.name || "")
+                    .join("; ")
+            ]);
+        });
+
+        const csv = rows
+            .map(row =>
+                row.map(value =>
+                    `"${String(value ?? "").replace(/"/g, '""')}"`
+                ).join(",")
+            )
+            .join("\r\n");
+
+        downloadBlob(
+            "\uFEFF" + csv,
+            `${baseName}_regulation.csv`,
+            "text/csv;charset=utf-8"
+        );
+
+    } else {
+        downloadBlob(
+            JSON.stringify(latestDecodeResult, null, 2),
+            `${baseName}_regulation.json`,
+            "application/json"
         );
     }
+}
+
+
+/* =========================================================
+   DOWNLOAD HELPER
+   ========================================================= */
+
+function downloadBlob(content, filename, mimeType) {
+    const blob = new Blob([content], {
+        type: mimeType
+    });
+
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+
+    link.href = url;
+    link.download = filename;
+
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+
+    window.setTimeout(() => {
+        URL.revokeObjectURL(url);
+    }, 1000);
+}
+
+
+/* =========================================================
+   REMOVE CURRENT DOCUMENT
+   ========================================================= */
+
+function removeCurrentDocument() {
+    if (!latestDecodeResult && !selectedPdf) {
+        showToast("There is no document to remove.", true);
+        return;
+    }
+
+    const confirmed = window.confirm(
+        "Remove this document from the current workspace? Saved history will remain."
+    );
+
+    if (!confirmed) {
+        return;
+    }
+
+    decodeAnother();
+
+    showToast("Document removed from the current workspace.");
 }
 
 
@@ -1044,9 +1171,11 @@ function saveScanToLocalHistory(data) {
             requirement_count:
                 data?.requirement_count ||
                 metadata?.requirement_count ||
-                0,
+                arrayValue(data?.results?.requirements).length,
 
-            scanned_at: new Date().toISOString()
+            scanned_at: new Date().toISOString(),
+
+            data: data
         };
 
         if (record.document_id) {
@@ -1058,8 +1187,10 @@ function saveScanToLocalHistory(data) {
 
             localStorage.setItem(
                 key,
-                JSON.stringify(filtered.slice(0, 50))
+                JSON.stringify(filtered.slice(0, 10))
             );
+
+            renderScanHistory();
         }
 
     } catch (error) {
@@ -1090,10 +1221,228 @@ function decodeAnother() {
     emailInput.value = "";
 
     currentProgress = 8;
-
     setProgress(8);
 
     showView(uploadView);
+}
+
+
+/* =========================================================
+   SCAN HISTORY PANEL
+   ========================================================= */
+
+function ensureHistoryPanel() {
+    if (document.getElementById("scanHistoryPanel")) {
+        return;
+    }
+
+    const pageContainer = uploadView.querySelector(".page-container");
+
+    if (!pageContainer) {
+        return;
+    }
+
+    const panel = document.createElement("section");
+
+    panel.id = "scanHistoryPanel";
+    panel.className = "scan-history-panel";
+
+    panel.innerHTML = `
+        <div class="history-heading">
+            <div>
+                <span class="history-eyebrow">YOUR WORKSPACE</span>
+                <h2>Recent scans</h2>
+                <p>Previously decoded regulations saved in this browser.</p>
+            </div>
+
+            <button
+                class="secondary-button"
+                type="button"
+                onclick="clearScanHistory()"
+            >
+                Clear history
+            </button>
+        </div>
+
+        <div id="scanHistoryList" class="scan-history-list"></div>
+    `;
+
+    pageContainer.appendChild(panel);
+}
+
+
+/* =========================================================
+   RENDER BROWSING HISTORY
+   ========================================================= */
+
+function renderScanHistory() {
+    ensureHistoryPanel();
+
+    const list = document.getElementById("scanHistoryList");
+
+    if (!list) {
+        return;
+    }
+
+    let records = [];
+
+    try {
+        records = JSON.parse(
+            localStorage.getItem("sahlComplianceDecoderHistory") || "[]"
+        );
+    } catch (error) {
+        console.warn("Could not read scan history.", error);
+    }
+
+    if (!records.length) {
+        list.innerHTML = `
+            <div class="history-empty">
+                <strong>No scan history yet</strong>
+                <span>
+                    Your decoded regulations will appear here after the first successful scan.
+                </span>
+            </div>
+        `;
+
+        return;
+    }
+
+    list.innerHTML = records.map((record, index) => {
+        const date = record.scanned_at
+            ? new Date(record.scanned_at).toLocaleString()
+            : "Date unavailable";
+
+        return `
+            <article class="history-card">
+                <div class="history-file-icon">PDF</div>
+
+                <div class="history-info">
+                    <strong>
+                        ${escapeHtml(
+                            record.framework_name ||
+                            record.filename ||
+                            "Compliance document"
+                        )}
+                    </strong>
+
+                    <span>
+                        ${escapeHtml(
+                            record.filename || "Compliance document"
+                        )}
+                    </span>
+
+                    <small>
+                        ${Number(record.requirement_count || 0)}
+                        requirements · ${escapeHtml(date)}
+                    </small>
+                </div>
+
+                <div class="history-actions">
+                    ${
+                        record.data
+                        ? `
+                            <button
+                                class="secondary-button"
+                                type="button"
+                                onclick="openHistoryScan(${index})"
+                            >
+                                Open
+                            </button>
+                        `
+                        : ""
+                    }
+
+                    <button
+                        class="secondary-button"
+                        type="button"
+                        onclick="removeHistoryScan(${index})"
+                    >
+                        Remove
+                    </button>
+                </div>
+            </article>
+        `;
+    }).join("");
+}
+
+
+/* =========================================================
+   OPEN A PREVIOUS SCAN
+   ========================================================= */
+
+function openHistoryScan(index) {
+    try {
+        const records = JSON.parse(
+            localStorage.getItem("sahlComplianceDecoderHistory") || "[]"
+        );
+
+        const record = records[index];
+
+        if (!record?.data) {
+            showToast(
+                "This history item has summary details only. Decode it again to reopen the full regulation.",
+                true
+            );
+            return;
+        }
+
+        latestDecodeResult = record.data;
+
+        renderResults(latestDecodeResult);
+        showView(resultsView);
+
+    } catch (error) {
+        console.error("Could not open history item:", error);
+
+        showToast("Could not open this history item.", true);
+    }
+}
+
+
+/* =========================================================
+   REMOVE ONE HISTORY ITEM
+   ========================================================= */
+
+function removeHistoryScan(index) {
+    try {
+        const records = JSON.parse(
+            localStorage.getItem("sahlComplianceDecoderHistory") || "[]"
+        );
+
+        records.splice(index, 1);
+
+        localStorage.setItem(
+            "sahlComplianceDecoderHistory",
+            JSON.stringify(records)
+        );
+
+        renderScanHistory();
+        showToast("History item removed.");
+
+    } catch (error) {
+        console.error("Could not remove history item:", error);
+
+        showToast("Could not remove this history item.", true);
+    }
+}
+
+
+/* =========================================================
+   CLEAR ALL HISTORY
+   ========================================================= */
+
+function clearScanHistory() {
+    if (!window.confirm(
+        "Clear all recent scan history from this browser?"
+    )) {
+        return;
+    }
+
+    localStorage.removeItem("sahlComplianceDecoderHistory");
+
+    renderScanHistory();
+
+    showToast("Scan history cleared.");
 }
 
 
@@ -1102,3 +1451,4 @@ function decodeAnother() {
    ========================================================= */
 
 showView(uploadView);
+renderScanHistory();
