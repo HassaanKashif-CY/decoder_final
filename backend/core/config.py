@@ -82,38 +82,6 @@ class Settings(BaseSettings):
         alias="PROCESSED_DIR",
     )
 
-    smtp_host: str = Field(
-        default="smtp.gmail.com",
-        alias="SMTP_HOST",
-    )
-
-    smtp_port: int = Field(
-        default=587,
-        alias="SMTP_PORT",
-    )
-
-    smtp_username: str = Field(
-        default="",
-        alias="SMTP_USERNAME",
-    )
-
-    smtp_password: str = Field(
-        default="",
-        alias="SMTP_PASSWORD",
-    )
-
-    sahl_recipients: str = Field(
-        default=(
-            "ayesha@getsahl.io,"
-            "ayesha@mail.getsahl.io"
-        ),
-        alias="SAHL_RECIPIENTS",
-    )
-
-    send_email_on_decode: bool = Field(
-        default=True,
-        alias="SEND_EMAIL_ON_DECODE",
-    )
 
     @property
     def root_dir(self) -> Path:
