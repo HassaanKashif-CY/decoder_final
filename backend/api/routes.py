@@ -10,6 +10,7 @@ from fastapi import (
     Form,
     HTTPException,
     UploadFile,
+    Request,
 )
 from fastapi.responses import FileResponse
 
@@ -22,10 +23,7 @@ from backend.services.ai.analyzer import (
     ComplianceDocumentAnalyzer,
     DocumentAnalysisError,
 )
-from backend.services.email.sender import (
-    EmailSender,
-    EmailSenderError,
-)
+from backend.services.slack.sender import SlackSenderError, send_slack_message
 from backend.services.export.csv_export import CSVExporter
 from backend.services.export.json_export import JSONExporter
 from backend.services.mapping.requirements import RequirementExtractor
@@ -329,57 +327,22 @@ async def decode_pdf(
             "   JSON and CSV exports completed."
         )
 
-        email_status = "not_configured"
-        email_recipients = ""
-
-        if settings.send_email_on_decode:
-            try:
-                print("")
-                print(
-                    "6. SENDING DECODED FILES TO SAHL..."
-                )
-
-                recipients = (
-                    EmailSender()
-                    .send_submission(
-                        company_name=(
-                            company_name.strip()
-                        ),
-                        user_email=(
-                            user_email.strip()
-                        ),
-                        document_name=(
-                            original_filename
-                        ),
-                        framework_name=(
-                            document_title
-                        ),
-                        requirement_count=len(
-                            analyses
-                        ),
-                        pdf_path=upload_path,
-                        json_path=json_path,
-                        csv_path=csv_path,
-                    )
-                )
-
-                email_status = "sent"
-
-                email_recipients = ", ".join(
-                    recipients
-                )
-
-                print(
-                    "   Sahl submission email sent."
-                )
-
-            except EmailSenderError as exc:
-                email_status = "failed"
-
-                print(
-                    "   Sahl email failed: "
-                    f"{exc}"
-                )
+        slack_status = "not_configured"
+        try:
+            print("\n6. SENDING SLACK NOTIFICATION...")
+            send_slack_message(
+                "*Sahl Compliance Decoder — Decode Completed*\n"
+                f"*Document:* {original_filename}\n"
+                f"*Framework:* {document_title}\n"
+                f"*Requirements:* {len(analyses)}\n"
+                f"*Document ID:* {document_id}\n"
+                "*Status:* Decode completed successfully"
+            )
+            slack_status = "sent"
+            print("   Slack notification sent.")
+        except SlackSenderError as exc:
+            slack_status = "failed"
+            print(f"   Slack notification failed: {exc}")
 
         print("")
         print("=" * 60)
@@ -396,8 +359,7 @@ async def decode_pdf(
             "requirement_count": len(
                 analyses
             ),
-            "email_status": email_status,
-            "email_recipients": email_recipients,
+            "slack_status": slack_status,
             "downloads": {
                 "pdf": (
                     f"/api/download/pdf/"
@@ -434,56 +396,49 @@ async def decode_pdf(
 
 
 
-@router.post("/send-to-sahl/{document_id}")
-def send_to_sahl(
-    document_id: str,
-    company_name: str = Form(""),
-    user_email: str = Form(""),
-):
-    """Send an already-decoded submission to Sahl on explicit user action."""
-    if not re.fullmatch(r"[A-Za-z0-9._-]{1,180}", document_id):
-        raise HTTPException(status_code=400, detail="Invalid document ID.")
-
-    pdf_path = find_uploaded_pdf(document_id)
-    json_path = find_output_file(document_id, "_breakdown.json")
-    csv_path = find_output_file(document_id, "_import.csv")
-
-    missing = [
-        name for name, path in (("PDF", pdf_path), ("JSON", json_path), ("CSV", csv_path))
-        if path is None or not path.exists()
-    ]
-    if missing:
-        raise HTTPException(
-            status_code=404,
-            detail="Submission files not found: " + ", ".join(missing) + ". Decode the PDF again and retry.",
-        )
-
-    if user_email and not re.fullmatch(r"[^@\s]+@[^@\s]+\.[^@\s]+", user_email.strip()):
-        raise HTTPException(status_code=400, detail="Enter a valid business email address.")
-
+@router.post("/slack/notify")
+async def notify_sahl_on_slack(request: Request):
+    """Notify Sahl in Slack when the user adds an edited regulation."""
     try:
-        import json
-        payload = json.loads(json_path.read_text(encoding="utf-8"))
-        metadata = payload.get("metadata", {}) if isinstance(payload, dict) else {}
-        recipients = EmailSender().send_submission(
-            company_name=company_name.strip(),
-            user_email=user_email.strip(),
-            document_name=str(metadata.get("filename") or pdf_path.name),
-            framework_name=str(metadata.get("framework_name") or metadata.get("document_title") or "Compliance Document"),
-            requirement_count=int(metadata.get("requirement_count") or 0),
-            pdf_path=pdf_path,
-            json_path=json_path,
-            csv_path=csv_path,
-        )
-        if not recipients:
-            raise EmailSenderError("No recipients were returned. Check SMTP and SAHL_RECIPIENTS settings.")
-        return {"status": "sent", "recipients": recipients}
-    except EmailSenderError as exc:
-        raise HTTPException(status_code=502, detail=str(exc)) from exc
-    except HTTPException:
-        raise
+        payload = await request.json()
     except Exception as exc:
-        raise HTTPException(status_code=500, detail=f"Unable to prepare Sahl submission: {type(exc).__name__}: {exc}") from exc
+        raise HTTPException(status_code=400, detail="A valid JSON body is required.") from exc
+
+    if not isinstance(payload, dict):
+        raise HTTPException(status_code=400, detail="The request body must be a JSON object.")
+
+    document_id = str(payload.get("document_id") or "").strip()
+    if not re.fullmatch(r"[A-Za-z0-9._-]{1,180}", document_id):
+        raise HTTPException(status_code=400, detail="Invalid or missing document ID.")
+
+    filename = str(payload.get("filename") or "Compliance document")[:250]
+    framework = str(payload.get("framework_name") or "Not identified")[:250]
+    company = str(payload.get("company_name") or "Not provided")[:250]
+    user_email = str(payload.get("user_email") or "Not provided")[:250]
+    try:
+        requirement_count = int(payload.get("requirement_count") or 0)
+    except (TypeError, ValueError):
+        requirement_count = 0
+
+    message = (
+        "*Sahl Compliance Decoder — Regulation Added to Sahl*\n"
+        f"*Document:* {filename}\n"
+        f"*Framework:* {framework}\n"
+        f"*Company:* {company}\n"
+        f"*Submitted by:* {user_email}\n"
+        f"*Requirements:* {requirement_count}\n"
+        f"*Document ID:* {document_id}\n"
+        f"*PDF:* {request.base_url}api/download/pdf/{document_id}\n"
+        f"*JSON:* {request.base_url}api/download/json/{document_id}\n"
+        f"*CSV:* {request.base_url}api/download/csv/{document_id}"
+    )
+    try:
+        send_slack_message(message)
+    except SlackSenderError as exc:
+        print(f"Slack submission notification failed: {exc}")
+        raise HTTPException(status_code=502, detail=str(exc)) from exc
+
+    return {"status": "sent", "channel": "slack", "document_id": document_id}
 
 
 def find_uploaded_pdf(
