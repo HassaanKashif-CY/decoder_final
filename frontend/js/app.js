@@ -134,6 +134,8 @@ function validateFile(file) {
 function setSelectedFile(file) {
     if (!validateFile(file)) {
         selectedPdf = null;
+        fileInput.value = "";
+        selectedFile.innerHTML = "";
         selectedFile.classList.add("hidden");
         decodeButton.disabled = true;
         return;
@@ -155,11 +157,28 @@ function setSelectedFile(file) {
                 </div>
             </div>
         </div>
+        <div class="selected-file-actions">
+            <button type="button" class="secondary-button" id="replacePdfButton">Replace PDF</button>
+            <button type="button" class="secondary-button" id="removePdfButton">Remove PDF</button>
+        </div>
     `;
 
     selectedFile.classList.remove("hidden");
 
     decodeButton.disabled = false;
+    const replaceButton = document.getElementById("replacePdfButton");
+    const removeButton = document.getElementById("removePdfButton");
+    replaceButton?.addEventListener("click", () => fileInput.click());
+    removeButton?.addEventListener("click", clearSelectedPdf);
+}
+
+function clearSelectedPdf() {
+    selectedPdf = null;
+    fileInput.value = "";
+    selectedFile.innerHTML = "";
+    selectedFile.classList.add("hidden");
+    decodeButton.disabled = true;
+    showToast("PDF removed. Choose a PDF to continue.");
 }
 
 
@@ -525,6 +544,30 @@ decodeButton.addEventListener(
    RESULTS RENDERING
    ========================================================= */
 
+
+let complianceEditMode = false;
+
+function setComplianceEditMode(enabled) {
+    complianceEditMode = Boolean(enabled);
+    document.querySelectorAll("[data-edit-field]").forEach(field => {
+        field.contentEditable = complianceEditMode ? "true" : "false";
+        field.classList.toggle("editing", complianceEditMode);
+    });
+    const button = document.getElementById("toggleEditButton");
+    if (button) button.textContent = complianceEditMode ? "Finish editing" : "Edit compliance";
+}
+
+function toggleComplianceEditing() {
+    if (complianceEditMode) {
+        collectEditedFields();
+        setComplianceEditMode(false);
+        showToast("Editing finished. Use Save changes or Save as to keep your edits.");
+    } else {
+        setComplianceEditMode(true);
+        showToast("Edit the requirement fields, then choose Save changes or Save as.");
+    }
+}
+
 function renderResults(data) {
 
     const results =
@@ -583,6 +626,7 @@ function renderResults(data) {
 
 
                 <div class="results-actions">
+                    <button class="secondary-button" type="button" id="toggleEditButton" onclick="toggleComplianceEditing()">Edit compliance</button>
                     <button class="secondary-button" type="button" onclick="downloadOutput('pdf')">Original PDF</button>
                     <button class="secondary-button" type="button" onclick="downloadEditedRegulation('json')">Download regulation</button>
                     <button class="secondary-button" type="button" onclick="downloadEditedRegulation('csv')">CSV</button>
@@ -716,6 +760,7 @@ function renderResults(data) {
 
         </div>
     `;
+    setComplianceEditMode(false);
 }
 
 
@@ -1116,7 +1161,8 @@ async function handleSendToSahl() {
         company_name: companyInput?.value?.trim() || "Not provided",
         user_email: emailInput?.value?.trim() || "Not provided",
         requirement_count: requirements.length,
-        requirements
+        requirements,
+        regulation: latestDecodeResult
     };
 
     try {
@@ -1133,7 +1179,7 @@ async function handleSendToSahl() {
         latestDecodeResult.slack_status = "sent";
         saveEditedRegulation(false);
         renderResults(latestDecodeResult);
-        showToast("Regulation sent to Sahl on Slack successfully.");
+        showToast(`Sent edited compliance to Slack (${data?.slack_messages_sent || "multiple"} messages).`);
     } catch (error) {
         latestDecodeResult.slack_status = "failed";
         renderResults(latestDecodeResult);
@@ -1222,7 +1268,7 @@ function downloadBlob(content, filename, mimeType) {
     const link = document.createElement("a");
     link.href = url; link.download = filename;
     document.body.appendChild(link); link.click(); link.remove();
-    URL.revokeObjectURL(url);
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
 function removeCurrentDocument() {
