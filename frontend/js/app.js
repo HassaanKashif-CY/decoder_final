@@ -518,6 +518,10 @@ decodeButton.addEventListener(
 
             showView(resultsView);
 
+            // Automatically send the complete decoded JSON/CSV to Slack.
+            // The same action remains available for repeat submissions.
+            await handleSendToSahl();
+
 
         } catch (error) {
 
@@ -1136,11 +1140,6 @@ function downloadOutput(type) {
 async function handleSendToSahl() {
     if (!latestDecodeResult?.document_id) {
         showToast("Decode a regulation before adding it to Sahl.", true);
-        return;
-    }
-
-    if (latestDecodeResult.slack_status === "sent") {
-        showToast("This regulation has already been sent to Sahl on Slack.");
         return;
     }
 
