@@ -1,5 +1,9 @@
+import csv
+import io
+import json
 import re
 import shutil
+import time
 import uuid
 from pathlib import Path
 
@@ -398,7 +402,7 @@ async def decode_pdf(
 
 @router.post("/slack/notify")
 async def notify_sahl_on_slack(request: Request):
-    """Notify Sahl in Slack when the user adds an edited regulation."""
+    """Send the user's edited compliance data to Slack, not just metadata."""
     try:
         payload = await request.json()
     except Exception as exc:
@@ -415,30 +419,94 @@ async def notify_sahl_on_slack(request: Request):
     framework = str(payload.get("framework_name") or "Not identified")[:250]
     company = str(payload.get("company_name") or "Not provided")[:250]
     user_email = str(payload.get("user_email") or "Not provided")[:250]
-    try:
-        requirement_count = int(payload.get("requirement_count") or 0)
-    except (TypeError, ValueError):
-        requirement_count = 0
+    requirements = payload.get("requirements")
+    if not isinstance(requirements, list):
+        raise HTTPException(status_code=400, detail="Edited requirements must be a JSON array.")
+    if len(requirements) > 1000:
+        raise HTTPException(status_code=413, detail="This submission contains too many requirements.")
 
-    message = (
-        "*Sahl Compliance Decoder — Regulation Added to Sahl*\n"
-        f"*Document:* {filename}\n"
-        f"*Framework:* {framework}\n"
-        f"*Company:* {company}\n"
-        f"*Submitted by:* {user_email}\n"
-        f"*Requirements:* {requirement_count}\n"
-        f"*Document ID:* {document_id}\n"
-        f"*PDF:* {request.base_url}api/download/pdf/{document_id}\n"
-        f"*JSON:* {request.base_url}api/download/json/{document_id}\n"
-        f"*CSV:* {request.base_url}api/download/csv/{document_id}"
+    # Use the edited browser payload as the source of truth. This ensures edits
+    # made before clicking Add regulation to Sahl are what Slack receives.
+    regulation = payload.get("regulation")
+    if not isinstance(regulation, dict):
+        regulation = {}
+    regulation = dict(regulation)
+    regulation["filename"] = filename
+    regulation["document_id"] = document_id
+    regulation["results"] = dict(regulation.get("results") or {})
+    regulation["results"]["requirements"] = requirements
+    metadata = dict(regulation["results"].get("metadata") or {})
+    metadata["framework_name"] = framework
+    regulation["results"]["metadata"] = metadata
+
+    json_text = json.dumps(regulation, ensure_ascii=False, indent=2, default=str)
+    csv_buffer = io.StringIO(newline="")
+    writer = csv.writer(csv_buffer)
+    writer.writerow(["Reference", "Title", "Source requirement", "Summary", "Implementation action", "Implementation description", "Policies", "Documents", "Evidence"])
+
+    def item_names(value):
+        if not isinstance(value, list):
+            return str(value or "")
+        names = []
+        for entry in value:
+            if isinstance(entry, dict):
+                names.append(str(entry.get("name") or entry.get("title") or json.dumps(entry, ensure_ascii=False)))
+            else:
+                names.append(str(entry))
+        return "; ".join(names)
+
+    for item in requirements:
+        if not isinstance(item, dict):
+            continue
+        todo = item.get("todo") if isinstance(item.get("todo"), dict) else {}
+        writer.writerow([
+            item.get("source_reference", ""), item.get("source_title", ""),
+            item.get("source_text", ""), item.get("source_summary", ""),
+            todo.get("name", ""), todo.get("description", ""),
+            item_names(item.get("policies")), item_names(item.get("documents")),
+            item_names(item.get("evidence")),
+        ])
+    csv_text = csv_buffer.getvalue()
+
+    header = (
+        "*Sahl Compliance Decoder — Regulation Submitted*\n"
+        f"*Document:* {filename}\n*Framework:* {framework}\n"
+        f"*Company:* {company}\n*Submitted by:* {user_email}\n"
+        f"*Requirements:* {len(requirements)}\n*Document ID:* {document_id}\n"
+        "*Payload:* Edited JSON and CSV are included in following messages."
     )
-    try:
-        send_slack_message(message)
-    except SlackSenderError as exc:
-        print(f"Slack submission notification failed: {exc}")
-        raise HTTPException(status_code=502, detail=str(exc)) from exc
 
-    return {"status": "sent", "channel": "slack", "document_id": document_id}
+    # Slack messages have practical size limits. Send readable chunks rather
+    # than relying on temporary Render file links or sending only a summary.
+    def split_text(label: str, text_value: str, max_chars: int = 2800) -> list[str]:
+        if not text_value:
+            return [f"{label}\n(empty)"]
+        chunks = []
+        total = (len(text_value) + max_chars - 1) // max_chars
+        for idx in range(total):
+            piece = text_value[idx * max_chars:(idx + 1) * max_chars]
+            chunks.append(f"*{label} — part {idx + 1}/{total}*\n```\n{piece}\n```")
+        return chunks
+
+    messages = [header] + split_text("EDITED REGULATION JSON", json_text) + split_text("EDITED REGULATION CSV", csv_text)
+    try:
+        for index, message in enumerate(messages):
+            if index:
+                time.sleep(1.05)
+            send_slack_message(message)
+    except SlackSenderError as exc:
+        print(f"Slack submission failed: {exc}")
+        raise HTTPException(status_code=502, detail=f"Slack could not receive the full submission: {exc}") from exc
+
+    return {
+        "status": "sent",
+        "channel": "slack",
+        "document_id": document_id,
+        "requirements_sent": len(requirements),
+        "json_characters": len(json_text),
+        "csv_characters": len(csv_text),
+        "slack_messages_sent": len(messages),
+    }
 
 
 def find_uploaded_pdf(
