@@ -1,37 +1,50 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sahl Compliance Decoder</title>
     <link rel="icon" type="image/png" href="assets/sahl-logo.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=20261031-1">
 </head>
 
 <body>
 
 <div class="app-shell">
 
-    <main class="main-area">
+    <!-- LEFT RAIL -->
+    <aside class="rail" aria-label="Primary navigation">
+        <div class="rail-logo">
+            <img src="assets/sahl-logo.png" alt="Sahl">
+        </div>
+
+        <nav class="rail-nav">
+            <button class="rail-button active" type="button" data-nav="decode" data-label="Decode" aria-label="Decode a document">
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5M5 15v3a2 2 0 002 2h10a2 2 0 002-2v-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+
+            <button class="rail-button" type="button" data-nav="history" data-label="Recent scans" aria-label="Recent scans">
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 108.5-8.5A8.5 8.5 0 005.4 6.6M3.5 4v3.5H7M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+
+            <button class="rail-button hidden" type="button" data-nav="results" data-label="Current results" aria-label="Current results">
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M7 3.5h7l4 4V19a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 015.5 19V5A1.5 1.5 0 017 3.5zM14 3.5V8h4M9 13.5l2 2 4-4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+        </nav>
+    </aside>
+
+    <div class="main-area">
 
         <!-- TOP HEADER -->
         <header class="topbar">
-            <div class="brand">
-                <img
-                    src="assets/sahl-logo.png"
-                    alt="Sahl"
-                    class="brand-logo"
-                >
+            <div class="topbar-left">
+                <button id="backButton" class="icon-button hidden" type="button" aria-label="Back to decoder">
+                    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M19 12H5m0 0l6-6m-6 6l6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
 
-                <div class="brand-divider"></div>
-
-                <div class="brand-product">
-                    Compliance Decoder
-                </div>
+                <h1 class="topbar-title">Compliances</h1>
+                <span class="topbar-sep">/</span>
+                <span id="topbarSub" class="topbar-sub">Decoder</span>
             </div>
 
             <div class="top-status">
@@ -45,20 +58,13 @@
             <div class="page-container">
 
                 <div class="page-head">
-                    <div>
-                        <div class="eyebrow">
-                            SAHL COMPLIANCE
-                        </div>
-
-                        <h1>Compliance Decoder</h1>
-
-                        <p>
-                            Upload a framework, standard, regulation or
-                            compliance document and convert its actual
-                            requirements into a structured compliance
-                            workspace.
-                        </p>
-                    </div>
+                    <div class="eyebrow">SAHL COMPLIANCE</div>
+                    <h2>Compliance Decoder</h2>
+                    <p>
+                        Upload a framework, standard, regulation or compliance
+                        document and convert its actual requirements into a
+                        structured compliance workspace.
+                    </p>
                 </div>
 
                 <div class="upload-layout">
@@ -67,98 +73,51 @@
                     <div class="upload-card">
 
                         <div class="submission-fields">
-
                             <div class="field-input">
-                                <label for="companyInput">
-                                    Company name
-                                </label>
-
-                                <input
-                                    id="companyInput"
-                                    type="text"
-                                    placeholder="Your company"
-                                >
+                                <label for="companyInput">Company name</label>
+                                <input id="companyInput" type="text" placeholder="Your company" autocomplete="organization">
                             </div>
 
                             <div class="field-input">
-                                <label for="emailInput">
-                                    Business email
-                                </label>
-
-                                <input
-                                    id="emailInput"
-                                    type="email"
-                                    placeholder="you@company.com"
-                                >
+                                <label for="emailInput">Business email</label>
+                                <input id="emailInput" type="email" placeholder="you@company.com" autocomplete="email">
                             </div>
-
                         </div>
 
                         <div id="dropZone" class="drop-zone">
-
                             <div class="upload-icon">
-                                <span></span>
-                                <span></span>
-                                <span></span>
+                                <span></span><span></span><span></span>
                             </div>
 
-                            <h2>Import compliance document</h2>
+                            <h3>Import compliance document</h3>
 
                             <p>
                                 Drop a PDF here or
-                                <label
-                                    for="fileInput"
-                                    class="browse-label"
-                                >
-                                    browse files
-                                </label>
+                                <label for="fileInput" class="browse-label">browse files</label>
                             </p>
 
-                            <span class="upload-hint">
-                                PDF files only · maximum 100 MB
-                            </span>
+                            <span class="upload-hint">PDF files only · maximum 100 MB</span>
 
-                            <input
-                                id="fileInput"
-                                type="file"
-                                accept=".pdf,application/pdf"
-                                hidden
-                            >
-
+                            <input id="fileInput" type="file" accept=".pdf,application/pdf" hidden>
                         </div>
 
-                        <div
-                            id="selectedFile"
-                            class="selected-file hidden"
-                        ></div>
+                        <div id="selectedFile" class="selected-file hidden"></div>
 
-                        <button
-                            id="decodeButton"
-                            class="primary-button"
-                            disabled
-                        >
+                        <button id="decodeButton" class="primary-button" type="button" disabled>
                             Decode compliance
                             <span class="button-arrow">→</span>
                         </button>
-
                     </div>
 
                     <!-- INFORMATION CARD -->
                     <div class="info-card">
-
-                        <div class="info-title">
-                            What Sahl will build
-                        </div>
+                        <div class="info-title">What Sahl will build</div>
 
                         <div class="info-row">
                             <span>01</span>
                             <div>
                                 <strong>Document structure</strong>
-                                <p>
-                                    Chapters, domains, sections and
-                                    control hierarchy detected from
-                                    the document itself.
-                                </p>
+                                <p>Chapters, domains, sections and control hierarchy detected from the document itself.</p>
                             </div>
                         </div>
 
@@ -166,10 +125,7 @@
                             <span>02</span>
                             <div>
                                 <strong>Actual requirements</strong>
-                                <p>
-                                    Source wording, references and
-                                    requirement context.
-                                </p>
+                                <p>Source wording, references and requirement context.</p>
                             </div>
                         </div>
 
@@ -177,10 +133,7 @@
                             <span>03</span>
                             <div>
                                 <strong>Implementation actions</strong>
-                                <p>
-                                    To-dos, policies, documents and
-                                    evidence recommendations.
-                                </p>
+                                <p>To-dos, policies, documents, evidence and automation tests.</p>
                             </div>
                         </div>
 
@@ -188,13 +141,9 @@
                             <span>04</span>
                             <div>
                                 <strong>Sahl-ready files</strong>
-                                <p>
-                                    JSON and CSV outputs generated
-                                    after decoding.
-                                </p>
+                                <p>JSON and CSV outputs generated after decoding.</p>
                             </div>
                         </div>
-
                     </div>
 
                 </div>
@@ -202,18 +151,32 @@
                 <div class="privacy-note">
                     <span class="privacy-icon">i</span>
                     <span>
-                        Your uploaded document is processed to generate
-                        the compliance breakdown. Keep this page open
-                        while decoding is in progress.
+                        Your uploaded document is processed to generate the
+                        compliance breakdown. Keep this page open while
+                        decoding is in progress.
                     </span>
                 </div>
+
+                <!-- RECENT SCANS -->
+                <section id="historySection" class="history-section" aria-labelledby="historyHeading">
+                    <div class="history-head">
+                        <div>
+                            <div class="eyebrow">RECENT SCANS</div>
+                            <h2 id="historyHeading">Previously decoded</h2>
+                            <p>Saved in this browser only. Open a scan to review or edit it again.</p>
+                        </div>
+
+                        <button id="clearHistoryButton" class="secondary-button" type="button">Clear all</button>
+                    </div>
+
+                    <div id="historyList" class="history-list"></div>
+                </section>
 
             </div>
         </section>
 
         <!-- PROCESSING VIEW -->
         <section id="processingView" class="view hidden">
-
             <div class="processing-wrap">
                 <div class="processing-card">
 
@@ -221,149 +184,90 @@
 
                     <div class="processing-icon">
                         <div class="processing-ring"></div>
-
                         <div class="processing-core">
-                            <img
-                                src="assets/sahl-logo.png"
-                                alt="Sahl"
-                                class="processing-logo"
-                            >
+                            <img src="assets/sahl-logo.png" alt="Sahl" class="processing-logo">
                         </div>
                     </div>
 
-                    <div class="eyebrow">
-                        SAHL COMPLIANCE DECODER
-                    </div>
+                    <div class="eyebrow">SAHL COMPLIANCE DECODER</div>
 
-                    <h1>Decoding your document</h1>
+                    <h2>Decoding your document</h2>
 
-                    <p
-                        id="processingText"
-                        class="processing-description"
-                    >
-                        Reading the document and identifying its
-                        compliance structure.
+                    <p id="processingText" class="processing-description">
+                        Reading the document and identifying its compliance structure.
                     </p>
 
                     <div class="progress-section">
-
                         <div class="progress-heading">
-                            <span id="processingStage">
-                                Preparing document
-                            </span>
-
+                            <span id="processingStage">Preparing document</span>
                             <strong id="progressPercent">8%</strong>
                         </div>
 
                         <div class="progress-track">
-                            <div
-                                id="progressBar"
-                                class="progress-bar"
-                            ></div>
+                            <div id="progressBar" class="progress-bar"></div>
                         </div>
-
                     </div>
 
                     <div class="processing-steps">
-
-                        <div
-                            id="step1"
-                            class="processing-step active"
-                        >
+                        <div id="step1" class="processing-step active">
                             <span class="step-marker">01</span>
                             <div>
                                 <strong>Reading PDF</strong>
-                                <small>
-                                    Extracting document content
-                                </small>
+                                <small>Extracting document content</small>
                             </div>
                         </div>
 
-                        <div
-                            id="step2"
-                            class="processing-step"
-                        >
+                        <div id="step2" class="processing-step">
                             <span class="step-marker">02</span>
                             <div>
                                 <strong>Understanding structure</strong>
-                                <small>
-                                    Detecting sections and hierarchy
-                                </small>
+                                <small>Detecting chapters, sections and hierarchy</small>
                             </div>
                         </div>
 
-                        <div
-                            id="step3"
-                            class="processing-step"
-                        >
+                        <div id="step3" class="processing-step">
                             <span class="step-marker">03</span>
                             <div>
                                 <strong>Identifying requirements</strong>
-                                <small>
-                                    Finding actionable compliance units
-                                </small>
+                                <small>Finding actionable compliance units</small>
                             </div>
                         </div>
 
-                        <div
-                            id="step4"
-                            class="processing-step"
-                        >
+                        <div id="step4" class="processing-step">
                             <span class="step-marker">04</span>
                             <div>
-                                <strong>
-                                    Building implementation guidance
-                                </strong>
-                                <small>
-                                    Preparing policies, documents and evidence
-                                </small>
+                                <strong>Building implementation guidance</strong>
+                                <small>Preparing policies, documents, evidence and tests</small>
                             </div>
                         </div>
 
-                        <div
-                            id="step5"
-                            class="processing-step"
-                        >
+                        <div id="step5" class="processing-step">
                             <span class="step-marker">05</span>
                             <div>
-                                <strong>
-                                    Preparing Sahl-ready output
-                                </strong>
-                                <small>
-                                    Generating JSON and CSV files
-                                </small>
+                                <strong>Preparing Sahl-ready output</strong>
+                                <small>Generating JSON and CSV files</small>
                             </div>
                         </div>
-
                     </div>
 
                     <div class="processing-notice">
                         <strong>Please keep this page open</strong>
-
                         <p>
-                            Most small and standard PDFs take around
-                            3–5 minutes to process. Larger documents may
-                            take longer. Arabic or heavily formatted PDFs
-                            can require additional processing time.
-                            Please allow the decoder to finish before
-                            closing this page.
+                            Most small and standard PDFs take around 3–5
+                            minutes to process. Larger documents may take
+                            longer. Arabic or heavily formatted PDFs can
+                            require additional processing time. Please allow
+                            the decoder to finish before closing this page.
                         </p>
                     </div>
 
                     <div class="processing-file">
                         <span class="file-label">DOCUMENT</span>
-
-                        <span
-                            id="processingFile"
-                            class="file-name"
-                        >
-                            Document
-                        </span>
+                        <span id="processingFile" class="file-name">Document</span>
                     </div>
 
                 </div>
             </div>
-
         </section>
 
         <!-- RESULTS VIEW -->
@@ -371,13 +275,13 @@
             <div id="resultsRoot"></div>
         </section>
 
-    </main>
+    </div>
 
 </div>
 
-<div id="toast" class="toast"></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
 
-<script src="js/app.js?v=20261019-2"></script>
+<script src="js/app.js?v=20261031-1"></script>
 
 </body>
 </html>
